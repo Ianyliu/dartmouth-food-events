@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Sophomore Summer Soirée
 DTSTART;TZID=America/New_York:20260702T173000
 DTEND;TZID=America/New_York:20260702T193000
-DTSTAMP:20260630T151308Z
+DTSTAMP:20260630T152214Z
 UID:dartmouth-81928@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81928\n\nDescription:\nCelebrate the spirit of Sophomore Summer w
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Writers Salon Series: Roshan Sethi
 DTSTART;TZID=America/New_York:20260706T173000
 DTEND;TZID=America/New_York:20260706T190000
-DTSTAMP:20260630T151308Z
+DTSTAMP:20260630T152214Z
 UID:dartmouth-81923@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81923\nhttps://hop.dartmouth.edu/events/roshan-sethi\n\nDescripti
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:Dole Whip Pop-Up Event
 DTSTART;TZID=America/New_York:20260709T110000
 DTEND;TZID=America/New_York:20260709T140000
-DTSTAMP:20260630T151308Z
+DTSTAMP:20260630T152214Z
 UID:dartmouth-81939@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
@@ -82,7 +82,7 @@ SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
  nheard and unseen genomic big data visualization”
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260630T151308Z
+DTSTAMP:20260630T152214Z
 UID:geisel-6148-2026-7-9@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
  dar/event_view.php?eid=6148&instance=2026-7-9\n\nDescription:\nThe Departm
@@ -135,5 +135,78 @@ DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
 STATUS:CONFIRMED
 URL:https://geiselmed.dartmouth.edu/calendar/event_view.php?eid=6148&insta
  nce=2026-7-9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PRIDE POP-UP EXHIBITION
+DTSTART;TZID=America/New_York:20260715T160000
+DTEND;TZID=America/New_York:20260715T183000
+DTSTAMP:20260630T152214Z
+UID:dartmouth-81984@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
+ urator-talk-with-alisa-swindell-tickets-1991233727682?aff=oddtdtcreator\n\
+ nDescription:\nJoin Associate Curator of Photography Alisa Swindell for a 
+ pop-up exhibit and Curator Talk celebrating LGBTQIA+ life across borders a
+ nd identities\, featuring works in various media. After their talk\, join 
+ Dartmouth's Office of Pluralism and Leadership (OPAL) and the LGBTQIA+ Emp
+ loyee Network for food\, refreshments\, and activities in honor of WRJ Pri
+ de.\nThis event is free and open to the public. The pop-up exhibition will
+  be open from 4:00–5:00 pm. Space is limited for the Curator Talk\; regi
+ ster\nhere\n.\nPhotographs may be taken at this event for promotional or e
+ ducational use. By attending\, you consent to be photographed and/or video
+  recorded. Please contact us if you have any questions or concerns.\n\nSpo
+ nsor / organizer: Hood Museum of Art\, Office of Pluralism and Leadership 
+ (OPAL)\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: 
+ Dartmouth Free Food category\; food keyword near service context\n\nFood a
+ vailability is inferred from the source listing\; verify details before at
+ tending.
+LOCATION:Hood Museum of Art
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81984
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Community Mindful Picnic
+DTSTART;TZID=America/New_York:20260716T120000
+DTEND;TZID=America/New_York:20260716T130000
+DTSTAMP:20260630T152214Z
+UID:dartmouth-81979@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81979\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK33CUKUh
+ qCn4PICSxQSWFHyEZLyQOsGFqi00N2KA/viewform?usp=header\nhttps://hop.dartmout
+ h.edu/sites/hop.prod/files/hop/bema-map.pdf\n\nDescription:\nAhhh\, summer
+ . Give yourself permission to slow down\, take a breather\, and enjoy a de
+ licious meal with friends and the Dartmouth community. Along with lunch\, 
+ we’ll share a guided mindful eating practice to help deepen our connecti
+ on towards food\, ourselves\, and nature around. Plus plenty of space for 
+ reflection and conversation!\nPlease RSVP on\nGoogle Form\nto track any fo
+ od allergies or accommodations.\nCo-sponsored by OPAL.\nLocation map:\nhtt
+ ps://hop.dartmouth.edu/sites/hop.prod/files/hop/bema-map.pdf\n\nSponsor / 
+ organizer: Student Wellness Center\n\nAudience: Public\n\nSource: Dartmout
+ h\n\nWhy this was included: Dartmouth Free Food category\; food or meal ke
+ yword in title/summary\n\nFood availability is inferred from the source li
+ sting\; verify details before attending.
+LOCATION:BEMA
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81979
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Watermelon in the Woods: Mindful Nature Walk
+DTSTART;TZID=America/New_York:20260717T140000
+DTEND;TZID=America/New_York:20260717T150000
+DTSTAMP:20260630T152214Z
+UID:dartmouth-81980@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81980\nhttps://cglink.me/2ob/r1630486\n\nDescription:\nAllow your
+ self a moment to really soak in the summer. Meet us at the DOC house for a
+  mindful stroll through Pine Park\, near the river. We'll provide watermel
+ on and refreshments-- just bring yourself\, a waterbottle\, and a comforta
+ ble pair of shoes!\nPlease RSVP in Dartmouth Groups:\nhttps://cglink.me/2o
+ b/r1630486\n\nSponsor / organizer: Student Wellness Center\n\nAudience: Pu
+ blic\n\nSource: Dartmouth\n\nWhy this was included: Dartmouth Free Food ca
+ tegory\; food or meal keyword in title/summary\n\nFood availability is inf
+ erred from the source listing\; verify details before attending.
+LOCATION:DOC House\, 10 Hilton Field Lane
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81980
 END:VEVENT
 END:VCALENDAR
