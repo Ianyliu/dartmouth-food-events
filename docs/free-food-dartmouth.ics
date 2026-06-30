@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ianyliu//Free Food @Dartmouth//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Free Food @Dartmouth
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Sophomore Summer Soirée
+DTSTART;TZID=America/New_York:20260702T173000
+DTEND;TZID=America/New_York:20260702T193000
+DTSTAMP:20260630T085131Z
+UID:dartmouth-81928@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81928\n\nDescription:\nCelebrate the spirit of Sophomore Summer w
+ ith a new Dartmouth tradition! The Sophomore Summer Soirée is an evening 
+ of storytelling\, reflection\, and connection - where students come togeth
+ er to share their Dartmouth journeys and hear candid insights from uppercl
+ ass students about what they’ve learned along the way. Inspired by “Yo
+ ur Class\, Your Words” and supported by Dartmouth Dialogues and One Smal
+ l Step\, this event is your chance to reflect\, relate\, and recharge with
+  your peers.\nCome for the stories\, stay for the\ncatered dinner\, mockta
+ ils\, event swag\, and raffle prizes -\ndon’t miss this meaningful and m
+ emorable night!\nRain location- Irving Atrium\n\nSponsor / organizer: Dart
+ mouth Dialogues\n\nAudience: Students-Undergraduate\n\nSource: Dartmouth\n
+ \nWhy this was included: Dartmouth Free Food category\; food or meal keywo
+ rd in title/summary\n\nFood availability is inferred from the source listi
+ ng\; verify details before attending.
+LOCATION:BEMA
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81928
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Writers Salon Series: Roshan Sethi
+DTSTART;TZID=America/New_York:20260706T173000
+DTEND;TZID=America/New_York:20260706T190000
+DTSTAMP:20260630T085131Z
+UID:dartmouth-81923@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81923\nhttps://hop.dartmouth.edu/events/roshan-sethi\n\nDescripti
+ on:\nA writer\, director and oncologist\, Roshan Sethi will read from his 
+ debut novel and discuss translating real-world medicine into compelling fi
+ lm and television.\nAcclaimed screenwriter\, director and physician Roshan
+  Sethi\, who recently joined us virtually after a screening of his latest 
+ film\nA Nice Indian Boy\n\, now joins us in person to share a preview of h
+ is debut novel\nThe Simp\n\, due to release this summer. This razor-sharp 
+ novel charts the rise and fall of an unemployed actor who lands the greate
+ st role of his life when he's hired as a personal assistant to a demanding
+ \, highly absurd Hollywood family.\nRoshan is joined in conversation by Pr
+ ofessor Dawn Carey\, Senior Associate Director (Global Health and Developm
+ ent) for the Dickey Center for International Understanding. They will disc
+ uss how Roshan has translated real-world medicine into compelling film and
+  television\, from TV shows like\nThe Resident\nto the abortion drama\nCal
+ l Jane\n.\nEnjoy a free drink during the event and stick around after for 
+ a book signing!\nThis event is free and unticketed.\nGet more info here.\n
+ \nSponsor / organizer: Hopkins Center for the Arts\n\nAudience: Public\n\n
+ Source: Dartmouth\n\nWhy this was included: food keyword near service cont
+ ext\n\nFood availability is inferred from the source listing\; verify deta
+ ils before attending.
+LOCATION:Top of the Hop\, Hopkins Center for the Arts
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81923
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dole Whip Pop-Up Event
+DTSTART;TZID=America/New_York:20260709T110000
+DTEND;TZID=America/New_York:20260709T140000
+DTSTAMP:20260630T085131Z
+UID:dartmouth-81939@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
+ nSponsor / organizer: Dining Services (DDS)\n\nAudience: Alumni\, Faculty\
+ , Postdoc\, Staff\, Students-Graduate\, Students-Undergraduate\n\nSource: 
+ Dartmouth\n\nWhy this was included: food or meal keyword in title/summary\
+ n\nFood availability is inferred from the source listing\; verify details 
+ before attending.
+LOCATION:The Class of 1953 Commons
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81939
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
+ nheard and unseen genomic big data visualization”
+DTSTART;TZID=America/New_York:20260709T120000
+DTEND;TZID=America/New_York:20260709T130000
+DTSTAMP:20260630T085131Z
+UID:geisel-6148-2026-7-9@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
+ dar/event_view.php?eid=6148&instance=2026-7-9\n\nDescription:\nThe Departm
+ ent of Biomedical Data Science invites you to attend a seminar in person o
+ n Thursday\, July 9 from 12:00-1:00pm at DHMC\, Auditorium H with Eugene D
+ emidenko\, PhD\, Professor of Biomedical Data Science\, Geisel School of M
+ edicine.\nTalk title: “Unheard and unseen genomic big data visualization
+ ”\nHost: Michael Whitfield\, PhD\nA light lunch will be provided on a fi
+ rst-come\, first-served basis.\nThe presentation will take place both in p
+ erson at DHMC\, Auditorium H (and via Zoom) and we encourage as many of yo
+ u to attend in person as possible. Please write to biomedical.data.science
+ @dartmouth.edu to request the Zoom login details.\nPlease see description 
+ below for more details.\nPlease invite your fellow faculty colleagues\, re
+ search associates\, graduate trainees\, and post-docs!\nPresentation Summa
+ ry\nVisualization of large genomic datasets is of paramount importance for
+  formulating scientific hypotheses before deploying complex data science a
+ lgorithms to uncover hidden structures\, such as clusters or nonlinearitie
+ s. Novel visualization techniques for big data are demonstrated by the dis
+ tribution of single-nucleotide polymorphisms (SNPs) in genome-wide associa
+ tion studies (GWAS). To ‘see’ the data in four- or five-dimensional sp
+ ace\, we apply slicing to the 3D contour manifold of a kernel density in a
+ n interactive setting or automatic animation. Novel methods for correlatio
+ n-preserving projection of multidimensional genomic data and the gene conn
+ ection network onto a 2D or 3D sphere are presented. An interactive gene h
+ ub visualization of the Gene Planet will be developed\, allowing users to 
+ zoom in or out to view gene connections at varying levels of detail\, simi
+ lar to popular online software such as Google Maps or Google Earth. Finall
+ y\, we discuss how sound can be integrated with our visualization algorith
+ ms to sonify the unseen data features. The ultimate goal is to equip genet
+ ic researchers with next-generation exploratory data research tools that i
+ ncorporate novel interactive graphics and data sonification to address the
+  complexity of genetic data through controlled data-science video gaming.\
+ nBiography\nDr. Eugene Demidenko is a Professor of Biomedical Data Science
+  at Geisel School of Medicine. He has worked at Dartmouth for more than 30
+  years and holds joint appointments at the Department of Mathematics and t
+ he Thayer School of Engineering. He received rigorous mathematical trainin
+ g in probability theory and statistics. Dr. Demidenko’s research covers 
+ a wide range of statistical and nonconvex optimization problems and their 
+ applications to imaging\, shape analysis\, tumor regrowth\, synergy\, ill-
+ posed inverse problems\, and other areas. He is the author of three books 
+ on statistics. Dr. Demidenko’s book\, Advanced Statistics with Applicati
+ ons in R\, received the “Outstanding Book Award” from the American Sta
+ tistical Association in 2022. According to a database compiled by Stanford
+  University\, Dr. Demidenko ranks among the top 2% of scientists worldwide
+  based on his publication citation record.\n\nSponsor / organizer: Biomedi
+ cal Data Science (  )\n\nSource: Geisel\n\nWhy this was included: explicit
+  food-service wording\; food keyword near service context\n\nFood availabi
+ lity is inferred from the source listing\; verify details before attending
+ .
+STATUS:CONFIRMED
+URL:https://geiselmed.dartmouth.edu/calendar/event_view.php?eid=6148&insta
+ nce=2026-7-9
+END:VEVENT
+END:VCALENDAR

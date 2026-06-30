@@ -1,0 +1,63 @@
+name: Sync calendar
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Eastern schedule
+        id: schedule
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          TZ: America/New_York
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" || "$(date +%H)" == "06" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.schedule.outputs.run == 'true'
+
+      - uses: astral-sh/setup-uv@v6
+        if: steps.schedule.outputs.run == 'true'
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Install locked dependencies
+        if: steps.schedule.outputs.run == 'true'
+        run: uv sync --frozen
+
+      - name: Fetch and synchronize events
+        if: steps.schedule.outputs.run == 'true'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+        run: uv run python -m free_food_dartmouth sync
+
+      - name: Commit generated feed
+        if: steps.schedule.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/free-food-dartmouth.ics docs/index.html
+          if git diff --cached --quiet; then
+            echo "No feed changes"
+          else
+            git commit -m "chore: update calendar feed"
+            git push
+          fi
