@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Sophomore Summer Soirée
 DTSTART;TZID=America/New_York:20260702T173000
 DTEND;TZID=America/New_York:20260702T193000
-DTSTAMP:20260630T150906Z
+DTSTAMP:20260630T151308Z
 UID:dartmouth-81928@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81928\n\nDescription:\nCelebrate the spirit of Sophomore Summer w
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Writers Salon Series: Roshan Sethi
 DTSTART;TZID=America/New_York:20260706T173000
 DTEND;TZID=America/New_York:20260706T190000
-DTSTAMP:20260630T150906Z
+DTSTAMP:20260630T151308Z
 UID:dartmouth-81923@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81923\nhttps://hop.dartmouth.edu/events/roshan-sethi\n\nDescripti
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:Dole Whip Pop-Up Event
 DTSTART;TZID=America/New_York:20260709T110000
 DTEND;TZID=America/New_York:20260709T140000
-DTSTAMP:20260630T150906Z
+DTSTAMP:20260630T151308Z
 UID:dartmouth-81939@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
@@ -82,7 +82,7 @@ SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
  nheard and unseen genomic big data visualization”
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260630T150906Z
+DTSTAMP:20260630T151308Z
 UID:geisel-6148-2026-7-9@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
  dar/event_view.php?eid=6148&instance=2026-7-9\n\nDescription:\nThe Departm
