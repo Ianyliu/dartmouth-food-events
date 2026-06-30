@@ -15,13 +15,15 @@ from free_food_dartmouth.sources.dartmouth import DartmouthSource
 from free_food_dartmouth.sources.geisel import GeiselSource
 from free_food_dartmouth.utils import EASTERN
 
+DEFAULT_WINDOW_DAYS = 21
+
 
 def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(prog="free-food-dartmouth")
     commands = root.add_subparsers(dest="command", required=True)
     sync = commands.add_parser("sync", help="Fetch, filter, and synchronize the rolling calendar")
     sync.add_argument("--date", type=date.fromisoformat, help="Eastern start date (YYYY-MM-DD)")
-    sync.add_argument("--window-days", type=int, default=14)
+    sync.add_argument("--window-days", type=int, default=DEFAULT_WINDOW_DAYS)
     sync.add_argument("--dry-run", action="store_true", help="Fetch and report without writes")
     sync.add_argument(
         "--no-google", action="store_true", help="Skip Google Calendar reconciliation"

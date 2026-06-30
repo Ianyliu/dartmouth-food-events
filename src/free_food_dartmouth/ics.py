@@ -63,7 +63,7 @@ def write_outputs(output_dir: Path, events: list[EventRecord], generated_at: dat
 </head>
 <body>
   <h1>{html.escape(CALENDAR_NAME)}</h1>
-  <p>A rolling two-week calendar of Dartmouth and Geisel events likely to offer food.</p>
+  <p>A rolling three-week calendar of Dartmouth and Geisel events likely to offer food.</p>
   <p><a href="free-food-dartmouth.ics">Subscribe to or download the calendar</a></p>
   <p class="meta">{len(events)} events · Updated {html.escape(generated)}</p>
   <p class="meta">

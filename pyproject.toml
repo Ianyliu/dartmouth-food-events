@@ -1,7 +1,7 @@
 [project]
 name = "free-food-dartmouth"
 version = "0.1.0"
-description = "Build and sync a two-week calendar of likely free-food events at Dartmouth."
+description = "Build and sync a three-week calendar of likely free-food events at Dartmouth."
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"

@@ -1,6 +1,6 @@
 # Free Food @Dartmouth
 
-A rolling two-week calendar of Dartmouth College and Geisel School of Medicine events
+A rolling three-week calendar of Dartmouth College and Geisel School of Medicine events
 that are likely to offer food. The project checks both the structured “Free Food” category
 and contextual wording in event titles, summaries, and descriptions.
 
@@ -35,7 +35,7 @@ Available options:
 
 ```text
 --date YYYY-MM-DD   Override the Eastern start date
---window-days N     Change the rolling window (default: 14)
+--window-days N     Change the rolling window (default: 21)
 --dry-run           Fetch and report without writes
 --no-google         Skip Google Calendar reconciliation
 ```
