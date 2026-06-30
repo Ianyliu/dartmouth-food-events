@@ -21,9 +21,15 @@ jobs:
         id: schedule
         env:
           EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
           TZ: America/New_York
         run: |
-          if [[ "$EVENT_NAME" == "workflow_dispatch" || "$(date +%H)" == "06" ]]; then
+          offset="$(date +%z)"
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [[ "$offset" == "-0400" && "$SCHEDULE" == "0 10 * * *" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [[ "$offset" == "-0500" && "$SCHEDULE" == "0 11 * * *" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
