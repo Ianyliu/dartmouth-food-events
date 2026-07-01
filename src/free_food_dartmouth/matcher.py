@@ -52,7 +52,7 @@ def match_event(event: EventRecord) -> tuple[str, ...]:
 
     reasons: list[str] = []
     if category_match:
-        reasons.append("Dartmouth Free Food category")
+        reasons.append("Free Food category")
     if EXPLICIT_FOOD.search(full_text):
         reasons.append("explicit food-service wording")
     if FOOD_TERMS.search(title_summary):

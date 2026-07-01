@@ -1,8 +1,8 @@
 # Free Food @Dartmouth
 
-A rolling three-week calendar of Dartmouth College and Geisel School of Medicine events
-that are likely to offer food. The project checks both the structured “Free Food” category
-and contextual wording in event titles, summaries, and descriptions.
+A rolling three-week calendar of Dartmouth College, Geisel School of Medicine, and
+Dartmouth Groups events that are likely to offer food. The project checks both the structured
+“Free Food” category and contextual wording in event titles, summaries, and descriptions.
 
 The generated feed is published at:
 
@@ -15,12 +15,14 @@ Food availability is inferred from public listings. Always verify the original e
 1. Dartmouth events are enumerated through the public date-range search endpoint. Each event's
    JSON-LD, categories, webpage description, and per-event ICS file are parsed.
 2. Geisel events are enumerated from the weekly calendar views and enriched from their detail pages.
-3. A context-aware matcher selects likely food events and rejects common false positives.
-4. Overlapping Dartmouth and Geisel listings are merged using source IDs, external URLs, start
+3. Dartmouth Groups events are enumerated from its public date-range JSON endpoint and enriched
+   from detail-page JSON-LD, descriptions, food notes, hosts, tags, and links.
+4. A context-aware matcher selects likely food events and rejects common false positives.
+5. Overlapping listings are merged using source IDs, external URLs, start
    times, and normalized title similarity.
-5. Managed Google Calendar events are updated in place. A missing event is marked
+6. Managed Google Calendar events are updated in place. A missing event is marked
    `[Possibly canceled]` after one complete scan and deleted after a second.
-6. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
+7. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
 
 ## Local usage
 

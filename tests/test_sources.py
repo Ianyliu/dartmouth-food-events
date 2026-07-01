@@ -6,6 +6,8 @@ from conftest import fixture_text
 from free_food_dartmouth.http import HttpClient
 from free_food_dartmouth.sources.dartmouth import DETAIL_URL as DARTMOUTH_DETAIL
 from free_food_dartmouth.sources.dartmouth import ICS_URL, SEARCH_URL, DartmouthSource
+from free_food_dartmouth.sources.dartmouth_groups import DETAIL_URL as GROUPS_DETAIL
+from free_food_dartmouth.sources.dartmouth_groups import LIST_URL, DartmouthGroupsSource
 from free_food_dartmouth.sources.geisel import DETAIL_URL as GEISEL_DETAIL
 from free_food_dartmouth.sources.geisel import INDEX_URL, GeiselSource
 
@@ -82,3 +84,48 @@ def test_geisel_scan_deduplicates_references_and_reads_detail_rows() -> None:
     assert event.sponsor == "Biomedical Data Science"
     assert event.categories == ("Grand Rounds", "Lecture/Seminar")
     assert "light lunch" in event.description.lower()
+
+
+@responses.activate
+def test_dartmouth_groups_paginates_and_enriches_detail_pages() -> None:
+    responses.get(
+        LIST_URL,
+        body=fixture_text("dartmouth_groups_page_1.json"),
+        content_type="application/json",
+    )
+    responses.get(
+        LIST_URL,
+        body=fixture_text("dartmouth_groups_page_2.json"),
+        content_type="application/json",
+    )
+    responses.get(
+        f"{GROUPS_DETAIL}?id=1630485",
+        body=fixture_text("dartmouth_groups_detail.html"),
+        content_type="text/html",
+    )
+    responses.get(
+        f"{GROUPS_DETAIL}?id=1630604",
+        body=fixture_text("dartmouth_groups_tea.html"),
+        content_type="text/html",
+    )
+
+    scan = DartmouthGroupsSource(
+        HttpClient(attempts=1), workers=1, page_size=1
+    ).scan(date(2026, 7, 1), date(2026, 7, 22))
+
+    assert scan.complete
+    assert len(scan.events) == 2
+    picnic = next(
+        event
+        for event in scan.events
+        if event.source_keys == ("dartmouth-groups:1630485",)
+    )
+    assert picnic.start == datetime(2026, 7, 9, 12, 0, tzinfo=picnic.start.tzinfo)
+    assert picnic.end == datetime(2026, 7, 9, 13, 0, tzinfo=picnic.end.tzinfo)
+    assert picnic.location == "BEMA, Dartmouth College, Hanover, NH"
+    assert picnic.sponsor == (
+        "Student Wellness Center at Dartmouth / Office of Pluralism and Leadership"
+    )
+    assert picnic.categories == ("Social", "free food")
+    assert "Food Provided" in picnic.description
+    assert "https://forms.example.edu/picnic" in picnic.urls

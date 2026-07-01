@@ -11,9 +11,7 @@ def event(title: str, description: str = "", categories: tuple[str, ...] = ()) -
 
 
 def test_free_food_category_always_matches() -> None:
-    assert "Dartmouth Free Food category" in match_event(
-        event("Lecture", categories=("Free Food",))
-    )
+    assert "Free Food category" in match_event(event("Lecture", categories=("Free Food",)))
 
 
 def test_explicit_food_service_matches() -> None:

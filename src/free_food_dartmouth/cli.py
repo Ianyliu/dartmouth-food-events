@@ -12,6 +12,7 @@ from free_food_dartmouth.ics import write_outputs
 from free_food_dartmouth.matcher import match_event
 from free_food_dartmouth.models import EventRecord
 from free_food_dartmouth.sources.dartmouth import DartmouthSource
+from free_food_dartmouth.sources.dartmouth_groups import DartmouthGroupsSource
 from free_food_dartmouth.sources.geisel import GeiselSource
 from free_food_dartmouth.utils import EASTERN
 
@@ -50,10 +51,16 @@ def sync(args: argparse.Namespace) -> int:
 
     dartmouth = DartmouthSource().scan(start, end)
     geisel = GeiselSource().scan(start, end)
-    matched = _matched(dartmouth.events) + _matched(geisel.events)
+    dartmouth_groups = DartmouthGroupsSource().scan(start, end)
+    matched = (
+        _matched(dartmouth.events)
+        + _matched(geisel.events)
+        + _matched(dartmouth_groups.events)
+    )
     events = deduplicate(matched)
     print(
-        f"Found {len(dartmouth.events)} Dartmouth and {len(geisel.events)} Geisel events; "
+        f"Found {len(dartmouth.events)} Dartmouth, {len(geisel.events)} Geisel, and "
+        f"{len(dartmouth_groups.events)} Dartmouth Groups events; "
         f"{len(matched)} matched and {len(events)} remain after deduplication"
     )
 

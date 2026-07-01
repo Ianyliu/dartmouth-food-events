@@ -32,6 +32,7 @@ def _external_urls(event: EventRecord) -> set[str]:
         for url in event.urls
         if "home.dartmouth.edu/events/event" not in url
         and "geiselmed.dartmouth.edu/calendar/event_view" not in url
+        and "dartmouthgroups.dartmouth.edu/rsvp_boot" not in url
     }
 
 
