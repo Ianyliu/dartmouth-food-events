@@ -5,28 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:26X WE Credit NYCJ Orientation 3
-DTSTART;TZID=America/New_York:20260701T153000
-DTEND;TZID=America/New_York:20260701T170000
-DTSTAMP:20260701T122919Z
-UID:dartmouth-groups-1630456@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630456\n\nDescription:\nFor Summer 2026 term\, an orientati
- on session is required to start the NYCJ WE credit course. Please choose o
- ne that works best with your schedule.\nFood Provided (Mott's Gummies and 
- Skinny Popcorn)\n\nSponsor / organizer: Academic Skills Center\n\nSource: 
- Dartmouth Groups\n\nWhy this was included: explicit food-service wording\;
-  food keyword near service context\n\nFood availability is inferred from t
- he source listing\; verify details before attending.
-LOCATION:Berry 178B\, Baker Library Suite 224\,
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630456
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ Orientation 4
 DTSTART;TZID=America/New_York:20260702T121500
 DTEND;TZID=America/New_York:20260702T134500
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630459@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630459\n\nDescription:\nFor Summer 2026 term\, an orientati
@@ -44,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:Sophomore Summer Soirée
 DTSTART;TZID=America/New_York:20260702T173000
 DTEND;TZID=America/New_York:20260702T193000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-81928@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81928\n\nDescription:\nCelebrate the spirit of Sophomore Summer w
@@ -69,7 +51,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260705T210000
 DTEND;TZID=America/New_York:20260705T230000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630602@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630602\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -86,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:Writers Salon Series: Roshan Sethi
 DTSTART;TZID=America/New_York:20260706T173000
 DTEND;TZID=America/New_York:20260706T190000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-81923@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81923\nhttps://hop.dartmouth.edu/events/roshan-sethi\n\nDescripti
@@ -117,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:Dole Whip Pop-Up Event
 DTSTART;TZID=America/New_York:20260709T110000
 DTEND;TZID=America/New_York:20260709T140000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-81939@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
@@ -131,11 +113,37 @@ STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=81939
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Possibly canceled] Summer Community Mindful Picnic
+DTSTART;TZID=America/New_York:20260709T120000
+DTEND;TZID=America/New_York:20260709T130000
+DTSTAMP:20260702T120536Z
+UID:dartmouth-groups-1630485@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630485\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK
+ 33CUKUhqCn4PICSxQSWFHyEZLyQOsGFqi00N2KA/viewform?usp=header\nhttps://hop.d
+ artmouth.edu/sites/hop.prod/files/hop/bema-map.pdf\n\nDescription:\nAhhh\,
+  summer. Give yourself permission to slow down\, take a breather\, and enj
+ oy a delicious meal with friends and the Dartmouth community. Along with l
+ unch\, we’ll share a guided mindful eating practice to help deepen our c
+ onnection towards food\, ourselves\, and nature around. Plus plenty of spa
+ ce for reflection and conversation!\nPlease RSVP on\nGoogle Form\nto track
+  any food allergies or accommodations.\nhttps://hop.dartmouth.edu/sites/ho
+ p.prod/files/hop/bema-map.pdf\nFood Provided (Picnic\; please rsvp using G
+ oogle form.)\n\nSponsor / organizer: Student Wellness Center at Dartmouth 
+ / Office of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy th
+ is was included: explicit food-service wording\; food or meal keyword in t
+ itle/summary\n\nFood availability is inferred from the source listing\; ve
+ rify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:TENTATIVE
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630485
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
  nheard and unseen genomic big data visualization”
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:geisel-6148-2026-7-9@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
  dar/event_view.php?eid=6148&instance=2026-7-9\n\nDescription:\nThe Departm
@@ -193,33 +201,146 @@ BEGIN:VEVENT
 SUMMARY:Summer Community Mindful Picnic
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260701T122919Z
-UID:dartmouth-groups-1630485@free-food-dartmouth
+DTSTAMP:20260702T120536Z
+UID:dartmouth-81979@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81979\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK33CUKUh
+ qCn4PICSxQSWFHyEZLyQOsGFqi00N2KA/viewform?usp=header\nhttps://hop.dartmout
+ h.edu/sites/hop.prod/files/hop/bema-map.pdf\nhttps://dartmouthgroups.dartm
+ outh.edu/rsvp_boot?id=1630485\n\nDescription:\nAhhh\, summer. Give yoursel
+ f permission to slow down\, take a breather\, and enjoy a delicious meal w
+ ith friends and the Dartmouth community. Along with lunch\, we’ll share 
+ a guided mindful eating practice to help deepen our connection towards foo
+ d\, ourselves\, and nature around. Plus plenty of space for reflection and
+  conversation!\nPlease RSVP on\nGoogle Form\nto track any food allergies o
+ r accommodations.\nhttps://hop.dartmouth.edu/sites/hop.prod/files/hop/bema
+ -map.pdf\nFood Provided (Picnic\; please rsvp using Google form.)\n\nSpons
+ or / organizer: Student Wellness Center / Student Wellness Center at Dartm
+ outh / Office of Pluralism and Leadership\n\nAudience: Public\n\nSource: D
+ artmouth\, Dartmouth Groups\n\nWhy this was included: Free Food category\;
+  food or meal keyword in title/summary\; explicit food-service wording\n\n
+ Food availability is inferred from the source listing\; verify details bef
+ ore attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81979
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Xpressions of Dartmouth Series 2026
+DTSTART;TZID=America/New_York:20260709T120000
+DTEND;TZID=America/New_York:20260807T170000
+DTSTAMP:20260702T120536Z
+UID:dartmouth-groups-1630619@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630485\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK
- 33CUKUhqCn4PICSxQSWFHyEZLyQOsGFqi00N2KA/viewform?usp=header\nhttps://hop.d
- artmouth.edu/sites/hop.prod/files/hop/bema-map.pdf\n\nDescription:\nAhhh\,
-  summer. Give yourself permission to slow down\, take a breather\, and enj
- oy a delicious meal with friends and the Dartmouth community. Along with l
- unch\, we’ll share a guided mindful eating practice to help deepen our c
- onnection towards food\, ourselves\, and nature around. Plus plenty of spa
- ce for reflection and conversation!\nPlease RSVP on\nGoogle Form\nto track
-  any food allergies or accommodations.\nhttps://hop.dartmouth.edu/sites/ho
- p.prod/files/hop/bema-map.pdf\nFood Provided (Picnic\; please rsvp using G
- oogle form.)\n\nSponsor / organizer: Student Wellness Center at Dartmouth 
- / Office of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy th
- is was included: explicit food-service wording\; food or meal keyword in t
+ /rsvp_boot?id=1630619\n\nDescription:\nXpressions of Dartmouth is a series
+  of events/programs originally initiated by The Office of Pluralism & Lead
+ ership in partnership and collaboration with various campus partners to pr
+ ovide programming during the summer term known as sophomore summer. This s
+ eries has evolved into a summer selection of opportunities for all student
+ s\, staff and faculty alike to build campus connections through exploring 
+ and engaging with events that center a range of experiences and cultural e
+ xpressions\, be it through art\, music\, dance\, film\, food\, the outdoor
+ s and more! How will YOU put the X in Expression?\n\nSponsor / organizer: 
+ Office of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy this
+  was included: food or meal keyword in title/summary\n\nFood availability 
+ is inferred from the source listing\; verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630619
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:26Xpressions: Cookout & Canoes
+DTSTART;TZID=America/New_York:20260710T150000
+DTEND;TZID=America/New_York:20260710T180000
+DTSTAMP:20260702T120536Z
+UID:dartmouth-82023@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82023\n\nDescription:\nAs a part of Xpressions of Dartmouth 2026\
+ , join us for an afternoon of fun in the sun! Cookout & Canoes is a free s
+ ummer event hosted at Tom Dent Cabin where you can paddle the river\, enjo
+ y delicious food\, vibe to music\, and connect with the campus community. 
+ We’ll have plenty of equipment available\, with special guest Alleah Sch
+ weitzer from SWC to lead a mindfulness paddle\, lawn games\, EMT and safet
+ y info\, and more!\nGrab a bite with options from The Box and cool down wi
+ th some refreshments\, or hang out by the river with equipment courtesy of
+  Ledyard Canoe Club and the Office of Pluralism & Leadership.\nThis is a p
+ erfect chance to soak up summer\, meet new people\, and enjoy the outdoors
+ .\nNeed resources on river/water and sun safety as we kick off summer happ
+ enings on campus? We got you covered!\nHosted in collaboration with the Of
+ fice of Pluralism & Leadership and campus/community partners including Led
+ yard Canoe Club\, Student Wellness\, 2028 Class Council and the First Gene
+ ration Office. Free and open to all Dartmouth students\, staff and faculty
+ ! Dartmouth EMS will also be present for any medical or safety needs.\nCom
+ e solo\, bring a friend\, or paddle with a group\, but just don’t miss i
+ t!\n\nSponsor / organizer: Office of Pluralism and Leadership (OPAL)\, Stu
+ dent Wellness Center\n\nAudience: Alumni\, Faculty\, Postdoc\, Staff\, Stu
+ dents-Graduate\, Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this w
+ as included: Free Food category\; food or meal keyword in title/summary\n\
+ nFood availability is inferred from the source listing\; verify details be
+ fore attending.
+LOCATION:Tom Dent Cabin
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82023
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cookout & Canoes 2026: Explore & Xpress in the Out of Doors
+DTSTART;TZID=America/New_York:20260710T150000
+DTEND;TZID=America/New_York:20260710T180000
+DTSTAMP:20260702T120536Z
+UID:dartmouth-groups-1630626@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630626\n\nDescription:\nAs a part of Xpressions of Dartmout
+ h 2026\, join us for an afternoon of fun in the sun! Cookout & Canoes is a
+  free summer event hosted at Tom Dent Cabin where you can paddle the river
+ \, enjoy delicious food\, vibe to music\, and connect with the campus comm
+ unity. We’ll have plenty of equipment available\, with special guest All
+ eah Schweitzer from SWC to lead a mindfulness paddle\, lawn games\, EMT an
+ d safety info\, and more!\nGrab a bite with options from The Box and cool 
+ down with some refreshments\, or hang out by the river with equipment cour
+ tesy of Ledyard Canoe Club and the Office of Pluralism & Leadership.\nThis
+  is a perfect chance to soak up summer\, meet new people\, and enjoy the o
+ utdoors.\nNeed resources on river/water and sun safety as we kick off summ
+ er happenings on campus? We got you covered!\nHosted in collaboration with
+  the Office of Pluralism & Leadership and campus/community partners includ
+ ing Ledyard Canoe Club\, Student Wellness\, 2028 Class Council and the Fir
+ st Generation Office. Free and open to all Dartmouth students\, staff and 
+ faculty! Dartmouth EMS will also be present for any medical or safety need
+ s.\nCome solo\, bring a friend\, or paddle with a group\, but just don’t
+  miss it!\n\nSponsor / organizer: Office of Pluralism and Leadership\n\nSo
+ urce: Dartmouth Groups\n\nWhy this was included: food or meal keyword in t
  itle/summary\n\nFood availability is inferred from the source listing\; ve
  rify details before attending.
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630485
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alpha BBQ
+DTSTART;TZID=America/New_York:20260711T130000
+DTEND;TZID=America/New_York:20260711T180000
+DTSTAMP:20260702T120536Z
+UID:dartmouth-groups-1630647@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630647\n\nDescription:\nThe purpose of this event is to bri
+ ng students together in an enjoyable and inclusive setting so that they ca
+ n eat\, socialize\, and socialize outside of the classroom. In a friendly\
+ , safe environment\, those attending will have the chance to enjoy themsel
+ ves\, take part in free outdoor games and activities\, and have a communit
+ y meal. The event will be held in compliance with all university regulatio
+ ns and facility requirements\, and alcohol will not be served.\n\nSponsor 
+ / organizer: Alpha Phi Alpha\, Fraternity Inc.\n\nSource: Dartmouth Groups
+ \n\nWhy this was included: food or meal keyword in title/summary\n\nFood a
+ vailability is inferred from the source listing\; verify details before at
+ tending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630647
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260712T210000
 DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630604@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -236,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -257,7 +378,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -278,7 +399,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -305,7 +426,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T161500
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -322,35 +443,46 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630579
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Summer Community Mindful Picnic
-DTSTART;TZID=America/New_York:20260716T120000
-DTEND;TZID=America/New_York:20260716T130000
-DTSTAMP:20260701T122919Z
-UID:dartmouth-81979@free-food-dartmouth
+SUMMARY:26Xpressions: Common Roots
+DTSTART;TZID=America/New_York:20260716T180000
+DTEND;TZID=America/New_York:20260716T190000
+DTSTAMP:20260702T120536Z
+UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=81979\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK33CUKUh
- qCn4PICSxQSWFHyEZLyQOsGFqi00N2KA/viewform?usp=header\nhttps://hop.dartmout
- h.edu/sites/hop.prod/files/hop/bema-map.pdf\n\nDescription:\nAhhh\, summer
- . Give yourself permission to slow down\, take a breather\, and enjoy a de
- licious meal with friends and the Dartmouth community. Along with lunch\, 
- we’ll share a guided mindful eating practice to help deepen our connecti
- on towards food\, ourselves\, and nature around. Plus plenty of space for 
- reflection and conversation!\nPlease RSVP on\nGoogle Form\nto track any fo
- od allergies or accommodations.\nCo-sponsored by OPAL.\nLocation map:\nhtt
- ps://hop.dartmouth.edu/sites/hop.prod/files/hop/bema-map.pdf\n\nSponsor / 
- organizer: Student Wellness Center\n\nAudience: Public\n\nSource: Dartmout
- h\n\nWhy this was included: Free Food category\; food or meal keyword in t
- itle/summary\n\nFood availability is inferred from the source listing\; ve
+ nt?event=82024\n\nDescription:\nLooking to green up your living space but 
+ don't quite have a green thumb yet? Join us for Common Roots\, an exciting
+  collaborative event presented by OPAL and the Outdoor Programs Office (OP
+ O) as part of Xpressions of Dartmouth 2026. Intentionally designed for beg
+ inners\, this hands-on workshop breaks down the barriers to gardening and 
+ gives anyone interested in house plants a welcoming place to start. You wi
+ ll have the opportunity to take home your very own plant trimmings\, and t
+ he experts from OPO will be on-site to teach you exactly how to care for t
+ hese beautiful indigenous plants. To sweeten the evening\, we will be serv
+ ing up a nostalgic favorite: Mud Cups\, the classic childhood treat made o
+ f chocolate pudding\, crushed Oreo "dirt\," and gummy worms.\nThe learning
+  doesn't have to stop when the hour is up\, either. To help you connect ev
+ en deeper with the local environment\, OPO will be hosting a follow-up nat
+ ure walk the very next day to explore these indigenous plants in their nat
+ ural habitats.\nWhether you are a seasoned plant parent or someone who has
+  historically struggled to keep a succulent alive\, Common Roots is the pe
+ rfect opportunity to dig into a new skill\, enjoy a sweet treat\, and find
+  your community. All materials\, plants\, and snacks are completely free\,
+  and absolutely no prior gardening experience is required — just bring y
+ our curiosity and an appetite for fun!\n\nSponsor / organizer: Office of P
+ luralism and Leadership (OPAL)\n\nAudience: Alumni\, Faculty\, Postdoc\, P
+ ublic\, Staff\, Students-Graduate\, Students-Undergraduate\n\nSource: Dart
+ mouth\n\nWhy this was included: Free Food category\; food keyword near ser
+ vice context\n\nFood availability is inferred from the source listing\; ve
  rify details before attending.
-LOCATION:BEMA
+LOCATION:Baker Lawn
 STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=81979
+URL:https://home.dartmouth.edu/events/event?event=82024
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -372,7 +504,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -389,7 +521,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260701T122919Z
+DTSTAMP:20260702T120536Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
