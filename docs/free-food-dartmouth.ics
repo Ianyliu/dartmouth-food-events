@@ -5,41 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Writers Salon Series: Roshan Sethi
-DTSTART;TZID=America/New_York:20260706T173000
-DTEND;TZID=America/New_York:20260706T190000
-DTSTAMP:20260706T134025Z
-UID:dartmouth-81923@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=81923\nhttps://hop.dartmouth.edu/events/roshan-sethi\n\nDescripti
- on:\nA writer\, director and oncologist\, Roshan Sethi will read from his 
- debut novel and discuss translating real-world medicine into compelling fi
- lm and television.\nAcclaimed screenwriter\, director and physician Roshan
-  Sethi\, who recently joined us virtually after a screening of his latest 
- film\nA Nice Indian Boy\n\, now joins us in person to share a preview of h
- is debut novel\nThe Simp\n\, due to release this summer. This razor-sharp 
- novel charts the rise and fall of an unemployed actor who lands the greate
- st role of his life when he's hired as a personal assistant to a demanding
- \, highly absurd Hollywood family.\nRoshan is joined in conversation by Pr
- ofessor Dawn Carey\, Senior Associate Director (Global Health and Developm
- ent) for the Dickey Center for International Understanding. They will disc
- uss how Roshan has translated real-world medicine into compelling film and
-  television\, from TV shows like\nThe Resident\nto the abortion drama\nCal
- l Jane\n.\nEnjoy a free drink during the event and stick around after for 
- a book signing!\nThis event is free and unticketed.\nGet more info here.\n
- \nSponsor / organizer: Hopkins Center for the Arts\n\nAudience: Public\n\n
- Source: Dartmouth\n\nWhy this was included: food keyword near service cont
- ext\n\nFood availability is inferred from the source listing\; verify deta
- ils before attending.
-LOCATION:Top of the Hop\, Hopkins Center for the Arts
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=81923
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Dole Whip Pop-Up Event
 DTSTART;TZID=America/New_York:20260709T110000
 DTEND;TZID=America/New_York:20260709T140000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-81939@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
@@ -57,7 +26,7 @@ SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
  nheard and unseen genomic big data visualization”
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:geisel-6148-2026-7-9@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
  dar/event_view.php?eid=6148&instance=2026-7-9\n\nDescription:\nThe Departm
@@ -115,7 +84,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Community Mindful Picnic
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-81979@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81979\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK33CUKUh
@@ -143,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth Series 2026
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630619@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630619\n\nDescription:\nXpressions of Dartmouth is a series
@@ -166,7 +135,7 @@ BEGIN:VEVENT
 SUMMARY:Author Talk: Sara Lippmann & Peter Orner
 DTSTART;TZID=America/New_York:20260709T123000
 DTEND;TZID=America/New_York:20260709T133000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-82079@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82079\nhttps://sites.dartmouth.edu/literaryartsbridge/calendar_ev
@@ -189,7 +158,7 @@ BEGIN:VEVENT
 SUMMARY:Seeds for Sustainability Club Meeting
 DTSTART;TZID=America/New_York:20260709T193000
 DTEND;TZID=America/New_York:20260709T195500
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630648@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630648\n\nDescription:\nInformation event for an upcoming v
@@ -207,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Cookout & Canoes
 DTSTART;TZID=America/New_York:20260710T150000
 DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-82023@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82023\n\nDescription:\nAs a part of Xpressions of Dartmouth 2026\
@@ -241,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:Cookout & Canoes 2026: Explore & Xpress in the Out of Doors
 DTSTART;TZID=America/New_York:20260710T150000
 DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630626@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630626\n\nDescription:\nAs a part of Xpressions of Dartmout
@@ -273,7 +242,7 @@ BEGIN:VEVENT
 SUMMARY:Alpha BBQ
 DTSTART;TZID=America/New_York:20260711T130000
 DTEND;TZID=America/New_York:20260711T180000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630647@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630647\n\nDescription:\nThe purpose of this event is to bri
@@ -295,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260712T210000
 DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630604@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -312,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -333,7 +302,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -354,7 +323,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -381,7 +350,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T161500
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -401,7 +370,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Adam Gianelli
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82080\n\nDescription:\nAbout the Poet:\nAdam Giannelli is the aut
@@ -431,7 +400,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -467,7 +436,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -489,7 +458,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -506,7 +475,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -527,7 +496,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260706T134025Z
+DTSTAMP:20260707T122358Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
