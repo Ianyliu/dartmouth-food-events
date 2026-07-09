@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Dole Whip Pop-Up Event
 DTSTART;TZID=America/New_York:20260709T110000
 DTEND;TZID=America/New_York:20260709T140000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-81939@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
@@ -26,65 +26,66 @@ SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
  nheard and unseen genomic big data visualization”
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:geisel-6148-2026-7-9@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
- dar/event_view.php?eid=6148&instance=2026-7-9\n\nDescription:\nThe Departm
- ent of Biomedical Data Science invites you to attend a seminar in person o
- n Thursday\, July 9 from 12:00-1:00pm at DHMC\, Auditorium H with Eugene D
- emidenko\, PhD\, Professor of Biomedical Data Science\, Geisel School of M
- edicine.\nTalk title: “Unheard and Unseen Genomic Big Data Visualization
- ”\nHost: Michael Whitfield\, PhD\nA light lunch will be provided on a fi
- rst-come\, first-served basis.\nThe presentation will take place both in p
- erson at DHMC\, Auditorium H (and via Zoom) and we encourage as many of yo
- u to attend in person as possible. Please write to biomedical.data.science
- @dartmouth.edu to request the Zoom login details.\nPlease see description 
- below for more details.\nPlease invite your fellow faculty colleagues\, re
- search associates\, graduate trainees\, and post-docs!\nPresentation Summa
- ry\nVisualization of large genomic datasets is of paramount importance for
-  formulating scientific hypotheses before deploying complex data science a
- lgorithms to uncover hidden structures\, such as clusters or nonlinearitie
- s. Novel visualization techniques for big data are demonstrated by the dis
- tribution of single-nucleotide polymorphisms (SNPs) in genome-wide associa
- tion studies (GWAS). To ‘see’ the data in four- or five-dimensional sp
- ace\, we apply slicing to the 3D contour manifold of a kernel density in a
- n interactive setting or automatic animation. Novel methods for correlatio
- n-preserving projection of multidimensional genomic data and the gene conn
- ection network onto a 2D or 3D sphere are presented. An interactive gene h
- ub visualization of the Gene Planet will be developed\, allowing users to 
- zoom in or out to view gene connections at varying levels of detail\, simi
- lar to popular online software such as Google Maps or Google Earth. Finall
- y\, we discuss how sound can be integrated with our visualization algorith
- ms to sonify the unseen data features. The ultimate goal is to equip genet
- ic researchers with next-generation exploratory data research tools that i
- ncorporate novel interactive graphics and data sonification to address the
-  complexity of genetic data through controlled data-science video gaming.\
- nBiography\nDr. Eugene Demidenko is a Professor of Biomedical Data Science
-  at Geisel School of Medicine. He has worked at Dartmouth for more than 30
-  years and holds joint appointments at the Department of Mathematics and t
- he Thayer School of Engineering. He received rigorous mathematical trainin
- g in probability theory and statistics. Dr. Demidenko’s research covers 
- a wide range of statistical and nonconvex optimization problems and their 
- applications to imaging\, shape analysis\, tumor regrowth\, synergy\, ill-
- posed inverse problems\, and other areas. He is the author of three books 
- on statistics. Dr. Demidenko’s book\, Advanced Statistics with Applicati
- ons in R\, received the “Outstanding Book Award” from the American Sta
- tistical Association in 2022. According to a database compiled by Stanford
-  University\, Dr. Demidenko ranks among the top 2% of scientists worldwide
-  based on his publication citation record.\n\nSponsor / organizer: Biomedi
- cal Data Science (  )\n\nSource: Geisel\n\nWhy this was included: explicit
-  food-service wording\; food keyword near service context\n\nFood availabi
- lity is inferred from the source listing\; verify details before attending
- .
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82094\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
+ d=6148&instance=2026-7-9\n\nDescription:\nThe Department of Biomedical Dat
+ a Science invites you to attend a seminar in person on Thursday\, July 9 f
+ rom 12:00-1:00pm at DHMC\, Auditorium H with Eugene Demidenko\, PhD\, Prof
+ essor of Biomedical Data Science\, Geisel School of Medicine.\nTalk title:
+  “Unheard and Unseen Genomic Big Data Visualization”\nHost: Michael Wh
+ itfield\, PhD\nA light lunch will be provided on a first-come\, first-serv
+ ed basis.\nThe presentation will take place both in person at DHMC\, Audit
+ orium H (and via Zoom) and we encourage as many of you to attend in person
+  as possible. Please write to biomedical.data.science@dartmouth.edu to req
+ uest the Zoom login details.\nPlease see description below for more detail
+ s.\nPlease invite your fellow faculty colleagues\, research associates\, g
+ raduate trainees\, and post-docs!\nPresentation Summary\nVisualization of 
+ large genomic datasets is of paramount importance for formulating scientif
+ ic hypotheses before deploying complex data science algorithms to uncover 
+ hidden structures\, such as clusters or nonlinearities. Novel visualizatio
+ n techniques for big data are demonstrated by the distribution of single-n
+ ucleotide polymorphisms (SNPs) in genome-wide association studies (GWAS). 
+ To ‘see’ the data in four- or five-dimensional space\, we apply slicin
+ g to the 3D contour manifold of a kernel density in an interactive setting
+  or automatic animation. Novel methods for correlation-preserving projecti
+ on of multidimensional genomic data and the gene connection network onto a
+  2D or 3D sphere are presented. An interactive gene hub visualization of t
+ he Gene Planet will be developed\, allowing users to zoom in or out to vie
+ w gene connections at varying levels of detail\, similar to popular online
+  software such as Google Maps or Google Earth. Finally\, we discuss how so
+ und can be integrated with our visualization algorithms to sonify the unse
+ en data features. The ultimate goal is to equip genetic researchers with n
+ ext-generation exploratory data research tools that incorporate novel inte
+ ractive graphics and data sonification to address the complexity of geneti
+ c data through controlled data-science video gaming.\nBiography\nDr. Eugen
+ e Demidenko is a Professor of Biomedical Data Science at Geisel School of 
+ Medicine. He has worked at Dartmouth for more than 30 years and holds join
+ t appointments at the Department of Mathematics and the Thayer School of E
+ ngineering. He received rigorous mathematical training in probability theo
+ ry and statistics. Dr. Demidenko’s research covers a wide range of stati
+ stical and nonconvex optimization problems and their applications to imagi
+ ng\, shape analysis\, tumor regrowth\, synergy\, ill-posed inverse problem
+ s\, and other areas. He is the author of three books on statistics. Dr. De
+ midenko’s book\, Advanced Statistics with Applications in R\, received t
+ he “Outstanding Book Award” from the American Statistical Association 
+ in 2022. According to a database compiled by Stanford University\, Dr. Dem
+ idenko ranks among the top 2% of scientists worldwide based on his publica
+ tion citation record.\n\nSponsor / organizer: Geisel School of Medicine / 
+ Biomedical Data Science (  )\n\nAudience: Public\n\nSource: Dartmouth\, Ge
+ isel\n\nWhy this was included: explicit food-service wording\; food keywor
+ d near service context\n\nFood availability is inferred from the source li
+ sting\; verify details before attending.
+LOCATION:DHMC\, Auditorium H
 STATUS:CONFIRMED
-URL:https://geiselmed.dartmouth.edu/calendar/event_view.php?eid=6148&insta
- nce=2026-7-9
+URL:https://home.dartmouth.edu/events/event?event=82094
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Summer Community Mindful Picnic
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-81979@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81979\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK33CUKUh
@@ -112,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth Series 2026
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630619@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630619\n\nDescription:\nXpressions of Dartmouth is a series
@@ -135,7 +136,7 @@ BEGIN:VEVENT
 SUMMARY:Author Talk: Sara Lippmann & Peter Orner
 DTSTART;TZID=America/New_York:20260709T123000
 DTEND;TZID=America/New_York:20260709T133000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-82079@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82079\nhttps://sites.dartmouth.edu/literaryartsbridge/calendar_ev
@@ -158,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:Seeds for Sustainability Club Meeting
 DTSTART;TZID=America/New_York:20260709T193000
 DTEND;TZID=America/New_York:20260709T195500
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630648@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630648\n\nDescription:\nInformation event for an upcoming v
@@ -176,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Cookout & Canoes
 DTSTART;TZID=America/New_York:20260710T150000
 DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-82023@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82023\n\nDescription:\nAs a part of Xpressions of Dartmouth 2026\
@@ -210,7 +211,7 @@ BEGIN:VEVENT
 SUMMARY:Cookout & Canoes 2026: Explore & Xpress in the Out of Doors
 DTSTART;TZID=America/New_York:20260710T150000
 DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630626@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630626\n\nDescription:\nAs a part of Xpressions of Dartmout
@@ -230,10 +231,11 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  st Generation Office. Free and open to all Dartmouth students\, staff and 
  faculty! Dartmouth EMS will also be present for any medical or safety need
  s.\nCome solo\, bring a friend\, or paddle with a group\, but just don’t
-  miss it!\n\nSponsor / organizer: Office of Pluralism and Leadership\n\nSo
- urce: Dartmouth Groups\n\nWhy this was included: food or meal keyword in t
- itle/summary\n\nFood availability is inferred from the source listing\; ve
- rify details before attending.
+  miss it!\n\nSponsor / organizer: Office of Pluralism and Leadership / Stu
+ dent Wellness Center at Dartmouth\, First Generation Office\, Ledyard Cano
+ e and Kayak Club\, Class of 2028\n\nSource: Dartmouth Groups\n\nWhy this w
+ as included: food or meal keyword in title/summary\n\nFood availability is
+  inferred from the source listing\; verify details before attending.
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630626
@@ -242,7 +244,7 @@ BEGIN:VEVENT
 SUMMARY:Alpha BBQ
 DTSTART;TZID=America/New_York:20260711T130000
 DTEND;TZID=America/New_York:20260711T180000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630647@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630647\n\nDescription:\nThe purpose of this event is to bri
@@ -264,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260712T210000
 DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630604@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -281,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -302,7 +304,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -323,7 +325,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -350,7 +352,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T161500
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -367,31 +369,74 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630579
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Publishing Talk: Adam Gianelli
+SUMMARY:Pancakes on the Patio
+DTSTART;TZID=America/New_York:20260715T163000
+DTEND;TZID=America/New_York:20260715T173000
+DTSTAMP:20260709T122847Z
+UID:dartmouth-82091@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82091\nhttps://cglink.me/2ob/r1630590\n\nDescription:\nJoin us fo
+ r Pancakes on the Studio Sudikoff Patio NEXT Wednesday\, July 15 from 4:30
+ –5:30 PM for festive red\, white\, and blue pancakes\, good conversation
+ \, and a sweet way to spend your afternoon. Erica will make pancakes to or
+ der with strawberries\, blueberries\, and white chocolate chips! Hang out 
+ with music on the Sudikoff back patio or go in to Studio Sudikoff and put 
+ on a movie! We can't wait to see you there!\nRSVP HERE!\n\nSponsor / organ
+ izer: First-Generation Office\n\nAudience: Public\n\nSource: Dartmouth\n\n
+ Why this was included: food or meal keyword in title/summary\n\nFood avail
+ ability is inferred from the source listing\; verify details before attend
+ ing.
+LOCATION:Studio Sudikoff Patio
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82091
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82080\n\nDescription:\nAbout the Poet:\nAdam Giannelli is the aut
- hor of\nTremulous Hinge\n(University of Iowa PressOpens in a new window\, 
- 2017)\, winner of the Iowa Poetry Prize. He is also the translator of a se
- lection of prose poems by Marosa di Giorgio\,\nDiadem\n(BOA EditionsOpens 
- in a new window\, 2012)\, which was shortlisted for the PEN Award for Poet
- ry in Translation\, and the editor of\nHigh Lonesome\n(Oberlin College Pre
- ssOpens in a new window\, 2006)\, a collection of critical essays on Charl
- es Wright. His writing has appeared in\nPoetry\, Kenyon Review\, New Engla
- nd Review\, Ploughshares\, Atlantic\, New York Times Magazine\, New Criter
- ion\,\nand elsewhere. His work has been supported by fellowships and resid
- encies from several institutions\, including the National Endowment for th
- e Arts\, Fulbright Program\, James Merrill House\, Bread Loaf Writers’ C
- onference\, Sewanee Writers’ Conference\, Yaddo\, and MacDowell. He has 
- taught at Oberlin College\, Hamilton College\, Colby College\, and Purdue 
- University.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudience: Publ
- ic\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\; exp
- licit food-service wording\; food or meal keyword in title/summary\n\nFood
-  availability is inferred from the source listing\; verify details before 
- attending.
+ nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
+  event to attend! We'll gather around a large table at the Literary Arts 
+ Bridge\, Dartmouth's creative writing center\, to share lunch and discuss 
+ poetry\, writing\, and publishing with two astonishing poets. The conversa
+ tion will be moderated by Dartmouth's own Kate Gibbel\, whose forthcoming
+  poetry collection\,\nLittle Sound\,\nis out this fall.\nAbout the Poets:\
+ nAdam Giannelli is the author of\nTremulous Hinge\n(University of Iowa Pre
+ ssOpens in a new window\, 2017)\, winner of the Iowa Poetry Prize. He is a
+ lso the translator of a selection of prose poems by Marosa di Giorgio\,\nD
+ iadem\n(BOA EditionsOpens in a new window\, 2012)\, which was shortlisted 
+ for the PEN Award for Poetry in Translation\, and the editor of\nHigh Lone
+ some\n(Oberlin College PressOpens in a new window\, 2006)\, a collection o
+ f critical essays on Charles Wright. His writing has appeared in\nPoetry\,
+  Kenyon Review\, New England Review\, Ploughshares\, Atlantic\, New York T
+ imes Magazine\, New Criterion\,\nand elsewhere. His work has been supporte
+ d by fellowships and residencies from several institutions\, including the
+  National Endowment for the Arts\, Fulbright Program\, James Merrill House
+ \, Bread Loaf Writers’ Conference\, Sewanee Writers’ Conference\, Yadd
+ o\, and MacDowell. He has taught at Oberlin College\, Hamilton College\, C
+ olby College\, and Purdue University.\nTomás Q. Morin\nis the author of t
+ he novel Cat Love and the forthcoming poetry collection\nMy Favorite Thing
+ s\n. He is also wrote the memoirs\nLet Me Count the Ways\nand\nWhere Are Y
+ ou From: Letters to My Son\n\, as well as the poetry collections\nMachete\
+ , Patient Zero\n\, and\nA Larger Country\n. He is coeditor\, with Mari L
+ ’Esperance\, of the anthology\nComing Close: Forty Essays on Philip Levi
+ ne\n\, and a translator of\nThe Heights of Macchu Picchu\nby Pablo Neruda.
+  He is a fellow of the Guggenheim Foundation and the National Endowment fo
+ r the Arts. He teaches at Rice University.\nAbout the Moderator:\nAbout th
+ e Katherine Gibbel’s poems have been published in\nThe Iowa Review\n\,\
+ njubilat\n\,\nSecond Factory\n(ugly duckling presse)\, and elsewhere. Her 
+ chapbook\nPrairie\nwas published by Ethel Press in 2020. She edits and pri
+ nts\nSend Me Press\,\na monthly series of letterpress printed postcard bro
+ adsides. She holds an MFA in poetry from the Iowa Writers’ Workshop and 
+ lives in Hartland\, Vermont. Her first collection\,\nLittle Sound\n\, will
+  be published by the University of Chicago Press Phoenix Poets Series in F
+ all 2026.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudience: Public
+ \n\nSource: Dartmouth\n\nWhy this was included: Free Food category\; expli
+ cit food-service wording\; food or meal keyword in title/summary\n\nFood a
+ vailability is inferred from the source listing\; verify details before at
+ tending.
 LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
 STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=82080
@@ -400,7 +445,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -436,7 +481,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -458,7 +503,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -472,10 +517,61 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630605
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Way of the Bow: Kyūdō\, Expression & Mindfulness
+DTSTART;TZID=America/New_York:20260720T153000
+DTEND;TZID=America/New_York:20260720T183000
+DTSTAMP:20260709T122847Z
+UID:dartmouth-groups-1630714@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630714\n\nDescription:\nImmerse yourself in mindfulness thr
+ ough observing Kyūdō (Japanese archery) and experiencing the practices o
+ f haiku and Shinrin-yoku (forest bathing)!\nKyūdō originated as a Samura
+ i martial art in Japan and evolved into a mindfulness practice. Practicing
+  kyūdō involves relaxing the body\, focusing attention\, and calming one
+ ’s heart/mind for precise drawing of the bow and releasing the arrow. It
+  is a path to opening one's heart and mind to the natural dignity of being
+  human\, beyond the obstacles of ambition\, frustration\, and doubt.  Hitt
+ ing the target is not considered as important as coordinating body\, mind\
+ , and bow.\nYou are invited to interact with members of the local Blue Cli
+ ff Kyudojo\, led by Ray Chin\, including Solomon Diamond D’97. You can a
+ lso experience haiku writing alongside poet Keysi Montás\, shinrin-yoku (
+ forest bathing) led by Belinda Chiu D’98\, and try Japanese tea and snac
+ ks.\nCome for part of the time or stay for the entire expression!\n\nSpons
+ or / organizer: Office of Pluralism and Leadership / Student Wellness Cent
+ er at Dartmouth\n\nSource: Dartmouth Groups\n\nWhy this was included: food
+  or meal keyword in title/summary\n\nFood availability is inferred from th
+ e source listing\; verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630714
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Wellness Bags at the FGO
+DTSTART;TZID=America/New_York:20260721T100000
+DTEND;TZID=America/New_York:20260721T140000
+DTSTAMP:20260709T122847Z
+UID:dartmouth-82092@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
+ e First-Generation Office on Tuesday\, July 21\, from 10:00 AM to 2:00 PM 
+ to build your own bag of summer essentials. Fill it with items like sunscr
+ een\, bug wipes\, hydration supplies\, snacks\, and other warm-weather nec
+ essities to help you make the most of the season. Whether you're spending 
+ the day outside or preparing for your next adventure\, we've got you cover
+ ed. Supplies are available while they last.\nRSVP HERE!\n\nSponsor / organ
+ izer: First-Generation Office\n\nAudience: Public\n\nSource: Dartmouth\n\n
+ Why this was included: food or meal keyword in title/summary\n\nFood avail
+ ability is inferred from the source listing\; verify details before attend
+ ing.
+LOCATION:FGO Lounge (First Floor - Sudikoff Hall)
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82092
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -493,10 +589,62 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630462
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Writing After Dartmouth: Panel Discussion
+DTSTART;TZID=America/New_York:20260724T123000
+DTEND;TZID=America/New_York:20260724T133000
+DTSTAMP:20260709T122847Z
+UID:dartmouth-82098@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
+ umnae about grad school\, writing\, publishing\, and navigating the years 
+ after college. This panel discussion will be moderated by Professor Alexan
+ der Chee.\nA light lunch will be provided. Registration encouraged. Please
+  email\nlaura.jean.gilloux@dartmouth.edu.\nAbout the Panelists\nCarolyn Si
+ lverstein ’21\nearned her MFA in Creative Writing from Colorado State Un
+ iversity and her BA in English Literature and Creative Writing from Dartmo
+ uth College. Her writing has appeared in\nArchipelago\, Vol. III\, Stonefe
+ nce Review\, the Write Launch\n\, and\nMcNeese Review\n. Her work has been
+  shortlisted for the Virginia Woolf Award in Short Fiction. A native New Y
+ orker\, Carolyn is a certified ski instructor and enjoys spending time wit
+ h her dog\, Gatsby\, when she’s not writing.\nAllison Hufford\n’21\nis
+  a graduate of Dartmouth College\, where she majored in English literature
+  and minored in environmental studies.  As JRA’s Subsidiary Rights Mana
+ ger\, she oversees the licensing of translation\, audio\, electronic\, boo
+ k club\, and large print rights throughout the world in over fifty languag
+ es. She and her team work tirelessly in collaboration with a highly skill
+ ed network of foreign agents and scouts to market JRA authors and their wo
+ rk internationally\, including in person at the London and Frankfurt book 
+ fairs. She is an avid reader with a particular love for character-driven n
+ arratives\, lyrical writing styles\, and anything with a speculative twist
+ .\nElizabeth Janowski ’21\n(she/her) graduated from Dartmouth with a dou
+ ble major in history and film and media studies and served as executive ed
+ itor of\nThe Dartmouth\n. She received an M.S. in journalism from Columbia
+  University in 2022. Elizabeth is an assistant editor at Viking Penguin\, 
+ where she has worked with authors including Amor Towles\, Tana French\, Al
+ ejandro Varela\, Ruth Ozeki\, Nathaniel Philbrick\, and Maggie Stiefvater.
+  Originally from Milwaukee\, Elizabeth lives in New York City.\nAbout the 
+ Moderator\nAlexander Chee\nis the best-selling author of the novels\nThe Q
+ ueen of the Night\nand\nEdinburgh\n\, and the essay collection\nHow to Wri
+ te an Autobiographical Novel\n. He is a contributing editor at\nThe New Re
+ public\n\, and an editor at large at\nThe Virginia Quarterly Review\n. He 
+ is the recipient of a 2021 Guggenheim Fellowship and a 2021 United States 
+ Artists Fellowship\, and awards and fellowships from the Whiting Foundatio
+ n and the NEA\, and residency fellowships from the MacDowell Colony\, the 
+ VCCA\, Civitella Ranieri and Amtrak. He is a professor of English and Crea
+ tive Writing at Dartmouth College and the chair of the Dartmouth Literary 
+ Arts Bridge.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudience: Pub
+ lic\n\nSource: Dartmouth\n\nWhy this was included: explicit food-service w
+ ording\; food keyword near service context\n\nFood availability is inferre
+ d from the source listing\; verify details before attending.
+LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82098
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -513,7 +661,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260708T114416Z
+DTSTAMP:20260709T122847Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
