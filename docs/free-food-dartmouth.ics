@@ -5,115 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Dole Whip Pop-Up Event
-DTSTART;TZID=America/New_York:20260709T110000
-DTEND;TZID=America/New_York:20260709T140000
-DTSTAMP:20260709T122847Z
-UID:dartmouth-81939@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=81939\n\nDescription:\nSmooth\, creamy\, fruit-powered flavor!\n\
- nSponsor / organizer: Dining Services (DDS)\n\nAudience: Alumni\, Faculty\
- , Postdoc\, Staff\, Students-Graduate\, Students-Undergraduate\n\nSource: 
- Dartmouth\n\nWhy this was included: food or meal keyword in title/summary\
- n\nFood availability is inferred from the source listing\; verify details 
- before attending.
-LOCATION:The Class of 1953 Commons
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=81939
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Biomedical Data Science Seminar with Eugene Demidenko\, PhD - “U
- nheard and unseen genomic big data visualization”
-DTSTART;TZID=America/New_York:20260709T120000
-DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260709T122847Z
-UID:geisel-6148-2026-7-9@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82094\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
- d=6148&instance=2026-7-9\n\nDescription:\nThe Department of Biomedical Dat
- a Science invites you to attend a seminar in person on Thursday\, July 9 f
- rom 12:00-1:00pm at DHMC\, Auditorium H with Eugene Demidenko\, PhD\, Prof
- essor of Biomedical Data Science\, Geisel School of Medicine.\nTalk title:
-  “Unheard and Unseen Genomic Big Data Visualization”\nHost: Michael Wh
- itfield\, PhD\nA light lunch will be provided on a first-come\, first-serv
- ed basis.\nThe presentation will take place both in person at DHMC\, Audit
- orium H (and via Zoom) and we encourage as many of you to attend in person
-  as possible. Please write to biomedical.data.science@dartmouth.edu to req
- uest the Zoom login details.\nPlease see description below for more detail
- s.\nPlease invite your fellow faculty colleagues\, research associates\, g
- raduate trainees\, and post-docs!\nPresentation Summary\nVisualization of 
- large genomic datasets is of paramount importance for formulating scientif
- ic hypotheses before deploying complex data science algorithms to uncover 
- hidden structures\, such as clusters or nonlinearities. Novel visualizatio
- n techniques for big data are demonstrated by the distribution of single-n
- ucleotide polymorphisms (SNPs) in genome-wide association studies (GWAS). 
- To ‘see’ the data in four- or five-dimensional space\, we apply slicin
- g to the 3D contour manifold of a kernel density in an interactive setting
-  or automatic animation. Novel methods for correlation-preserving projecti
- on of multidimensional genomic data and the gene connection network onto a
-  2D or 3D sphere are presented. An interactive gene hub visualization of t
- he Gene Planet will be developed\, allowing users to zoom in or out to vie
- w gene connections at varying levels of detail\, similar to popular online
-  software such as Google Maps or Google Earth. Finally\, we discuss how so
- und can be integrated with our visualization algorithms to sonify the unse
- en data features. The ultimate goal is to equip genetic researchers with n
- ext-generation exploratory data research tools that incorporate novel inte
- ractive graphics and data sonification to address the complexity of geneti
- c data through controlled data-science video gaming.\nBiography\nDr. Eugen
- e Demidenko is a Professor of Biomedical Data Science at Geisel School of 
- Medicine. He has worked at Dartmouth for more than 30 years and holds join
- t appointments at the Department of Mathematics and the Thayer School of E
- ngineering. He received rigorous mathematical training in probability theo
- ry and statistics. Dr. Demidenko’s research covers a wide range of stati
- stical and nonconvex optimization problems and their applications to imagi
- ng\, shape analysis\, tumor regrowth\, synergy\, ill-posed inverse problem
- s\, and other areas. He is the author of three books on statistics. Dr. De
- midenko’s book\, Advanced Statistics with Applications in R\, received t
- he “Outstanding Book Award” from the American Statistical Association 
- in 2022. According to a database compiled by Stanford University\, Dr. Dem
- idenko ranks among the top 2% of scientists worldwide based on his publica
- tion citation record.\n\nSponsor / organizer: Geisel School of Medicine / 
- Biomedical Data Science (  )\n\nAudience: Public\n\nSource: Dartmouth\, Ge
- isel\n\nWhy this was included: explicit food-service wording\; food keywor
- d near service context\n\nFood availability is inferred from the source li
- sting\; verify details before attending.
-LOCATION:DHMC\, Auditorium H
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82094
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Summer Community Mindful Picnic
-DTSTART;TZID=America/New_York:20260709T120000
-DTEND;TZID=America/New_York:20260709T130000
-DTSTAMP:20260709T122847Z
-UID:dartmouth-81979@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=81979\nhttps://docs.google.com/forms/d/e/1FAIpQLScX7O-gBZK33CUKUh
- qCn4PICSxQSWFHyEZLyQOsGFqi00N2KA/viewform?usp=header\nhttps://hop.dartmout
- h.edu/sites/hop.prod/files/hop/bema-map.pdf\nhttps://dartmouthgroups.dartm
- outh.edu/rsvp_boot?id=1630485\n\nDescription:\nAhhh\, summer. Give yoursel
- f permission to slow down\, take a breather\, and enjoy a delicious meal w
- ith friends and the Dartmouth community. Along with lunch\, we’ll share 
- a guided mindful eating practice to help deepen our connection towards foo
- d\, ourselves\, and nature around. Plus plenty of space for reflection and
-  conversation!\nPlease RSVP on\nGoogle Form\nto track any food allergies o
- r accommodations.\nhttps://hop.dartmouth.edu/sites/hop.prod/files/hop/bema
- -map.pdf\nFood Provided (Picnic\; please rsvp using Google form.)\n\nSpons
- or / organizer: Student Wellness Center / Student Wellness Center at Dartm
- outh / Office of Pluralism and Leadership\n\nAudience: Public\n\nSource: D
- artmouth\, Dartmouth Groups\n\nWhy this was included: Free Food category\;
-  food or meal keyword in title/summary\; explicit food-service wording\n\n
- Food availability is inferred from the source listing\; verify details bef
- ore attending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=81979
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Xpressions of Dartmouth Series 2026
+SUMMARY:[Possibly canceled] Xpressions of Dartmouth Series 2026
 DTSTART;TZID=America/New_York:20260709T120000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630619@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630619\n\nDescription:\nXpressions of Dartmouth is a series
@@ -129,55 +24,14 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   was included: food or meal keyword in title/summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
 LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
+STATUS:TENTATIVE
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630619
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Author Talk: Sara Lippmann & Peter Orner
-DTSTART;TZID=America/New_York:20260709T123000
-DTEND;TZID=America/New_York:20260709T133000
-DTSTAMP:20260709T122847Z
-UID:dartmouth-82079@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82079\nhttps://sites.dartmouth.edu/literaryartsbridge/calendar_ev
- ent/meeting-house-reading/\n\nDescription:\nGet ready to join two acclaime
- d authors\, Sara Lippmann and Peter Orner\, in conversation about crafting
-  resonant stories that deal with the complexities of the human condition.\
- nLunch provided! Registration encouraged. Please email\nAlicia.L.Williams.
- 28@dartmouth.edu\n.\nIf you're unable to join us for this lunch and conver
- sation\, be sure to attend the\nMeetinghouse Reading on the same day at 7p
- m in Canaan\, NH\n.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudien
- ce: Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food catego
- ry\; explicit food-service wording\; food or meal keyword in title/summary
- \n\nFood availability is inferred from the source listing\; verify details
-  before attending.
-LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82079
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Seeds for Sustainability Club Meeting
-DTSTART;TZID=America/New_York:20260709T193000
-DTEND;TZID=America/New_York:20260709T195500
-DTSTAMP:20260709T122847Z
-UID:dartmouth-groups-1630648@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630648\n\nDescription:\nInformation event for an upcoming v
- olunteer opportunity with Willing Hands at Sunny Fields Garden at Cedar Ci
- rcle Farm. Snacks provided!\nFood Provided (Small snacks)\n\nSponsor / org
- anizer: Seeds for Sustainability\n\nSource: Dartmouth Groups\n\nWhy this w
- as included: explicit food-service wording\; food or meal keyword in title
- /summary\n\nFood availability is inferred from the source listing\; verify
-  details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630648
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26Xpressions: Cookout & Canoes
 DTSTART;TZID=America/New_York:20260710T150000
 DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-82023@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82023\n\nDescription:\nAs a part of Xpressions of Dartmouth 2026\
@@ -198,11 +52,12 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ! Dartmouth EMS will also be present for any medical or safety needs.\nCom
  e solo\, bring a friend\, or paddle with a group\, but just don’t miss i
  t!\n\nSponsor / organizer: Dartmouth Emergency Medical Services (EMS)\, Of
- fice of Pluralism and Leadership (OPAL)\, Student Wellness Center\n\nAudie
- nce: Alumni\, Faculty\, Postdoc\, Staff\, Students-Graduate\, Students-Und
- ergraduate\n\nSource: Dartmouth\n\nWhy this was included: Free Food catego
- ry\; food or meal keyword in title/summary\n\nFood availability is inferre
- d from the source listing\; verify details before attending.
+ fice of Pluralism and Leadership (OPAL)\, Student Involvement\, Student We
+ llness Center\n\nAudience: Alumni\, Faculty\, Postdoc\, Staff\, Students-G
+ raduate\, Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was incl
+ uded: Free Food category\; food or meal keyword in title/summary\n\nFood a
+ vailability is inferred from the source listing\; verify details before at
+ tending.
 LOCATION:Tom Dent Cabin
 STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=82023
@@ -211,7 +66,7 @@ BEGIN:VEVENT
 SUMMARY:Cookout & Canoes 2026: Explore & Xpress in the Out of Doors
 DTSTART;TZID=America/New_York:20260710T150000
 DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630626@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630626\n\nDescription:\nAs a part of Xpressions of Dartmout
@@ -244,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:Alpha BBQ
 DTSTART;TZID=America/New_York:20260711T130000
 DTEND;TZID=America/New_York:20260711T180000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630647@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630647\n\nDescription:\nThe purpose of this event is to bri
@@ -266,7 +121,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260712T210000
 DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630604@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -283,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -304,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -325,7 +180,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -350,9 +205,9 @@ URL:https://home.dartmouth.edu/events/event?event=81984
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
-DTSTART;TZID=America/New_York:20260715T161500
+DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -372,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:Pancakes on the Patio
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T173000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-82091@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82091\nhttps://cglink.me/2ob/r1630590\n\nDescription:\nJoin us fo
@@ -394,7 +249,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
@@ -445,7 +300,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -481,7 +336,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -503,7 +358,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -520,7 +375,7 @@ BEGIN:VEVENT
 SUMMARY:The Way of the Bow: Kyūdō\, Expression & Mindfulness
 DTSTART;TZID=America/New_York:20260720T153000
 DTEND;TZID=America/New_York:20260720T183000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630714@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630714\n\nDescription:\nImmerse yourself in mindfulness thr
@@ -549,7 +404,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -571,7 +426,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -589,10 +444,34 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630462
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
+DTSTART;TZID=America/New_York:20260723T120000
+DTEND;TZID=America/New_York:20260723T140000
+DTSTAMP:20260710T122203Z
+UID:dartmouth-82102@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
+ d-scholars-series\n\nDescription:\nGabriel Dattatreyan\, Associate Profess
+ or\, Program in Culture & Media\, Department of Anthropology\, New York Un
+ iversity\, will offer a talk "Making Together in Afro-Asian Media Worlds" 
+ as part of a Summer 2026's\nVisiting Artists and Scholars series\nconvene
+ d by Prof. Jesse Weaver Shipley as complement to Filmmaking and Visual Cu
+ lture (AAAS 88.17 / ANTH 50.21). All are welcome\, lunch will be served.\n
+ Sponsored by the Department of African and African American Studies and th
+ e Institute for Black Intellectual and Cultural Life.\n\nSponsor / organiz
+ er: African and African-American Studies Program\n\nAudience: Public\n\nSo
+ urce: Dartmouth\n\nWhy this was included: explicit food-service wording\; 
+ food keyword near service context\n\nFood availability is inferred from th
+ e source listing\; verify details before attending.
+LOCATION:Haldeman 246
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82102
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -644,7 +523,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -661,7 +540,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260709T122847Z
+DTSTAMP:20260710T122203Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -693,5 +572,42 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
 LOCATION:To be determined
 STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=80960
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Motivational Interviewing 2 Day Training
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20260710T122203Z
+UID:dartmouth-80961@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
+ dartmouth.edu/strategic-plan/commitment-care\n\nDescription:\nhttps://form
+ s.gle/5DKZPUcn6VV3pGmV9\n(Registration)\nSummer 2026 Motivational Intervie
+ wing Training—Please register by July 15.\nThe Dialogue Project: Motivat
+ ional Interviewing Two-Day Workshop\nTuesday\, July 28 and Thursday\, July
+  30\n9 a.m.–4:30 p.m. (morning refreshments available at 8:30 a.m.)\nLoc
+ ation: on campus at Dartmouth College\, exact location to be determined\nT
+ he Student Wellness Center\, with support from the Dialogue Project\, offe
+ rs this intensive\, interactive (and fun!) two-day workshop aimed at build
+ ing basic proficiency in Motivational Interviewing (MI). MI is a collabora
+ tive communication style for supporting individuals through growth and cha
+ nge.\nMI trainings are named in Dartmouth's\nCommitment to Care strategic 
+ plan\nas “effective skill-building trainings that support high-quality m
+ entoring\, advising\, and teaching.”\nThis evidence-based approach has b
+ road application for working with students (and others) and can be an inst
+ rumental tool for advisors\, coaches\, facilitators\, and educators. The 
+ training is free and open to the entire Dartmouth community. Morning refre
+ shments\, snacks\, and lunch will be provided.\nFacilitated by Caitlin Bar
+ thelmes\, member of the MI Network of Trainers and LB White of the Student
+  Wellness Center.\n*Please attend both days. We offer this training twice 
+ a year. If you can't commit to the full training this time\, please plan t
+ o attend the event when it is offered in December 2026.\n\nSponsor / organ
+ izer: Student Wellness Center\n\nAudience: Public\n\nSource: Dartmouth\n\n
+ Why this was included: explicit food-service wording\; food keyword near s
+ ervice context\n\nFood availability is inferred from the source listing\; 
+ verify details before attending.
+LOCATION:To be determined
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=80961
 END:VEVENT
 END:VCALENDAR
