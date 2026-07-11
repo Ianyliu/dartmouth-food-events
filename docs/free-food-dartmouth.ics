@@ -5,101 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Xpressions of Dartmouth Series 2026
-DTSTART;TZID=America/New_York:20260709T120000
-DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260710T122203Z
-UID:dartmouth-groups-1630619@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630619\n\nDescription:\nXpressions of Dartmouth is a series
-  of events/programs originally initiated by The Office of Pluralism & Lead
- ership in partnership and collaboration with various campus partners to pr
- ovide programming during the summer term known as sophomore summer. This s
- eries has evolved into a summer selection of opportunities for all student
- s\, staff and faculty alike to build campus connections through exploring 
- and engaging with events that center a range of experiences and cultural e
- xpressions\, be it through art\, music\, dance\, film\, food\, the outdoor
- s and more! How will YOU put the X in Expression?\n\nSponsor / organizer: 
- Office of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy this
-  was included: food or meal keyword in title/summary\n\nFood availability 
- is inferred from the source listing\; verify details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:TENTATIVE
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630619
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:26Xpressions: Cookout & Canoes
-DTSTART;TZID=America/New_York:20260710T150000
-DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260710T122203Z
-UID:dartmouth-82023@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82023\n\nDescription:\nAs a part of Xpressions of Dartmouth 2026\
- , join us for an afternoon of fun in the sun! Cookout & Canoes is a free s
- ummer event hosted at Tom Dent Cabin where you can paddle the river\, enjo
- y delicious food\, vibe to music\, and connect with the campus community. 
- We’ll have plenty of equipment available\, with special guest Alleah Sch
- weitzer from SWC to lead a mindfulness paddle\, lawn games\, EMT and safet
- y info\, and more!\nGrab a bite with options from The Box and cool down wi
- th some refreshments\, or hang out by the river with equipment courtesy of
-  Ledyard Canoe Club and the Office of Pluralism & Leadership.\nThis is a p
- erfect chance to soak up summer\, meet new people\, and enjoy the outdoors
- .\nNeed resources on river/water and sun safety as we kick off summer happ
- enings on campus? We got you covered!\nHosted in collaboration with the Of
- fice of Pluralism & Leadership and campus/community partners including Led
- yard Canoe Club\, Student Wellness\, 2028 Class Council and the First Gene
- ration Office. Free and open to all Dartmouth students\, staff and faculty
- ! Dartmouth EMS will also be present for any medical or safety needs.\nCom
- e solo\, bring a friend\, or paddle with a group\, but just don’t miss i
- t!\n\nSponsor / organizer: Dartmouth Emergency Medical Services (EMS)\, Of
- fice of Pluralism and Leadership (OPAL)\, Student Involvement\, Student We
- llness Center\n\nAudience: Alumni\, Faculty\, Postdoc\, Staff\, Students-G
- raduate\, Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was incl
- uded: Free Food category\; food or meal keyword in title/summary\n\nFood a
- vailability is inferred from the source listing\; verify details before at
- tending.
-LOCATION:Tom Dent Cabin
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82023
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cookout & Canoes 2026: Explore & Xpress in the Out of Doors
-DTSTART;TZID=America/New_York:20260710T150000
-DTEND;TZID=America/New_York:20260710T180000
-DTSTAMP:20260710T122203Z
-UID:dartmouth-groups-1630626@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630626\n\nDescription:\nAs a part of Xpressions of Dartmout
- h 2026\, join us for an afternoon of fun in the sun! Cookout & Canoes is a
-  free summer event hosted at Tom Dent Cabin where you can paddle the river
- \, enjoy delicious food\, vibe to music\, and connect with the campus comm
- unity. We’ll have plenty of equipment available\, with special guest All
- eah Schweitzer from SWC to lead a mindfulness paddle\, lawn games\, EMT an
- d safety info\, and more!\nGrab a bite with options from The Box and cool 
- down with some refreshments\, or hang out by the river with equipment cour
- tesy of Ledyard Canoe Club and the Office of Pluralism & Leadership.\nThis
-  is a perfect chance to soak up summer\, meet new people\, and enjoy the o
- utdoors.\nNeed resources on river/water and sun safety as we kick off summ
- er happenings on campus? We got you covered!\nHosted in collaboration with
-  the Office of Pluralism & Leadership and campus/community partners includ
- ing Ledyard Canoe Club\, Student Wellness\, 2028 Class Council and the Fir
- st Generation Office. Free and open to all Dartmouth students\, staff and 
- faculty! Dartmouth EMS will also be present for any medical or safety need
- s.\nCome solo\, bring a friend\, or paddle with a group\, but just don’t
-  miss it!\n\nSponsor / organizer: Office of Pluralism and Leadership / Stu
- dent Wellness Center at Dartmouth\, First Generation Office\, Ledyard Cano
- e and Kayak Club\, Class of 2028\n\nSource: Dartmouth Groups\n\nWhy this w
- as included: food or meal keyword in title/summary\n\nFood availability is
-  inferred from the source listing\; verify details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630626
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Alpha BBQ
 DTSTART;TZID=America/New_York:20260711T130000
 DTEND;TZID=America/New_York:20260711T180000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630647@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630647\n\nDescription:\nThe purpose of this event is to bri
@@ -121,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260712T210000
 DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630604@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -135,10 +44,80 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630604
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Biomedical Data Science Seminar with Joshua Levy\, PhD - “2.5D a
+ nd Beyond: From Three-Dimensional Analysis of  Tumor Specimens to the Next
+  Generation of Cancer AI Researchers”
+DTSTART;TZID=America/New_York:20260713T140000
+DTEND;TZID=America/New_York:20260713T150000
+DTSTAMP:20260711T105831Z
+UID:dartmouth-82131@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82131\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
+ d=6151&instance=2026-7-13\n\nDescription:\nThe Department of Biomedical Da
+ ta Science invites you to attend a seminar in person on Monday\, July 13 f
+ rom 2:00-3:00pm at DHMC\, Auditorium H with Joshua Levy\, PhD\, Assistant 
+ Professor\, Pathology & Laboratory Medicine\, Computational Biomedicine\, 
+ Cedars-Sinai.\nTalk title: “2.5D and Beyond: From Three-Dimensional Anal
+ ysis of Tumor Specimens to the Next Generation of Cancer AI Researchers”
+ \nLight refreshments will be provided on a first-come\, first-served basis
+ .\nThe presentation will take place both in person at DHMC\, Auditorium H 
+ (and via Zoom) and we encourage as many of you to attend in person as poss
+ ible. Please write to biomedical.data.science@dartmouth.edu to request the
+  Zoom login details.\nPlease see description below for more details.\nPlea
+ se invite your fellow faculty colleagues\, research associates\, graduate 
+ trainees\, and post-docs!\nPresentation Summary\nCommon approaches for the
+  study of pathologic specimens remain constrained to two-dimensional repre
+ sentations of inherently three-dimensional biological systems. This talk w
+ ill explore emerging opportunities to move beyond conventional 2D analysis
+  through the development of computational methods for the analysis of “2
+ .5D” and 3D imaging and genomic data\, with applications in pilot multic
+ enter urine cytology studies and spatial transcriptomics. Dr. Levy will pr
+ esent ongoing pilot work spanning automated segmentation of urine cytology
+  specimens in three dimensions\, autofluorescence-guided registration of s
+ erial tissue sections for multimodal spatial analysis\, and computational 
+ reconstruction of three-dimensional spatial transcriptomic landscapes from
+  tumor specimens. Together\, these efforts may improve our ability to char
+ acterize tissue architecture\, cellular interactions\, and tumorigenic pro
+ cesses at scales that are difficult to capture using conventional approach
+ es. The opportunities\, challenges\, and limitations of these emerging met
+ hods will be discussed. In addition\, Dr. Levy will discuss a national hig
+ h school internship program designed to introduce students to the intersec
+ tion of artificial intelligence and cancer medicine. Preliminary outcomes 
+ suggest that early exposure to research opportunities can foster meaningfu
+ l engagement in spatial biology\, computational pathology\, and cancer res
+ earch while helping cultivate the next generation of cancer AI researchers
+ .\nBiography\nJoshua Levy\, PhD\, is an Assistant Professor in the Departm
+ ents of Pathology and Laboratory Medicine and Computational Biomedicine at
+  Cedars-Sinai\, where he serves as Director of Digital Pathology Research 
+ and Associate Director of Cedars-Sinai AI Campus. Dr. Levy received his do
+ ctoral training in the Program in Quantitative Biomedical Sciences at the 
+ Geisel School of Medicine at Dartmouth. Prior to joining Cedars-Sinai\, he
+  served for several years as an Assistant Professor in the Departments of 
+ Pathology\, Dermatology\, and Epidemiology at Dartmouth\, where he continu
+ es to hold an adjunct faculty appointment. Dr. Levy’s research focuses o
+ n applying artificial intelligence\, digital pathology\, and computational
+  methods to better understand disease\, particularly cancer. He develops n
+ ovel tools for the analysis of tumor biology\, spatial omics\, and diagnos
+ tic pathology with the goal of improving disease characterization\, risk s
+ tratification\, and precision medicine. He is also co-director of the nati
+ onal high school internship program Emerging Diagnostic and Investigative 
+ Technologies (EDIT) AI\, jointly supported by Dartmouth Cancer Center and 
+ Cedars-Sinai Cancer\, which provides students with early exposure to resea
+ rch at the intersection of artificial intelligence and cancer medicine.\n\
+ nSponsor / organizer: Geisel School of Medicine / Biomedical Data Science 
+ (  )\n\nAudience: Public\n\nSource: Dartmouth\, Geisel\n\nWhy this was inc
+ luded: explicit food-service wording\; food keyword near service context\n
+ \nFood availability is inferred from the source listing\; verify details b
+ efore attending.
+LOCATION:DHMC\, Auditorium H (and via Zoom)
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82131
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -159,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -180,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -207,7 +186,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -227,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:Pancakes on the Patio
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T173000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-82091@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82091\nhttps://cglink.me/2ob/r1630590\n\nDescription:\nJoin us fo
@@ -249,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
@@ -300,7 +279,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -336,7 +315,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -358,7 +337,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -372,10 +351,11 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630605
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The Way of the Bow: Kyūdō\, Expression & Mindfulness
+SUMMARY:[Possibly canceled] The Way of the Bow: Kyūdō\, Expression & Min
+ dfulness
 DTSTART;TZID=America/New_York:20260720T153000
 DTEND;TZID=America/New_York:20260720T183000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630714@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630714\n\nDescription:\nImmerse yourself in mindfulness thr
@@ -397,14 +377,14 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   or meal keyword in title/summary\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
 LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
+STATUS:TENTATIVE
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630714
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -426,7 +406,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -447,7 +427,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -471,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -523,7 +503,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -540,7 +520,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -577,7 +557,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260710T122203Z
+DTSTAMP:20260711T105831Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
