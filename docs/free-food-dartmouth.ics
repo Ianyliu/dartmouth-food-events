@@ -5,32 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Alpha BBQ
-DTSTART;TZID=America/New_York:20260711T130000
-DTEND;TZID=America/New_York:20260711T180000
-DTSTAMP:20260711T105831Z
-UID:dartmouth-groups-1630647@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630647\n\nDescription:\nThe purpose of this event is to bri
- ng students together in an enjoyable and inclusive setting so that they ca
- n eat\, socialize\, and socialize outside of the classroom. In a friendly\
- , safe environment\, those attending will have the chance to enjoy themsel
- ves\, take part in free outdoor games and activities\, and have a communit
- y meal. The event will be held in compliance with all university regulatio
- ns and facility requirements\, and alcohol will not be served.\n\nSponsor 
- / organizer: Alpha Phi Alpha\, Fraternity Inc.\n\nSource: Dartmouth Groups
- \n\nWhy this was included: food or meal keyword in title/summary\n\nFood a
- vailability is inferred from the source listing\; verify details before at
- tending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630647
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260712T210000
 DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630604@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -49,7 +27,7 @@ SUMMARY:Biomedical Data Science Seminar with Joshua Levy\, PhD - “2.5D a
   Generation of Cancer AI Researchers”
 DTSTART;TZID=America/New_York:20260713T140000
 DTEND;TZID=America/New_York:20260713T150000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82131@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82131\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
@@ -117,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -138,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -159,7 +137,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -186,7 +164,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -206,7 +184,7 @@ BEGIN:VEVENT
 SUMMARY:Pancakes on the Patio
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T173000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82091@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82091\nhttps://cglink.me/2ob/r1630590\n\nDescription:\nJoin us fo
@@ -228,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
@@ -279,7 +257,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -315,7 +293,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -337,7 +315,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -351,40 +329,10 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630605
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Possibly canceled] The Way of the Bow: Kyūdō\, Expression & Min
- dfulness
-DTSTART;TZID=America/New_York:20260720T153000
-DTEND;TZID=America/New_York:20260720T183000
-DTSTAMP:20260711T105831Z
-UID:dartmouth-groups-1630714@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630714\n\nDescription:\nImmerse yourself in mindfulness thr
- ough observing Kyūdō (Japanese archery) and experiencing the practices o
- f haiku and Shinrin-yoku (forest bathing)!\nKyūdō originated as a Samura
- i martial art in Japan and evolved into a mindfulness practice. Practicing
-  kyūdō involves relaxing the body\, focusing attention\, and calming one
- ’s heart/mind for precise drawing of the bow and releasing the arrow. It
-  is a path to opening one's heart and mind to the natural dignity of being
-  human\, beyond the obstacles of ambition\, frustration\, and doubt.  Hitt
- ing the target is not considered as important as coordinating body\, mind\
- , and bow.\nYou are invited to interact with members of the local Blue Cli
- ff Kyudojo\, led by Ray Chin\, including Solomon Diamond D’97. You can a
- lso experience haiku writing alongside poet Keysi Montás\, shinrin-yoku (
- forest bathing) led by Belinda Chiu D’98\, and try Japanese tea and snac
- ks.\nCome for part of the time or stay for the entire expression!\n\nSpons
- or / organizer: Office of Pluralism and Leadership / Student Wellness Cent
- er at Dartmouth\n\nSource: Dartmouth Groups\n\nWhy this was included: food
-  or meal keyword in title/summary\n\nFood availability is inferred from th
- e source listing\; verify details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:TENTATIVE
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630714
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -406,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -427,7 +375,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -451,7 +399,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -503,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -520,7 +468,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -557,7 +505,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260711T105831Z
+DTSTAMP:20260712T110707Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
