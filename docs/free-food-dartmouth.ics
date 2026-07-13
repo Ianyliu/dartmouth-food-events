@@ -5,29 +5,12 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Weekly Tea Brew!
-DTSTART;TZID=America/New_York:20260712T210000
-DTEND;TZID=America/New_York:20260712T230000
-DTSTAMP:20260712T110707Z
-UID:dartmouth-groups-1630604@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630604\n\nDescription:\nCome enjoy a weekly brew or two of 
- looseleaf tea in the traditional Chinese style!\n\nSponsor / organizer: Un
- dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
- y this was included: food or meal keyword in title/summary\n\nFood availab
- ility is inferred from the source listing\; verify details before attendin
- g.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630604
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Biomedical Data Science Seminar with Joshua Levy\, PhD - “2.5D a
  nd Beyond: From Three-Dimensional Analysis of  Tumor Specimens to the Next
   Generation of Cancer AI Researchers”
 DTSTART;TZID=America/New_York:20260713T140000
 DTEND;TZID=America/New_York:20260713T150000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82131@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82131\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
@@ -95,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -113,10 +96,61 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630460
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Biomedical Data Science & MSB Program Seminar with Jonathan Garlic
+ k\, DDS\, PhD - “The Principles and Practice of 3D Tissue Biology”
+DTSTART;TZID=America/New_York:20260715T143000
+DTEND;TZID=America/New_York:20260715T153000
+DTSTAMP:20260713T122830Z
+UID:geisel-6152-2026-7-15@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
+ dar/event_view.php?eid=6152&instance=2026-7-15\n\nDescription:\nThe Depart
+ ments of Biomedical Data Science and Molecular and Systems Biology invite 
+ you to attend a special seminar in person on Wednesday\, July 15 from 2:30
+ -3:30pm at DHMC\, Auditorium H with Jonathan Garlick\, DDS\, PhD\, Profess
+ or and Director\, Division of Cancer Biology & Tissue Engineering\, Tufts 
+ School of Dental Medicine.\nTalk title: “The Principles and Practice of 
+ 3D Tissue Biology”\nLight refreshments will be provided on a first-come\
+ , first-served basis.\nThe presentation will take place both in person at 
+ DHMC\, Auditorium H (and via Zoom) and we encourage as many of you to atte
+ nd in person as possible. Please write to biomedical.data.science@dartmout
+ h.edu to request the Zoom login details.\nPlease see description below for
+  more details.\nPlease invite your fellow faculty colleagues\, research as
+ sociates\, graduate trainees\, and postdocs!\nPresentation Summary\nHuman\
+ , 3D engineered tissues address fundamental limitations of monolayer cultu
+ re\, where cells lose the phenotypic diversity that drives disease biology
+  in vivo. This talk outlines universal principles of 3D tissue fabrication
+  that can be applied broadly to increase tissue complexity and better reca
+ pitulate in vivo biological responses. These principles will be illustrate
+ d using human 3D skin equivalents—air-liquid interface cultures grown on
+  fibroblast-populated connective tissue matrices—as a model for architec
+ turally accurate\, translational disease modeling. By applying these princ
+ iples\, we aim to improve in vitro–in vivo correlation for pre-clinical 
+ drug screening and therapeutic development.\nBiography\nDr. Jonathan Garli
+ ck’s lab research is focused on developing new treatments for chronic di
+ seases\, including oral and skin cancer\, scleroderma\, and complications 
+ of diabetes.  He has developed 3D tissues as disease models to accelerate 
+ the discovery and testing of new drugs. Dr. Garlick established and leads 
+ the Civic Science Collective that creates a more inclusive climate for pub
+ lic participation in science by fostering equitable and trustworthy relati
+ onships between scientists and the communities research hopes to serve. Dr
+ . Garlick’s Dialogue Center brings people together in conversation so th
+ ey can connect more productively across different worldviews\, identities\
+ , power dynamics\, and “cultures” of science. He teaches dialogue-base
+ d\, Civic Science courses where students discover how they can gain the sk
+ ills they need to create a more inclusive and welcoming climate for partic
+ ipation in science.\n\nSponsor / organizer: Biomedical Data Science (  )\n
+ \nSource: Geisel\n\nWhy this was included: explicit food-service wording\;
+  food keyword near service context\n\nFood availability is inferred from t
+ he source listing\; verify details before attending.
+STATUS:CONFIRMED
+URL:https://geiselmed.dartmouth.edu/calendar/event_view.php?eid=6152&insta
+ nce=2026-7-15
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -137,7 +171,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -164,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -184,7 +218,7 @@ BEGIN:VEVENT
 SUMMARY:Pancakes on the Patio
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T173000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82091@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82091\nhttps://cglink.me/2ob/r1630590\n\nDescription:\nJoin us fo
@@ -206,7 +240,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
@@ -257,7 +291,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -293,7 +327,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -315,7 +349,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -332,7 +366,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -354,7 +388,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -372,10 +406,33 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630462
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tasting Tuesday with Prof. Daniellle Callegari
+DTSTART;TZID=America/New_York:20260721T190000
+DTEND;TZID=America/New_York:20260721T203000
+DTSTAMP:20260713T122830Z
+UID:dartmouth-groups-1630743@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630743\nhttps://stillnorthbooks.com/\n\nDescription:\nJoin 
+ us for a flavorful evening at Still North Books as we explore the culinary
+  expressions of Italy through storytelling with Italian Program Professor 
+ Danielle Callegari. Inspired by her book\, A Bite-Sized History of Italy\,
+  this interactive Tasting Tuesday invites participants to connect with Pro
+ f. Callegari on her work.\nWhether you're curious about Italian cuisine\, 
+ or want to enjoy great food and conversation\, this event offers a welcomi
+ ng space to savor new perspectives\, one bite at a time.\nhttps://stillnor
+ thbooks.com/\n\nSponsor / organizer: Office of Pluralism and Leadership\n\
+ nSource: Dartmouth Groups\n\nWhy this was included: food or meal keyword i
+ n title/summary\n\nFood availability is inferred from the source listing\;
+  verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630743
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -399,7 +456,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -451,7 +508,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -468,7 +525,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -505,7 +562,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260712T110707Z
+DTSTAMP:20260713T122830Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -537,5 +594,22 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
 LOCATION:To be determined
 STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=80961
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Weekly Tea Brew!
+DTSTART;TZID=America/New_York:20260802T210000
+DTEND;TZID=America/New_York:20260802T230000
+DTSTAMP:20260713T122830Z
+UID:dartmouth-groups-1630607@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
+ looseleaf tea in the traditional Chinese style!\n\nSponsor / organizer: Un
+ dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
+ y this was included: food or meal keyword in title/summary\n\nFood availab
+ ility is inferred from the source listing\; verify details before attendin
+ g.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630607
 END:VEVENT
 END:VCALENDAR
