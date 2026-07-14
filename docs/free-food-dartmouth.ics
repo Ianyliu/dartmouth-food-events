@@ -5,80 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Biomedical Data Science Seminar with Joshua Levy\, PhD - “2.5D a
- nd Beyond: From Three-Dimensional Analysis of  Tumor Specimens to the Next
-  Generation of Cancer AI Researchers”
-DTSTART;TZID=America/New_York:20260713T140000
-DTEND;TZID=America/New_York:20260713T150000
-DTSTAMP:20260713T122830Z
-UID:dartmouth-82131@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82131\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
- d=6151&instance=2026-7-13\n\nDescription:\nThe Department of Biomedical Da
- ta Science invites you to attend a seminar in person on Monday\, July 13 f
- rom 2:00-3:00pm at DHMC\, Auditorium H with Joshua Levy\, PhD\, Assistant 
- Professor\, Pathology & Laboratory Medicine\, Computational Biomedicine\, 
- Cedars-Sinai.\nTalk title: “2.5D and Beyond: From Three-Dimensional Anal
- ysis of Tumor Specimens to the Next Generation of Cancer AI Researchers”
- \nLight refreshments will be provided on a first-come\, first-served basis
- .\nThe presentation will take place both in person at DHMC\, Auditorium H 
- (and via Zoom) and we encourage as many of you to attend in person as poss
- ible. Please write to biomedical.data.science@dartmouth.edu to request the
-  Zoom login details.\nPlease see description below for more details.\nPlea
- se invite your fellow faculty colleagues\, research associates\, graduate 
- trainees\, and post-docs!\nPresentation Summary\nCommon approaches for the
-  study of pathologic specimens remain constrained to two-dimensional repre
- sentations of inherently three-dimensional biological systems. This talk w
- ill explore emerging opportunities to move beyond conventional 2D analysis
-  through the development of computational methods for the analysis of “2
- .5D” and 3D imaging and genomic data\, with applications in pilot multic
- enter urine cytology studies and spatial transcriptomics. Dr. Levy will pr
- esent ongoing pilot work spanning automated segmentation of urine cytology
-  specimens in three dimensions\, autofluorescence-guided registration of s
- erial tissue sections for multimodal spatial analysis\, and computational 
- reconstruction of three-dimensional spatial transcriptomic landscapes from
-  tumor specimens. Together\, these efforts may improve our ability to char
- acterize tissue architecture\, cellular interactions\, and tumorigenic pro
- cesses at scales that are difficult to capture using conventional approach
- es. The opportunities\, challenges\, and limitations of these emerging met
- hods will be discussed. In addition\, Dr. Levy will discuss a national hig
- h school internship program designed to introduce students to the intersec
- tion of artificial intelligence and cancer medicine. Preliminary outcomes 
- suggest that early exposure to research opportunities can foster meaningfu
- l engagement in spatial biology\, computational pathology\, and cancer res
- earch while helping cultivate the next generation of cancer AI researchers
- .\nBiography\nJoshua Levy\, PhD\, is an Assistant Professor in the Departm
- ents of Pathology and Laboratory Medicine and Computational Biomedicine at
-  Cedars-Sinai\, where he serves as Director of Digital Pathology Research 
- and Associate Director of Cedars-Sinai AI Campus. Dr. Levy received his do
- ctoral training in the Program in Quantitative Biomedical Sciences at the 
- Geisel School of Medicine at Dartmouth. Prior to joining Cedars-Sinai\, he
-  served for several years as an Assistant Professor in the Departments of 
- Pathology\, Dermatology\, and Epidemiology at Dartmouth\, where he continu
- es to hold an adjunct faculty appointment. Dr. Levy’s research focuses o
- n applying artificial intelligence\, digital pathology\, and computational
-  methods to better understand disease\, particularly cancer. He develops n
- ovel tools for the analysis of tumor biology\, spatial omics\, and diagnos
- tic pathology with the goal of improving disease characterization\, risk s
- tratification\, and precision medicine. He is also co-director of the nati
- onal high school internship program Emerging Diagnostic and Investigative 
- Technologies (EDIT) AI\, jointly supported by Dartmouth Cancer Center and 
- Cedars-Sinai Cancer\, which provides students with early exposure to resea
- rch at the intersection of artificial intelligence and cancer medicine.\n\
- nSponsor / organizer: Geisel School of Medicine / Biomedical Data Science 
- (  )\n\nAudience: Public\n\nSource: Dartmouth\, Geisel\n\nWhy this was inc
- luded: explicit food-service wording\; food keyword near service context\n
- \nFood availability is inferred from the source listing\; verify details b
- efore attending.
-LOCATION:DHMC\, Auditorium H (and via Zoom)
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82131
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 1
 DTSTART;TZID=America/New_York:20260714T121500
 DTEND;TZID=America/New_York:20260714T131500
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630460@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630460\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -100,7 +30,7 @@ SUMMARY:Biomedical Data Science & MSB Program Seminar with Jonathan Garlic
  k\, DDS\, PhD - “The Principles and Practice of 3D Tissue Biology”
 DTSTART;TZID=America/New_York:20260715T143000
 DTEND;TZID=America/New_York:20260715T153000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:geisel-6152-2026-7-15@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
  dar/event_view.php?eid=6152&instance=2026-7-15\n\nDescription:\nThe Depart
@@ -150,7 +80,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 2
 DTSTART;TZID=America/New_York:20260715T153000
 DTEND;TZID=America/New_York:20260715T163000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630461@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630461\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -171,7 +101,7 @@ BEGIN:VEVENT
 SUMMARY:PRIDE POP-UP EXHIBITION
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T183000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-81984@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81984\nhttps://www.eventbrite.com/e/pride-pop-up-exhibition-and-c
@@ -198,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:GLASS Summer Term Safety Meeting
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T174500
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630579@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630579\n\nDescription:\nCome meet with GLASS Staff\, DoSS\,
@@ -218,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:Pancakes on the Patio
 DTSTART;TZID=America/New_York:20260715T163000
 DTEND;TZID=America/New_York:20260715T173000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-82091@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82091\nhttps://cglink.me/2ob/r1630590\n\nDescription:\nJoin us fo
@@ -240,7 +170,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
 DTSTART;TZID=America/New_York:20260716T123000
 DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-82080@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
@@ -291,7 +221,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Common Roots
 DTSTART;TZID=America/New_York:20260716T180000
 DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-82024@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82024\n\nDescription:\nLooking to green up your living space but 
@@ -327,7 +257,7 @@ BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -346,10 +276,28 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630486
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Effective Altruism Dinner Discussion
+DTSTART;TZID=America/New_York:20260717T180000
+DTEND;TZID=America/New_York:20260717T190000
+DTSTAMP:20260714T112153Z
+UID:dartmouth-groups-1630746@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630746\n\nDescription:\nJoin ASAP for a dinner discussion t
+ o talk about Effective Altruism\, a movement that attempts to do the most 
+ good for the most people and animals.\nFood Provided (Vegan dinner from Bl
+ ack Magic Mexican)\n\nSponsor / organizer: Allied Scholars for Animal Prot
+ ection\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food
+ -service wording\; food or meal keyword in title/summary\n\nFood availabil
+ ity is inferred from the source listing\; verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630746
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -366,7 +314,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -388,7 +336,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -409,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:Tasting Tuesday with Prof. Daniellle Callegari
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630743@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630743\nhttps://stillnorthbooks.com/\n\nDescription:\nJoin 
@@ -432,7 +380,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -456,7 +404,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -508,7 +456,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -525,7 +473,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -562,7 +510,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -599,7 +547,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260713T122830Z
+DTSTAMP:20260714T112153Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -611,5 +559,67 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630607
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Poetry of Cinema: a workshop
+DTSTART;TZID=America/New_York:20260803T093000
+DTEND;TZID=America/New_York:20260803T150000
+DTSTAMP:20260714T112153Z
+UID:dartmouth-82082@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
+ ive crossroads between poetry and cinema\, and learn how poets and filmmak
+ ers use image\, language\, and memory to create emotionally resonant work.
+  Drawing on poems\, screenplay excerpts\, and film clips\, we'll examine h
+ ow a single lyric image can become the foundation for character\, scene\, 
+ and narrative\, with a special focus on crafting the opening pages of a sc
+ reenplay. Whether you're interested in writing poetry\, screenplays\, or b
+ oth\, you'll leave with practical strategies for getting started\, shaping
+  your first pages\, and approaching revision with fresh eyes.Visiting Poet
+ s: John Wall Barger\, Elena Karina Byrne\, and Perry Janes | Moderator: Vi
+ evee Francis\nSCHEDULE\n9:30-10:30 AM - John Wall Barger\n11:00 AM-12:00 P
+ M - Elena Karina Byrne\n12:00-1:30 PM - Lunch provided. (Please email Laur
+ a Jean Gilloux with dietary needs.)\n1:30-3:00 PM - Perry Janes\nJohn Wall
+  Barger\nis the author of seven books of poems and a collection of essays.
+  His latest book of poems\, Resurrection Pie\, just came out with LSU Pres
+ s. He’s a contract editor for Frontenac House\, lives in Vermont\, and l
+ ectures in the Writing Program at Dartmouth College.\nElena Karina Byrne\n
+ is a screenwriter\, essayist\, reviewer\, multi-media artist\, and editor.
+  She also works as a freelance lecturer and national arts programs curator
+ . Author of five collections of poetry including If This Makes You Nervous
+  (Omnidawn)\, No\, Don’t (What Books Press)\, Squander (Omnidawn)\, MASQ
+ UE (Tupelo Press)\, and The Flammable Bird (Zoo Press/Tupelo Press)\, Elen
+ a is a Pushcart Prize and Best American Poetry recipient. Her poems\, revi
+ ews\, essays\, and interviews can be found in POETRY\, The Kenyon Review\,
+  The Paris Review\, Poetry International\, Poetry Daily\, Ploughshares\, B
+ OMB\, Academy of American Poets Poem-A-Day\, and elsewhere.\nPerry Janes\n
+ is the author of the poetry collection FIND ME WHEN YOU’RE READY (Curbst
+ one Books/Northwestern University Press\, 2024)\, winner of the Eric Hoffe
+ r Award for Poetry. A recipient of the Pushcart Prize\, his poems and shor
+ t stories have appeared in POETRY\, Electric Literature\, Poem-a-Day\, Bes
+ t New Poets\, The Threepenny Review\, Zyzzyva\, The Michigan Quarterly Rev
+ iew\, Subtropics\, Prairie Schooner\, Beloit Poetry Journal\, The Adroit J
+ ournal\, The Missouri Review\, and others. He earned his MFA in Poetry fro
+ m Warren Wilson College\, and his BA from the University of Michigan\, Ann
+  Arbor\, where he was a 5-time recipient of the Hopwood Award.\nVievee Fra
+ ncis\nis the author of five books of poetry: Blue-Tail Fly (2007)\, Horse 
+ in the Dark (2010)\, Forest Primeval (2016)\, The Shared World (2023)\, an
+ d the forthcoming Cleaning the Houses of the Dead. Born in West Texas and 
+ raised in Metropolitan Detroit\, Francis has received numerous awards and 
+ recognition for her work including a Guggenheim Fellowship (2024)\, a Verm
+ ont Book Award (2023)\, the Aiken Taylor Award for Modern American Poetry 
+ (2021)\, the Kingsley Tufts Poetry Award (2017)\, and the Hurston Wright L
+ egacy Award (2016). Francis\, along with composer Jonathan Berger and arti
+ st Enrico Riley\, wrote the libretto for the transdisciplinary opera The R
+ itual of Breath which premiered in 2022. She has served as an Associate Ed
+ itor for Callaloo and currently holds the Burlington Northern Foundation P
+ rofessorship in Creative Writing at Dartmouth College.\n\nSponsor / organi
+ zer: Literary Arts Bridge\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy 
+ this was included: explicit food-service wording\; food keyword near servi
+ ce context\n\nFood availability is inferred from the source listing\; veri
+ fy details before attending.
+LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82082
 END:VEVENT
 END:VCALENDAR
