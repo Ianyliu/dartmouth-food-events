@@ -5,97 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Publishing Talk: Adam Gianelli & Tomás Q. Morin
-DTSTART;TZID=America/New_York:20260716T123000
-DTEND;TZID=America/New_York:20260716T133000
-DTSTAMP:20260716T112902Z
-UID:dartmouth-82080@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82080\n\nDescription:\nIf you've never visited us\,\nthis\nis the
-  event to attend! We'll gather around a large table at the Literary Arts 
- Bridge\, Dartmouth's creative writing center\, to share lunch and discuss 
- poetry\, writing\, and publishing with two astonishing poets. The conversa
- tion will be moderated by Dartmouth's own Kate Gibbel\, whose forthcoming
-  poetry collection\,\nLittle Sound\,\nis out this fall.\nAbout the Poets:\
- nAdam Giannelli is the author of\nTremulous Hinge\n(University of Iowa Pre
- ssOpens in a new window\, 2017)\, winner of the Iowa Poetry Prize. He is a
- lso the translator of a selection of prose poems by Marosa di Giorgio\,\nD
- iadem\n(BOA EditionsOpens in a new window\, 2012)\, which was shortlisted 
- for the PEN Award for Poetry in Translation\, and the editor of\nHigh Lone
- some\n(Oberlin College PressOpens in a new window\, 2006)\, a collection o
- f critical essays on Charles Wright. His writing has appeared in\nPoetry\,
-  Kenyon Review\, New England Review\, Ploughshares\, Atlantic\, New York T
- imes Magazine\, New Criterion\,\nand elsewhere. His work has been supporte
- d by fellowships and residencies from several institutions\, including the
-  National Endowment for the Arts\, Fulbright Program\, James Merrill House
- \, Bread Loaf Writers’ Conference\, Sewanee Writers’ Conference\, Yadd
- o\, and MacDowell. He has taught at Oberlin College\, Hamilton College\, C
- olby College\, and Purdue University.\nTomás Q. Morin\nis the author of t
- he novel Cat Love and the forthcoming poetry collection\nMy Favorite Thing
- s\n. He is also wrote the memoirs\nLet Me Count the Ways\nand\nWhere Are Y
- ou From: Letters to My Son\n\, as well as the poetry collections\nMachete\
- , Patient Zero\n\, and\nA Larger Country\n. He is coeditor\, with Mari L
- ’Esperance\, of the anthology\nComing Close: Forty Essays on Philip Levi
- ne\n\, and a translator of\nThe Heights of Macchu Picchu\nby Pablo Neruda.
-  He is a fellow of the Guggenheim Foundation and the National Endowment fo
- r the Arts. He teaches at Rice University.\nAbout the Moderator:\nAbout th
- e Katherine Gibbel’s poems have been published in\nThe Iowa Review\n\,\
- njubilat\n\,\nSecond Factory\n(ugly duckling presse)\, and elsewhere. Her 
- chapbook\nPrairie\nwas published by Ethel Press in 2020. She edits and pri
- nts\nSend Me Press\,\na monthly series of letterpress printed postcard bro
- adsides. She holds an MFA in poetry from the Iowa Writers’ Workshop and 
- lives in Hartland\, Vermont. Her first collection\,\nLittle Sound\n\, will
-  be published by the University of Chicago Press Phoenix Poets Series in F
- all 2026.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudience: Public
- \n\nSource: Dartmouth\n\nWhy this was included: Free Food category\; expli
- cit food-service wording\; food or meal keyword in title/summary\n\nFood a
- vailability is inferred from the source listing\; verify details before at
- tending.
-LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82080
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:26Xpressions: Common Roots
-DTSTART;TZID=America/New_York:20260716T180000
-DTEND;TZID=America/New_York:20260716T190000
-DTSTAMP:20260716T112902Z
-UID:dartmouth-82024@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82024\n\nDescription:\nLooking to green up your living space but 
- don't quite have a green thumb yet? Join us for Common Roots\, an exciting
-  collaborative event presented by OPAL and the Outdoor Programs Office (OP
- O) as part of Xpressions of Dartmouth 2026. Intentionally designed for beg
- inners\, this hands-on workshop breaks down the barriers to gardening and 
- gives anyone interested in house plants a welcoming place to start. You wi
- ll have the opportunity to take home your very own plant trimmings\, and t
- he experts from OPO will be on-site to teach you exactly how to care for t
- hese beautiful indigenous plants. To sweeten the evening\, we will be serv
- ing up a nostalgic favorite: Mud Cups\, the classic childhood treat made o
- f chocolate pudding\, crushed Oreo "dirt\," and gummy worms.\nThe learning
-  doesn't have to stop when the hour is up\, either. To help you connect ev
- en deeper with the local environment\, OPO will be hosting a follow-up nat
- ure walk the very next day to explore these indigenous plants in their nat
- ural habitats.\nWhether you are a seasoned plant parent or someone who has
-  historically struggled to keep a succulent alive\, Common Roots is the pe
- rfect opportunity to dig into a new skill\, enjoy a sweet treat\, and find
-  your community. All materials\, plants\, and snacks are completely free\,
-  and absolutely no prior gardening experience is required — just bring y
- our curiosity and an appetite for fun!\n\nSponsor / organizer: Office of P
- luralism and Leadership (OPAL)\n\nAudience: Alumni\, Faculty\, Postdoc\, P
- ublic\, Staff\, Students-Graduate\, Students-Undergraduate\n\nSource: Dart
- mouth\n\nWhy this was included: Free Food category\; food keyword near ser
- vice context\n\nFood availability is inferred from the source listing\; ve
- rify details before attending.
-LOCATION:Baker Lawn
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82024
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Watermelon in the Woods: Mindful Nature Walk
 DTSTART;TZID=America/New_York:20260717T140000
 DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-81980@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
@@ -117,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:Effective Altruism Dinner Discussion
 DTSTART;TZID=America/New_York:20260717T180000
 DTEND;TZID=America/New_York:20260717T190000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-groups-1630746@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630746\n\nDescription:\nJoin ASAP for a dinner discussion t
@@ -135,7 +48,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -152,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -174,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -195,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Tasting Tuesday
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-82153@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82153\nhttps://dartmouthgroups.dartmouth.edu/opal/rsvp_boot?id=16
@@ -221,7 +134,7 @@ BEGIN:VEVENT
 SUMMARY:Tasting Tuesday with Prof. Daniellle Callegari
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-groups-1630743@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630743\nhttps://stillnorthbooks.com/\n\nDescription:\nJoin 
@@ -244,7 +157,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -268,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -320,7 +233,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -337,7 +250,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -374,7 +287,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -411,7 +324,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -428,7 +341,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-82082@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
@@ -490,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260716T112902Z
+DTSTAMP:20260717T111746Z
 UID:dartmouth-82084@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
