@@ -5,50 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Watermelon in the Woods: Mindful Nature Walk
-DTSTART;TZID=America/New_York:20260717T140000
-DTEND;TZID=America/New_York:20260717T150000
-DTSTAMP:20260717T111746Z
-UID:dartmouth-81980@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630486\nhttps://home.dartmouth.edu/events/event?event=81980
- \nhttps://cglink.me/2ob/r1630486\n\nDescription:\nAllow yourself a moment 
- to really soak in the summer. Meet us at the DOC house for a mindful strol
- l through Pine Park\, near the river. We'll provide watermelon and refresh
- ments-- just bring yourself\, a waterbottle\, and a comfortable pair of sh
- oes!\nPlease RSVP in Dartmouth Groups:\nhttps://cglink.me/2ob/r1630486\n\n
- Sponsor / organizer: Student Wellness Center at Dartmouth / Student Wellne
- ss Center\n\nAudience: Public\n\nSource: Dartmouth Groups\, Dartmouth\n\nW
- hy this was included: explicit food-service wording\; food or meal keyword
-  in title/summary\; Free Food category\n\nFood availability is inferred fr
- om the source listing\; verify details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630486
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Effective Altruism Dinner Discussion
-DTSTART;TZID=America/New_York:20260717T180000
-DTEND;TZID=America/New_York:20260717T190000
-DTSTAMP:20260717T111746Z
-UID:dartmouth-groups-1630746@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630746\n\nDescription:\nJoin ASAP for a dinner discussion t
- o talk about Effective Altruism\, a movement that attempts to do the most 
- good for the most people and animals.\nFood Provided (Vegan dinner from Bl
- ack Magic Mexican)\n\nSponsor / organizer: Allied Scholars for Animal Prot
- ection\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food
- -service wording\; food or meal keyword in title/summary\n\nFood availabil
- ity is inferred from the source listing\; verify details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630746
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -65,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -87,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -108,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Tasting Tuesday
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-82153@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82153\nhttps://dartmouthgroups.dartmouth.edu/opal/rsvp_boot?id=16
@@ -134,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:Tasting Tuesday with Prof. Daniellle Callegari
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-groups-1630743@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630743\nhttps://stillnorthbooks.com/\n\nDescription:\nJoin 
@@ -157,7 +117,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -181,7 +141,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -233,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -250,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -284,10 +244,31 @@ STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=80960
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Beat the Heat: Summer Safety Event
+DTSTART;TZID=America/New_York:20260728T120000
+DTEND;TZID=America/New_York:20260728T130000
+DTSTAMP:20260718T105723Z
+UID:dartmouth-82163@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82163\n\nDescription:\nSummer's here\, and so are we — with eve
+ rything you need to stay cool\, hydrated\, and protected all season long. 
+ Stop by for a quick chat with our health coach about sun safety and hydra
+ tion\, then grab your free outdoor necessities kit and a reusable water bo
+ ttle\, enjoy a chilled Spindrift seltzer\, enter a raffle for a chance to 
+ win a disc golf set\, and more!\nNo RSVP needed — just drop by anytime b
+ etween 12 - 1 PM.\n\nSponsor / organizer: Wellness at Dartmouth\n\nAudienc
+ e: Faculty\, Postdoc\, Staff\n\nSource: Dartmouth\n\nWhy this was included
+ : Free Food category\n\nFood availability is inferred from the source list
+ ing\; verify details before attending.
+LOCATION:Baker 234
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82163
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -324,7 +305,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -341,7 +322,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-82082@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
@@ -403,7 +384,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260717T111746Z
+DTSTAMP:20260718T105723Z
 UID:dartmouth-82084@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
@@ -436,5 +417,34 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
 LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
 STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=82084
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Xpressions of Dartmouth 2026
+DTSTART;TZID=America/New_York:20260807T140000
+DTEND;TZID=America/New_York:20260807T170000
+DTSTAMP:20260718T105723Z
+UID:dartmouth-groups-1630869@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630869\n\nDescription:\nSummer term often boasts fun and gr
+ eat weather\, yet with limited upbeat spaces we have during other terms. I
+ n collaboration with campus and community partners\, Xpressions of Dartmou
+ th aims to offer engaging programming during the summer term\, providing o
+ pportunities for the entire Dartmouth community to connect and explore dif
+ ferent forms of expression\, from engaging in the fine arts and nature\, o
+ r traveling and exploring a new city and tasting foods from a variety of c
+ ultural backgrounds.\nWe are excited to bring back Xpressions of Dartmouth
+  with a mix of new and returning events. We hope you join us for our FINAL
+  event of the summer\, Xpressions of Dartmouth: An Exhibition of Expressio
+ ns. We invite all members of the Dartmouth community to explore forms of e
+ xpression complete with local food trucks (Making the CuTx\, —\, — and
+  Sisters of Anarchy)\, lawn games\, activities\, raffles/giveaways\, Kona 
+ Ice\, a live DJ\, and your favorite offices and organizations!\nFind us on
+  Mass Row from 2-5pm on Friday\, August 7th!\n\nSponsor / organizer: Offic
+ e of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy this was 
+ included: food or meal keyword in title/summary\n\nFood availability is in
+ ferred from the source listing\; verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630869
 END:VEVENT
 END:VCALENDAR
