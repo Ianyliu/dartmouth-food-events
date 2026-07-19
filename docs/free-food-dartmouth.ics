@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260719T210000
 DTEND;TZID=America/New_York:20260719T230000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-groups-1630605@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630605\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Summer Wellness Bags at the FGO
 DTSTART;TZID=America/New_York:20260721T100000
 DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82092@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
 DTSTART;TZID=America/New_York:20260721T121500
 DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-groups-1630462@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -68,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:26Xpressions: Tasting Tuesday
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82153@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82153\nhttps://dartmouthgroups.dartmouth.edu/opal/rsvp_boot?id=16
@@ -94,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:Tasting Tuesday with Prof. Daniellle Callegari
 DTSTART;TZID=America/New_York:20260721T190000
 DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-groups-1630743@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630743\nhttps://stillnorthbooks.com/\n\nDescription:\nJoin 
@@ -117,7 +117,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -141,7 +141,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -193,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -210,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -247,7 +247,7 @@ BEGIN:VEVENT
 SUMMARY:Beat the Heat: Summer Safety Event
 DTSTART;TZID=America/New_York:20260728T120000
 DTEND;TZID=America/New_York:20260728T130000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82163@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82163\n\nDescription:\nSummer's here\, and so are we — with eve
@@ -268,7 +268,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -305,7 +305,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -322,7 +322,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82082@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
@@ -384,7 +384,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-82084@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
@@ -422,7 +422,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260718T105723Z
+DTSTAMP:20260719T110642Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630869\n\nDescription:\nSummer term often boasts fun and gr
@@ -446,5 +446,31 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630869
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pizza Retreat
+DTSTART;TZID=America/New_York:20260808T130000
+DTEND;TZID=America/New_York:20260808T180000
+DTSTAMP:20260719T110642Z
+UID:dartmouth-81981@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81981\nhttps://cglink.me/2ob/r1630490\nhttps://dartmouthgroups.da
+ rtmouth.edu/rsvp_boot?id=1630490\n\nDescription:\nEver been on a mindfulne
+ ss retreat centered around pizza? Neither have we.\nThat’s why we’re e
+ xcited to bring you Pizza Retreat! Come to the O-Farm on August 8th for a 
+ one-of-a-kind experience. We'll be slowing down\, savoring the simple plea
+ sures of summer\, offering mindful movement and plenty of space to make th
+ e day your own. Oh\, and of course-- pizza making and eating!\nIf you want
+  to create a deeper appreciation for where food comes from\, partake in me
+ aningful conversations\, or simply enjoy chill time outdoors\, then Pizza 
+ Retreat is here to help you connect to what matters most.\nPlease RSVP:\nh
+ ttps://cglink.me/2ob/r1630490\n\nSponsor / organizer: Student Wellness Cen
+ ter / Student Wellness Center at Dartmouth\n\nAudience: Public\n\nSource: 
+ Dartmouth\, Dartmouth Groups\n\nWhy this was included: Free Food category\
+ ; food or meal keyword in title/summary\n\nFood availability is inferred f
+ rom the source listing\; verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81981
 END:VEVENT
 END:VCALENDAR
