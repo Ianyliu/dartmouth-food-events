@@ -5,102 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Summer Wellness Bags at the FGO
-DTSTART;TZID=America/New_York:20260721T100000
-DTEND;TZID=America/New_York:20260721T140000
-DTSTAMP:20260721T114358Z
-UID:dartmouth-82092@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82092\nhttps://cglink.me/2ob/r1630591\n\nDescription:\nStop by th
- e First-Generation Office on Tuesday\, July 21\, from 10:00 AM to 2:00 PM 
- to build your own bag of summer essentials. Fill it with items like sunscr
- een\, bug wipes\, hydration supplies\, snacks\, and other warm-weather nec
- essities to help you make the most of the season. Whether you're spending 
- the day outside or preparing for your next adventure\, we've got you cover
- ed. Supplies are available while they last.\nRSVP HERE!\n\nSponsor / organ
- izer: First-Generation Office\n\nAudience: Public\n\nSource: Dartmouth\n\n
- Why this was included: food or meal keyword in title/summary\n\nFood avail
- ability is inferred from the source listing\; verify details before attend
- ing.
-LOCATION:FGO Lounge (First Floor - Sudikoff Hall)
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82092
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:26X WE Credit NYCJ MID-TERM Reflection Circle 3
-DTSTART;TZID=America/New_York:20260721T121500
-DTEND;TZID=America/New_York:20260721T131500
-DTSTAMP:20260721T114358Z
-UID:dartmouth-groups-1630462@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630462\n\nDescription:\nFor Summer 2026 term\, students reg
- istered for the NYCJ WE credit course are required to complete 2 reflectio
- n sessions before the end of term (1 mid-term reflection circle & 1 final 
- reflection circle).\nThe mid-term reflection circle must take place during
-  Weeks 4-5.\nThe final reflection circle must take place during Weeks 8-9.
- \nPlease choose the reflection circle sessions that work best for your sch
- edule.\nFood Provided (Pizza )\n\nSponsor / organizer: Academic Skills Cen
- ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
- rvice wording\; food keyword near service context\n\nFood availability is 
- inferred from the source listing\; verify details before attending.
-LOCATION:Berry 178B\, Baker Library Suite 224\,
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630462
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:26Xpressions: Tasting Tuesday
-DTSTART;TZID=America/New_York:20260721T190000
-DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260721T114358Z
-UID:dartmouth-82153@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82153\nhttps://dartmouthgroups.dartmouth.edu/opal/rsvp_boot?id=16
- 30743\n\nDescription:\nJoin us for a flavorful evening at Still North Book
- s & Bar as we explore the culinary expressions of Italy through storytelli
- ng with Italian Program Professor Danielle Callegari. Inspired by her book
- \,\nA Bite-Sized History of Italy\,\nthis interactive Tasting Tuesday invi
- tes participants to connect with Prof. Callegari on her work.\nWhether you
- 're curious about Italian cuisine\, or want to enjoy great food and conver
- sation\, this event offers a welcoming space to savor new perspectives\, o
- ne bite at a time.\nRegister here on Dartmouth Groups:\nhttps://dartmouthg
- roups.dartmouth.edu/opal/rsvp_boot?id=1630743\n\nSponsor / organizer: Offi
- ce of Pluralism and Leadership (OPAL)\n\nAudience: Alumni\, Faculty\, Post
- doc\, Staff\, Students-Graduate\, Students-Undergraduate\n\nSource: Dartmo
- uth\n\nWhy this was included: Free Food category\; food keyword near servi
- ce context\n\nFood availability is inferred from the source listing\; veri
- fy details before attending.
-LOCATION:Still North Books &amp\; Bar (3 Allen Street)
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82153
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tasting Tuesday with Prof. Daniellle Callegari
-DTSTART;TZID=America/New_York:20260721T190000
-DTEND;TZID=America/New_York:20260721T203000
-DTSTAMP:20260721T114358Z
-UID:dartmouth-groups-1630743@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630743\nhttps://stillnorthbooks.com/\n\nDescription:\nJoin 
- us for a flavorful evening at Still North Books as we explore the culinary
-  expressions of Italy through storytelling with Italian Program Professor 
- Danielle Callegari. Inspired by her book\, A Bite-Sized History of Italy\,
-  this interactive Tasting Tuesday invites participants to connect with Pro
- f. Callegari on her work.\nWhether you're curious about Italian cuisine\, 
- or want to enjoy great food and conversation\, this event offers a welcomi
- ng space to savor new perspectives\, one bite at a time.\nhttps://stillnor
- thbooks.com/\n\nSponsor / organizer: Office of Pluralism and Leadership\n\
- nSource: Dartmouth Groups\n\nWhy this was included: food or meal keyword i
- n title/summary\n\nFood availability is inferred from the source listing\;
-  verify details before attending.
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630743
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -124,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -173,10 +81,28 @@ STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=82098
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:'78/'28 Class Cookout & Concert
+DTSTART;TZID=America/New_York:20260725T123000
+DTEND;TZID=America/New_York:20260725T143000
+DTSTAMP:20260722T114354Z
+UID:dartmouth-groups-1630959@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630959\n\nDescription:\nJoin the classes of 1978 and 2028 f
+ or a joint cookout and concert! There will be live music from student and 
+ alumni bands\, catered food\, and chances to connect with alumni throughou
+ t the world!\n\nSponsor / organizer: Class of 2028\n\nSource: Dartmouth Gr
+ oups\n\nWhy this was included: food or meal keyword in title/summary\n\nFo
+ od availability is inferred from the source listing\; verify details befor
+ e attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630959
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -193,7 +119,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -230,7 +156,7 @@ BEGIN:VEVENT
 SUMMARY:Beat the Heat: Summer Safety Event
 DTSTART;TZID=America/New_York:20260728T120000
 DTEND;TZID=America/New_York:20260728T130000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-82163@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82163\n\nDescription:\nSummer's here\, and so are we — with eve
@@ -251,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -288,7 +214,7 @@ BEGIN:VEVENT
 SUMMARY:National Day Celebration
 DTSTART;TZID=America/New_York:20260730T180000
 DTEND;TZID=America/New_York:20260730T190000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-groups-1630946@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630946\n\nDescription:\nWe are hosting a meal to celebrate 
@@ -302,10 +228,56 @@ STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630946
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Crip Camp: A Disability Revolution Screening
+DTSTART;TZID=America/New_York:20260731T120000
+DTEND;TZID=America/New_York:20260731T140000
+DTSTAMP:20260722T114354Z
+UID:dartmouth-82167@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82167\nhttps://teachingandlearning.softr.app/programs-details?rec
+ ordId=recKmbkM8mziFcr33&prefill_Program=Crip%20Camp:%20A%20Disability%20Re
+ volution%20Screening%20%20(Summer-26)&hide_Status=true&prefill_Status=Regi
+ stered\n\nDescription:\nTo celebrate Disability Pride Month\, join colleag
+ ues in DCAL for a lunch screening of the documentary Crip Camp: A Disabili
+ ty Revolution with a short discussion to follow.\nAbout the documentary: A
+  groundbreaking summer camp galvanizes a group of teens with disabilities 
+ to help build a movement\, forging a new path toward greater equality.\nRe
+ gister for the screening.\n\nSponsor / organizer: Dartmouth Center for the
+  Advancement of Learning (DCAL)\n\nAudience: Faculty\, Postdoc\, Staff\, S
+ tudents-Graduate\n\nSource: Dartmouth\n\nWhy this was included: food or me
+ al keyword in title/summary\n\nFood availability is inferred from the sour
+ ce listing\; verify details before attending.
+LOCATION:DCAL Baker 102
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=82167
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New York Theatre Workshop: Public Figure
+DTSTART;TZID=America/New_York:20260801T160000
+DTEND;TZID=America/New_York:20260801T173000
+DTSTAMP:20260722T114354Z
+UID:dartmouth-81664@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81664\nhttps://hop.dartmouth.edu/events/public-figure\n\nDescript
+ ion:\nAn immersive solo show about fame\, the attention economy and babycc
+ inos—a drink you probably didn't know existed but won't be able to forge
+ t.\nPublic Figure\nis an immersive solo show about fame\, the attention ec
+ onomy and babyccinos—a drink you probably didn't know existed but will s
+ oon never be able to forget. Written by Dylan Marron. Performed by Dylan M
+ arron and\, potentially\, you.\nThis event is free but tickets are require
+ d.\nGet more info here.\n\nSponsor / organizer: Hopkins Center for the Ar
+ ts\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: food
+  or meal keyword in title/summary\n\nFood availability is inferred from th
+ e source listing\; verify details before attending.
+LOCATION:Bentley Theater\, Hopkins Center for the Arts
+STATUS:CONFIRMED
+URL:https://home.dartmouth.edu/events/event?event=81664
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -322,7 +294,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-82082@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
@@ -384,7 +356,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-82084@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
@@ -422,7 +394,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630869\n\nDescription:\nSummer term often boasts fun and gr
@@ -451,7 +423,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Retreat
 DTSTART;TZID=America/New_York:20260808T130000
 DTEND;TZID=America/New_York:20260808T180000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-81981@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81981\nhttps://cglink.me/2ob/r1630490\nhttps://dartmouthgroups.da
@@ -477,7 +449,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260809T210000
 DTEND;TZID=America/New_York:20260809T230000
-DTSTAMP:20260721T114358Z
+DTSTAMP:20260722T114354Z
 UID:dartmouth-groups-1630608@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630608\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -489,5 +461,26 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630608
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 1
+DTSTART;TZID=America/New_York:20260811T121500
+DTEND;TZID=America/New_York:20260811T131500
+DTSTAMP:20260722T114354Z
+UID:dartmouth-groups-1630463@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630463\n\nDescription:\nFor Summer 2026 term\, students reg
+ istered for the NYCJ WE credit course are required to complete 2 reflectio
+ n sessions before the end of term (1 mid-term reflection circle & 1 final 
+ reflection circle).\nThe mid-term reflection circle must take place during
+  Weeks 4-5.\nThe final reflection circle must take place during Weeks 8-9.
+ \nPlease choose the reflection circle sessions that work best for your sch
+ edule.\nFood Provided (Pizza )\n\nSponsor / organizer: Academic Skills Cen
+ ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
+ rvice wording\; food keyword near service context\n\nFood availability is 
+ inferred from the source listing\; verify details before attending.
+LOCATION:Berry 178B\, Baker Library Suite 224\,
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630463
 END:VEVENT
 END:VCALENDAR
