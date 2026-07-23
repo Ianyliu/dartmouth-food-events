@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
 DTSTART;TZID=America/New_York:20260723T120000
 DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-82102@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
@@ -32,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -84,7 +84,7 @@ BEGIN:VEVENT
 SUMMARY:'78/'28 Class Cookout & Concert
 DTSTART;TZID=America/New_York:20260725T123000
 DTEND;TZID=America/New_York:20260725T143000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630959@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630959\n\nDescription:\nJoin the classes of 1978 and 2028 f
@@ -102,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -119,7 +119,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -156,7 +156,7 @@ BEGIN:VEVENT
 SUMMARY:Beat the Heat: Summer Safety Event
 DTSTART;TZID=America/New_York:20260728T120000
 DTEND;TZID=America/New_York:20260728T130000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-82163@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82163\n\nDescription:\nSummer's here\, and so are we — with eve
@@ -177,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -214,7 +214,7 @@ BEGIN:VEVENT
 SUMMARY:National Day Celebration
 DTSTART;TZID=America/New_York:20260730T180000
 DTEND;TZID=America/New_York:20260730T190000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630946@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630946\n\nDescription:\nWe are hosting a meal to celebrate 
@@ -231,7 +231,7 @@ BEGIN:VEVENT
 SUMMARY:Crip Camp: A Disability Revolution Screening
 DTSTART;TZID=America/New_York:20260731T120000
 DTEND;TZID=America/New_York:20260731T140000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-82167@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82167\nhttps://teachingandlearning.softr.app/programs-details?rec
@@ -255,7 +255,7 @@ BEGIN:VEVENT
 SUMMARY:New York Theatre Workshop: Public Figure
 DTSTART;TZID=America/New_York:20260801T160000
 DTEND;TZID=America/New_York:20260801T173000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-81664@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81664\nhttps://hop.dartmouth.edu/events/public-figure\n\nDescript
@@ -277,7 +277,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -294,7 +294,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-82082@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
@@ -305,49 +305,53 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  and narrative\, with a special focus on crafting the opening pages of a sc
  reenplay. Whether you're interested in writing poetry\, screenplays\, or b
  oth\, you'll leave with practical strategies for getting started\, shaping
-  your first pages\, and approaching revision with fresh eyes.Visiting Poet
- s: John Wall Barger\, Elena Karina Byrne\, and Perry Janes | Moderator: Vi
- evee Francis\nSCHEDULE\n9:30-10:30 AM - John Wall Barger\n11:00 AM-12:00 P
- M - Elena Karina Byrne\n12:00-1:30 PM - Lunch provided. (Please email Laur
- a Jean Gilloux with dietary needs.)\n1:30-3:00 PM - Perry Janes\nJohn Wall
-  Barger\nis the author of seven books of poems and a collection of essays.
-  His latest book of poems\, Resurrection Pie\, just came out with LSU Pres
- s. He’s a contract editor for Frontenac House\, lives in Vermont\, and l
- ectures in the Writing Program at Dartmouth College.\nElena Karina Byrne\n
- is a screenwriter\, essayist\, reviewer\, multi-media artist\, and editor.
-  She also works as a freelance lecturer and national arts programs curator
- . Author of five collections of poetry including If This Makes You Nervous
-  (Omnidawn)\, No\, Don’t (What Books Press)\, Squander (Omnidawn)\, MASQ
- UE (Tupelo Press)\, and The Flammable Bird (Zoo Press/Tupelo Press)\, Elen
- a is a Pushcart Prize and Best American Poetry recipient. Her poems\, revi
- ews\, essays\, and interviews can be found in POETRY\, The Kenyon Review\,
-  The Paris Review\, Poetry International\, Poetry Daily\, Ploughshares\, B
- OMB\, Academy of American Poets Poem-A-Day\, and elsewhere.\nPerry Janes\n
- is the author of the poetry collection FIND ME WHEN YOU’RE READY (Curbst
- one Books/Northwestern University Press\, 2024)\, winner of the Eric Hoffe
- r Award for Poetry. A recipient of the Pushcart Prize\, his poems and shor
- t stories have appeared in POETRY\, Electric Literature\, Poem-a-Day\, Bes
- t New Poets\, The Threepenny Review\, Zyzzyva\, The Michigan Quarterly Rev
- iew\, Subtropics\, Prairie Schooner\, Beloit Poetry Journal\, The Adroit J
- ournal\, The Missouri Review\, and others. He earned his MFA in Poetry fro
- m Warren Wilson College\, and his BA from the University of Michigan\, Ann
-  Arbor\, where he was a 5-time recipient of the Hopwood Award.\nVievee Fra
- ncis\nis the author of five books of poetry: Blue-Tail Fly (2007)\, Horse 
- in the Dark (2010)\, Forest Primeval (2016)\, The Shared World (2023)\, an
- d the forthcoming Cleaning the Houses of the Dead. Born in West Texas and 
- raised in Metropolitan Detroit\, Francis has received numerous awards and 
- recognition for her work including a Guggenheim Fellowship (2024)\, a Verm
- ont Book Award (2023)\, the Aiken Taylor Award for Modern American Poetry 
- (2021)\, the Kingsley Tufts Poetry Award (2017)\, and the Hurston Wright L
- egacy Award (2016). Francis\, along with composer Jonathan Berger and arti
- st Enrico Riley\, wrote the libretto for the transdisciplinary opera The R
- itual of Breath which premiered in 2022. She has served as an Associate Ed
- itor for Callaloo and currently holds the Burlington Northern Foundation P
- rofessorship in Creative Writing at Dartmouth College.\n\nSponsor / organi
- zer: Literary Arts Bridge\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy 
- this was included: explicit food-service wording\; food keyword near servi
- ce context\n\nFood availability is inferred from the source listing\; veri
- fy details before attending.
+  your first pages\, and approaching revision with fresh eyes.\nSCHEDULE\n9
+ :30-10:30 AM - John Wall Barger:\nExploring Tarkovsky’s 1966 Soviet-Russ
+ ian film Andrei Rublev\, and poems by Marie Howe\, to show how a film is l
+ ike a poem\, and how watching great films can inspire us to write poems.\n
+ 11:00 AM-12:00 PM - Elena Karina Byrne:\nPoetry's Cinematic Propositions\;
+  how poetry and film share key elements of discovery\, utilizing the trans
+ formative ingredients of language\, action\, and image.\n12:00-1:30 PM - L
+ unch provided.\n1:30-3:00 PM - Perry Janes:\nHow the lyric image crosses f
+ rom poetry to film\, and how that can serve as an originating point for yo
+ ur screenplay\nJohn Wall Barger\nis the author of seven books of poems and
+  a collection of essays. His latest book of poems\, Resurrection Pie\, jus
+ t came out with LSU Press. He’s a contract editor for Frontenac House\, 
+ lives in Vermont\, and lectures in the Writing Program at Dartmouth Colleg
+ e.\nElena Karina Byrne\nis a screenwriter\, essayist\, reviewer\, multi-me
+ dia artist\, and editor. She also works as a freelance lecturer and nation
+ al arts programs curator. Author of five collections of poetry including I
+ f This Makes You Nervous (Omnidawn)\, No\, Don’t (What Books Press)\, Sq
+ uander (Omnidawn)\, MASQUE (Tupelo Press)\, and The Flammable Bird (Zoo Pr
+ ess/Tupelo Press)\, Elena is a Pushcart Prize and Best American Poetry rec
+ ipient. Her poems\, reviews\, essays\, and interviews can be found in POET
+ RY\, The Kenyon Review\, The Paris Review\, Poetry International\, Poetry 
+ Daily\, Ploughshares\, BOMB\, Academy of American Poets Poem-A-Day\, and e
+ lsewhere.\nPerry Janes\nis the author of the poetry collection FIND ME WHE
+ N YOU’RE READY (Curbstone Books/Northwestern University Press\, 2024)\, 
+ winner of the Eric Hoffer Award for Poetry. A recipient of the Pushcart Pr
+ ize\, his poems and short stories have appeared in POETRY\, Electric Liter
+ ature\, Poem-a-Day\, Best New Poets\, The Threepenny Review\, Zyzzyva\, Th
+ e Michigan Quarterly Review\, Subtropics\, Prairie Schooner\, Beloit Poetr
+ y Journal\, The Adroit Journal\, The Missouri Review\, and others. He earn
+ ed his MFA in Poetry from Warren Wilson College\, and his BA from the Univ
+ ersity of Michigan\, Ann Arbor\, where he was a 5-time recipient of the Ho
+ pwood Award.\nVievee Francis\nis the author of five books of poetry: Blue-
+ Tail Fly (2007)\, Horse in the Dark (2010)\, Forest Primeval (2016)\, The 
+ Shared World (2023)\, and the forthcoming Cleaning the Houses of the Dead.
+  Born in West Texas and raised in Metropolitan Detroit\, Francis has recei
+ ved numerous awards and recognition for her work including a Guggenheim Fe
+ llowship (2024)\, a Vermont Book Award (2023)\, the Aiken Taylor Award for
+  Modern American Poetry (2021)\, the Kingsley Tufts Poetry Award (2017)\, 
+ and the Hurston Wright Legacy Award (2016). Francis\, along with composer 
+ Jonathan Berger and artist Enrico Riley\, wrote the libretto for the trans
+ disciplinary opera The Ritual of Breath which premiered in 2022. She has s
+ erved as an Associate Editor for Callaloo and currently holds the Burlingt
+ on Northern Foundation Professorship in Creative Writing at Dartmouth Coll
+ ege.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudience: Public\n\nS
+ ource: Dartmouth\n\nWhy this was included: explicit food-service wording\;
+  food keyword near service context\n\nFood availability is inferred from t
+ he source listing\; verify details before attending.
 LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
 STATUS:CONFIRMED
 URL:https://home.dartmouth.edu/events/event?event=82082
@@ -356,7 +360,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-82084@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
@@ -394,7 +398,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630869\n\nDescription:\nSummer term often boasts fun and gr
@@ -423,7 +427,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Retreat
 DTSTART;TZID=America/New_York:20260808T130000
 DTEND;TZID=America/New_York:20260808T180000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-81981@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81981\nhttps://cglink.me/2ob/r1630490\nhttps://dartmouthgroups.da
@@ -449,7 +453,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260809T210000
 DTEND;TZID=America/New_York:20260809T230000
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630608@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630608\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -466,7 +470,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 1
 DTSTART;TZID=America/New_York:20260811T121500
 DTEND;TZID=America/New_York:20260811T131500
-DTSTAMP:20260722T114354Z
+DTSTAMP:20260723T114709Z
 UID:dartmouth-groups-1630463@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630463\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -482,5 +486,26 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630463
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 2
+DTSTART;TZID=America/New_York:20260812T153000
+DTEND;TZID=America/New_York:20260812T163000
+DTSTAMP:20260723T114709Z
+UID:dartmouth-groups-1630464@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630464\n\nDescription:\nFor Summer 2026 term\, students reg
+ istered for the NYCJ WE credit course are required to complete 2 reflectio
+ n sessions before the end of term (1 mid-term reflection circle & 1 final 
+ reflection circle).\nThe mid-term reflection circle must take place during
+  Weeks 4-5.\nThe final reflection circle must take place during Weeks 8-9.
+ \nPlease choose the reflection circle sessions that work best for your sch
+ edule.\nFood Provided (Pizza )\n\nSponsor / organizer: Academic Skills Cen
+ ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
+ rvice wording\; food keyword near service context\n\nFood availability is 
+ inferred from the source listing\; verify details before attending.
+LOCATION:Berry 178B\, Baker Library Suite 224\,
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630464
 END:VEVENT
 END:VCALENDAR
