@@ -5,34 +5,10 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Free Food @Dartmouth
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Lecture: “Making Together in Afro-Asian Media Worlds”
-DTSTART;TZID=America/New_York:20260723T120000
-DTEND;TZID=America/New_York:20260723T140000
-DTSTAMP:20260723T114709Z
-UID:dartmouth-82102@free-food-dartmouth
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82102\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
- d-scholars-series\n\nDescription:\nGabriel Dattatreyan\, Associate Profess
- or\, Program in Culture & Media\, Department of Anthropology\, New York Un
- iversity\, will offer a talk "Making Together in Afro-Asian Media Worlds" 
- as part of a Summer 2026's\nVisiting Artists and Scholars series\nconvene
- d by Prof. Jesse Weaver Shipley as complement to Filmmaking and Visual Cu
- lture (AAAS 88.17 / ANTH 50.21). All are welcome\, lunch will be served.\n
- Sponsored by the Department of African and African American Studies and th
- e Institute for Black Intellectual and Cultural Life.\n\nSponsor / organiz
- er: African and African-American Studies Program\n\nAudience: Public\n\nSo
- urce: Dartmouth\n\nWhy this was included: explicit food-service wording\; 
- food keyword near service context\n\nFood availability is inferred from th
- e source listing\; verify details before attending.
-LOCATION:Haldeman 246
-STATUS:CONFIRMED
-URL:https://home.dartmouth.edu/events/event?event=82102
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Writing After Dartmouth: Panel Discussion
 DTSTART;TZID=America/New_York:20260724T123000
 DTEND;TZID=America/New_York:20260724T133000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-82098@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82098\n\nDescription:\nAsk a stellar panel of recent Dartmouth al
@@ -84,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:'78/'28 Class Cookout & Concert
 DTSTART;TZID=America/New_York:20260725T123000
 DTEND;TZID=America/New_York:20260725T143000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630959@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630959\n\nDescription:\nJoin the classes of 1978 and 2028 f
@@ -102,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260726T210000
 DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630606@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630606\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -119,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-80960@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80960\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -156,7 +132,7 @@ BEGIN:VEVENT
 SUMMARY:Beat the Heat: Summer Safety Event
 DTSTART;TZID=America/New_York:20260728T120000
 DTEND;TZID=America/New_York:20260728T130000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-82163@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82163\n\nDescription:\nSummer's here\, and so are we — with eve
@@ -177,7 +153,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2 Day Training
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-80961@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
@@ -214,7 +190,7 @@ BEGIN:VEVENT
 SUMMARY:National Day Celebration
 DTSTART;TZID=America/New_York:20260730T180000
 DTEND;TZID=America/New_York:20260730T190000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630946@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630946\n\nDescription:\nWe are hosting a meal to celebrate 
@@ -231,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:Crip Camp: A Disability Revolution Screening
 DTSTART;TZID=America/New_York:20260731T120000
 DTEND;TZID=America/New_York:20260731T140000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-82167@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82167\nhttps://teachingandlearning.softr.app/programs-details?rec
@@ -255,7 +231,7 @@ BEGIN:VEVENT
 SUMMARY:New York Theatre Workshop: Public Figure
 DTSTART;TZID=America/New_York:20260801T160000
 DTEND;TZID=America/New_York:20260801T173000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-81664@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81664\nhttps://hop.dartmouth.edu/events/public-figure\n\nDescript
@@ -277,7 +253,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630607\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -294,7 +270,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-82082@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
@@ -360,7 +336,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-82084@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
@@ -398,7 +374,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630869\n\nDescription:\nSummer term often boasts fun and gr
@@ -427,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Retreat
 DTSTART;TZID=America/New_York:20260808T130000
 DTEND;TZID=America/New_York:20260808T180000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-81981@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nt?event=81981\nhttps://cglink.me/2ob/r1630490\nhttps://dartmouthgroups.da
@@ -453,7 +429,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260809T210000
 DTEND;TZID=America/New_York:20260809T230000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630608@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630608\n\nDescription:\nCome enjoy a weekly brew or two of 
@@ -470,7 +446,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 1
 DTSTART;TZID=America/New_York:20260811T121500
 DTEND;TZID=America/New_York:20260811T131500
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630463@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630463\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -491,7 +467,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 2
 DTSTART;TZID=America/New_York:20260812T153000
 DTEND;TZID=America/New_York:20260812T163000
-DTSTAMP:20260723T114709Z
+DTSTAMP:20260724T113811Z
 UID:dartmouth-groups-1630464@free-food-dartmouth
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630464\n\nDescription:\nFor Summer 2026 term\, students reg
@@ -507,5 +483,23 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630464
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spilled Ink 26X Poetry Slam
+DTSTART;TZID=America/New_York:20260813T190000
+DTEND;TZID=America/New_York:20260813T210000
+DTSTAMP:20260724T113811Z
+UID:dartmouth-groups-1630954@free-food-dartmouth
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630954\n\nDescription:\nJoin Spilled Ink for our termly poe
+ try slam featuring great poetry readings\, free food\, and good company! C
+ ome watch some amazing poetry or sign up to perform yourself! Open to camp
+ us.\n\nSponsor / organizer: Spilled Ink: A Poetry Club\n\nSource: Dartmout
+ h Groups\n\nWhy this was included: explicit food-service wording\; food or
+  meal keyword in title/summary\n\nFood availability is inferred from the s
+ ource listing\; verify details before attending.
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630954
 END:VEVENT
 END:VCALENDAR
