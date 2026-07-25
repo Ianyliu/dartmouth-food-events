@@ -6,3 +6,4 @@ def test_default_window_is_three_weeks() -> None:
 
     assert DEFAULT_WINDOW_DAYS == 21
     assert args.window_days == 21
+    assert not args.google_best_effort

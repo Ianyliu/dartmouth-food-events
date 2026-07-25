@@ -50,5 +50,5 @@ strict = true
 packages = ["free_food_dartmouth"]
 
 [tool.pytest.ini_options]
-addopts = "-q --cov=free_food_dartmouth --cov-report=term-missing"
+addopts = "-q --cov=free_food_dartmouth --cov-report=term-missing --cov-fail-under=80"
 testpaths = ["tests"]

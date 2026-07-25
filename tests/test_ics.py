@@ -31,6 +31,13 @@ def test_generated_calendar_has_unique_stable_uids_and_all_day_dates() -> None:
     payload = build_calendar(events, datetime(2026, 7, 1, tzinfo=EASTERN)).to_ical()
     parsed = Calendar.from_ical(payload)
     components = [item for item in parsed.walk() if item.name == "VEVENT"]
+    timezones = [item for item in parsed.walk() if item.name == "VTIMEZONE"]
+    assert str(parsed["METHOD"]) == "PUBLISH"
+    assert parsed.decoded("REFRESH-INTERVAL") == timedelta(hours=6)
+    assert len(timezones) == 1
+    assert str(timezones[0]["TZID"]) == "America/New_York"
     assert len({str(item["UID"]) for item in components}) == 2
     assert components[1].decoded("DTSTART") == date(2026, 7, 10)
     assert str(components[1]["STATUS"]) == "TENTATIVE"
+    assert str(components[0]["TRANSP"]) == "TRANSPARENT"
+    assert str(components[0]["X-MICROSOFT-CDO-BUSYSTATUS"]) == "FREE"

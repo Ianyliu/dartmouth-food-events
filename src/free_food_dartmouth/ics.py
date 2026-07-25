@@ -2,16 +2,17 @@ from __future__ import annotations
 
 import html
 import re
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event, Timezone
 
 from free_food_dartmouth.formatting import calendar_description
 from free_food_dartmouth.models import EventRecord
 from free_food_dartmouth.utils import EASTERN
 
 CALENDAR_NAME = "Free Food @Dartmouth"
+FEED_URL = "https://ianyliu.github.io/dartmouth-food-events/free-food-dartmouth.ics"
 
 
 def build_calendar(events: list[EventRecord], generated_at: datetime) -> Calendar:
@@ -19,14 +20,30 @@ def build_calendar(events: list[EventRecord], generated_at: datetime) -> Calenda
     calendar.add("prodid", "-//Ianyliu//Free Food @Dartmouth//EN")
     calendar.add("version", "2.0")
     calendar.add("calscale", "GREGORIAN")
+    calendar.add("method", "PUBLISH")
     calendar.add("x-wr-calname", CALENDAR_NAME)
     calendar.add("x-wr-timezone", "America/New_York")
+    calendar.add("x-published-ttl", "PT6H")
+    calendar.add(
+        "refresh-interval",
+        timedelta(hours=6),
+        parameters={"VALUE": "DURATION"},
+    )
+    calendar.add_component(
+        Timezone.from_tzinfo(
+            EASTERN,
+            tzid="America/New_York",
+            first_date=date(2020, 1, 1),
+            last_date=date(2040, 1, 1),
+        )
+    )
     for item in sorted(events, key=lambda value: (str(value.start), value.title.casefold())):
         component = Event()  # type: ignore[no-untyped-call]
-        component.add(
-            "uid", f"{_safe_uid(item.uid_key or item.source_keys[0])}@free-food-dartmouth"
-        )
+        uid_key = item.uid_key or (item.source_keys[0] if item.source_keys else item.title)
+        component.add("uid", f"{_safe_uid(uid_key)}@free-food-dartmouth")
         component.add("dtstamp", generated_at)
+        component.add("last-modified", generated_at)
+        component.add("sequence", 0)
         component.add("summary", item.title)
         component.add("dtstart", item.start)
         component.add("dtend", item.end)
@@ -36,6 +53,9 @@ def build_calendar(events: list[EventRecord], generated_at: datetime) -> Calenda
         if item.primary_url:
             component.add("url", item.primary_url)
         component.add("status", "TENTATIVE" if item.tentative else "CONFIRMED")
+        component.add("class", "PUBLIC")
+        component.add("transp", "TRANSPARENT")
+        component.add("x-microsoft-cdo-busystatus", "FREE")
         calendar.add_component(component)
     return calendar
 
@@ -64,10 +84,15 @@ def write_outputs(output_dir: Path, events: list[EventRecord], generated_at: dat
 <body>
   <h1>{html.escape(CALENDAR_NAME)}</h1>
   <p>
-    A rolling three-week calendar of Dartmouth, Geisel, and Dartmouth Groups events
-    likely to offer food.
+    A rolling three-week calendar of Dartmouth, Geisel, Dartmouth Groups, and
+    Guarini events likely to offer food.
   </p>
   <p><a href="free-food-dartmouth.ics">Subscribe to or download the calendar</a></p>
+  <p>
+    Outlook: choose <strong>Add calendar → Subscribe from web</strong>, then paste
+    <code>{html.escape(FEED_URL)}</code>. Subscribing receives future updates; importing
+    the file is a one-time copy.
+  </p>
   <p class="meta">{len(events)} events · Updated {html.escape(generated)}</p>
   <p class="meta">
     Food availability is inferred. Verify the original event listing before attending.

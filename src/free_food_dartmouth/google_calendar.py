@@ -35,6 +35,7 @@ class SyncResult:
     active_events: list[EventRecord]
     inserted: int = 0
     updated: int = 0
+    unchanged: int = 0
     marked_tentative: int = 0
     deleted: int = 0
 
@@ -67,6 +68,7 @@ class GoogleCalendarSync:
         end: date,
         *,
         dry_run: bool = False,
+        scan_complete: bool = True,
     ) -> SyncResult:
         existing = self._list_managed(start, end)
         by_key: dict[str, ManagedEvent] = {}
@@ -76,7 +78,7 @@ class GoogleCalendarSync:
 
         used_ids: set[str] = set()
         active: list[EventRecord] = []
-        inserted = updated = tentative = deleted = 0
+        inserted = updated = unchanged = tentative = deleted = 0
         for event in events:
             match = next(
                 (
@@ -90,14 +92,17 @@ class GoogleCalendarSync:
                 used_ids.add(match.event_id)
                 event = event.with_uid_key(match.uid_key or event.uid_key)
                 body = self._event_body(event, missing_count=0)
-                if not dry_run:
-                    self.service.events().update(
-                        calendarId=self.calendar_id,
-                        eventId=match.event_id,
-                        body=body,
-                        sendUpdates="none",
-                    ).execute()
-                updated += 1
+                if self._event_body_matches(match.raw, body):
+                    unchanged += 1
+                else:
+                    if not dry_run:
+                        self.service.events().update(
+                            calendarId=self.calendar_id,
+                            eventId=match.event_id,
+                            body=body,
+                            sendUpdates="none",
+                        ).execute()
+                    updated += 1
             else:
                 body = self._event_body(event, missing_count=0)
                 if not dry_run:
@@ -111,6 +116,16 @@ class GoogleCalendarSync:
 
         for item in existing:
             if item.event_id in used_ids:
+                continue
+            if not scan_complete:
+                active.append(
+                    self._record_from_body(
+                        item.raw,
+                        item,
+                        reason="preserved because the latest source scan was incomplete",
+                    )
+                )
+                unchanged += 1
                 continue
             next_count = item.missing_count + 1
             if next_count >= 2:
@@ -138,10 +153,23 @@ class GoogleCalendarSync:
                     body=body,
                     sendUpdates="none",
                 ).execute()
-            active.append(self._record_from_body(body, item))
+            active.append(
+                self._record_from_body(
+                    body,
+                    item,
+                    reason="not found in the latest complete scan",
+                )
+            )
             tentative += 1
 
-        return SyncResult(active, inserted, updated, tentative, deleted)
+        return SyncResult(
+            active,
+            inserted=inserted,
+            updated=updated,
+            unchanged=unchanged,
+            marked_tentative=tentative,
+            deleted=deleted,
+        )
 
     def _list_managed(self, start: date, end: date) -> list[ManagedEvent]:
         time_min = datetime.combine(start, time.min, tzinfo=EASTERN).isoformat()
@@ -181,6 +209,7 @@ class GoogleCalendarSync:
 
     @staticmethod
     def _event_body(event: EventRecord, missing_count: int) -> dict[str, Any]:
+        uid_key = event.uid_key or (event.source_keys[0] if event.source_keys else "unkeyed-event")
         body: dict[str, Any] = {
             "summary": event.title,
             "description": calendar_description(event),
@@ -190,7 +219,7 @@ class GoogleCalendarSync:
                 "private": {
                     "managedBy": MANAGER_ID,
                     "sourceKeys": "|".join(event.source_keys),
-                    "uidKey": event.uid_key or event.source_keys[0],
+                    "uidKey": uid_key,
                     "missingCount": str(missing_count),
                     "originalTitle": event.title.removeprefix("[Possibly canceled] "),
                 }
@@ -209,7 +238,18 @@ class GoogleCalendarSync:
         return body
 
     @staticmethod
-    def _record_from_body(body: dict[str, Any], managed: ManagedEvent) -> EventRecord:
+    def _event_body_matches(current: dict[str, Any], desired: dict[str, Any]) -> bool:
+        for key in ("summary", "description", "location", "status", "start", "end"):
+            if current.get(key) != desired.get(key):
+                return False
+        current_private = current.get("extendedProperties", {}).get("private", {})
+        desired_private = desired.get("extendedProperties", {}).get("private", {})
+        return all(current_private.get(key) == value for key, value in desired_private.items())
+
+    @staticmethod
+    def _record_from_body(
+        body: dict[str, Any], managed: ManagedEvent, *, reason: str
+    ) -> EventRecord:
         start_value = body.get("start", {})
         end_value = body.get("end", {})
         if "dateTime" in start_value:
@@ -219,14 +259,16 @@ class GoogleCalendarSync:
             start = date.fromisoformat(start_value["date"])
             end = date.fromisoformat(end_value["date"])
         description = str(body.get("description", ""))
-        sources = unique(
-            [
-                "Dartmouth" if key.startswith("dartmouth:") else "Geisel"
-                for key in managed.source_keys
-            ]
+        sources = unique([GoogleCalendarSync._source_name(key) for key in managed.source_keys])
+        summary = str(body.get("summary", ""))
+        tentative = str(body.get("status", "")).casefold() == "tentative" or summary.startswith(
+            "[Possibly canceled] "
+        )
+        uid_key = managed.uid_key or (
+            managed.source_keys[0] if managed.source_keys else f"google:{managed.event_id}"
         )
         return EventRecord(
-            title=str(body.get("summary", "")),
+            title=summary,
             start=start,
             end=end,
             description="",
@@ -234,8 +276,20 @@ class GoogleCalendarSync:
             urls=unique(URL_PATTERN.findall(description)),
             source_keys=managed.source_keys,
             sources=sources,
-            match_reasons=("not found in the latest complete scan",),
-            uid_key=managed.uid_key or managed.source_keys[0],
-            tentative=True,
+            match_reasons=(reason,),
+            uid_key=uid_key,
+            tentative=tentative,
             calendar_description=description,
         )
+
+    @staticmethod
+    def _source_name(source_key: str) -> str:
+        if source_key.startswith("dartmouth-groups:"):
+            return "Dartmouth Groups"
+        if source_key.startswith("dartmouth:"):
+            return "Dartmouth"
+        if source_key.startswith("geisel:"):
+            return "Geisel"
+        if source_key.startswith("guarini:"):
+            return "Guarini"
+        return "Unknown"

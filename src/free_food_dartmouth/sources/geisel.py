@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup, Tag
 from dateutil import parser as date_parser
 
-from free_food_dartmouth.http import HttpClient, SourceFetchError
+from free_food_dartmouth.http import HttpClient
 from free_food_dartmouth.models import EventRecord, SourceScan
 from free_food_dartmouth.utils import EASTERN, clean_html, unique
 
@@ -39,12 +39,12 @@ class GeiselSource:
                         events.append(event)
                 except Exception as exc:
                     failures.append(f"{event_id}/{instance}: {exc}")
-        if failures:
-            raise SourceFetchError(
-                f"Geisel detail scan incomplete ({len(failures)} failures): "
-                + "; ".join(failures[:3])
-            )
-        return SourceScan("Geisel", tuple(events))
+        return SourceScan(
+            "Geisel",
+            tuple(events),
+            complete=not failures,
+            errors=tuple(failures),
+        )
 
     def _references(self, start: date, end: date) -> list[tuple[str, str]]:
         offset_from_sunday = (start.weekday() + 1) % 7

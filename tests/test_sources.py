@@ -10,6 +10,8 @@ from free_food_dartmouth.sources.dartmouth_groups import DETAIL_URL as GROUPS_DE
 from free_food_dartmouth.sources.dartmouth_groups import LIST_URL, DartmouthGroupsSource
 from free_food_dartmouth.sources.geisel import DETAIL_URL as GEISEL_DETAIL
 from free_food_dartmouth.sources.geisel import INDEX_URL, GeiselSource
+from free_food_dartmouth.sources.guarini import EVENTS_URL as GUARINI_EVENTS
+from free_food_dartmouth.sources.guarini import GuariniSource
 
 
 @responses.activate
@@ -109,16 +111,14 @@ def test_dartmouth_groups_paginates_and_enriches_detail_pages() -> None:
         content_type="text/html",
     )
 
-    scan = DartmouthGroupsSource(
-        HttpClient(attempts=1), workers=1, page_size=1
-    ).scan(date(2026, 7, 1), date(2026, 7, 22))
+    scan = DartmouthGroupsSource(HttpClient(attempts=1), workers=1, page_size=1).scan(
+        date(2026, 7, 1), date(2026, 7, 22)
+    )
 
     assert scan.complete
     assert len(scan.events) == 2
     picnic = next(
-        event
-        for event in scan.events
-        if event.source_keys == ("dartmouth-groups:1630485",)
+        event for event in scan.events if event.source_keys == ("dartmouth-groups:1630485",)
     )
     assert picnic.start == datetime(2026, 7, 9, 12, 0, tzinfo=picnic.start.tzinfo)
     assert picnic.end == datetime(2026, 7, 9, 13, 0, tzinfo=picnic.end.tzinfo)
@@ -129,3 +129,86 @@ def test_dartmouth_groups_paginates_and_enriches_detail_pages() -> None:
     assert picnic.categories == ("Social", "free food")
     assert "Food Provided" in picnic.description
     assert "https://forms.example.edu/picnic" in picnic.urls
+
+
+@responses.activate
+def test_dartmouth_groups_falls_back_when_detail_redirects_to_external_form() -> None:
+    external_url = "https://docs.google.com/forms/example/viewform"
+    responses.get(
+        LIST_URL,
+        body=fixture_text("dartmouth_groups_external_page.json"),
+        content_type="application/json",
+    )
+    responses.get(
+        f"{GROUPS_DETAIL}?id=1630964",
+        status=302,
+        headers={"Location": external_url},
+    )
+    responses.get(
+        external_url,
+        body=fixture_text("dartmouth_groups_external_form.html"),
+        content_type="text/html",
+    )
+
+    scan = DartmouthGroupsSource(HttpClient(attempts=1), workers=1).scan(
+        date(2026, 7, 25), date(2026, 8, 15)
+    )
+
+    assert scan.complete
+    assert len(scan.events) == 1
+    event = scan.events[0]
+    assert event.start == datetime(2026, 7, 31, 8, 0, tzinfo=event.start.tzinfo)
+    assert event.end == datetime(2026, 7, 31, 17, 0, tzinfo=event.end.tzinfo)
+    assert "snacks, and lunch are included" in event.description
+    assert event.sponsor == "Office of Pluralism and Leadership"
+    assert event.categories == ("Arts & Music", "free food")
+    assert external_url in event.urls
+
+
+@responses.activate
+def test_dartmouth_groups_detail_failure_returns_incomplete_scan() -> None:
+    responses.get(
+        LIST_URL,
+        body=fixture_text("dartmouth_groups_external_page.json"),
+        content_type="application/json",
+    )
+    responses.get(f"{GROUPS_DETAIL}?id=1630964", status=500)
+
+    scan = DartmouthGroupsSource(HttpClient(attempts=1), workers=1).scan(
+        date(2026, 7, 25), date(2026, 8, 15)
+    )
+
+    assert not scan.complete
+    assert not scan.events
+    assert scan.errors and scan.errors[0].startswith("1630964:")
+
+
+@responses.activate
+def test_guarini_scan_reads_month_archive_and_detail_metadata() -> None:
+    detail_url = "https://guarinigrad.dartmouth.edu/events/2026/07/30/guarini-ice-cream-social/"
+    responses.get(
+        f"{GUARINI_EVENTS}2026/07/",
+        body=fixture_text("guarini_month.html"),
+        content_type="text/html",
+    )
+    responses.get(
+        detail_url,
+        body=fixture_text("guarini_detail.html"),
+        content_type="text/html",
+    )
+
+    scan = GuariniSource(HttpClient(attempts=1), workers=1).scan(
+        date(2026, 7, 25), date(2026, 8, 1)
+    )
+
+    assert scan.complete
+    assert len(scan.events) == 1
+    event = scan.events[0]
+    assert event.source_keys == ("guarini:47024",)
+    assert event.start == datetime(2026, 7, 30, 15, 0, tzinfo=event.start.tzinfo)
+    assert event.end == datetime(2026, 7, 30, 16, 0, tzinfo=event.end.tzinfo)
+    assert event.location == "Anonymous Hall South Lawn"
+    assert event.sponsor == "GuariniGRAD"
+    assert event.audience == "Graduate students, postdocs"
+    assert event.description == "Cool off with ice cream. Walk-ins are welcome."
+    assert "https://apply.gs.dartmouth.edu/register/?id=example" in event.urls

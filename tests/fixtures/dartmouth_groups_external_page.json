@@ -1,0 +1,20 @@
+[
+  {
+    "fields": "date_separator,eventId,eventUid,eventName,eventDates,eventCategory,eventLocation,clubId,clubLogin,clubName,eventUrl,eventTags,eventPhotoDescription,eventFlyerDescription,",
+    "counter": "1",
+    "p0": "false",
+    "p1": "1630964",
+    "p2": "e34086b4ea52dd06ee80cfae8d8a4cec",
+    "p3": "Boston Day Trip to the MFA",
+    "p4": "<p>Fri, Jul 31, 2026</p><p>8 AM &ndash; 5 PM</p>",
+    "p5": "Arts & Music",
+    "p6": "Private Location (sign in to display)",
+    "p7": "67630",
+    "p8": "OPAL",
+    "p9": "Office of Pluralism and Leadership",
+    "p10": "/rsvp_boot?id=1630964",
+    "p11": "<a>free food</a>",
+    "p12": "Join OPAL for a trip to the Museum of Fine Arts.",
+    "p13": ""
+  }
+]

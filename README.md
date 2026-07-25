@@ -1,8 +1,9 @@
 # Free Food @Dartmouth
 
-A rolling three-week calendar of Dartmouth College, Geisel School of Medicine, and
-Dartmouth Groups events that are likely to offer food. The project checks both the structured
-“Free Food” category and contextual wording in event titles, summaries, and descriptions.
+A rolling three-week calendar of Dartmouth College, Geisel School of Medicine,
+Dartmouth Groups, and Guarini School events that are likely to offer food. The project
+checks both structured “Free Food” categories and contextual wording in event titles,
+summaries, and descriptions.
 
 The generated feed is published at:
 
@@ -16,13 +17,18 @@ Food availability is inferred from public listings. Always verify the original e
    JSON-LD, categories, webpage description, and per-event ICS file are parsed.
 2. Geisel events are enumerated from the weekly calendar views and enriched from their detail pages.
 3. Dartmouth Groups events are enumerated from its public date-range JSON endpoint and enriched
-   from detail-page JSON-LD, descriptions, food notes, hosts, tags, and links.
-4. A context-aware matcher selects likely food events and rejects common false positives.
-5. Overlapping listings are merged using source IDs, external URLs, start
+   from detail-page JSON-LD, descriptions, food notes, hosts, tags, and links. If an event link
+   redirects to an external registration page, listing metadata and the external description
+   provide a safe fallback.
+4. Guarini events are enumerated from the month archives and enriched from detail pages with
+   exact times, descriptions, locations, sponsors, audiences, and registration links.
+5. A context-aware matcher selects likely food events and rejects common false positives.
+6. Overlapping listings are merged using source IDs, external URLs, start
    times, and normalized title similarity.
-6. Managed Google Calendar events are updated in place. A missing event is marked
-   `[Possibly canceled]` after one complete scan and deleted after a second.
-7. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
+7. Managed Google Calendar events are updated in place. A missing event is marked
+   `[Possibly canceled]` after one complete scan and deleted after a second. Incomplete scans
+   preserve existing events and do not advance cancellation counters.
+8. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
 
 ## Local usage
 
@@ -40,7 +46,26 @@ Available options:
 --window-days N     Change the rolling window (default: 21)
 --dry-run           Fetch and report without writes
 --no-google         Skip Google Calendar reconciliation
+--google-best-effort
+                    Keep publishing ICS if Google Calendar is temporarily unavailable
 ```
+
+## Outlook Calendar
+
+The published feed is a standards-based iCalendar subscription with Eastern timezone data and
+Outlook compatibility properties. In Outlook on the web:
+
+1. Open **Calendar → Add calendar → Subscribe from web**.
+2. Paste
+   `https://ianyliu.github.io/dartmouth-food-events/free-food-dartmouth.ics`.
+3. Name the calendar **Free Food @Dartmouth** and select **Import**.
+
+Use **Subscribe from web**, not a one-time file upload, to receive future updates. Outlook may
+take several hours to refresh an internet calendar.
+
+The public ICS feed does not depend on Dartmouth's email provider. The optional Google Calendar
+copy uses a dedicated Google service account; the scheduled workflow continues publishing the
+Outlook-compatible feed if that Google target becomes unavailable.
 
 ## Google Calendar setup
 

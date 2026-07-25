@@ -16,6 +16,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Check Eastern schedule
         id: schedule
@@ -35,10 +36,10 @@ jobs:
             echo "run=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         if: steps.schedule.outputs.run == 'true'
 
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v8
         if: steps.schedule.outputs.run == 'true'
         with:
           enable-cache: true
@@ -53,7 +54,7 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
-        run: uv run python -m free_food_dartmouth sync
+        run: uv run python -m free_food_dartmouth sync --google-best-effort
 
       - name: Commit generated feed
         if: steps.schedule.outputs.run == 'true'

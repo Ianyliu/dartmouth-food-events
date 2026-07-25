@@ -41,12 +41,12 @@ class DartmouthSource:
                         events.append(event)
                 except Exception as exc:
                     failures.append(f"{event_id}: {exc}")
-        if failures:
-            raise SourceFetchError(
-                f"Dartmouth detail scan incomplete ({len(failures)} failures): "
-                + "; ".join(failures[:3])
-            )
-        return SourceScan("Dartmouth", tuple(events))
+        return SourceScan(
+            "Dartmouth",
+            tuple(events),
+            complete=not failures,
+            errors=tuple(failures),
+        )
 
     def _event_ids(self, start: date, end: date) -> list[str]:
         limit = 100
@@ -88,13 +88,13 @@ class DartmouthSource:
             offset += limit
         return list(dict.fromkeys(ids))
 
-    def _event(self, event_id: str) -> EventRecord | None:
+    def _event(self, event_id: str) -> EventRecord:
         detail_url = f"{DETAIL_URL}?event={event_id}"
         response = self.client.get(detail_url)
         soup = BeautifulSoup(response.text, "html.parser")
         data = self._json_ld(soup)
         if not data:
-            return None
+            raise ValueError("missing event JSON-LD")
 
         component: Any | None = None
         try:

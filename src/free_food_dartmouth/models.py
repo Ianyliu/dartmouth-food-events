@@ -49,3 +49,4 @@ class SourceScan:
     source: str
     events: tuple[EventRecord, ...]
     complete: bool = True
+    errors: tuple[str, ...] = ()

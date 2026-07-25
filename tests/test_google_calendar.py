@@ -127,3 +127,36 @@ def test_reappearing_event_restores_original_title_and_status() -> None:
     assert body["summary"] == "Seminar with lunch"
     assert body["status"] == "confirmed"
     assert body["extendedProperties"]["private"]["missingCount"] == "0"
+
+
+def test_unchanged_event_does_not_issue_redundant_update() -> None:
+    body = GoogleCalendarSync._event_body(candidate(), missing_count=0)
+    body["id"] = "google-1"
+    service = FakeService([body])
+
+    result = GoogleCalendarSync(service, "calendar").reconcile(
+        [candidate()], date(2026, 7, 1), date(2026, 7, 15)
+    )
+
+    assert result.unchanged == 1
+    assert result.updated == 0
+    assert not service.resource.updated
+
+
+def test_incomplete_scan_preserves_missing_event_without_advancing_counter() -> None:
+    service = FakeService([existing()])
+
+    result = GoogleCalendarSync(service, "calendar").reconcile(
+        [],
+        date(2026, 7, 1),
+        date(2026, 7, 15),
+        scan_complete=False,
+    )
+
+    assert result.unchanged == 1
+    assert result.marked_tentative == 0
+    assert result.deleted == 0
+    assert not service.resource.updated
+    assert not service.resource.deleted
+    assert result.active_events[0].title == "Seminar with lunch"
+    assert not result.active_events[0].tentative
