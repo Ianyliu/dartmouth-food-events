@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
     paths: ["docs/**"]
+  workflow_run:
+    workflows: ["Sync calendar"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -17,6 +20,10 @@ concurrency:
 
 jobs:
   deploy:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'main')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -24,6 +31,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+        with:
+          # The sync workflow can commit generated files after its triggering SHA.
+          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
