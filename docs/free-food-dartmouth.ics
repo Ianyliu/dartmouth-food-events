@@ -40,157 +40,39 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Motivational Interviewing 2 Day Training
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-DTSTAMP:20260730T114730Z
-UID:dartmouth-80961@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=80961\nhttps://forms.gle/5DKZPUcn6VV3pGmV9\nhttps://mentalhealth.
- dartmouth.edu/strategic-plan/commitment-care\n\nDescription:\nhttps://form
- s.gle/5DKZPUcn6VV3pGmV9\n(Registration)\nSummer 2026 Motivational Intervie
- wing Training—Please register by July 15.\nThe Dialogue Project: Motivat
- ional Interviewing Two-Day Workshop\nTuesday\, July 28 and Thursday\, July
-  30\n9 a.m.–4:30 p.m. (morning refreshments available at 8:30 a.m.)\nLoc
- ation: on campus at Dartmouth College\, exact location to be determined\nT
- he Student Wellness Center\, with support from the Dialogue Project\, offe
- rs this intensive\, interactive (and fun!) two-day workshop aimed at build
- ing basic proficiency in Motivational Interviewing (MI). MI is a collabora
- tive communication style for supporting individuals through growth and cha
- nge.\nMI trainings are named in Dartmouth's\nCommitment to Care strategic 
- plan\nas “effective skill-building trainings that support high-quality m
- entoring\, advising\, and teaching.”\nThis evidence-based approach has b
- road application for working with students (and others) and can be an inst
- rumental tool for advisors\, coaches\, facilitators\, and educators. The 
- training is free and open to the entire Dartmouth community. Morning refre
- shments\, snacks\, and lunch will be provided.\nFacilitated by Caitlin Bar
- thelmes\, member of the MI Network of Trainers and LB White of the Student
-  Wellness Center.\n*Please attend both days. We offer this training twice 
- a year. If you can't commit to the full training this time\, please plan t
- o attend the event when it is offered in December 2026.\n\nSponsor / organ
- izer: Student Wellness Center\n\nAudience: Public\n\nSource: Dartmouth\n\n
- Why this was included: explicit food-service wording\; food keyword near s
- ervice context\n\nFood availability is inferred from the source listing\; 
- verify details before attending.
-LAST-MODIFIED:20260730T114730Z
-LOCATION:To be determined
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=80961
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Guarini Ice Cream Social
-DTSTART;TZID=America/New_York:20260730T150000
-DTEND;TZID=America/New_York:20260730T160000
-DTSTAMP:20260730T114730Z
-UID:guarini-47024@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
- nts/2026/07/30/guarini-ice-cream-social/\nhttps://apply.gs.dartmouth.edu/r
- egister/?id=f54ee59f-c30f-4c0a-80db-694a44f92e69\nhttps://guarinigrad.dart
- mouth.edu\n\nDescription:\nCool off by joining the GuariniGRAD community f
- or an Ice Cream Social on the Anonymous Hall South Lawn outside of Ramekin
-  Cafe. Registrations are encouraged so we can order the appropriate amount
-  of ice cream\; however walk-ins are also welcome!\nGF/LF/VG options will 
- be available while supplies last!\n\nSponsor / organizer: GuariniGRAD\n\nA
- udience: Graduate students\, postdocs\n\nSource: Guarini\n\nWhy this was i
- ncluded: food or meal keyword in title\n\nFood availability is inferred fr
- om the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
-LOCATION:Anonymous Hall South Lawn
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://guarinigrad.dartmouth.edu/events/2026/07/30/guarini-ice-cream-
- social/
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ΣΛΒ x ΑΦΑ Pickleball Tournament
-DTSTART;TZID=America/New_York:20260730T170000
-DTEND;TZID=America/New_York:20260730T190000
-DTSTAMP:20260730T114730Z
-UID:dartmouth-groups-1630971@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630971\n\nDescription:\nJoin Sigma Lambda Beta and Alpha Ph
- i Alpha for an afternoon of friendly competition\, with music and food at 
- the pickleball courts!\nWhether you're an experienced player or just picki
- ng up a paddle for the first time\, come out and enjoy some matches\, hang
-  out with friends\, and meet new people. Delicious food will be catered by
-  Boca Soca to keep everyone fueled up throughout the evening.\nThis event 
- is GLC Funded.\nFood Provided (Boca Soca )\n\nSponsor / organizer: Sigma L
- ambda Beta\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food
-  category\; explicit food-service wording\; food keyword near service cont
- ext in summary\n\nFood availability is inferred from the source listing\; 
- verify details before attending.
-LAST-MODIFIED:20260730T114730Z
-LOCATION:Pickleball Courts behind Alumni Gym\, -
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630971
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:National Day Celebration
-DTSTART;TZID=America/New_York:20260730T180000
-DTEND;TZID=America/New_York:20260730T190000
-DTSTAMP:20260730T114730Z
-UID:dartmouth-groups-1630946@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630946\n\nDescription:\nWe are hosting a meal to celebrate 
- Singapore's national (independence) day (9 August)\n\nSponsor / organizer:
-  Dartmouth Singapore Students' Association\n\nSource: Dartmouth Groups\n\n
- Why this was included: food keyword near service context in summary\n\nFoo
- d availability is inferred from the source listing\; verify details before
-  attending.
-LAST-MODIFIED:20260730T114730Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630946
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Boston Day Trip to the MFABoston
 DTSTART;TZID=America/New_York:20260731T080000
 DTEND;TZID=America/New_York:20260731T170000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630964@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  /rsvp_boot?id=1630964\nhttps://docs.google.com/forms/d/e/1FAIpQLSdMpelH0LK
- 2PeKSZGpmN52DcMVaHv1vqCVZHGw3lklw2ANuSw/viewform?usp=send_form\n\nDescript
- ion:\nRSVP is required. Event is open to all Dartmouth undergraduate\, gra
- duate and professional students\nTake a break from campus and join us for 
- a trip to the Museum of Fine Arts\, Boston! Discover everything from iconi
- c paintings and ancient artifacts to contemporary installations and intera
- ctive exhibits. Whether you're an art lover\, looking for inspiration\, or
-  just want to explore one of Boston's most famous cultural destinations wi
- th friends\, there's something for everyone. Come experience world-class a
- rt\, connect with fellow students\, and enjoy a fun day in the city!\nThe 
- Office of Pluralism & Leadership will be providing transportation to and f
- rom Boston and snacks and lunch are included\, so all you have to do is sh
- ow up and enjoy the experience. Come explore world-class art\, connect wit
- h fellow students\, and spend a fun day in the city!\nRSVP is required. Ev
- ent is open to all Dartmouth undergraduate\, graduate and professional stu
- dents.\nRegistration will close July 29th unless all spots are claimed bef
- ore then.\nWe look forward to seeing you there.\n______________________\nD
- etails at a quick glance:\nDate: Friday\, July 31\, 2026\nDeparture from c
- ampus at 8:00 AM in front of Rauner Library\nExplore MFA Boston 11:00 AM -
-  1:00 PM\nLunch at Longwood Galleria 1:00 PM - 2:30 PM\nTravel back to cam
- pus 2:30 PM\n\nSponsor / organizer: Office of Pluralism and Leadership\n\n
- Source: Dartmouth Groups\n\nWhy this was included: explicit food-service w
- ording\; food keyword near service context\n\nFood availability is inferre
- d from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+ 2PeKSZGpmN52DcMVaHv1vqCVZHGw3lklw2ANuSw/closedform\n\nDescription:\nRSVP i
+ s required. Event is open to all Dartmouth undergraduate\, graduate and pr
+ ofessional students\nTake a break from campus and join us for a trip to th
+ e Museum of Fine Arts\, Boston! Discover everything from iconic paintings 
+ and ancient artifacts to contemporary installations and interactive exhibi
+ ts. Whether you're an art lover\, looking for inspiration\, or just want t
+ o explore one of Boston's most famous cultural destinations with friends\,
+  there's something for everyone. Come experience world-class art\, connect
+  with fellow students\, and enjoy a fun day in the city!\nThe Office of Pl
+ uralism & Leadership will be providing transportation to and from Boston a
+ nd snacks and lunch are included\, so all you have to do is show up and en
+ joy the experience. Come explore world-class art\, connect with fellow stu
+ dents\, and spend a fun day in the city!\nRSVP is required. Event is open 
+ to all Dartmouth undergraduate\, graduate and professional students. Regis
+ tration will close July 29th unless all spots are claimed before then.\nWe
+  look forward to seeing you there.\n______________________\nDetails at a q
+ uick glance:\nDate: Friday\, July 31\, 2026\nDeparture from campus at 8:00
+  AM in front of Rauner Library\nExplore MFA Boston 11:00 AM - 1:00 PM\nLun
+ ch at Longwood Galleria 1:00 PM - 2:30 PM\nTravel back to campus 2:30 PM\n
+ \nSponsor / organizer: Office of Pluralism and Leadership\n\nSource: Dartm
+ outh Groups\n\nWhy this was included: explicit food-service wording\; food
+  keyword near service context\n\nFood availability is inferred from the so
+ urce listing\; verify details before attending.
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -201,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:Crip Camp: A Disability Revolution Screening
 DTSTART;TZID=America/New_York:20260731T120000
 DTEND;TZID=America/New_York:20260731T140000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-82167@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -219,7 +101,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  tudents-Graduate\n\nSource: Dartmouth\n\nWhy this was included: explicit f
  ood-service wording\n\nFood availability is inferred from the source listi
  ng\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:DCAL Baker 102
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -230,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260802T210000
 DTEND;TZID=America/New_York:20260802T230000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630607@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -240,7 +122,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -251,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:The Poetry of Cinema: a workshop
 DTSTART;TZID=America/New_York:20260803T093000
 DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-82082@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -311,7 +193,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ource: Dartmouth\n\nWhy this was included: explicit food-service wording\;
   food keyword near service context\n\nFood availability is inferred from t
  he source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -322,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:Career Research: Company & Industry Info
 DTSTART;TZID=America/New_York:20260804T120000
 DTEND;TZID=America/New_York:20260804T130000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:guarini-47023@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -340,7 +222,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Baker-Berry Library Room 180 "The Link"
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -352,7 +234,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-82084@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -384,7 +266,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  n\nWhy this was included: Free Food category\; explicit food-service wordi
  ng\; food keyword near service context in summary\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -395,7 +277,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -418,7 +300,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  e of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy this was 
  included: food keyword near service context in summary\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -429,7 +311,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Retreat
 DTSTART;TZID=America/New_York:20260808T130000
 DTEND;TZID=America/New_York:20260808T180000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-81981@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -449,7 +331,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Dartmouth\, Dartmouth Groups\n\nWhy this was included: Free Food category\
  ; food or meal keyword in title\n\nFood availability is inferred from the 
  source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -460,7 +342,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260809T210000
 DTEND;TZID=America/New_York:20260809T230000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630608@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -470,7 +352,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -481,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 1
 DTSTART;TZID=America/New_York:20260811T121500
 DTEND;TZID=America/New_York:20260811T131500
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630463@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -496,7 +378,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -507,7 +389,7 @@ BEGIN:VEVENT
 SUMMARY:Yakisoba Dinner
 DTSTART;TZID=America/New_York:20260811T180000
 DTEND;TZID=America/New_York:20260811T190000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630963@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -517,7 +399,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  Sponsor / organizer: Dartmouth Japan Society\n\nSource: Dartmouth Groups\n
  \nWhy this was included: food or meal keyword in title\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -528,7 +410,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 2
 DTSTART;TZID=America/New_York:20260812T153000
 DTEND;TZID=America/New_York:20260812T163000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630464@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -543,7 +425,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -554,7 +436,7 @@ BEGIN:VEVENT
 SUMMARY:Spilled Ink 26X Poetry Slam
 DTSTART;TZID=America/New_York:20260813T190000
 DTEND;TZID=America/New_York:20260813T210000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630954@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -567,7 +449,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ice wording\; food keyword near service context in summary\n\nFood availab
  ility is inferred from the source listing\; verify details before attendin
  g.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -578,7 +460,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260816T210000
 DTEND;TZID=America/New_York:20260816T230000
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630609@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -588,7 +470,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -599,7 +481,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 3
 DTSTART;TZID=America/New_York:20260818T121500
 DTEND;TZID=America/New_York:20260818T131500
-DTSTAMP:20260730T114730Z
+DTSTAMP:20260731T115412Z
 UID:dartmouth-groups-1630465@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -614,11 +496,41 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260730T114730Z
+LAST-MODIFIED:20260731T115412Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630465
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lecture: "Encounters: Between Art and the Politics of Curation"
+DTSTART;TZID=America/New_York:20260820T120000
+DTEND;TZID=America/New_York:20260820T140000
+DTSTAMP:20260731T115412Z
+UID:dartmouth-82105@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82105\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
+ d-scholars-series\n\nDescription:\nUgochukwu-Smooth Nzewi\,\nSteven and Li
+ sa Tananbaum Curator\, Department of Painting and Sculpture\,\nMuseum of M
+ odern Art\, New York\, will offer a lecture entitled "Encounters: Between 
+ Art and the Politics of Curation\,"\npart of a Summer 2026's\nvisiting Art
+ ists and Scholars series\nconvened by Prof. Jesse Weaver Shipley as comple
+ ment to Filmmaking and Visual Culture (AAAS 88.17 / ANTH 50.21). All are w
+ elcome\, lunch will be served. Sponsored by the Department of African and 
+ African American Studies and the Institute for Black Intellectual and Cult
+ ural Life.\n\nSponsor / organizer: African and African-American Studies Pr
+ ogram\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: F
+ ree Food category\; explicit food-service wording\; food keyword near serv
+ ice context\n\nFood availability is inferred from the source listing\; ver
+ ify details before attending.
+LAST-MODIFIED:20260731T115412Z
+LOCATION:Haldeman 246
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82105
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
