@@ -40,81 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:The Poetry of Cinema: a workshop
-DTSTART;TZID=America/New_York:20260803T093000
-DTEND;TZID=America/New_York:20260803T150000
-DTSTAMP:20260803T125210Z
-UID:dartmouth-82082@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82082\n\nDescription:\nIn this workshop\, we'll explore the creat
- ive crossroads between poetry and cinema\, and learn how poets and filmmak
- ers use image\, language\, and memory to create emotionally resonant work.
-  Drawing on poems\, screenplay excerpts\, and film clips\, we'll examine h
- ow a single lyric image can become the foundation for character\, scene\, 
- and narrative\, with a special focus on crafting the opening pages of a sc
- reenplay. Whether you're interested in writing poetry\, screenplays\, or b
- oth\, you'll leave with practical strategies for getting started\, shaping
-  your first pages\, and approaching revision with fresh eyes.\nSCHEDULE\n9
- :30-10:30 AM - John Wall Barger:\nExploring Tarkovsky’s 1966 Soviet-Russ
- ian film Andrei Rublev\, and poems by Marie Howe\, to show how a film is l
- ike a poem\, and how watching great films can inspire us to write poems.\n
- 11:00 AM-12:00 PM - Elena Karina Byrne:\nPoetry's Cinematic Propositions\;
-  how poetry and film share key elements of discovery\, utilizing the trans
- formative ingredients of language\, action\, and image.\n12:00-1:30 PM - L
- unch provided.\n1:30-3:00 PM - Perry Janes:\nHow the lyric image crosses f
- rom poetry to film\, and how that can serve as an originating point for yo
- ur screenplay\nJohn Wall Barger\nis the author of seven books of poems and
-  a collection of essays. His latest book of poems\, Resurrection Pie\, jus
- t came out with LSU Press. He’s a contract editor for Frontenac House\, 
- lives in Vermont\, and lectures in the Writing Program at Dartmouth Colleg
- e.\nElena Karina Byrne\nis a screenwriter\, essayist\, reviewer\, multi-me
- dia artist\, and editor. She also works as a freelance lecturer and nation
- al arts programs curator. Author of five collections of poetry including I
- f This Makes You Nervous (Omnidawn)\, No\, Don’t (What Books Press)\, Sq
- uander (Omnidawn)\, MASQUE (Tupelo Press)\, and The Flammable Bird (Zoo Pr
- ess/Tupelo Press)\, Elena is a Pushcart Prize and Best American Poetry rec
- ipient. Her poems\, reviews\, essays\, and interviews can be found in POET
- RY\, The Kenyon Review\, The Paris Review\, Poetry International\, Poetry 
- Daily\, Ploughshares\, BOMB\, Academy of American Poets Poem-A-Day\, and e
- lsewhere.\nPerry Janes\nis the author of the poetry collection FIND ME WHE
- N YOU’RE READY (Curbstone Books/Northwestern University Press\, 2024)\, 
- winner of the Eric Hoffer Award for Poetry. A recipient of the Pushcart Pr
- ize\, his poems and short stories have appeared in POETRY\, Electric Liter
- ature\, Poem-a-Day\, Best New Poets\, The Threepenny Review\, Zyzzyva\, Th
- e Michigan Quarterly Review\, Subtropics\, Prairie Schooner\, Beloit Poetr
- y Journal\, The Adroit Journal\, The Missouri Review\, and others. He earn
- ed his MFA in Poetry from Warren Wilson College\, and his BA from the Univ
- ersity of Michigan\, Ann Arbor\, where he was a 5-time recipient of the Ho
- pwood Award.\nVievee Francis\nis the author of five books of poetry: Blue-
- Tail Fly (2007)\, Horse in the Dark (2010)\, Forest Primeval (2016)\, The 
- Shared World (2023)\, and the forthcoming Cleaning the Houses of the Dead.
-  Born in West Texas and raised in Metropolitan Detroit\, Francis has recei
- ved numerous awards and recognition for her work including a Guggenheim Fe
- llowship (2024)\, a Vermont Book Award (2023)\, the Aiken Taylor Award for
-  Modern American Poetry (2021)\, the Kingsley Tufts Poetry Award (2017)\, 
- and the Hurston Wright Legacy Award (2016). Francis\, along with composer 
- Jonathan Berger and artist Enrico Riley\, wrote the libretto for the trans
- disciplinary opera The Ritual of Breath which premiered in 2022. She has s
- erved as an Associate Editor for Callaloo and currently holds the Burlingt
- on Northern Foundation Professorship in Creative Writing at Dartmouth Coll
- ege.\n\nSponsor / organizer: Literary Arts Bridge\n\nAudience: Public\n\nS
- ource: Dartmouth\n\nWhy this was included: explicit food-service wording\;
-  food keyword near service context\n\nFood availability is inferred from t
- he source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
-LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82082
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Career Research: Company & Industry Info
 DTSTART;TZID=America/New_York:20260804T120000
 DTEND;TZID=America/New_York:20260804T130000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:guarini-47023@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -132,7 +61,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Baker-Berry Library Room 180 "The Link"
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -144,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
 DTSTART;TZID=America/New_York:20260805T180000
 DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-82084@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -176,7 +105,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  n\nWhy this was included: Free Food category\; explicit food-service wordi
  ng\; food keyword near service context in summary\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -187,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -210,7 +139,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  e of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy this was 
  included: food keyword near service context in summary\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -221,7 +150,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Retreat
 DTSTART;TZID=America/New_York:20260808T130000
 DTEND;TZID=America/New_York:20260808T180000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-81981@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -241,7 +170,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Dartmouth\, Dartmouth Groups\n\nWhy this was included: Free Food category\
  ; food or meal keyword in title\n\nFood availability is inferred from the 
  source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -252,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260809T210000
 DTEND;TZID=America/New_York:20260809T230000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630608@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -262,7 +191,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -270,10 +199,33 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630608
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Breakfast with the Arts: Stars & Stripes – Clark Stoeckley
+DTSTART;TZID=America/New_York:20260811T083000
+DTEND;TZID=America/New_York:20260811T220000
+DTSTAMP:20260804T115913Z
+UID:dartmouth-82214@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82214\n\nDescription:\nStars & Stripes\nClark Stoeckley\nBreakfas
+ t with the Arts\nTuesday\, August 11 | 8:30 - 10 a.m. | Nearburg Gallery\,
+  VAC\nPastries and coffee provided from Lou's\n\nSponsor / organizer: Stud
+ io Art Department\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was
+  included: Free Food category\; food or meal keyword in title\n\nFood avai
+ lability is inferred from the source listing\; verify details before atten
+ ding.
+LAST-MODIFIED:20260804T115913Z
+LOCATION:Nearburg Gallery\, Visual Arts Center
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82214
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 1
 DTSTART;TZID=America/New_York:20260811T121500
 DTEND;TZID=America/New_York:20260811T131500
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630463@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -288,7 +240,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -296,31 +248,10 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630463
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Yakisoba Dinner
-DTSTART;TZID=America/New_York:20260811T180000
-DTEND;TZID=America/New_York:20260811T190000
-DTSTAMP:20260803T125210Z
-UID:dartmouth-groups-1630963@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1630963\n\nDescription:\nWe will be preparing the Japanese d
- ish known as Yakisoba from basic ingredients and serving it to campus.\n\n
- Sponsor / organizer: Dartmouth Japan Society\n\nSource: Dartmouth Groups\n
- \nWhy this was included: food or meal keyword in title\n\nFood availabilit
- y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
-LOCATION:Private Location (sign in to display)
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630963
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 2
 DTSTART;TZID=America/New_York:20260812T153000
 DTEND;TZID=America/New_York:20260812T163000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630464@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -335,7 +266,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -343,10 +274,37 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630464
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:All-House Tie Dye
+DTSTART;TZID=America/New_York:20260813T150000
+DTEND;TZID=America/New_York:20260813T160000
+DTSTAMP:20260804T115913Z
+UID:dartmouth-groups-1630952@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1630952\n\nDescription:\nJoin North Park for an all-house to
+ te bag tie dye extravaganza! Dye a bag in your house colors or a palette o
+ f your choosing. Meet new friends and enjoy an ice cream sandwich on us! W
+ e'll provide all the supplies and instructions.\nThis event is open to all
+  undergrads\, grads\, faculty\, and staff. RSVP not required but helps us 
+ get a headcount for food and supplies.\nFood Provided (Ice Cream Sandwiche
+ s)\n\nSponsor / organizer: North Park House\n\nSource: Dartmouth Groups\n\
+ nWhy this was included: Free Food category\; explicit food-service wording
+ \; food keyword near service context in summary\n\nFood availability is in
+ ferred from the source listing\; verify details before attending.
+LAST-MODIFIED:20260804T115913Z
+LOCATION:Wheeler Lawn (next to Wheeler Hall)\, 33 College St\, Hanover\, N
+ H\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630952
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Spilled Ink 26X Poetry Slam
 DTSTART;TZID=America/New_York:20260813T190000
 DTEND;TZID=America/New_York:20260813T210000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630954@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -359,7 +317,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ice wording\; food keyword near service context in summary\n\nFood availab
  ility is inferred from the source listing\; verify details before attendin
  g.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -370,7 +328,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260816T210000
 DTEND;TZID=America/New_York:20260816T230000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630609@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -380,7 +338,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -391,7 +349,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 3
 DTSTART;TZID=America/New_York:20260818T121500
 DTEND;TZID=America/New_York:20260818T131500
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630465@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -406,7 +364,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -417,7 +375,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: "Encounters: Between Art and the Politics of Curation"
 DTSTART;TZID=America/New_York:20260820T120000
 DTEND;TZID=America/New_York:20260820T140000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-82105@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -436,7 +394,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ree Food category\; explicit food-service wording\; food keyword near serv
  ice context\n\nFood availability is inferred from the source listing\; ver
  ify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Haldeman 246
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -447,7 +405,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260823T210000
 DTEND;TZID=America/New_York:20260823T230000
-DTSTAMP:20260803T125210Z
+DTSTAMP:20260804T115913Z
 UID:dartmouth-groups-1630610@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -457,7 +415,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260803T125210Z
+LAST-MODIFIED:20260804T115913Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
