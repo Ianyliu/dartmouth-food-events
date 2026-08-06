@@ -40,53 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Publishing Talk: Catherine Tudish & Peter Orner
-DTSTART;TZID=America/New_York:20260805T180000
-DTEND;TZID=America/New_York:20260805T190000
-DTSTAMP:20260805T115244Z
-UID:dartmouth-82084@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82084\n\nDescription:\nBorn into an air force family\,\nCatherine
-  Tudish\ngrew up moving from one place to the next\, living in England and
-  France\, as well as both coasts and the heartland of America. After recei
- ving a B.A. in English from Southern Illinois University and a Ph.D. in Am
- erican Studies from St. Louis University\, she began work as a teacher and
-  journalist. Her first book\, a collection of stories called\nTenney’s L
- anding\n\, was published by Scribner in 2005. Since then\, she has publish
- ed the novel\nAmerican Cream\,\nas well as numerous articles and essays in
-  regional newspapers and magazines. Her latest book\,\nA Thousand Souls: A
-  Novel\nin Stories\,\nwill be published by Acre Books in April 2026. Cathe
- rine has taught writing and literature at George Washington University\, H
- arvard\, Dartmouth\, and the Bread Loaf School of English. She lives in a 
- village in central Vermont and teaches a community writing workshop at the
-  local library.\nBorn in Chicago\,\nPeter Orner\nis the author of eight ac
- claimed books\, including\nThe Gossip Columnist's Daughter\n\;\nMaggie Bro
- wn & Others\; Love and Shame and Love\; Esther Stories\n\, finalist for th
- e PEN/Hemingway Award\; and\nAm I Alone Here?\n\, a finalist for the Natio
- nal Book Critics Circle Award. His work has appeared in\nThe New Yorker\, 
- the Paris Review\, The Believer\,\nand\nThe Best American Short Stories\n\
- , and received four Pushcart Prizes. A former Guggenheim fellow and recipi
- ent of the Rome Prize from the American Academy of Arts and Letters\, Orne
- r is professor of Creative Writing at Dartmouth College. He lives with his
-  family in Vermont\, where he's also a volunteer firefighter.\n\nSponsor /
-  organizer: Literary Arts Bridge\n\nAudience: Public\n\nSource: Dartmouth\
- n\nWhy this was included: Free Food category\; explicit food-service wordi
- ng\; food keyword near service context in summary\n\nFood availability is 
- inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
-LOCATION:Literary Arts Bridge (7 Lebanon St. Suite 105)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82084
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Xpressions of Dartmouth 2026
 DTSTART;TZID=America/New_York:20260807T140000
 DTEND;TZID=America/New_York:20260807T170000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630869@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -109,7 +66,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  e of Pluralism and Leadership\n\nSource: Dartmouth Groups\n\nWhy this was 
  included: food keyword near service context in summary\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -120,7 +77,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Retreat
 DTSTART;TZID=America/New_York:20260808T130000
 DTEND;TZID=America/New_York:20260808T180000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-81981@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -140,7 +97,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Dartmouth\, Dartmouth Groups\n\nWhy this was included: Free Food category\
  ; food or meal keyword in title\n\nFood availability is inferred from the 
  source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -151,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260809T210000
 DTEND;TZID=America/New_York:20260809T230000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630608@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -161,7 +118,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -172,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Breakfast with the Arts: Stars & Stripes – Clark Stoeckley
 DTSTART;TZID=America/New_York:20260811T083000
 DTEND;TZID=America/New_York:20260811T220000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-82214@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -184,7 +141,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   included: Free Food category\; food or meal keyword in title\n\nFood avai
  lability is inferred from the source listing\; verify details before atten
  ding.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Nearburg Gallery\, Visual Arts Center
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -195,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 1
 DTSTART;TZID=America/New_York:20260811T121500
 DTEND;TZID=America/New_York:20260811T131500
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630463@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -210,7 +167,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -221,7 +178,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 2
 DTSTART;TZID=America/New_York:20260812T153000
 DTEND;TZID=America/New_York:20260812T163000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630464@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -236,7 +193,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -247,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:Law School Application Writing Workshop
 DTSTART;TZID=America/New_York:20260812T153000
 DTEND;TZID=America/New_York:20260812T173000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-82218@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -266,7 +223,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  s was included: food keyword near service context in summary\n\nFood avail
  ability is inferred from the source listing\; verify details before attend
  ing.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Writing Center (Berry 183)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -274,10 +231,31 @@ URL:https://home.dartmouth.edu/events/event?event=82218
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dartmouth EMS Scavenger Hunt
+DTSTART;TZID=America/New_York:20260812T174500
+DTEND;TZID=America/New_York:20260812T191500
+DTSTAMP:20260806T115858Z
+UID:dartmouth-groups-1631058@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1631058\n\nDescription:\nScavenger-hunt themed training for 
+ Dartmouth EMS members\nFood Provided\n\nSponsor / organizer: Dartmouth EMS
+ \n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-servi
+ ce wording\; food keyword near service context\n\nFood availability is inf
+ erred from the source listing\; verify details before attending.
+LAST-MODIFIED:20260806T115858Z
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631058
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:All-House Tie Dye
 DTSTART;TZID=America/New_York:20260813T150000
 DTEND;TZID=America/New_York:20260813T160000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630952@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -292,7 +270,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  nWhy this was included: Free Food category\; explicit food-service wording
  \; food keyword near service context in summary\n\nFood availability is in
  ferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Wheeler Lawn (next to Wheeler Hall)\, 33 College St\, Hanover\, N
  H\, United States
 STATUS:CONFIRMED
@@ -304,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:Spilled Ink 26X Poetry Slam
 DTSTART;TZID=America/New_York:20260813T190000
 DTEND;TZID=America/New_York:20260813T210000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630954@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -317,7 +295,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ice wording\; food keyword near service context in summary\n\nFood availab
  ility is inferred from the source listing\; verify details before attendin
  g.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -328,7 +306,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260816T210000
 DTEND;TZID=America/New_York:20260816T230000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630609@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -338,7 +316,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -349,7 +327,7 @@ BEGIN:VEVENT
 SUMMARY:Yakisoba Dinner
 DTSTART;TZID=America/New_York:20260817T180000
 DTEND;TZID=America/New_York:20260817T190000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630963@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -359,7 +337,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  Sponsor / organizer: Dartmouth Japan Society\n\nSource: Dartmouth Groups\n
  \nWhy this was included: food or meal keyword in title\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -370,7 +348,7 @@ BEGIN:VEVENT
 SUMMARY:26X WE Credit NYCJ FINALS Reflection Circle 3
 DTSTART;TZID=America/New_York:20260818T121500
 DTEND;TZID=America/New_York:20260818T131500
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630465@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -385,7 +363,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ter\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit food-se
  rvice wording\; food keyword near service context\n\nFood availability is 
  inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Berry 178B\, Baker Library Suite 224\,
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -393,10 +371,40 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630465
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260806T115858Z
+UID:dartmouth-82224@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82224\nhttps://docs.google.com/spreadsheets/d/1CSDcwFdAQplJTqKE6s
+ 4KSvXqdZRRwqUP/edit?gid=965461601#gid=965461601\n\nDescription:\nIt’s ha
+ ppening again! Please join us for the second Summer Tomes\nMoby-Dick\nread
+ -athon.\nRead Me Again Ishmael: Another Moby-Dick-athon\nThursday\, August
+  20\, 9am-9pm at the Literary Arts Bridge\nFriday\, August 21\, 9am-8pm at
+  Still North\nListen to—and help the 26X Summer Tomes cohort read aloud
+ —Herman Melville’s very long\, very strange novel of monomania\, monst
+ rosity\, manly handholding\, and nautical info dumping. Sign up\nhere\nto 
+ claim your favorite chapter! Coffee\, snacks\, and supplementary cetologic
+ ally-themed activities will be provided. All are welcome!\n\nSponsor / org
+ anizer: English Department\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy
+  this was included: Free Food category\; food keyword near service context
+ \n\nFood availability is inferred from the source listing\; verify details
+  before attending.
+LAST-MODIFIED:20260806T115858Z
+LOCATION:The Literary Arts Bridge and Still North Books
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82224
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lecture: "Encounters: Between Art and the Politics of Curation"
 DTSTART;TZID=America/New_York:20260820T120000
 DTEND;TZID=America/New_York:20260820T140000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-82105@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -415,7 +423,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ree Food category\; explicit food-service wording\; food keyword near serv
  ice context\n\nFood availability is inferred from the source listing\; ver
  ify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Haldeman 246
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -423,10 +431,40 @@ URL:https://home.dartmouth.edu/events/event?event=82105
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DTSTAMP:20260806T115858Z
+UID:dartmouth-82225@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82225\nhttps://docs.google.com/spreadsheets/d/1CSDcwFdAQplJTqKE6s
+ 4KSvXqdZRRwqUP/edit?gid=965461601#gid=965461601\n\nDescription:\nIt’s ha
+ ppening again! Please join us for the second Summer Tomes\nMoby-Dick\nread
+ -athon.\nRead Me Again Ishmael: Another Moby-Dick-athon\nThursday\, August
+  20\, 9am-9pm at the Literary Arts Bridge\nFriday\, August 21\, 9am-8pm at
+  Still North\nListen to—and help the 26X Summer Tomes cohort read aloud
+ —Herman Melville’s very long\, very strange novel of monomania\, monst
+ rosity\, manly handholding\, and nautical info dumping. Sign up\nhere\nto 
+ claim your favorite chapter! Coffee\, snacks\, and supplementary cetologic
+ ally-themed activities will be provided. All are welcome!\n\nSponsor / org
+ anizer: English Department\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy
+  this was included: Free Food category\; food keyword near service context
+ \n\nFood availability is inferred from the source listing\; verify details
+  before attending.
+LAST-MODIFIED:20260806T115858Z
+LOCATION:The Literary Arts Bridge and Still North Books
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82225
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260823T210000
 DTEND;TZID=America/New_York:20260823T230000
-DTSTAMP:20260805T115244Z
+DTSTAMP:20260806T115858Z
 UID:dartmouth-groups-1630610@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -436,11 +474,62 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260805T115244Z
+LAST-MODIFIED:20260806T115858Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630610
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bingo! Welcome to Records Management 101
+DTSTART;TZID=America/New_York:20260826T133000
+DTEND;TZID=America/New_York:20260826T143000
+DTSTAMP:20260806T115858Z
+UID:dartmouth-81940@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81940\nhttps://libcal.dartmouth.edu/event/17014378\n\nDescription
+ :\nThink you know your retention schedules? Play bingo using the General R
+ etention Schedule\, build familiarity with the tool\, and make smarter kee
+ p-or-delete decisions.\n🎉 Join in person for:\n• Real daubers\n• Fr
+ ee popcorn\n• Limited-edition lenticular stickers\n• A chance to win a
+  $20 Still North gift card\nEach bingo square is a question you'll answer 
+ using the General Retention Schedule (GRS)\, Dartmouth's guide to records 
+ common across campus\, which will be accessible during the session.\n📋 
+ Sample square: How long must waivers be retained before deletion? Four yea
+ rs.\nThere will also be some time to field questions about how the GRS app
+ lies to your work.\nPlease register\nhere\n.\n\nSponsor / organizer: Libra
+ ry\n\nAudience: Staff\n\nSource: Dartmouth\n\nWhy this was included: food 
+ keyword near service context in summary\n\nFood availability is inferred f
+ rom the source listing\; verify details before attending.
+LAST-MODIFIED:20260806T115858Z
+LOCATION:Berry 180B The LINK\, Baker-Berry Library
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=81940
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:26X Midnight Breakfast
+DTSTART;TZID=America/New_York:20260826T230000
+DTEND;TZID=America/New_York:20260826T235500
+DTSTAMP:20260806T115858Z
+UID:dartmouth-groups-1631006@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1631006\n\nDescription:\nJoin your peers for breakfast made 
+ by your summer NAD Exec to celebrate the last day of classes!\n\nSponsor /
+  organizer: Native Americans at Dartmouth\n\nSource: Dartmouth Groups\n\nW
+ hy this was included: food or meal keyword in title\n\nFood availability i
+ s inferred from the source listing\; verify details before attending.
+LAST-MODIFIED:20260806T115858Z
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631006
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
