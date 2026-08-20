@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-82224@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -62,7 +62,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   this was included: Free Food category\; food keyword near service context
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:The Literary Arts Bridge and Still North Books
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:Lecture: "Encounters: Between Art and the Politics of Curation"
 DTSTART;TZID=America/New_York:20260820T120000
 DTEND;TZID=America/New_York:20260820T140000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-82105@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -92,7 +92,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ree Food category\; explicit food-service wording\; food keyword near serv
  ice context\n\nFood availability is inferred from the source listing\; ver
  ify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Haldeman 246
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -103,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:Israel's 2026: What to Expect
 DTSTART;TZID=America/New_York:20260820T163000
 DTEND;TZID=America/New_York:20260820T180000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-82260@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -118,7 +118,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  izer: Jewish Studies Program\n\nAudience: Public\n\nSource: Dartmouth\n\nW
  hy this was included: Free Food category\n\nFood availability is inferred 
  from the source listing\; verify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Haldeman Hall 41 (Kreindler Conference Hall)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-82225@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -148,7 +148,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   this was included: Free Food category\; food keyword near service context
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:The Literary Arts Bridge and Still North Books
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -159,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:Tom Dent Cabin Dinner
 DTSTART;TZID=America/New_York:20260821T160000
 DTEND;TZID=America/New_York:20260821T200000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-groups-1631292@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -173,7 +173,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  e: Dartmouth Groups\n\nWhy this was included: explicit food-service wordin
  g\; food or meal keyword in title\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -184,7 +184,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260823T210000
 DTEND;TZID=America/New_York:20260823T230000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-groups-1630610@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -194,7 +194,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -202,10 +202,10 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630610
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bingo! Welcome to Records Management 101
+SUMMARY:[Possibly canceled] Bingo! Welcome to Records Management 101
 DTSTART;TZID=America/New_York:20260826T133000
 DTEND;TZID=America/New_York:20260826T143000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-81940@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -224,9 +224,9 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ry\n\nAudience: Staff\n\nSource: Dartmouth\n\nWhy this was included: food 
  keyword near service context in summary\n\nFood availability is inferred f
  rom the source listing\; verify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Berry 180B The LINK\, Baker-Berry Library
-STATUS:CONFIRMED
+STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 URL:https://home.dartmouth.edu/events/event?event=81940
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -235,7 +235,7 @@ BEGIN:VEVENT
 SUMMARY:26X Midnight Breakfast
 DTSTART;TZID=America/New_York:20260826T230000
 DTEND;TZID=America/New_York:20260826T235500
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-groups-1631006@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -245,7 +245,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   organizer: Native Americans at Dartmouth\n\nSource: Dartmouth Groups\n\nW
  hy this was included: food or meal keyword in title\n\nFood availability i
  s inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -256,7 +256,7 @@ BEGIN:VEVENT
 SUMMARY:Nancy Grace Roman Space Telescope Launch Watch Party
 DTSTART;TZID=America/New_York:20260830T070000
 DTEND;TZID=America/New_York:20260830T080000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:dartmouth-82231@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -270,7 +270,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Wilder Hall 111
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -281,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260819T102101Z
+DTSTAMP:20260820T102158Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -308,12 +308,34 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260819T102101Z
+LAST-MODIFIED:20260820T102158Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://guarinigrad.dartmouth.edu/events/2026/09/03/guarini-walk-aroun
  d-occom-pond-7/
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First Dinner
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T203000
+DTSTAMP:20260820T102158Z
+UID:dartmouth-82284@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82284\n\nDescription:\nWe're welcoming new students to Dartmouth 
+ with a delicious meal!\n\nSponsor / organizer: Dining Services (DDS)\n\nAu
+ dience: Alumni\, Faculty\, Postdoc\, Public\, Staff\, Students-Graduate\, 
+ Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
+  or meal keyword in title\n\nFood availability is inferred from the source
+  listing\; verify details before attending.
+LAST-MODIFIED:20260820T102158Z
+LOCATION:The Class of 1953 Commons
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82284
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
