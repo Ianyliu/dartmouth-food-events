@@ -41,95 +41,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-DTSTAMP:20260820T102158Z
-UID:dartmouth-82224@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82224\nhttps://docs.google.com/spreadsheets/d/1CSDcwFdAQplJTqKE6s
- 4KSvXqdZRRwqUP/edit?gid=965461601#gid=965461601\n\nDescription:\nIt’s ha
- ppening again! Please join us for the second Summer Tomes\nMoby-Dick\nread
- -athon.\nRead Me Again Ishmael: Another Moby-Dick-athon\nThursday\, August
-  20\, 9am-9pm at the Literary Arts Bridge\nFriday\, August 21\, 9am-8pm at
-  Still North\nListen to—and help the 26X Summer Tomes cohort read aloud
- —Herman Melville’s very long\, very strange novel of monomania\, monst
- rosity\, manly handholding\, and nautical info dumping. Sign up\nhere\nto 
- claim your favorite chapter! Coffee\, snacks\, and supplementary cetologic
- ally-themed activities will be provided. All are welcome!\n\nSponsor / org
- anizer: English Department\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy
-  this was included: Free Food category\; food keyword near service context
- \n\nFood availability is inferred from the source listing\; verify details
-  before attending.
-LAST-MODIFIED:20260820T102158Z
-LOCATION:The Literary Arts Bridge and Still North Books
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82224
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lecture: "Encounters: Between Art and the Politics of Curation"
-DTSTART;TZID=America/New_York:20260820T120000
-DTEND;TZID=America/New_York:20260820T140000
-DTSTAMP:20260820T102158Z
-UID:dartmouth-82105@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82105\nhttps://aaas.dartmouth.edu/news/2026/07/visiting-artist-an
- d-scholars-series\n\nDescription:\nUgochukwu-Smooth Nzewi\,\nSteven and Li
- sa Tananbaum Curator\, Department of Painting and Sculpture\,\nMuseum of M
- odern Art\, New York\, will offer a lecture entitled "Encounters: Between 
- Art and the Politics of Curation\,"\npart of a Summer 2026's\nvisiting Art
- ists and Scholars series\nconvened by Prof. Jesse Weaver Shipley as comple
- ment to Filmmaking and Visual Culture (AAAS 88.17 / ANTH 50.21). All are w
- elcome\, lunch will be served. Sponsored by the Department of African and 
- African American Studies and the Institute for Black Intellectual and Cult
- ural Life.\n\nSponsor / organizer: African and African-American Studies Pr
- ogram\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: F
- ree Food category\; explicit food-service wording\; food keyword near serv
- ice context\n\nFood availability is inferred from the source listing\; ver
- ify details before attending.
-LAST-MODIFIED:20260820T102158Z
-LOCATION:Haldeman 246
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82105
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Israel's 2026: What to Expect
-DTSTART;TZID=America/New_York:20260820T163000
-DTEND;TZID=America/New_York:20260820T180000
-DTSTAMP:20260820T102158Z
-UID:dartmouth-82260@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82260\n\nDescription:\nIn less than three months\, Israel will go
-  to the polls\, in what is expected to be the most polarising elections in
-  the country's history\, amidst open ended conflicts in Gaza\, Lebanon and
-  with Iran. Public opinion polls suggest the long-term Prime minister Neta
- nyahu is facing electoral defeat. What are the stakes of this election? Wh
- at role do the October 7 attack\, and Israel's three-year war ever since\,
-  play in the elections? And what change can they bring?\n\nSponsor / organ
- izer: Jewish Studies Program\n\nAudience: Public\n\nSource: Dartmouth\n\nW
- hy this was included: Free Food category\n\nFood availability is inferred 
- from the source listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
-LOCATION:Haldeman Hall 41 (Kreindler Conference Hall)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82260
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:dartmouth-82225@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -148,7 +62,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   this was included: Free Food category\; food keyword near service context
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:The Literary Arts Bridge and Still North Books
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -159,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:Tom Dent Cabin Dinner
 DTSTART;TZID=America/New_York:20260821T160000
 DTEND;TZID=America/New_York:20260821T200000
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:dartmouth-groups-1631292@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -173,7 +87,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  e: Dartmouth Groups\n\nWhy this was included: explicit food-service wordin
  g\; food or meal keyword in title\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -184,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260823T210000
 DTEND;TZID=America/New_York:20260823T230000
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:dartmouth-groups-1630610@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -194,7 +108,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -202,40 +116,10 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1630610
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Bingo! Welcome to Records Management 101
-DTSTART;TZID=America/New_York:20260826T133000
-DTEND;TZID=America/New_York:20260826T143000
-DTSTAMP:20260820T102158Z
-UID:dartmouth-81940@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=81940\nhttps://libcal.dartmouth.edu/event/17014378\n\nDescription
- :\nThink you know your retention schedules? Play bingo using the General R
- etention Schedule\, build familiarity with the tool\, and make smarter kee
- p-or-delete decisions.\n🎉 Join in person for:\n• Real daubers\n• Fr
- ee popcorn\n• Limited-edition lenticular stickers\n• A chance to win a
-  $20 Still North gift card\nEach bingo square is a question you'll answer 
- using the General Retention Schedule (GRS)\, Dartmouth's guide to records 
- common across campus\, which will be accessible during the session.\n📋 
- Sample square: How long must waivers be retained before deletion? Four yea
- rs.\nThere will also be some time to field questions about how the GRS app
- lies to your work.\nPlease register\nhere\n.\n\nSponsor / organizer: Libra
- ry\n\nAudience: Staff\n\nSource: Dartmouth\n\nWhy this was included: food 
- keyword near service context in summary\n\nFood availability is inferred f
- rom the source listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
-LOCATION:Berry 180B The LINK\, Baker-Berry Library
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=81940
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:26X Midnight Breakfast
 DTSTART;TZID=America/New_York:20260826T230000
 DTEND;TZID=America/New_York:20260826T235500
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:dartmouth-groups-1631006@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -245,7 +129,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   organizer: Native Americans at Dartmouth\n\nSource: Dartmouth Groups\n\nW
  hy this was included: food or meal keyword in title\n\nFood availability i
  s inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -256,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:Nancy Grace Roman Space Telescope Launch Watch Party
 DTSTART;TZID=America/New_York:20260830T070000
 DTEND;TZID=America/New_York:20260830T080000
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:dartmouth-82231@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -270,7 +154,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:Wilder Hall 111
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -281,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -308,7 +192,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -320,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:First Dinner
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T203000
-DTSTAMP:20260820T102158Z
+DTSTAMP:20260821T102203Z
 UID:dartmouth-82284@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -331,11 +215,37 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
   or meal keyword in title\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20260820T102158Z
+LAST-MODIFIED:20260821T102203Z
 LOCATION:The Class of 1953 Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://home.dartmouth.edu/events/event?event=82284
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Student Open House Fall 2026 - The Department of History
+DTSTART;TZID=America/New_York:20260910T100000
+DTEND;TZID=America/New_York:20260910T110000
+DTSTAMP:20260821T102203Z
+UID:dartmouth-81706@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81706\n\nDescription:\nNew Student Open House Fall 2026 -\nHaldem
+ an Center\, Room 126\, Russo Gallery\nHistory Faculty and students welcome
+  new students to the Department - and to campus!\nCome to have a coffee\
+ , a snack and to talk with faculty about History courses\, the History Ho
+ nors program\, student research opportunities\, and study abroad opportuni
+ ties in London.\n\nSponsor / organizer: History Department\n\nAudience: Al
+ umni\, Faculty\, Postdoc\, Staff\, Students-Graduate\, Students-Undergradu
+ ate\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nF
+ ood availability is inferred from the source listing\; verify details befo
+ re attending.
+LAST-MODIFIED:20260821T102203Z
+LOCATION:Haldeman Center\, Room 126\, Russo Gallery
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=81706
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
