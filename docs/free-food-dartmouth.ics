@@ -40,65 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Read Me Again Ishmael: Another Moby-Dick-athon
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-DTSTAMP:20260821T102203Z
-UID:dartmouth-82225@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82225\nhttps://docs.google.com/spreadsheets/d/1CSDcwFdAQplJTqKE6s
- 4KSvXqdZRRwqUP/edit?gid=965461601#gid=965461601\n\nDescription:\nIt’s ha
- ppening again! Please join us for the second Summer Tomes\nMoby-Dick\nread
- -athon.\nRead Me Again Ishmael: Another Moby-Dick-athon\nThursday\, August
-  20\, 9am-9pm at the Literary Arts Bridge\nFriday\, August 21\, 9am-8pm at
-  Still North\nListen to—and help the 26X Summer Tomes cohort read aloud
- —Herman Melville’s very long\, very strange novel of monomania\, monst
- rosity\, manly handholding\, and nautical info dumping. Sign up\nhere\nto 
- claim your favorite chapter! Coffee\, snacks\, and supplementary cetologic
- ally-themed activities will be provided. All are welcome!\n\nSponsor / org
- anizer: English Department\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy
-  this was included: Free Food category\; food keyword near service context
- \n\nFood availability is inferred from the source listing\; verify details
-  before attending.
-LAST-MODIFIED:20260821T102203Z
-LOCATION:The Literary Arts Bridge and Still North Books
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82225
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tom Dent Cabin Dinner
-DTSTART;TZID=America/New_York:20260821T160000
-DTEND;TZID=America/New_York:20260821T200000
-DTSTAMP:20260821T102203Z
-UID:dartmouth-groups-1631292@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1631292\n\nDescription:\nThe Korean Student Association is l
- ooking to host our Tom Dent Cabin event on Friday August 21st. Tom Dent Ca
- bin Night involves bonding exercises\, working to help new members feel in
- tegrated to the club and to foster a sense of community. Traditional Korea
- n food will be provided\, and the event is open for anyone interested in K
- SA to attend.\n\nSponsor / organizer: Korean Students Association\n\nSourc
- e: Dartmouth Groups\n\nWhy this was included: explicit food-service wordin
- g\; food or meal keyword in title\n\nFood availability is inferred from th
- e source listing\; verify details before attending.
-LAST-MODIFIED:20260821T102203Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631292
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260823T210000
 DTEND;TZID=America/New_York:20260823T230000
-DTSTAMP:20260821T102203Z
+DTSTAMP:20260822T101523Z
 UID:dartmouth-groups-1630610@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -108,7 +53,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260821T102203Z
+LAST-MODIFIED:20260822T101523Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -119,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:26X Midnight Breakfast
 DTSTART;TZID=America/New_York:20260826T230000
 DTEND;TZID=America/New_York:20260826T235500
-DTSTAMP:20260821T102203Z
+DTSTAMP:20260822T101523Z
 UID:dartmouth-groups-1631006@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -129,7 +74,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   organizer: Native Americans at Dartmouth\n\nSource: Dartmouth Groups\n\nW
  hy this was included: food or meal keyword in title\n\nFood availability i
  s inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260821T102203Z
+LAST-MODIFIED:20260822T101523Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -140,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY:Nancy Grace Roman Space Telescope Launch Watch Party
 DTSTART;TZID=America/New_York:20260830T070000
 DTEND;TZID=America/New_York:20260830T080000
-DTSTAMP:20260821T102203Z
+DTSTAMP:20260822T101523Z
 UID:dartmouth-82231@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -154,7 +99,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20260821T102203Z
+LAST-MODIFIED:20260822T101523Z
 LOCATION:Wilder Hall 111
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -165,7 +110,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260821T102203Z
+DTSTAMP:20260822T101523Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -192,7 +137,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260821T102203Z
+LAST-MODIFIED:20260822T101523Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -201,10 +146,32 @@ URL:https://guarinigrad.dartmouth.edu/events/2026/09/03/guarini-walk-aroun
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2026 Midterms - NH Primary Watch
+DTSTART;TZID=America/New_York:20260908T180000
+DTEND;TZID=America/New_York:20260908T210000
+DTSTAMP:20260822T101523Z
+UID:dartmouth-82335@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82335\n\nDescription:\nJoin the Rockefeller Center to watch cove
+ rage of the 2026 Midterm Election New Hampshire primaries. Food and bevera
+ ge will be provided.\n\nSponsor / organizer: Rockefeller Center\n\nAudienc
+ e: Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food categor
+ y\; food keyword near service context\n\nFood availability is inferred fro
+ m the source listing\; verify details before attending.
+LAST-MODIFIED:20260822T101523Z
+LOCATION:Hinman Forum\, Rockefeller Center
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82335
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:First Dinner
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T203000
-DTSTAMP:20260821T102203Z
+DTSTAMP:20260822T101523Z
 UID:dartmouth-82284@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -215,7 +182,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
   or meal keyword in title\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20260821T102203Z
+LAST-MODIFIED:20260822T101523Z
 LOCATION:The Class of 1953 Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -226,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:New Student Open House Fall 2026 - The Department of History
 DTSTART;TZID=America/New_York:20260910T100000
 DTEND;TZID=America/New_York:20260910T110000
-DTSTAMP:20260821T102203Z
+DTSTAMP:20260822T101523Z
 UID:dartmouth-81706@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -241,7 +208,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ate\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20260821T102203Z
+LAST-MODIFIED:20260822T101523Z
 LOCATION:Haldeman Center\, Room 126\, Russo Gallery
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
