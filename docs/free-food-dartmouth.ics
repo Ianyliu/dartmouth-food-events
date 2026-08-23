@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea Brew!
 DTSTART;TZID=America/New_York:20260823T210000
 DTEND;TZID=America/New_York:20260823T230000
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:dartmouth-groups-1630610@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -53,7 +53,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  dergraduate Tea Enthusiasts At Dartmouth\n\nSource: Dartmouth Groups\n\nWh
  y this was included: food or meal keyword in title\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:26X Midnight Breakfast
 DTSTART;TZID=America/New_York:20260826T230000
 DTEND;TZID=America/New_York:20260826T235500
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:dartmouth-groups-1631006@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -74,7 +74,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   organizer: Native Americans at Dartmouth\n\nSource: Dartmouth Groups\n\nW
  hy this was included: food or meal keyword in title\n\nFood availability i
  s inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -85,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY:Nancy Grace Roman Space Telescope Launch Watch Party
 DTSTART;TZID=America/New_York:20260830T070000
 DTEND;TZID=America/New_York:20260830T080000
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:dartmouth-82231@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -99,7 +99,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:Wilder Hall 111
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -110,7 +110,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -137,7 +137,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Midterms - NH Primary Watch
 DTSTART;TZID=America/New_York:20260908T180000
 DTEND;TZID=America/New_York:20260908T210000
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:dartmouth-82335@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -160,7 +160,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  e: Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food categor
  y\; food keyword near service context\n\nFood availability is inferred fro
  m the source listing\; verify details before attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:Hinman Forum\, Rockefeller Center
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -171,7 +171,7 @@ BEGIN:VEVENT
 SUMMARY:First Dinner
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T203000
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:dartmouth-82284@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -182,7 +182,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
   or meal keyword in title\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:The Class of 1953 Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -193,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:New Student Open House Fall 2026 - The Department of History
 DTSTART;TZID=America/New_York:20260910T100000
 DTEND;TZID=America/New_York:20260910T110000
-DTSTAMP:20260822T101523Z
+DTSTAMP:20260823T101544Z
 UID:dartmouth-81706@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -208,7 +208,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ate\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20260822T101523Z
+LAST-MODIFIED:20260823T101544Z
 LOCATION:Haldeman Center\, Room 126\, Russo Gallery
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
