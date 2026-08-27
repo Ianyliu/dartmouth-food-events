@@ -40,31 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:26X Midnight Breakfast
-DTSTART;TZID=America/New_York:20260826T230000
-DTEND;TZID=America/New_York:20260826T235500
-DTSTAMP:20260826T102720Z
-UID:dartmouth-groups-1631006@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1631006\n\nDescription:\nJoin your peers for breakfast made 
- by your summer NAD Exec to celebrate the last day of classes!\n\nSponsor /
-  organizer: Native Americans at Dartmouth\n\nSource: Dartmouth Groups\n\nW
- hy this was included: food or meal keyword in title\n\nFood availability i
- s inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631006
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nancy Grace Roman Space Telescope Launch Watch Party
 DTSTART;TZID=America/New_York:20260830T070000
 DTEND;TZID=America/New_York:20260830T080000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82231@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -78,7 +57,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:Wilder Hall 111
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -89,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -116,7 +95,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -125,10 +104,57 @@ URL:https://guarinigrad.dartmouth.edu/events/2026/09/03/guarini-walk-aroun
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Public Talk: The Rise of Civilizational Narratives in Contemporary
+  China
+DTSTART;TZID=America/New_York:20260908T120000
+DTEND;TZID=America/New_York:20260908T133000
+DTSTAMP:20260827T200510Z
+UID:dartmouth-82429@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82429\n\nDescription:\nThe department of history is pleased to an
+ nounce the following talk by Prof. Dominic Sachsenmaier (University of Gö
+ ttingen): The Rise of Civilizational Narratives in Contemporary China: Glo
+ bal Contexts and Historical Genealogies.\nSponsored by:\nThe Harris Progra
+ m\nLunch will be provided. Please RSVP to Megan Yeo (Megan.G.Yeo@dartmouth
+ .edu).\nAbstract:\nDuring the past two decades\, the concept of “civiliz
+ ation” has regained prominence in China: state authorities\, the media\,
+  and academic circles frequently invoke the notion of Chinese civilization
+  (wenming). In a first step\, this talk examines selected variants of this
+  renewed civilizational discourse and the groups that promote them. In a s
+ econd step\, it reflects on the historical genealogies and more recent dri
+ vers of civilizational narratives in China. Finally\, it seeks to situate 
+ developments in China within broader global trends: in many parts of the w
+ orld\, “civilization” has once again become a socially contested and p
+ olitically mobilized term.\nSpeaker Biography:\nDominic Sachsenmaier is a 
+ chair professor of “Modern China with a Special Emphasis on Global Histo
+ rical Perspectives”. Before coming to Göttingen\, he held faculty posit
+ ions at Jacobs University\, Duke University and UC Santa Barbara. Dominic 
+ Sachsenmaier is an elected member of the European Academy of Sciences and 
+ Arts and he is also one of the three editors of the book series „Columbi
+ a Studies in International and Global History“ (Columbia UP). His main r
+ esearch interests include China’s transnational and global connections i
+ n the past and present. For instance\, he authored the monographs “Globa
+ l Perspectives on Global History” (Cambridge UP\, 2011)\, and “Global 
+ Entanglements of a Man Who Never Traveled” (Columbia UP\, 2018). His new
+  book (“Modern China and its Worlds”) will be published by Cambridge U
+ niversity Press in 2027.\n\nSponsor / organizer: History Department\n\nAud
+ ience: Public\n\nSource: Dartmouth\n\nWhy this was included: explicit food
+ -service wording\; food keyword near service context\n\nFood availability 
+ is inferred from the source listing\; verify details before attending.
+LAST-MODIFIED:20260827T200510Z
+LOCATION:Carson Hall 312
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82429
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2026 Midterms - NH Primary Watch
 DTSTART;TZID=America/New_York:20260908T180000
 DTEND;TZID=America/New_York:20260908T210000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82335@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -139,7 +165,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  e: Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food categor
  y\; food keyword near service context\n\nFood availability is inferred fro
  m the source listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:Hinman Forum\, Rockefeller Center
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -150,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:First Dinner
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T203000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82284@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -161,7 +187,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
   or meal keyword in title\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:The Class of 1953 Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -172,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:New Student Open House Fall 2026 - The Department of History
 DTSTART;TZID=America/New_York:20260910T100000
 DTEND;TZID=America/New_York:20260910T110000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-81706@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -187,7 +213,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ate\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:Haldeman Center\, Room 126\, Russo Gallery
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -198,7 +224,7 @@ BEGIN:VEVENT
 SUMMARY:Speed Mentoring: Explore Your Path
 DTSTART;TZID=America/New_York:20260914T100000
 DTEND;TZID=America/New_York:20260914T140000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82324@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -215,7 +241,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nts-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food keyw
  ord near service context\n\nFood availability is inferred from the source 
  listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -226,7 +252,7 @@ BEGIN:VEVENT
 SUMMARY:Community Lunch
 DTSTART;TZID=America/New_York:20260914T113000
 DTEND;TZID=America/New_York:20260914T140000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82245@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -239,7 +265,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\
  ; food or meal keyword in title\n\nFood availability is inferred from the 
  source listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:Dartmouth Green
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -250,7 +276,7 @@ BEGIN:VEVENT
 SUMMARY:Arts & Creative Launch Social
 DTSTART;TZID=America/New_York:20260915T133000
 DTEND;TZID=America/New_York:20260915T153000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82325@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -266,7 +292,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  reer Design\n\nAudience: Students-Undergraduate\n\nSource: Dartmouth\n\nWh
  y this was included: food keyword near service context\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -277,7 +303,7 @@ BEGIN:VEVENT
 SUMMARY:Season Kickoff Party
 DTSTART;TZID=America/New_York:20260915T170000
 DTEND;TZID=America/New_York:20260915T190000
-DTSTAMP:20260826T102720Z
+DTSTAMP:20260827T200510Z
 UID:dartmouth-82350@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -293,11 +319,39 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ed: Free Food category\; explicit food-service wording\; food keyword near
   service context\n\nFood availability is inferred from the source listing\
  ; verify details before attending.
-LAST-MODIFIED:20260826T102720Z
+LAST-MODIFIED:20260827T200510Z
 LOCATION:Top of the Hop\, Hopkins Center for the Arts
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://home.dartmouth.edu/events/event?event=82350
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Good & Green Launch Social
+DTSTART;TZID=America/New_York:20260916T133000
+DTEND;TZID=America/New_York:20260916T153000
+DTSTAMP:20260827T200510Z
+UID:dartmouth-82326@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82326\nhttps://careerdesign.dartmouth.edu/channels/good-green/\nh
+ ttps://bit.ly/4zwK5hu\n\nDescription:\nStart the year strong with your\nGo
+ od & Green Career Community\n! Meet your Career & Life Design Coach\, Bran
+ don Green\, representatives from the Sustainability Office\, Dartmouth Cen
+ ter for Social Impact (DCSI)\, and Irving Institute\, and other students w
+ ho share your interests. You'll also discover the opportunities and off-ca
+ mpus treks lined up for the year! Snacks\, drinks\, and prizes provided.\n
+ The first 30 students who attend get a free T-shirt!\nRegister\nin Handsha
+ ke\n.\n\nSponsor / organizer: Dartmouth Center for Career Design\n\nAudien
+ ce: Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: 
+ food keyword near service context\n\nFood availability is inferred from th
+ e source listing\; verify details before attending.
+LAST-MODIFIED:20260827T200510Z
+LOCATION:001 Lower McNutt Hall
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82326
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
