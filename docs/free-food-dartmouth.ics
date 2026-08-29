@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Nancy Grace Roman Space Telescope Launch Watch Party
 DTSTART;TZID=America/New_York:20260830T070000
 DTEND;TZID=America/New_York:20260830T080000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82231@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -57,7 +57,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Wilder Hall 111
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -68,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -95,7 +95,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -108,7 +108,7 @@ SUMMARY:Public Talk: The Rise of Civilizational Narratives in Contemporary
   China
 DTSTART;TZID=America/New_York:20260908T120000
 DTEND;TZID=America/New_York:20260908T133000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82429@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -143,7 +143,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ience: Public\n\nSource: Dartmouth\n\nWhy this was included: explicit food
  -service wording\; food keyword near service context\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Carson Hall 312
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -154,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Midterms - NH Primary Watch
 DTSTART;TZID=America/New_York:20260908T180000
 DTEND;TZID=America/New_York:20260908T210000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82335@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -165,7 +165,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  e: Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food categor
  y\; food keyword near service context\n\nFood availability is inferred fro
  m the source listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Hinman Forum\, Rockefeller Center
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -176,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:First Dinner
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T203000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82284@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -187,7 +187,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
   or meal keyword in title\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:The Class of 1953 Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -198,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:New Student Open House Fall 2026 - The Department of History
 DTSTART;TZID=America/New_York:20260910T100000
 DTEND;TZID=America/New_York:20260910T110000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-81706@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -213,7 +213,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ate\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Haldeman Center\, Room 126\, Russo Gallery
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -224,7 +224,7 @@ BEGIN:VEVENT
 SUMMARY:Speed Mentoring: Explore Your Path
 DTSTART;TZID=America/New_York:20260914T100000
 DTEND;TZID=America/New_York:20260914T140000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82324@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -241,7 +241,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nts-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food keyw
  ord near service context\n\nFood availability is inferred from the source 
  listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -252,7 +252,7 @@ BEGIN:VEVENT
 SUMMARY:Community Lunch
 DTSTART;TZID=America/New_York:20260914T113000
 DTEND;TZID=America/New_York:20260914T140000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82245@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -265,7 +265,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\
  ; food or meal keyword in title\n\nFood availability is inferred from the 
  source listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Dartmouth Green
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -276,7 +276,7 @@ BEGIN:VEVENT
 SUMMARY:Arts & Creative Launch Social
 DTSTART;TZID=America/New_York:20260915T133000
 DTEND;TZID=America/New_York:20260915T153000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82325@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -292,7 +292,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  reer Design\n\nAudience: Students-Undergraduate\n\nSource: Dartmouth\n\nWh
  y this was included: food keyword near service context\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -303,7 +303,7 @@ BEGIN:VEVENT
 SUMMARY:Season Kickoff Party
 DTSTART;TZID=America/New_York:20260915T170000
 DTEND;TZID=America/New_York:20260915T190000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82350@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -319,7 +319,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ed: Free Food category\; explicit food-service wording\; food keyword near
   service context\n\nFood availability is inferred from the source listing\
  ; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Top of the Hop\, Hopkins Center for the Arts
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -330,7 +330,7 @@ BEGIN:VEVENT
 SUMMARY:Good & Green Launch Social
 DTSTART;TZID=America/New_York:20260916T133000
 DTEND;TZID=America/New_York:20260916T153000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82326@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -347,7 +347,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ce: Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: 
  food keyword near service context\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -358,7 +358,7 @@ BEGIN:VEVENT
 SUMMARY:Launch Block Party
 DTSTART;TZID=America/New_York:20260917T110000
 DTEND;TZID=America/New_York:20260917T143000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82327@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -375,7 +375,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \n\nWhy this was included: food keyword near service context in summary\n\
  nFood availability is inferred from the source listing\; verify details be
  fore attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Mass Row
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -386,7 +386,7 @@ BEGIN:VEVENT
 SUMMARY:Native American Program Welcome Back Dinner
 DTSTART;TZID=America/New_York:20260917T180000
 DTEND;TZID=America/New_York:20260917T193000
-DTSTAMP:20260828T210254Z
+DTSTAMP:20260829T145150Z
 UID:dartmouth-82235@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -401,11 +401,66 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ree Food category\; explicit food-service wording\; food or meal keyword i
  n title\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20260828T210254Z
+LAST-MODIFIED:20260829T145150Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://home.dartmouth.edu/events/event?event=82235
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Government\, Law & Policy Launch Social
+DTSTART;TZID=America/New_York:20260918T133000
+DTEND;TZID=America/New_York:20260918T153000
+DTSTAMP:20260829T145150Z
+UID:dartmouth-82328@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82328\nhttps://careerdesign.dartmouth.edu/channels/government-law
+ -policy/\nhttps://bit.ly/4zKSY7w\n\nDescription:\nStart the year strong wi
+ th your\nGovernment\, Law & Policy Career Community\n! Meet your Career &
+  Life Design Coach\, Taylor Pichette\, representatives from campus partner
+ s\, and other students who share your interests. You'll also discover the 
+ opportunities and off-campus treks lined up for the year! Snacks\, drinks\
+ , and prizes provided.\nThe first 30 students who attend get a free T-shir
+ t!\nRegister\nin Handshake\n.\n\nSponsor / organizer: Dartmouth Center for
+  Career Design\n\nAudience: Students-Undergraduate\n\nSource: Dartmouth\n\
+ nWhy this was included: food keyword near service context\n\nFood availabi
+ lity is inferred from the source listing\; verify details before attending
+ .
+LAST-MODIFIED:20260829T145150Z
+LOCATION:001 Lower McNutt Hall
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82328
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:M&I - Fourth Annual Gary Heussler Alumni Lecture (Megan O’Connor
+ \, Ph.D.)
+DTSTART;TZID=America/New_York:20260918T153000
+DTEND;TZID=America/New_York:20260918T170000
+DTSTAMP:20260829T145150Z
+UID:geisel-6158-2026-9-18@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
+ dar/event_view.php?eid=6158&instance=2026-9-18\n\nDescription:\nMegan O’
+ Connor\, Ph.D.\nAssistant Professor\nDepartment of Laboratory Medicine\nan
+ d Pathology\nUniversity of Washington Medicine\nSeattle\, WA\nHost: George
+  O’Toole\n“Rethinking the healthy lung: What macaques reveal about mic
+ robes and immunity”\nFriday\, September 18\, 2026 @ 3:30 PM\nChilcott Au
+ ditorium - Vail 120\nIn-person Only\nReception Immediately Following at Ke
+ llogg Hall Mezzanine\n\nSponsor / organizer: Geisel Microbiology and Immun
+ ology (  )\n\nSource: Geisel\n\nWhy this was included: explicit food-servi
+ ce wording\n\nFood availability is inferred from the source listing\; veri
+ fy details before attending.
+LAST-MODIFIED:20260829T145150Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://geiselmed.dartmouth.edu/calendar/event_view.php?eid=6158&insta
+ nce=2026-9-18
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
