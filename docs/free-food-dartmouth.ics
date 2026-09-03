@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Guarini Walk Around Occom Pond
 DTSTART;TZID=America/New_York:20260903T120000
 DTEND;TZID=America/New_York:20260903T130000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:guarini-48871@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -70,7 +70,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  arini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was in
  cluded: food keyword near service context in summary\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -83,7 +83,7 @@ SUMMARY:Public Talk: The Rise of Civilizational Narratives in Contemporary
   China
 DTSTART;TZID=America/New_York:20260908T120000
 DTEND;TZID=America/New_York:20260908T133000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82429@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -118,7 +118,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ience: Public\n\nSource: Dartmouth\n\nWhy this was included: explicit food
  -service wording\; food keyword near service context\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Carson Hall 312
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Midterms - NH Primary Watch
 DTSTART;TZID=America/New_York:20260908T180000
 DTEND;TZID=America/New_York:20260908T210000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82335@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -140,7 +140,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  e: Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food categor
  y\; food keyword near service context\n\nFood availability is inferred fro
  m the source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Hinman Forum\, Rockefeller Center
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -151,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:First Dinner
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T203000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82284@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -162,7 +162,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food
   or meal keyword in title\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:The Class of 1953 Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -173,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:New Student Open House Fall 2026 - The Department of History
 DTSTART;TZID=America/New_York:20260910T100000
 DTEND;TZID=America/New_York:20260910T110000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-81706@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -188,7 +188,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ate\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Haldeman Center\, Room 126\, Russo Gallery
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -199,7 +199,7 @@ BEGIN:VEVENT
 SUMMARY:Speed Mentoring: Explore Your Path
 DTSTART;TZID=America/New_York:20260914T100000
 DTEND;TZID=America/New_York:20260914T140000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82324@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -216,7 +216,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nts-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food keyw
  ord near service context\n\nFood availability is inferred from the source 
  listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -227,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:Community Lunch
 DTSTART;TZID=America/New_York:20260914T113000
 DTEND;TZID=America/New_York:20260914T140000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82245@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -240,7 +240,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   Public\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\
  ; food or meal keyword in title\n\nFood availability is inferred from the 
  source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Dartmouth Green
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -248,10 +248,31 @@ URL:https://home.dartmouth.edu/events/event?event=82245
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FDOC Photos & Snacks
+DTSTART;TZID=America/New_York:20260914T150000
+DTEND;TZID=America/New_York:20260914T170000
+DTSTAMP:20260903T140208Z
+UID:dartmouth-groups-1631673@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1631673\n\nDescription:\nWelcome back all students to campus
+ \, hand out snacks\, and take photos.\n\nSponsor / organizer: Class of 202
+ 7\n\nSource: Dartmouth Groups\n\nWhy this was included: food or meal keywo
+ rd in title\n\nFood availability is inferred from the source listing\; ver
+ ify details before attending.
+LAST-MODIFIED:20260903T140208Z
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631673
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Arts & Creative Launch Social
 DTSTART;TZID=America/New_York:20260915T133000
 DTEND;TZID=America/New_York:20260915T153000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82325@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -267,7 +288,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  reer Design\n\nAudience: Students-Undergraduate\n\nSource: Dartmouth\n\nWh
  y this was included: food keyword near service context\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -278,7 +299,7 @@ BEGIN:VEVENT
 SUMMARY:Season Kickoff Party
 DTSTART;TZID=America/New_York:20260915T170000
 DTEND;TZID=America/New_York:20260915T190000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82350@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -294,7 +315,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ed: Free Food category\; explicit food-service wording\; food keyword near
   service context\n\nFood availability is inferred from the source listing\
  ; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Top of the Hop\, Hopkins Center for the Arts
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -305,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:Good & Green Launch Social
 DTSTART;TZID=America/New_York:20260916T133000
 DTEND;TZID=America/New_York:20260916T153000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82326@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -322,7 +343,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ce: Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: 
  food keyword near service context\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -330,10 +351,51 @@ URL:https://home.dartmouth.edu/events/event?event=82326
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FIKR: Talks Over Tea
+DTSTART;TZID=America/New_York:20260916T170000
+DTEND;TZID=America/New_York:20260916T190000
+DTSTAMP:20260903T140208Z
+UID:dartmouth-groups-1631521@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1631521\n\nDescription:\nThis Fall\, we are launching a new 
+ initiative: FIKR at Dartmouth — Fellowship for Islamic Knowledge and Ref
+ lection.\nFIKR is built around a simple idea: before asking students to pr
+ oduce thoughtful writing\, we should first create opportunities for them t
+ o read\, encounter\, question\, and think thoughtfully together. Throughou
+ t the Fall\, our programming will include an Omar Ibn Said book fellowship
+ \, an in-person guest lecture\, and a weekly series called FIKR: Talks Ove
+ r Tea. The questions and conversations that emerge from these experiences 
+ will then help shape the Journal’s inaugural Winter publication.\nFor We
+ ek 1 of FIKR: Talks Over Tea\, our opening conversation is: What Is Knowle
+ dge For? Faith\, Learning\, and Unlearning at College\nWe hope to explore 
+ questions such as: Why are we actually in college? Is knowledge primarily 
+ for career and achievement\, or should it transform who we become? What ma
+ kes seeking knowledge meaningful in Islam? Can someone become more educate
+ d while becoming less wise? How should Muslims approach ideas that genuine
+ ly challenge what they already believe?\nBefore the gathering\, we plan to
+  give students a short excerpt from al-Ghazali’s Book of Knowledge on in
+ tention and the purpose of learning\, with Malcolm X’s “Learning to Re
+ ad” as an optional accompanying text.\nProfessor Ayubi will join us as o
+ ur first guest speaker.\nFood Provided (Persian saffron tea with cinnamon 
+ and Pakistiani Chai)\n\nSponsor / organizer: The Dartmouth Undergraduate M
+ uslim Journal\n\nSource: Dartmouth Groups\n\nWhy this was included: Free F
+ ood category\; explicit food-service wording\; food or meal keyword in tit
+ le\n\nFood availability is inferred from the source listing\; verify detai
+ ls before attending.
+LAST-MODIFIED:20260903T140208Z
+LOCATION:Private Location (register to display)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631521
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Launch Block Party
 DTSTART;TZID=America/New_York:20260917T110000
 DTEND;TZID=America/New_York:20260917T143000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82327@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -350,7 +412,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \n\nWhy this was included: food keyword near service context in summary\n\
  nFood availability is inferred from the source listing\; verify details be
  fore attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Mass Row
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -358,10 +420,37 @@ URL:https://home.dartmouth.edu/events/event?event=82327
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2026 Boren/CLS/Gilman Info Session
+DTSTART;TZID=America/New_York:20260917T123000
+DTEND;TZID=America/New_York:20260917T133000
+DTSTAMP:20260903T140208Z
+UID:dartmouth-groups-1631676@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1631676\n\nDescription:\nJoin the Fellowships Office to lear
+ n about the Boren Awards\, Critical Language Scholarship (CLS)\, and Gilma
+ n Scholarship. Boren and CLS support the study of languages deemed critica
+ l to US national security\, and the Gilman helps fund study abroad for stu
+ dents of limited financial means (Pell Grant recipients).\nFood will be pr
+ ovided.\nQuestions? Email Fellowships.Office@dartmouth.edu.\n\nSponsor / o
+ rganizer: Scholars programs\, Undergraduate Research\, and Fellowships at 
+ Dartmouth\n\nSource: Dartmouth Groups\n\nWhy this was included: explicit f
+ ood-service wording\; food keyword near service context in summary\n\nFood
+  availability is inferred from the source listing\; verify details before 
+ attending.
+LAST-MODIFIED:20260903T140208Z
+LOCATION:Private Location (register to display)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631676
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Native American Program Welcome Back Dinner
 DTSTART;TZID=America/New_York:20260917T180000
 DTEND;TZID=America/New_York:20260917T193000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82235@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -376,7 +465,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ree Food category\; explicit food-service wording\; food or meal keyword i
  n title\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -387,7 +476,7 @@ BEGIN:VEVENT
 SUMMARY:Government\, Law & Policy Launch Social
 DTSTART;TZID=America/New_York:20260918T133000
 DTEND;TZID=America/New_York:20260918T153000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82328@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -404,7 +493,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nWhy this was included: food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -416,7 +505,7 @@ SUMMARY:M&I - Fourth Annual Gary Heussler Alumni Lecture (Megan O’Connor
  \, Ph.D.)
 DTSTART;TZID=America/New_York:20260918T153000
 DTEND;TZID=America/New_York:20260918T170000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:geisel-6158-2026-9-18@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -431,7 +520,7 @@ DESCRIPTION:Original event page(s):\nhttps://geiselmed.dartmouth.edu/calen
  ology (  )\n\nSource: Geisel\n\nWhy this was included: explicit food-servi
  ce wording\n\nFood availability is inferred from the source listing\; veri
  fy details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://geiselmed.dartmouth.edu/calendar/event_view.php?eid=6158&insta
@@ -442,7 +531,7 @@ BEGIN:VEVENT
 SUMMARY:STEM+ Launch Social
 DTSTART;TZID=America/New_York:20260921T133000
 DTEND;TZID=America/New_York:20260921T153000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82329@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -459,7 +548,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  tmouth\n\nWhy this was included: food keyword near service context\n\nFood
   availability is inferred from the source listing\; verify details before 
  attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -470,7 +559,7 @@ BEGIN:VEVENT
 SUMMARY:Business Launch Social
 DTSTART;TZID=America/New_York:20260922T133000
 DTEND;TZID=America/New_York:20260922T153000
-DTSTAMP:20260902T135956Z
+DTSTAMP:20260903T140208Z
 UID:dartmouth-82330@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -485,11 +574,83 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  dience: Students-Undergraduate\n\nSource: Dartmouth\n\nWhy this was includ
  ed: food keyword near service context\n\nFood availability is inferred fro
  m the source listing\; verify details before attending.
-LAST-MODIFIED:20260902T135956Z
+LAST-MODIFIED:20260903T140208Z
 LOCATION:001 Lower McNutt Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://home.dartmouth.edu/events/event?event=82330
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guided Relaxation with iRest yoga Nidra\, and Journaling
+DTSTART;TZID=America/New_York:20260923T153000
+DTEND;TZID=America/New_York:20260923T161500
+DTSTAMP:20260903T140208Z
+UID:dartmouth-82543@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82543\nhttps://cglink.me/2ob/r1631598\nhttps://cglink.me/2ob/r163
+ 1600\nhttps://cglink.me/2ob/r1631601\nhttps://cglink.me/2ob/r1631602\nhttp
+ s://cglink.me/2ob/r1631603\nhttps://cglink.me/2ob/r1631604\nhttps://cglink
+ .me/2ob/r1631605\nhttps://cglink.me/2ob/r1631606\n\nDescription:\nThe SWC 
+ is excited to bring you a mid-week restorative practice* with to-go health
+ y snacks and journals!\nThis experiential learning opportunity will take p
+ lace every Wednesday from 3:30 to 4:15pm. Each session will look something
+  like this:\n- Setup mats and settle into our spaces (5- minutes)\n- Guide
+ d yoga nidra (25- minutes)\n- Prompted free-write in provided journals (6 
+ minutes)\n- Debrief and optional sharing time (6 min)\n- Ending session an
+ d putting away mats\, journals (3 minutes)\n*mats will be provided\nWhat i
+ s Yoga Nidra?\nYoga nidra is a type of meditation practice originating fro
+ m ancient India\, commonly known as "yogic sleep" or "dynamic sleep." It i
+ s a contemplative practice that involves following guided prompts while ly
+ ing in a comfortable position through various stages of relaxation\, breat
+ hing exercises\, and visualization.\nThis practice aims to induce a state 
+ of deep relaxation and meditation\, similar to the liminal state between w
+ aking and sleeping. This state can provide numerous physical\, emotional\,
+  and mental benefits\, such as reducing stress and anxiety\, improving sle
+ ep\, enhancing creativity\, and promoting overall well-being. In this stat
+ e\, you may experience a sense of timelessness\, expansiveness\, and inter
+ connectedness.\nRSVP via Dartmouth Groups:\nSept 23\nSept 30\nOct 7\nOct 1
+ 4\nOct 21\nOct 28\nNov 4\nNov 11\n\nSponsor / organizer: Student Wellness 
+ Center\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: 
+ Free Food category\n\nFood availability is inferred from the source listin
+ g\; verify details before attending.
+LAST-MODIFIED:20260903T140208Z
+LOCATION:Rollins Chapel
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82543
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:On Burke's Conservatism with Greg Collins\, Yale Univeristy
+DTSTART;TZID=America/New_York:20260923T170000
+DTEND;TZID=America/New_York:20260923T180000
+DTSTAMP:20260903T140208Z
+UID:dartmouth-82205@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82205\n\nDescription:\nEdmund Burke is often seen as the founding
+  father of modern conservatism. How is his “conservatism” similar to o
+ r different from what we call conservatism in our own time? Prof. Gregory 
+ M. Collins—Lecturer and Director of Undergraduate Studies in the Program
+  on Ethics\, Politics\, and Economics at Yale—is well placed to address 
+ this question. An award-winning teacher and scholar\, his research ranges 
+ widely over the origins of liberalism and conservatism. His book\nCommerce
+  and Manners in Edmund Burke’s Political Economy\nappeared with Cambridg
+ e in 2020\, and he is now writing a book on the idea of civil society in e
+ arly African-American political thought. Co-sponsored by the Rockefeller C
+ enter for Public Policy.\n\nSponsor / organizer: Political Economy Project
+ \n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: Free F
+ ood category\n\nFood availability is inferred from the source listing\; ve
+ rify details before attending.
+LAST-MODIFIED:20260903T140208Z
+LOCATION:Room 003\, Rockefeller Center
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82205
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
