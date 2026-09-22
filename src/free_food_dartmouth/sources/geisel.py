@@ -15,7 +15,189 @@ from free_food_dartmouth.utils import EASTERN, clean_html, unique
 BASE_URL = "https://geiselmed.dartmouth.edu/calendar/"
 INDEX_URL = urljoin(BASE_URL, "index.php")
 DETAIL_URL = urljoin(BASE_URL, "event_view.php")
+DICE_URL = "https://geiselmed.dartmouth.edu/dice/dice-events/"
 
+DICE_DATE_LINE = re.compile(
+    r"^(?:January|February|March|April|May|June|July|August|September|October|November|"
+    r"December)\s+\d{1,2},\s+\d{4}\s*\|",
+    re.IGNORECASE,
+)
+MERIDIEM = re.compile(r"\b([ap])\.?m\.?\b", re.IGNORECASE)
+TIME_RANGE = re.compile(r"\s*[-–—]\s*")
+
+
+class GeiselDiceSource:
+    def __init__(self, client: HttpClient | None = None) -> None:
+        self.client = client or HttpClient()
+
+    def scan(self, start: date, end: date) -> SourceScan:
+        response = self.client.get(DICE_URL)
+        soup = BeautifulSoup(response.text, "html.parser")
+        events, failures = self._events(soup)
+        selected = tuple(event for event in events if start <= event.start_date < end)
+        return SourceScan(
+            "Geisel DICE",
+            selected,
+            complete=not failures,
+            errors=tuple(failures),
+        )
+
+    def _events(self, soup: BeautifulSoup) -> tuple[list[EventRecord], list[str]]:
+        blocks = self._blocks(soup)
+        date_indices = [
+            index
+            for index, block in enumerate(blocks)
+            if DICE_DATE_LINE.match(block.get_text(" ", strip=True))
+        ]
+        events: list[EventRecord] = []
+        failures: list[str] = []
+        for position, date_index in enumerate(date_indices):
+            title_index = self._title_index(blocks, date_index)
+            if title_index is None:
+                failures.append(f"block {date_index}: missing event title")
+                continue
+            next_title_index = len(blocks)
+            if position + 1 < len(date_indices):
+                candidate = self._title_index(blocks, date_indices[position + 1])
+                if candidate is not None:
+                    next_title_index = candidate
+            try:
+                events.append(
+                    self._event_from_blocks(
+                        blocks,
+                        title_index,
+                        date_index,
+                        next_title_index,
+                    )
+                )
+            except Exception as exc:
+                title = blocks[title_index].get_text(" ", strip=True)
+                failures.append(f"{title}: {exc}")
+        return events, failures
+
+    @staticmethod
+    def _blocks(soup: BeautifulSoup) -> list[Tag]:
+        root = soup.select_one(".entry-content") or soup.select_one("main") or soup
+        return [
+            block
+            for block in root.find_all(("h1", "h2", "h3", "h4", "h5", "h6", "p"))
+            if isinstance(block, Tag)
+        ]
+
+    @staticmethod
+    def _title_index(blocks: list[Tag], date_index: int) -> int | None:
+        for index in range(date_index - 1, -1, -1):
+            text = blocks[index].get_text(" ", strip=True)
+            if not text:
+                continue
+            if DICE_DATE_LINE.match(text):
+                return None
+            if text.casefold() in {"upcoming events", "view past events"}:
+                continue
+            return index
+        return None
+
+    @classmethod
+    def _event_from_blocks(
+        cls,
+        blocks: list[Tag],
+        title_index: int,
+        date_index: int,
+        next_title_index: int,
+    ) -> EventRecord:
+        title = blocks[title_index].get_text(" ", strip=True)
+        metadata = blocks[date_index].get_text(" ", strip=True)
+        start, end, location = cls._date_time_location(metadata)
+
+        description_parts: list[str] = []
+        urls = [DICE_URL]
+        for block in blocks[date_index + 1 : next_title_index]:
+            text = block.get_text(" ", strip=True)
+            if text.casefold() == "view past events":
+                break
+            if text:
+                description_parts.append(text)
+            for link in block.select("a[href]"):
+                href = str(link.get("href", "")).strip()
+                if href:
+                    urls.append(urljoin(DICE_URL, href))
+        description = "\n".join(description_parts)
+        source_key = cls._source_key(title, start)
+        return EventRecord(
+            title=title,
+            start=start,
+            end=end,
+            description=description,
+            summary=description.split("\n", 1)[0][:500],
+            location=location,
+            sponsor="DICE Office",
+            urls=unique(urls),
+            categories=("DICE",),
+            source_keys=(source_key,),
+            sources=("Geisel DICE",),
+            uid_key=source_key,
+        )
+
+    @staticmethod
+    def _source_key(title: str, start: date | datetime) -> str:
+        event_date = start.date() if isinstance(start, datetime) else start
+        slug = re.sub(r"[^a-z0-9]+", "-", title.casefold()).strip("-")[:80]
+        return f"geisel-dice:{event_date.isoformat()}:{slug}"
+
+    @classmethod
+    def _date_time_location(
+        cls, metadata: str
+    ) -> tuple[date | datetime, date | datetime, str]:
+        parts = [part.strip() for part in metadata.split("|")]
+        if len(parts) < 2:
+            raise ValueError("missing date/time metadata")
+        event_date = date_parser.parse(parts[0], fuzzy=False).date()
+        location = ", ".join(part for part in parts[2:] if part)
+        time_text = parts[1].strip()
+        if not time_text or "all day" in time_text.casefold():
+            return event_date, event_date + timedelta(days=1), location
+
+        pieces = TIME_RANGE.split(time_text, maxsplit=1)
+        if len(pieces) == 1:
+            start_time = cls._parse_time(pieces[0], event_date)
+            start = datetime.combine(event_date, start_time, tzinfo=EASTERN)
+            return start, start + timedelta(hours=1), location
+
+        start_piece, end_piece = pieces
+        start_meridiem = MERIDIEM.search(start_piece)
+        end_meridiem = MERIDIEM.search(end_piece)
+        if start_meridiem is None and end_meridiem is not None:
+            marker = end_meridiem.group(1).casefold()
+            candidate_start = cls._parse_time(f"{start_piece} {marker}m", event_date)
+            candidate_end = cls._parse_time(end_piece, event_date)
+            if candidate_start >= candidate_end:
+                marker = "a" if marker == "p" else "p"
+            start_piece = f"{start_piece} {marker}m"
+        elif end_meridiem is None and start_meridiem is not None:
+            marker = start_meridiem.group(1).casefold()
+            candidate_start = cls._parse_time(start_piece, event_date)
+            candidate_end = cls._parse_time(f"{end_piece} {marker}m", event_date)
+            if candidate_end <= candidate_start:
+                marker = "a" if marker == "p" else "p"
+            end_piece = f"{end_piece} {marker}m"
+
+        start_time = cls._parse_time(start_piece, event_date)
+        end_time = cls._parse_time(end_piece, event_date)
+        start = datetime.combine(event_date, start_time, tzinfo=EASTERN)
+        end = datetime.combine(event_date, end_time, tzinfo=EASTERN)
+        if end <= start:
+            end += timedelta(days=1)
+        return start, end, location
+
+    @staticmethod
+    def _parse_time(value: str, event_date: date) -> time:
+        normalized = value.strip().casefold()
+        if normalized == "noon":
+            return time(12)
+        if normalized == "midnight":
+            return time(0)
+        default = datetime.combine(event_date, time.min)
+        return date_parser.parse(value, default=default).time()
 
 class GeiselSource:
     def __init__(self, client: HttpClient | None = None, workers: int = 6) -> None:

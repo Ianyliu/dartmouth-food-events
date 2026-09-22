@@ -14,7 +14,7 @@ from free_food_dartmouth.matcher import match_event
 from free_food_dartmouth.models import EventRecord, SourceScan
 from free_food_dartmouth.sources.dartmouth import DartmouthSource
 from free_food_dartmouth.sources.dartmouth_groups import DartmouthGroupsSource
-from free_food_dartmouth.sources.geisel import GeiselSource
+from free_food_dartmouth.sources.geisel import GeiselDiceSource, GeiselSource
 from free_food_dartmouth.sources.guarini import GuariniSource
 from free_food_dartmouth.utils import EASTERN
 
@@ -70,6 +70,7 @@ def sync(args: argparse.Namespace) -> int:
     scans = [
         _safe_scan(DartmouthSource(), "Dartmouth", start, end),
         _safe_scan(GeiselSource(), "Geisel", start, end),
+        _safe_scan(GeiselDiceSource(), "Geisel DICE", start, end),
         _safe_scan(DartmouthGroupsSource(), "Dartmouth Groups", start, end),
         _safe_scan(GuariniSource(), "Guarini", start, end),
     ]

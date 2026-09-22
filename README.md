@@ -15,7 +15,9 @@ Food availability is inferred from public listings. Always verify the original e
 
 1. Dartmouth events are enumerated through the public date-range search endpoint. Each event's
    JSON-LD, categories, webpage description, and per-event ICS file are parsed.
-2. Geisel events are enumerated from the weekly calendar views and enriched from their detail pages.
+2. Geisel events are enumerated from the main weekly events calendar and enriched from their
+   detail pages. The DICE Office Upcoming Events page is scanned separately so DICE listings
+   that do not appear on the main calendar are also considered.
 3. Dartmouth Groups events are enumerated from its public date-range JSON endpoint and enriched
    from detail-page JSON-LD, descriptions, food notes, hosts, tags, and links. If an event link
    redirects to an external registration page, listing metadata and the external description
