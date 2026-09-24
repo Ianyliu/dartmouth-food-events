@@ -1,6 +1,13 @@
 name: Sync calendar
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - "src/**"
+      - ".github/workflows/sync.yml"
+      - "pyproject.toml"
+      - "uv.lock"
   schedule:
     - cron: "0 10 * * *"
     - cron: "0 11 * * *"
@@ -26,7 +33,7 @@ jobs:
           TZ: America/New_York
         run: |
           offset="$(date +%z)"
-          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+          if [[ "$EVENT_NAME" == "workflow_dispatch" || "$EVENT_NAME" == "push" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           elif [[ "$offset" == "-0400" && "$SCHEDULE" == "0 10 * * *" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"

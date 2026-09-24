@@ -84,7 +84,7 @@ def write_outputs(output_dir: Path, events: list[EventRecord], generated_at: dat
 <body>
   <h1>{html.escape(CALENDAR_NAME)}</h1>
   <p>
-    A rolling three-week calendar of Dartmouth, Geisel, Dartmouth Groups, and
+    A rolling three-week calendar of Dartmouth, Geisel, Dartmouth Groups, GSC, and
     Guarini events likely to offer food.
   </p>
   <p><a href="free-food-dartmouth.ics">Subscribe to or download the calendar</a></p>

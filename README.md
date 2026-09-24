@@ -1,7 +1,7 @@
 # Free Food @Dartmouth
 
 A rolling three-week calendar of Dartmouth College, Geisel School of Medicine,
-Dartmouth Groups, and Guarini School events that are likely to offer food. The project
+Dartmouth Groups, Dartmouth GSC, and Guarini School events that are likely to offer food. The project
 checks both structured “Free Food” categories and contextual wording in event titles,
 summaries, and descriptions.
 
@@ -22,15 +22,17 @@ Food availability is inferred from public listings. Always verify the original e
    from detail-page JSON-LD, descriptions, food notes, hosts, tags, and links. If an event link
    redirects to an external registration page, listing metadata and the external description
    provide a safe fallback.
-4. Guarini events are enumerated from the month archives and enriched from detail pages with
+4. Dartmouth GSC events are enumerated from the public Squarespace events list, including event
+   times, locations, descriptions, registration links, and other food-service wording.
+5. Guarini events are enumerated from the month archives and enriched from detail pages with
    exact times, descriptions, locations, sponsors, audiences, and registration links.
-5. A context-aware matcher selects likely food events and rejects common false positives.
-6. Overlapping listings are merged using source IDs, external URLs, start
+6. A context-aware matcher selects likely food events and rejects common false positives.
+7. Overlapping listings are merged using source IDs, external URLs, start
    times, and normalized title similarity.
-7. Managed Google Calendar events are updated in place. A missing event is marked
+8. Managed Google Calendar events are updated in place. A missing event is marked
    `[Possibly canceled]` after one complete scan and deleted after a second. Incomplete scans
    preserve existing events and do not advance cancellation counters.
-8. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
+9. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
 
 ## Local usage
 
@@ -88,8 +90,9 @@ The service-account JSON is read directly from the encrypted secret and is never
 ## Automation
 
 - **CI** runs Ruff, mypy, and pytest on pushes and pull requests.
-- **Sync calendar** is triggered at 10:00 and 11:00 UTC. A timezone guard allows only the trigger
-  corresponding to 6:00 AM Eastern to proceed, handling daylight-saving changes.
+- **Sync calendar** runs after source/workflow changes on `main` and is also triggered at 10:00
+  and 11:00 UTC. A timezone guard allows only the scheduled trigger corresponding to 6:00 AM
+  Eastern to proceed, handling daylight-saving changes.
 - **Deploy calendar feed** publishes `docs/` through GitHub Pages.
 
 GitHub's scheduled workflows can start later than their nominal time during periods of high load.
