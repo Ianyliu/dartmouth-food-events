@@ -199,6 +199,7 @@ class GeiselDiceSource:
         default = datetime.combine(event_date, time.min)
         return date_parser.parse(value, default=default).time()
 
+
 class GeiselSource:
     def __init__(self, client: HttpClient | None = None, workers: int = 6) -> None:
         self.client = client or HttpClient()

@@ -13,12 +13,10 @@ from free_food_dartmouth.utils import EASTERN
 def test_gsc_scan_reads_squarespace_event_list_and_food_wording() -> None:
     responses.get(EVENTS_URL, body=fixture_text("gsc_events.html"), content_type="text/html")
 
-    scan = GscSource(HttpClient(attempts=1)).scan(
-        date(2026, 9, 23), date(2026, 10, 14)
-    )
+    scan = GscSource(HttpClient(attempts=1)).scan(date(2026, 9, 23), date(2026, 10, 14))
 
     assert scan.complete
-    assert len(scan.events) == 2
+    assert len(scan.events) == 3
 
     spark = next(event for event in scan.events if event.title == "SPARK Game Night")
     assert spark.start == datetime(2026, 9, 29, 17, 0, tzinfo=EASTERN)
@@ -30,3 +28,18 @@ def test_gsc_scan_reads_squarespace_event_list_and_food_wording() -> None:
 
     book_club = next(event for event in scan.events if event.title == "Dartmouth Book Club")
     assert match_event(book_club) == ()
+
+def test_gsc_multiday_event_uses_first_date_and_next_day_end() -> None:
+    soup = fixture_text("gsc_events.html")
+    with responses.RequestsMock() as mocked:
+        mocked.get(EVENTS_URL, body=soup, content_type="text/html")
+        scan = GscSource(HttpClient(attempts=1)).scan(
+            date(2026, 10, 9), date(2026, 10, 11)
+        )
+
+    assert scan.complete
+    assert len(scan.events) == 1
+    event = scan.events[0]
+    assert event.title == "First Year Graduate Student Cabin Trip (GSC)"
+    assert event.start == datetime(2026, 10, 9, 16, 30, tzinfo=EASTERN)
+    assert event.end == datetime(2026, 10, 10, 12, 0, tzinfo=EASTERN)

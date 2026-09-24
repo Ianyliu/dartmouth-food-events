@@ -15,6 +15,14 @@ BASE_URL = "https://gsc.dartmouth.edu"
 EVENTS_URL = f"{BASE_URL}/events-list"
 EVENT_PATH = re.compile(r"^/events-list/([^/?#]+)/?$")
 TIME_RANGE = re.compile(r"\s+(?:-|\u2013|\u2014|to)\s+", re.IGNORECASE)
+DATE_TEXT = re.compile(
+    r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|"
+    r"Mon|Tue|Wed|Thu|Fri|Sat|Sun),?\s+"
+    r"(?:January|February|March|April|May|June|July|August|September|October|November|"
+    r"December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+"
+    r"\d{1,2},\s+\d{4}",
+    re.IGNORECASE,
+)
 
 
 class GscSource:
@@ -102,9 +110,7 @@ class GscSource:
 
     @staticmethod
     def _event_date(block: Tag) -> date:
-        node = block.select_one(
-            "time.event-date, .eventlist-meta-date time, .eventlist-meta-date"
-        )
+        node = block.select_one("time.event-date, .eventlist-meta-date time, .eventlist-meta-date")
         if node is None:
             raise ValueError("missing event date")
         raw = str(node.get("datetime", "")).strip()
@@ -113,6 +119,9 @@ class GscSource:
         text = node.get_text(" ", strip=True)
         if not text:
             raise ValueError("missing event date")
+        date_match = DATE_TEXT.search(text)
+        if date_match is not None:
+            return date_parser.parse(date_match.group(0), fuzzy=True).date()
         return date_parser.parse(text, fuzzy=True).date()
 
     @classmethod

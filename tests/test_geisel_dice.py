@@ -15,9 +15,7 @@ from free_food_dartmouth.utils import EASTERN
 def test_geisel_dice_scan_reads_upcoming_events_page() -> None:
     responses.get(DICE_URL, body=fixture_text("geisel_dice.html"), content_type="text/html")
 
-    scan = GeiselDiceSource(HttpClient(attempts=1)).scan(
-        date(2026, 9, 14), date(2026, 9, 23)
-    )
+    scan = GeiselDiceSource(HttpClient(attempts=1)).scan(date(2026, 9, 14), date(2026, 9, 23))
 
     assert scan.complete
     assert len(scan.events) == 2
