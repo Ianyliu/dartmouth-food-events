@@ -23,7 +23,7 @@ DICE_DATE_LINE = re.compile(
     re.IGNORECASE,
 )
 MERIDIEM = re.compile(r"\b([ap])\.?m\.?\b", re.IGNORECASE)
-TIME_RANGE = re.compile(r"\s*[-–—]\s*")
+TIME_RANGE = re.compile(r"\s*[-\u2013\u2014]\s*")
 
 
 class GeiselDiceSource:
