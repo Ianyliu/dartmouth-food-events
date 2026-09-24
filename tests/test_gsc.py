@@ -29,13 +29,12 @@ def test_gsc_scan_reads_squarespace_event_list_and_food_wording() -> None:
     book_club = next(event for event in scan.events if event.title == "Dartmouth Book Club")
     assert match_event(book_club) == ()
 
+
 def test_gsc_multiday_event_uses_first_date_and_next_day_end() -> None:
     soup = fixture_text("gsc_events.html")
     with responses.RequestsMock() as mocked:
         mocked.get(EVENTS_URL, body=soup, content_type="text/html")
-        scan = GscSource(HttpClient(attempts=1)).scan(
-            date(2026, 10, 9), date(2026, 10, 11)
-        )
+        scan = GscSource(HttpClient(attempts=1)).scan(date(2026, 10, 9), date(2026, 10, 11))
 
     assert scan.complete
     assert len(scan.events) == 1

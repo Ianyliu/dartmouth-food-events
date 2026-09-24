@@ -125,9 +125,7 @@ class GscSource:
         return date_parser.parse(text, fuzzy=True).date()
 
     @classmethod
-    def _date_times(
-        cls, block: Tag, event_date: date
-    ) -> tuple[date | datetime, date | datetime]:
+    def _date_times(cls, block: Tag, event_date: date) -> tuple[date | datetime, date | datetime]:
         start_node = block.select_one(".event-time-localized-start")
         end_node = block.select_one(".event-time-localized-end")
         if start_node is not None:
@@ -171,7 +169,5 @@ class GscSource:
         text = node.get_text(" ", strip=True)
         if not text:
             raise ValueError("missing event time")
-        parsed_time = date_parser.parse(
-            text, default=datetime.combine(event_date, time.min)
-        ).time()
+        parsed_time = date_parser.parse(text, default=datetime.combine(event_date, time.min)).time()
         return datetime.combine(event_date, parsed_time, tzinfo=EASTERN)

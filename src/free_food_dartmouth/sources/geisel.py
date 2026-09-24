@@ -145,9 +145,7 @@ class GeiselDiceSource:
         return f"geisel-dice:{event_date.isoformat()}:{slug}"
 
     @classmethod
-    def _date_time_location(
-        cls, metadata: str
-    ) -> tuple[date | datetime, date | datetime, str]:
+    def _date_time_location(cls, metadata: str) -> tuple[date | datetime, date | datetime, str]:
         parts = [part.strip() for part in metadata.split("|")]
         if len(parts) < 2:
             raise ValueError("missing date/time metadata")
