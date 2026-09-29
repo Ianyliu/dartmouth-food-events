@@ -122,8 +122,7 @@ class SouthHouseSource:
             location = location_match.group(1).strip() if location_match is not None else ""
             slug = re.sub(r"[^a-z0-9]+", "-", title.casefold()).strip("-")[:80]
             source_key = (
-                f"south-house:{event_date.isoformat()}:"
-                f"{start_value.strftime('%H%M')}:{slug}"
+                f"south-house:{event_date.isoformat()}:{start_value.strftime('%H%M')}:{slug}"
             )
             if source_key in seen:
                 continue

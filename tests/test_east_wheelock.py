@@ -11,8 +11,7 @@ from free_food_dartmouth.utils import EASTERN
 
 CALENDAR_ID = "east.wheelock.house@group.calendar.google.com"
 ICS_URL = (
-    "https://calendar.google.com/calendar/ical/"
-    f"{quote(CALENDAR_ID, safe='')}/public/basic.ics"
+    f"https://calendar.google.com/calendar/ical/{quote(CALENDAR_ID, safe='')}/public/basic.ics"
 )
 
 
