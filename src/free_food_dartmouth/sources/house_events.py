@@ -54,9 +54,10 @@ class HouseEventListSource:
         failures: list[str] = []
         for block in blocks:
             try:
-                event = self._event(block)
-                if start <= event.start_date < end:
-                    events.append(event)
+                event_date = self._event_date(block)
+                if not start <= event_date < end:
+                    continue
+                events.append(self._event(block))
             except Exception as exc:
                 title = self._title(block) or "unknown event"
                 failures.append(f"{title}: {exc}")
