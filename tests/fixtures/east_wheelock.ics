@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//East Wheelock House//Events//EN
+BEGIN:VEVENT
+UID:ew-community-dinner-20261003
+DTSTART;TZID=America/New_York:20261003T180000
+DTEND;TZID=America/New_York:20261003T193000
+SUMMARY:East Wheelock Community Dinner
+LOCATION:Brace Commons
+DESCRIPTION:Join East Wheelock for dinner. Food will be provided.
+URL:https://www.ewhousedartmouth.com/community-dinner
+END:VEVENT
+BEGIN:VEVENT
+UID:ew-study-night-20261005
+DTSTART;TZID=America/New_York:20261005T190000
+DTEND;TZID=America/New_York:20261005T200000
+SUMMARY:Study Night
+LOCATION:Brace Commons
+DESCRIPTION:Quiet study time with fellow house members.
+END:VEVENT
+END:VCALENDAR

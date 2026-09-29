@@ -14,6 +14,7 @@ from free_food_dartmouth.matcher import match_event
 from free_food_dartmouth.models import EventRecord, SourceScan
 from free_food_dartmouth.sources.dartmouth import DartmouthSource
 from free_food_dartmouth.sources.dartmouth_groups import DartmouthGroupsSource
+from free_food_dartmouth.sources.east_wheelock import EastWheelockSource
 from free_food_dartmouth.sources.geisel import GeiselDiceSource, GeiselSource
 from free_food_dartmouth.sources.gsc import GscSource
 from free_food_dartmouth.sources.guarini import GuariniSource
@@ -75,6 +76,7 @@ def sync(args: argparse.Namespace) -> int:
         _safe_scan(GeiselDiceSource(), "Geisel DICE", start, end),
         _safe_scan(DartmouthGroupsSource(), "Dartmouth Groups", start, end),
         _safe_scan(GscSource(), "Dartmouth GSC", start, end),
+        _safe_scan(EastWheelockSource(), "East Wheelock House", start, end),
         _safe_scan(GuariniSource(), "Guarini", start, end),
         _safe_scan(north_park_source(), "North Park House", start, end),
         _safe_scan(school_house_source(), "School House", start, end),
