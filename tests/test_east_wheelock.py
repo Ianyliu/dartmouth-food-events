@@ -18,20 +18,14 @@ ICS_URL = (
 
 @responses.activate
 def test_east_wheelock_reads_embedded_public_google_calendar() -> None:
-    responses.get(
-        HOME_URL,
-        body=fixture_text("east_wheelock_home.html"),
-        content_type="text/html",
-    )
+    responses.get(HOME_URL, body=fixture_text("east_wheelock_home.html"), content_type="text/html")
     responses.get(
         ICS_URL,
         body=fixture_text("east_wheelock.ics"),
         content_type="text/calendar",
     )
 
-    scan = EastWheelockSource(HttpClient(attempts=1)).scan(
-        date(2026, 9, 29), date(2026, 10, 20)
-    )
+    scan = EastWheelockSource(HttpClient(attempts=1)).scan(date(2026, 9, 29), date(2026, 10, 20))
 
     assert scan.complete
     assert len(scan.events) == 2
