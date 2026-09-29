@@ -15,10 +15,10 @@ from free_food_dartmouth.models import EventRecord, SourceScan
 from free_food_dartmouth.sources.dartmouth import DartmouthSource
 from free_food_dartmouth.sources.dartmouth_groups import DartmouthGroupsSource
 from free_food_dartmouth.sources.geisel import GeiselDiceSource, GeiselSource
-from free_food_dartmouth.sources.house_groups import DartmouthHouseCalendarsSource
 from free_food_dartmouth.sources.gsc import GscSource
 from free_food_dartmouth.sources.guarini import GuariniSource
 from free_food_dartmouth.sources.house_events import north_park_source, school_house_source
+from free_food_dartmouth.sources.house_groups import DartmouthHouseCalendarsSource
 from free_food_dartmouth.sources.south_house import SouthHouseSource
 from free_food_dartmouth.utils import EASTERN
 
