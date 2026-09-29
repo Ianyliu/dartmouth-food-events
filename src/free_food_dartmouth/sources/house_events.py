@@ -124,9 +124,7 @@ class HouseEventListSource:
 
     @staticmethod
     def _event_date(block: Tag) -> date:
-        node = block.select_one(
-            "time.event-date, .eventlist-meta-date time, .eventlist-meta-date"
-        )
+        node = block.select_one("time.event-date, .eventlist-meta-date time, .eventlist-meta-date")
         if node is None:
             raise ValueError("missing event date")
         raw = str(node.get("datetime", "")).strip()

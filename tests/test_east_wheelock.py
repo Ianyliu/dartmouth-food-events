@@ -18,7 +18,11 @@ ICS_URL = (
 
 @responses.activate
 def test_east_wheelock_reads_embedded_public_google_calendar() -> None:
-    responses.get(HOME_URL, body=fixture_text("east_wheelock_home.html"), content_type="text/html")
+    responses.get(
+        HOME_URL,
+        body=fixture_text("east_wheelock_home.html"),
+        content_type="text/html",
+    )
     responses.get(
         ICS_URL,
         body=fixture_text("east_wheelock.ics"),

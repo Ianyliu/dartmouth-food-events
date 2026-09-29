@@ -67,7 +67,9 @@ class EastWheelockSource:
         raw_end = decoded("dtend") if get("dtend") is not None else None
         start = easternize(raw_start)
         if raw_end is None:
-            end = start + (timedelta(days=1) if isinstance(start, date) else timedelta(hours=1))
+            end = start + (
+                timedelta(hours=1) if isinstance(start, datetime) else timedelta(days=1)
+            )
         else:
             end = easternize(raw_end)
 
