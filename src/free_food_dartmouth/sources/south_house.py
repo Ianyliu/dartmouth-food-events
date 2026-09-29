@@ -103,7 +103,7 @@ class SouthHouseSource:
         ]
         events: list[EventRecord] = []
         seen: set[str] = set()
-        for index, line in enumerate(lines):
+        for index, _line in enumerate(lines):
             metadata = " ".join(lines[index : index + 2])
             date_match = EVENT_DATE.search(metadata)
             time_match = EVENT_TIME.search(metadata)
