@@ -71,9 +71,7 @@ class SouthHouseSource:
 
     @staticmethod
     def _relevant_issues(
-        soup: BeautifulSoup,
-        start: date,
-        end: date,
+        soup: BeautifulSoup, start: date, end: date
     ) -> list[tuple[date, str]]:
         earliest = start - timedelta(days=7)
         issues: list[tuple[date, str]] = []

@@ -30,8 +30,7 @@ def test_east_wheelock_reads_embedded_public_google_calendar() -> None:
     )
 
     scan = EastWheelockSource(HttpClient(attempts=1)).scan(
-        date(2026, 9, 29),
-        date(2026, 10, 20),
+        date(2026, 9, 29), date(2026, 10, 20)
     )
 
     assert scan.complete
