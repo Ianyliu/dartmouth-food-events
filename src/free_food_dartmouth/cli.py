@@ -17,6 +17,7 @@ from free_food_dartmouth.sources.dartmouth_groups import DartmouthGroupsSource
 from free_food_dartmouth.sources.geisel import GeiselDiceSource, GeiselSource
 from free_food_dartmouth.sources.gsc import GscSource
 from free_food_dartmouth.sources.guarini import GuariniSource
+from free_food_dartmouth.sources.house_events import north_park_source, school_house_source
 from free_food_dartmouth.utils import EASTERN
 
 DEFAULT_WINDOW_DAYS = 21
@@ -75,6 +76,8 @@ def sync(args: argparse.Namespace) -> int:
         _safe_scan(DartmouthGroupsSource(), "Dartmouth Groups", start, end),
         _safe_scan(GscSource(), "Dartmouth GSC", start, end),
         _safe_scan(GuariniSource(), "Guarini", start, end),
+        _safe_scan(north_park_source(), "North Park House", start, end),
+        _safe_scan(school_house_source(), "School House", start, end),
     ]
     for scan in scans:
         if not scan.complete:
