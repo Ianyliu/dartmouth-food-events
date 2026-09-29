@@ -103,11 +103,13 @@ class SouthHouseSource:
         ]
         events: list[EventRecord] = []
         seen: set[str] = set()
-        for index, _line in enumerate(lines):
+        for index, line in enumerate(lines):
+            date_match = EVENT_DATE.search(line)
+            if date_match is None:
+                continue
             metadata = " ".join(lines[index : index + 2])
-            date_match = EVENT_DATE.search(metadata)
             time_match = EVENT_TIME.search(metadata)
-            if date_match is None or time_match is None:
+            if time_match is None:
                 continue
 
             event_date = cls._event_date(date_match.group(0), issue_date)
