@@ -17,10 +17,7 @@ class HouseGroupCalendar:
 
     @property
     def ics_url(self) -> str:
-        return (
-            "https://dartmouthgroups.dartmouth.edu/ical/dartmouth/"
-            f"ical_club_{self.club_id}.ics"
-        )
+        return f"https://dartmouthgroups.dartmouth.edu/ical/dartmouth/ical_club_{self.club_id}.ics"
 
 
 HOUSE_CALENDARS = (
@@ -72,9 +69,7 @@ class DartmouthHouseCalendarsSource:
         if get("dtend") is not None:
             end = easternize(decoded("dtend"))
         else:
-            end = start + (
-                timedelta(hours=1) if isinstance(start, datetime) else timedelta(days=1)
-            )
+            end = start + (timedelta(hours=1) if isinstance(start, datetime) else timedelta(days=1))
 
         title = str(get("summary", "")).strip()
         if not title:

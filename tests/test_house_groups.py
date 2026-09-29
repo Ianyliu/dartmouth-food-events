@@ -42,9 +42,7 @@ def test_house_group_calendars_parse_public_ics_feeds() -> None:
     )
     assert allen_dinner.start == datetime(2026, 10, 4, 18, 0, tzinfo=EASTERN)
     assert allen_dinner.end == datetime(2026, 10, 4, 19, 30, tzinfo=EASTERN)
-    assert allen_dinner.source_keys == (
-        "house-groups:67704:house-dinner-20261004",
-    )
+    assert allen_dinner.source_keys == ("house-groups:67704:house-dinner-20261004",)
     assert "https://dartmouthgroups.dartmouth.edu/event/example" in allen_dinner.urls
     assert "explicit food-service wording" in match_event(allen_dinner)
 
