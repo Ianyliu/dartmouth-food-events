@@ -60,8 +60,8 @@ class EastWheelockSource:
     def _event(component: object, ics_url: str) -> EventRecord:
         if not hasattr(component, "decoded") or not hasattr(component, "get"):
             raise TypeError("invalid iCalendar event component")
-        decoded = component.decoded  # type: ignore[attr-defined]
-        get = component.get  # type: ignore[attr-defined]
+        decoded = component.decoded
+        get = component.get
 
         raw_start = decoded("dtstart")
         raw_end = decoded("dtend") if get("dtend") is not None else None
