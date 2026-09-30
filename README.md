@@ -1,9 +1,9 @@
 # Free Food @Dartmouth
 
 A rolling three-week calendar of Dartmouth College, Geisel School of Medicine,
-Dartmouth Groups, Dartmouth GSC, and Guarini School events that are likely to offer food. The project
-checks both structured “Free Food” categories and contextual wording in event titles,
-summaries, and descriptions.
+Dartmouth Groups, Dartmouth GSC, Dartmouth's six undergraduate House Communities, and Guarini
+School events that are likely to offer food. The project checks both structured “Free Food”
+categories and contextual wording in event titles, summaries, and descriptions.
 
 The generated feed is published at:
 
@@ -24,15 +24,21 @@ Food availability is inferred from public listings. Always verify the original e
    provide a safe fallback.
 4. Dartmouth GSC events are enumerated from the public Squarespace events list, including event
    times, locations, descriptions, registration links, and other food-service wording.
-5. Guarini events are enumerated from the month archives and enriched from detail pages with
+5. The six House Communities — Allen, East Wheelock, North Park, School, South, and West —
+   are scanned from their official public Dartmouth Groups iCalendar feeds. Public house-specific
+   sites are also used where useful: North Park and School House event lists provide supplemental
+   coverage, and South House weekly newsletters are parsed for current dated events. Stale
+   house-site entries are ignored before detailed time parsing so old malformed listings cannot
+   make a current scan incomplete.
+6. Guarini events are enumerated from the month archives and enriched from detail pages with
    exact times, descriptions, locations, sponsors, audiences, and registration links.
-6. A context-aware matcher selects likely food events and rejects common false positives.
-7. Overlapping listings are merged using source IDs, external URLs, start
+7. A context-aware matcher selects likely food events and rejects common false positives.
+8. Overlapping listings are merged using source IDs, external URLs, start
    times, and normalized title similarity.
-8. Managed Google Calendar events are updated in place. A missing event is marked
+9. Managed Google Calendar events are updated in place. A missing event is marked
    `[Possibly canceled]` after one complete scan and deleted after a second. Incomplete scans
    preserve existing events and do not advance cancellation counters.
-9. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
+10. `docs/free-food-dartmouth.ics` is regenerated and deployed with GitHub Pages.
 
 ## Local usage
 
