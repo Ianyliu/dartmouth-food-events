@@ -56,6 +56,7 @@ def test_school_house_uses_its_own_source_identity() -> None:
     assert event.sources == ("School House",)
     assert event.source_keys == ("school-house:community-dinner",)
 
+
 @responses.activate
 def test_house_event_list_skips_stale_multiday_entries_cleanly() -> None:
     responses.get(
