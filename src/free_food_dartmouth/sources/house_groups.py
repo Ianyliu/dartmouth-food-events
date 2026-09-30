@@ -33,6 +33,8 @@ SOURCE_NAME = "Dartmouth House Calendars"
 
 
 class DartmouthHouseCalendarsSource:
+    """Primary six-house source backed by official Dartmouth Groups public ICS feeds."""
+
     def __init__(self, client: HttpClient | None = None) -> None:
         self.client = client or HttpClient()
 
