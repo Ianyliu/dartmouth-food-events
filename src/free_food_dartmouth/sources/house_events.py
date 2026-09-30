@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import re
 from datetime import date, datetime, time, timedelta
 from urllib.parse import urljoin, urlparse
 
@@ -31,6 +32,15 @@ NORTH_PARK = HouseEventListConfig(
     base_url="https://www.northpark.dartmouth.edu",
     events_url="https://www.northpark.dartmouth.edu/house-events",
     key_prefix="north-park-house",
+)
+
+DATE_TEXT = re.compile(
+    r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|"
+    r"Mon|Tue|Wed|Thu|Fri|Sat|Sun),?\s+"
+    r"(?:January|February|March|April|May|June|July|August|September|October|November|"
+    r"December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+"
+    r"\d{1,2},\s+\d{4}",
+    re.IGNORECASE,
 )
 
 
@@ -134,6 +144,9 @@ class HouseEventListSource:
         text = node.get_text(" ", strip=True)
         if not text:
             raise ValueError("missing event date")
+        date_match = DATE_TEXT.search(text)
+        if date_match is not None:
+            return date_parser.parse(date_match.group(0), fuzzy=True).date()
         return date_parser.parse(text, fuzzy=True).date()
 
     @classmethod

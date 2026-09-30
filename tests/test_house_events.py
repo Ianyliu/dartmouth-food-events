@@ -55,3 +55,20 @@ def test_school_house_uses_its_own_source_identity() -> None:
     assert event.sponsor == "School House"
     assert event.sources == ("School House",)
     assert event.source_keys == ("school-house:community-dinner",)
+
+@responses.activate
+def test_house_event_list_skips_stale_multiday_entries_cleanly() -> None:
+    responses.get(
+        NORTH_PARK.events_url,
+        body=fixture_text("house_event_list.html"),
+        content_type="text/html",
+    )
+
+    scan = HouseEventListSource(NORTH_PARK, HttpClient(attempts=1)).scan(
+        date(2026, 9, 29),
+        date(2026, 10, 20),
+    )
+
+    assert scan.complete
+    assert len(scan.events) == 1
+    assert scan.events[0].title == "Community Dinner"
