@@ -1,0 +1,26 @@
+name: School House Airtable export smoke
+
+on:
+  push:
+    branches: ["add-airtable-calendar"]
+    paths:
+      - "scripts/airtable_smoke.py"
+      - ".github/workflows/airtable-smoke.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v8.1.0
+        with:
+          python-version: "3.12"
+      - name: Install Chromium
+        run: uv run --with playwright playwright install --with-deps chromium
+      - name: Test public Airtable export
+        run: uv run --with playwright python scripts/airtable_smoke.py
