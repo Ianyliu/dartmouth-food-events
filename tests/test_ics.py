@@ -43,6 +43,7 @@ def test_generated_calendar_has_unique_stable_uids_and_all_day_dates() -> None:
     assert str(components[0]["TRANSP"]) == "TRANSPARENT"
     assert str(components[0]["X-MICROSOFT-CDO-BUSYSTATUS"]) == "FREE"
 
+
 def test_generated_site_retains_live_airtable_embed(tmp_path: Path) -> None:
     write_outputs(tmp_path, [], datetime(2026, 10, 14, tzinfo=EASTERN))
     html = (tmp_path / "index.html").read_text(encoding="utf-8")
