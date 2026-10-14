@@ -4,7 +4,8 @@ on:
   push:
     branches: ["add-airtable-calendar"]
     paths:
-      - "scripts/airtable_smoke.py"
+      - "scripts/fetch_school_house_airtable.py"
+      - "src/free_food_dartmouth/sources/school_house_airtable.py"
       - ".github/workflows/airtable-smoke.yml"
   workflow_dispatch:
 
@@ -23,4 +24,10 @@ jobs:
       - name: Install Chromium
         run: uv run --with playwright playwright install --with-deps chromium
       - name: Test public Airtable export
-        run: uv run --with playwright python scripts/airtable_smoke.py
+        run: uv run --with playwright python scripts/fetch_school_house_airtable.py "$RUNNER_TEMP/school-house-airtable.ics"
+      - name: Validate export with actual food matcher
+        env:
+          SCHOOL_HOUSE_AIRTABLE_ICS: ${{ runner.temp }}/school-house-airtable.ics
+        run: |
+          uv sync --frozen
+          uv run python -c 'from datetime import date; from free_food_dartmouth.matcher import match_event; from free_food_dartmouth.sources.school_house_airtable import SchoolHouseAirtableSource; scan = SchoolHouseAirtableSource().scan(date(2026, 10, 14), date(2026, 11, 4)); matched = [e for e in scan.events if match_event(e)]; print("Live Airtable:", len(scan.events), "events,", len(matched), "food matches, complete:", scan.complete); assert scan.complete and len(scan.events) >= 20 and len(matched) >= 3'
