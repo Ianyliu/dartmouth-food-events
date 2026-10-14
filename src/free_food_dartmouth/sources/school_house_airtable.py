@@ -13,9 +13,7 @@ from free_food_dartmouth.models import EventRecord, SourceScan
 from free_food_dartmouth.utils import easternize, unique
 
 SOURCE_NAME = "School House Airtable"
-SHARED_VIEW_URL = (
-    "https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ"
-)
+SHARED_VIEW_URL = "https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ"
 EXPORT_ENV_VAR = "SCHOOL_HOUSE_AIRTABLE_ICS"
 CANCELLED = re.compile(r"^\s*(?:cancell?ed|postponed)\b", re.IGNORECASE)
 COPY_SUFFIX = re.compile(r"(?:\s+copy)+\s*$", re.IGNORECASE)
@@ -78,9 +76,11 @@ class SchoolHouseAirtableSource:
         # Airtable's public ICS puts a record link in DESCRIPTION instead of event details.
         # Keep the link for attribution; do not treat its URL as evidence of free food.
         record_link = str(get("description", "")).strip()
-        urls = [record_link, SHARED_VIEW_URL] if record_link.startswith(
-            ("https://airtable.com/", "http://airtable.com/")
-        ) else [SHARED_VIEW_URL]
+        urls = (
+            [record_link, SHARED_VIEW_URL]
+            if record_link.startswith(("https://airtable.com/", "http://airtable.com/"))
+            else [SHARED_VIEW_URL]
+        )
         title = COPY_SUFFIX.sub("", title).strip()
         record_id = uid.split("@", 1)[0]
         occurrence = start.isoformat()

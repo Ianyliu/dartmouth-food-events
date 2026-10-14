@@ -48,8 +48,10 @@ def main() -> int:
                     except Exception as exc:
                         print("Menu click failed", selector, type(exc).__name__)
             if not options.is_visible():
-                print("Download iCal not visible. Nearby menu text:",
-                      [x[:80] for x in page.locator('[role="menuitem"]').all_text_contents()][:20])
+                print(
+                    "Download iCal not visible. Nearby menu text:",
+                    [x[:80] for x in page.locator('[role="menuitem"]').all_text_contents()][:20],
+                )
                 return 2
             with page.expect_download(timeout=30000) as download_info:
                 options.click()
@@ -58,8 +60,14 @@ def main() -> int:
             download.save_as(output)
             body = output.read_bytes()
             n = body.count(b"BEGIN:VEVENT")
-            print("Downloaded valid ICS?", body.startswith(b"BEGIN:VCALENDAR"), "VEVENTs", n,
-                  "size", len(body))
+            print(
+                "Downloaded valid ICS?",
+                body.startswith(b"BEGIN:VCALENDAR"),
+                "VEVENTs",
+                n,
+                "size",
+                len(body),
+            )
             if not body.startswith(b"BEGIN:VCALENDAR") or n < 50:
                 output.unlink(missing_ok=True)
                 return 3
