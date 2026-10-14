@@ -106,7 +106,8 @@ def write_outputs(output_dir: Path, events: list[EventRecord], generated_at: dat
   <h2>Airtable calendar</h2>
   <p>
     This live calendar displays updates from Airtable when you load or reload the page.
-    Its events are separate from the food-event subscription above.
+    Matching School House food events are also included in the subscription above;
+    this embedded view shows the full calendar, including non-food activities.
   </p>
   <p>
     <a href="{html.escape(AIRTABLE_CALENDAR_URL)}" target="_blank" rel="noopener noreferrer">
