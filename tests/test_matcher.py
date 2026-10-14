@@ -68,3 +68,8 @@ def test_common_event_service_phrases_match() -> None:
     assert match_event(event("Community Walk", "Followed by a coffee or tea break at Ramekin."))
     assert match_event(event("Celebration", "We are hosting a meal for students."))
     assert match_event(event("Festival", "Complete with local food trucks and Kona Ice."))
+
+
+def test_school_house_waffles_and_pastries_are_food_matches() -> None:
+    assert match_event(event("Waffle Wellness Study Break"))
+    assert match_event(event("School Grounds - Free coffee & pastries"))

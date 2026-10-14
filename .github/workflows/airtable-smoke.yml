@@ -25,7 +25,7 @@ jobs:
         run: uv run --with playwright playwright install --with-deps chromium
       - name: Test public Airtable export
         run: uv run --with playwright python scripts/fetch_school_house_airtable.py "$RUNNER_TEMP/school-house-airtable.ics"
-      - name: Validate export with actual food matcher
+      - name: Validate fresh export with production food matcher
         env:
           SCHOOL_HOUSE_AIRTABLE_ICS: ${{ runner.temp }}/school-house-airtable.ics
         run: |
