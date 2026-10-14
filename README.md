@@ -11,6 +11,15 @@ The generated feed is published at:
 
 Food availability is inferred from public listings. Always verify the original event page.
 
+The [calendar website](https://ianyliu.github.io/dartmouth-food-events/) also embeds the
+[shared Airtable calendar](https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ).
+It loads directly from Airtable so visitors can browse every School House event.
+Separately, GitHub Actions downloads a **fresh** public Airtable iCal export for each sync;
+food-matching School House events join the subscription feed and Google Calendar after
+deduplication. The browser automation obtains export authorization through the public
+interface without saving an expiring signed URL. The shared view must remain public.
+The page generator preserves the embed on every scheduled update.
+
 ## How it works
 
 1. Dartmouth events are enumerated through the public date-range search endpoint. Each event's
@@ -30,6 +39,9 @@ Food availability is inferred from public listings. Always verify the original e
    coverage, and South House weekly newsletters are parsed for current dated events. Stale
    house-site entries are ignored before detailed time parsing so old malformed listings cannot
    make a current scan incomplete.
+   School House also contributes fresh Airtable events through its public iCal export. The export
+   contains stable record identifiers, dates, and titles, but usually no event locations or
+   full descriptions; food matching on this source is therefore primarily title-based.
 6. Guarini events are enumerated from the month archives and enriched from detail pages with
    exact times, descriptions, locations, sponsors, audiences, and registration links.
 7. A context-aware matcher selects likely food events and rejects common false positives.
@@ -102,6 +114,12 @@ The service-account JSON is read directly from the encrypted secret and is never
 - **Deploy calendar feed** publishes `docs/` through GitHub Pages.
 
 GitHub's scheduled workflows can start later than their nominal time during periods of high load.
+
+The School House Airtable download is performed using headless Chromium. If the public export
+fails or becomes invalid, the scheduled workflow aborts before making any calendar changes,
+rather than treating missing School House listings as cancellations. Local manual sync needs
+`SCHOOL_HOUSE_AIRTABLE_ICS` set to a freshly downloaded .ics file; otherwise the source is
+reported incomplete to prevent absence-based Google Calendar deletions.
 
 ## License
 

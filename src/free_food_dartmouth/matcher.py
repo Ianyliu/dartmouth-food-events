@@ -7,7 +7,8 @@ from free_food_dartmouth.models import EventRecord
 FOOD_TERMS = re.compile(
     r"\b(food|meal|bbq|barbecue|cookout|lunch|dinner|breakfast|brunch|pizza|snacks?|"
     r"dessert|ice cream|cake|cookies?|pies?|candy|chocolate|coffee|tea|drinks?|beverage|"
-    r"beer|wine|cocktails?|mocktails?|refreshments?|popcorn|dole whip)\b",
+    r"beer|wine|cocktails?|mocktails?|refreshments?|popcorn|dole whip|"
+    r"waffles?|pastr(?:y|ies)|doughnuts?|donuts?|bagels?)\b",
     re.IGNORECASE,
 )
 EXPLICIT_FOOD = re.compile(

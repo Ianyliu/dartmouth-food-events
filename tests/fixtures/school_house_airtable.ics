@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Airtable//Airtable//EN
+NAME:Calendar public (for website)
+BEGIN:VEVENT
+UID:recSchoolGrounds01@https://airtable.com
+DTSTAMP:20261001T120000Z
+DTSTART:20261023T123000Z
+DTEND:20261023T133000Z
+SUMMARY:School Grounds - Free grab-and-go coffee & pastries every Friday copy
+DESCRIPTION:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ/viwtqiEAmafxgvDfF/recSchoolGrounds01?date=2026-10-23
+END:VEVENT
+BEGIN:VEVENT
+UID:recWaffleStudyBreak@https://airtable.com
+DTSTAMP:20261001T120000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T010000Z
+SUMMARY:Waffle Wellness Study Break
+DESCRIPTION:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ/viwtqiEAmafxgvDfF/recWaffleStudyBreak?date=2026-10-16
+END:VEVENT
+BEGIN:VEVENT
+UID:recCancelledSchoolGrounds@https://airtable.com
+DTSTAMP:20261001T120000Z
+DTSTART:20261016T123000Z
+DTEND:20261016T133000Z
+SUMMARY:CANCELLED School Grounds - Free coffee & pastries
+END:VEVENT
+BEGIN:VEVENT
+UID:recCouncil01@https://airtable.com
+DTSTAMP:20261001T120000Z
+DTSTART:20261015T161500Z
+DTEND:20261015T171500Z
+SUMMARY:School House Council Meeting copy copy
+END:VEVENT
+BEGIN:VEVENT
+UID:recOldDinner@https://airtable.com
+DTSTAMP:20240101T000000Z
+DTSTART:20240101T170000Z
+DTEND:20240101T180000Z
+SUMMARY:School House Community Dinner
+END:VEVENT
+END:VCALENDAR
