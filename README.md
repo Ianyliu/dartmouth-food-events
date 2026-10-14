@@ -11,6 +11,13 @@ The generated feed is published at:
 
 Food availability is inferred from public listings. Always verify the original event page.
 
+The [calendar website](https://ianyliu.github.io/dartmouth-food-events/) also embeds the
+[shared Airtable calendar](https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ).
+It loads directly from Airtable, so changes appear when visitors load or reload the page
+without copying records or running a separate sync. The shared view must remain public
+and allow embedding. Its events are separate from the food-event ICS subscription.
+The page generator preserves the embed on every scheduled calendar update.
+
 ## How it works
 
 1. Dartmouth events are enumerated through the public date-range search endpoint. Each event's

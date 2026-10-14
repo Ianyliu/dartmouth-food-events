@@ -13,6 +13,8 @@ from free_food_dartmouth.utils import EASTERN
 
 CALENDAR_NAME = "Free Food @Dartmouth"
 FEED_URL = "https://ianyliu.github.io/dartmouth-food-events/free-food-dartmouth.ics"
+AIRTABLE_CALENDAR_URL = "https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ"
+AIRTABLE_EMBED_URL = AIRTABLE_CALENDAR_URL.replace("airtable.com/", "airtable.com/embed/")
 
 
 def build_calendar(events: list[EventRecord], generated_at: datetime) -> Calendar:
@@ -79,6 +81,10 @@ def write_outputs(output_dir: Path, events: list[EventRecord], generated_at: dat
     h1 {{ color: #00693e; }}
     a {{ color: #00693e; font-weight: 650; }}
     .meta {{ color: #52665d; }}
+    .airtable-calendar {{
+      display: block; width: 100%; height: 650px; border: 1px solid #d5e1da;
+      border-radius: 8px; background: #fff;
+    }}
   </style>
 </head>
 <body>
@@ -97,6 +103,23 @@ def write_outputs(output_dir: Path, events: list[EventRecord], generated_at: dat
   <p class="meta">
     Food availability is inferred. Verify the original event listing before attending.
   </p>
+  <h2>Airtable calendar</h2>
+  <p>
+    This live calendar displays updates from Airtable when you load or reload the page.
+    Its events are separate from the food-event subscription above.
+  </p>
+  <p>
+    <a href="{html.escape(AIRTABLE_CALENDAR_URL)}" target="_blank" rel="noopener noreferrer">
+      Open the Airtable calendar
+    </a>
+  </p>
+  <iframe
+    class="airtable-calendar"
+    src="{html.escape(AIRTABLE_EMBED_URL)}"
+    title="Dartmouth Airtable calendar"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
 </body>
 </html>
 """

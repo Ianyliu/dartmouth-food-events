@@ -12,6 +12,10 @@
     h1 { color: #00693e; }
     a { color: #00693e; font-weight: 650; }
     .meta { color: #52665d; }
+    .airtable-calendar {
+      display: block; width: 100%; height: 650px; border: 1px solid #d5e1da;
+      border-radius: 8px; background: #fff;
+    }
   </style>
 </head>
 <body>
@@ -30,5 +34,22 @@
   <p class="meta">
     Food availability is inferred. Verify the original event listing before attending.
   </p>
+  <h2>Airtable calendar</h2>
+  <p>
+    This live calendar displays updates from Airtable when you load or reload the page.
+    Its events are separate from the food-event subscription above.
+  </p>
+  <p>
+    <a href="https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ" target="_blank" rel="noopener noreferrer">
+      Open the Airtable calendar
+    </a>
+  </p>
+  <iframe
+    class="airtable-calendar"
+    src="https://airtable.com/embed/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ"
+    title="Dartmouth Airtable calendar"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
 </body>
 </html>
