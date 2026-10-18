@@ -40,54 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:4th Floor Fayes Home-Cooked Dinner
-DTSTART;TZID=America/New_York:20261017T183000
-DTEND;TZID=America/New_York:20261017T200000
-DTSTAMP:20261017T132637Z
-UID:dartmouth-groups-1633278@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1633278\n\nDescription:\nFourth Floor residents cook and sha
- re a meal together!\n\nSponsor / organizer: Residential Communities\n\nSou
- rce: Dartmouth Groups\n\nWhy this was included: food or meal keyword in ti
- tle\n\nFood availability is inferred from the source listing\; verify deta
- ils before attending.
-LAST-MODIFIED:20261017T132637Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633278
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:QHC x CAD 2026 - QHC Sex Toy Bingo!
-DTSTART;TZID=America/New_York:20261017T220000
-DTEND;TZID=America/New_York:20261017T230000
-DTSTAMP:20261017T132637Z
-UID:dartmouth-groups-1632395@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1632395\n\nDescription:\nLet's talk about all things queer\,
-  history\, & sex–come through to learn\, have fun\, and win prizes!\nLea
- rn more at dartgo.org/qsa\nFood Provided\n\nSponsor / organizer: Office of
-  Pluralism and Leadership / Collis After Dark\n\nSource: Dartmouth Groups\
- n\nWhy this was included: Free Food category\; explicit food-service wordi
- ng\; food keyword near service context\n\nFood availability is inferred fr
- om the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1632395
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:VSA Crushed Cocoa
 DTSTART;TZID=America/New_York:20261018T180000
 DTEND;TZID=America/New_York:20261018T190000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633022@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -102,7 +58,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  y this was included: Free Food category\; explicit food-service wording\; 
  food keyword near service context\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -110,39 +66,32 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633022
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Disciplinary Discussions: Teaching in the Soci
- al Sciences
-DTSTART;TZID=America/New_York:20261019T124500
-DTEND;TZID=America/New_York:20261019T134500
-DTSTAMP:20261017T132637Z
-UID:dartmouth-83019@free-food-dartmouth
+SUMMARY:Board\, Not Bored
+DTSTART;TZID=America/New_York:20261018T200000
+DTEND;TZID=America/New_York:20261018T220000
+DTSTAMP:20261018T134357Z
+UID:dartmouth-groups-1633282@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=83019\nhttps://airtable.com/appKrGzSjUnG5V1d3/shrRodwyFZ7HKDwFf?d
- etail=eyJwYWdlSWQiOiJwYWdKUzc1cEVsUERhTk9rbSIsInJvd0lkIjoicmVjeFhNQUd2eDJr
- dk5VRDIiLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6In
- BhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsMWlrdmhmMW5CNTdCWmUiLCJxdWVyeUNvbnRh
- aW5lcklkIjoicGVseVdSY0tCN1ZReVo1elQifX0\n\nDescription:\nJoin new DCAL Fac
- ulty Director\, Bob Hawley\, and social sciences colleagues to discuss the
-  state of teaching in your disciplines today.\nLunch will be provided.\nPl
- ease register!\n\nSponsor / organizer: Dartmouth Center for the Advancemen
- t of Learning (DCAL)\n\nAudience: Faculty\, Postdoc\, Public\, Students-Gr
- aduate\n\nSource: Dartmouth\n\nWhy this was included: explicit food-servic
- e wording\; food keyword near service context\n\nFood availability is infe
- rred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
-LOCATION:DCAL (Baker 102)
-STATUS:TENTATIVE
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1633282\n\nDescription:\nPlaying board games in Brace Common
+ s!\nFood Provided (Pizza)\n\nSponsor / organizer: Residential Communities\
+ n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food category\;
+  explicit food-service wording\; food keyword near service context\n\nFood
+  availability is inferred from the source listing\; verify details before 
+ attending.
+LAST-MODIFIED:20261018T134357Z
+LOCATION:Private Location (sign in to display)
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=83019
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633282
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Recharge & Reset 26F - Sleep Your Best
 DTSTART;TZID=America/New_York:20261019T153000
 DTEND;TZID=America/New_York:20261019T163000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632043@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -156,7 +105,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  licit food-service wording\; food keyword near service context in summary\
  n\nFood availability is inferred from the source listing\; verify details 
  before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -169,7 +118,7 @@ SUMMARY:“Free Speech in Polarized Times" with Professor David Cole & Moh
  sen Mahdawi
 DTSTART;TZID=America/New_York:20261019T153000
 DTEND;TZID=America/New_York:20261019T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82747@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -205,7 +154,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ublic\n\nSource: Dartmouth\n\nWhy this was included: Free Food category\n\
  nFood availability is inferred from the source listing\; verify details be
  fore attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Filene Auditorium\, Moore Building
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -216,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261020T103000
 DTEND;TZID=America/New_York:20261020T120000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632013@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -232,7 +181,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -244,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:Patas y Pitayas
 DTSTART;TZID=America/New_York:20261020T120000
 DTEND;TZID=America/New_York:20261020T130000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:guarini-53149@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -265,7 +214,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  ce: Guarini\n\nWhy this was included: food keyword near service context\n\
  nFood availability is inferred from the source listing\; verify details be
  fore attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -276,7 +225,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Truman Scholarship Info Session
 DTSTART;TZID=America/New_York:20261020T123000
 DTEND;TZID=America/New_York:20261020T133000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82767@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -300,7 +249,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ce wording\; food keyword near service context in summary\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -311,7 +260,7 @@ BEGIN:VEVENT
 SUMMARY:Best Day Ever Film and Discussion
 DTSTART;TZID=America/New_York:20261020T180000
 DTEND;TZID=America/New_York:20261020T220000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633054@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -323,7 +272,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ty in the DOC\n\nSource: Dartmouth Groups\n\nWhy this was included: Free F
  ood category\n\nFood availability is inferred from the source listing\; ve
  rify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -334,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:QHC 2026 - Queer & Sacred: An LGBTQIA+ Interfaith Dinner
 DTSTART;TZID=America/New_York:20261020T180000
 DTEND;TZID=America/New_York:20261020T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632396@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -355,7 +304,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   category\; explicit food-service wording\; food or meal keyword in title\
  n\nFood availability is inferred from the source listing\; verify details 
  before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -366,7 +315,7 @@ BEGIN:VEVENT
 SUMMARY:SWE Weekly Meeting
 DTSTART;TZID=America/New_York:20261020T183000
 DTEND;TZID=America/New_York:20261020T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632681@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -377,7 +326,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  explicit food-service wording\; food keyword near service context\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -388,7 +337,7 @@ BEGIN:VEVENT
 SUMMARY:Title :  What Will I Become?
 DTSTART;TZID=America/New_York:20261020T190000
 DTEND;TZID=America/New_York:20261020T200000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:south-house-2026-10-20-1900-title-what-will-i-become@free-food-dartmou
  th
 SEQUENCE:0
@@ -403,7 +352,7 @@ DESCRIPTION:Original event page(s):\nhttps://mailchi.mp/dartmouth/south-ho
  h House\n\nSource: South House\n\nWhy this was included: food keyword near
   service context\n\nFood availability is inferred from the source listing\
  ; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Loew Auditorium\, Visual Arts Center
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -414,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:Late Night Breakfast
 DTSTART;TZID=America/New_York:20261020T210000
 DTEND;TZID=America/New_York:20261020T230000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633138@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -429,7 +378,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ouse\n\nWhy this was included: food or meal keyword in title\n\nFood avail
  ability is inferred from the source listing\; verify details before attend
  ing.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -440,7 +389,7 @@ BEGIN:VEVENT
 SUMMARY:Tea & Trees
 DTSTART;TZID=America/New_York:20261021T090000
 DTEND;TZID=America/New_York:20261021T100000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82507@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -459,7 +408,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   at Dartmouth\n\nAudience: Public\n\nSource: Dartmouth\, Dartmouth Groups\
  n\nWhy this was included: food or meal keyword in title\n\nFood availabili
  ty is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -470,7 +419,7 @@ BEGIN:VEVENT
 SUMMARY:Career Trek to Boston
 DTSTART;TZID=America/New_York:20261021T100000
 DTEND;TZID=America/New_York:20261021T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:guarini-51161@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -497,7 +446,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  included: explicit food-service wording\; food keyword near service contex
  t\n\nFood availability is inferred from the source listing\; verify detail
  s before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Bristol Myers Squibb
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -509,7 +458,7 @@ BEGIN:VEVENT
 SUMMARY:LCHC 26: Healing Across the Diaspora: Men's Mental Health
 DTSTART;TZID=America/New_York:20261021T120000
 DTEND;TZID=America/New_York:20261021T140000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1631853@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -531,7 +480,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  t food-service wording\; food keyword near service context in summary\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -542,7 +491,7 @@ BEGIN:VEVENT
 SUMMARY:Postdoc and Graduate Student Listening Session on AI Experiences
 DTSTART;TZID=America/New_York:20261021T123000
 DTEND;TZID=America/New_York:20261021T133000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82932@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -563,7 +512,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  icit food-service wording\; food keyword near service context\n\nFood avai
  lability is inferred from the source listing\; verify details before atten
  ding.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:DCAL Baker 102
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -574,7 +523,7 @@ BEGIN:VEVENT
 SUMMARY:ART Tea 3:00-4:30 & Pup Therapy (3:30-4:30P)
 DTSTART;TZID=America/New_York:20261021T150000
 DTEND;TZID=America/New_York:20261021T163000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633066@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -592,7 +541,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  hy this was included: Free Food category\; food or meal keyword in title\n
  \nFood availability is inferred from the source listing\; verify details b
  efore attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -603,7 +552,7 @@ BEGIN:VEVENT
 SUMMARY:Where: Fayerweather 105
 DTSTART;TZID=America/New_York:20261021T150000
 DTEND;TZID=America/New_York:20261021T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:south-house-2026-10-21-1500-where-fayerweather-105@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -618,7 +567,7 @@ DESCRIPTION:Original event page(s):\nhttps://mailchi.mp/dartmouth/south-ho
  n\nSponsor / organizer: South House\n\nSource: South House\n\nWhy this was
   included: food keyword near service context\n\nFood availability is infer
  red from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://mailchi.mp/dartmouth/south-house-weekly-26f-week-5
@@ -628,7 +577,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261021T153000
 DTEND;TZID=America/New_York:20261021T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632031@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -644,7 +593,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -656,7 +605,7 @@ BEGIN:VEVENT
 SUMMARY:Guided Relaxation with iRest yoga Nidra\, and Journaling
 DTSTART;TZID=America/New_York:20261021T153000
 DTEND;TZID=America/New_York:20261021T161500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82547@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -687,7 +636,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Center\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: 
  Free Food category\n\nFood availability is inferred from the source listin
  g\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Rollins Chapel
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -698,7 +647,7 @@ BEGIN:VEVENT
 SUMMARY:Aukiñ: Protecting the Sounds of the Earth in the Climate Crisis
 DTSTART;TZID=America/New_York:20261021T173000
 DTEND;TZID=America/New_York:20261021T190000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-83021@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -718,7 +667,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  uded: Free Food category\; explicit food-service wording\; food keyword ne
  ar service context\n\nFood availability is inferred from the source listin
  g\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Top of the Hop\, Hopkins Center for the Arts
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -729,7 +678,7 @@ BEGIN:VEVENT
 SUMMARY:Energy Ventures Info Session
 DTSTART;TZID=America/New_York:20261021T180000
 DTEND;TZID=America/New_York:20261021T190000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-83057@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -748,7 +697,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  as included: Free Food category\; food keyword near service context\n\nFoo
  d availability is inferred from the source listing\; verify details before
   attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Murdough - 3rd floor MEM space
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -759,7 +708,7 @@ BEGIN:VEVENT
 SUMMARY:Macrotrips and Microbrews
 DTSTART;TZID=America/New_York:20261021T200000
 DTEND;TZID=America/New_York:20261021T210000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633170@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -770,7 +719,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  th Groups\n\nWhy this was included: food keyword near service context in s
  ummary\n\nFood availability is inferred from the source listing\; verify d
  etails before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:One Wheelock\, -
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -781,7 +730,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261022T103000
 DTEND;TZID=America/New_York:20261022T120000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632014@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -797,7 +746,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -809,7 +758,7 @@ BEGIN:VEVENT
 SUMMARY:Russo Hall Dedication
 DTSTART;TZID=America/New_York:20261022T160000
 DTEND;TZID=America/New_York:20261022T173000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82288@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -826,7 +775,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nces and Events\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was i
  ncluded: food keyword near service context\n\nFood availability is inferre
  d from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Russo Hall (25 W. Wheelock Street)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -837,7 +786,7 @@ BEGIN:VEVENT
 SUMMARY:DURA: Research Mixer
 DTSTART;TZID=America/New_York:20261022T170000
 DTEND;TZID=America/New_York:20261022T180000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82898@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -851,7 +800,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  mouth\n\nWhy this was included: food keyword near service context\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Kemeny Hall 007
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -862,7 +811,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth Writers Society
 DTSTART;TZID=America/New_York:20261022T173000
 DTEND;TZID=America/New_York:20261022T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:gsc-dartmouth-writers-society-3-sfbfj-bw8nd-nday5@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -877,7 +826,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  C\n\nWhy this was included: explicit food-service wording\; food keyword n
  ear service context\n\nFood availability is inferred from the source listi
  ng\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-sfbf
@@ -888,7 +837,7 @@ BEGIN:VEVENT
 SUMMARY:LCHC 26: Cooking session and Community Dinner
 DTSTART;TZID=America/New_York:20261022T173000
 DTEND;TZID=America/New_York:20261022T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632002@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -907,7 +856,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  adership\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\; food or meal keyword in title\n\nFood availability is inferred f
  rom the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -919,7 +868,7 @@ SUMMARY:Breaking the Mold: Careers for the Common Good - Dinner and Keynot
  e Address
 DTSTART;TZID=America/New_York:20261022T180000
 DTEND;TZID=America/New_York:20261022T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82337@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -969,7 +918,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  h\, Dartmouth Groups\n\nWhy this was included: Free Food category\; explic
  it food-service wording\; food or meal keyword in title\n\nFood availabili
  ty is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (register to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -980,7 +929,7 @@ BEGIN:VEVENT
 SUMMARY:Arabic Club
 DTSTART;TZID=America/New_York:20261022T183000
 DTEND;TZID=America/New_York:20261022T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82955@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -991,7 +940,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  f\, Students-Graduate\, Students-Undergraduate\n\nSource: Dartmouth\n\nWhy
   this was included: Free Food category\n\nFood availability is inferred fr
  om the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Reed 311
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1002,7 +951,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Meeting
 DTSTART;TZID=America/New_York:20261022T193000
 DTEND;TZID=America/New_York:20261022T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632329@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1014,7 +963,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   explicit food-service wording\; food keyword near service context\n\nFood
   availability is inferred from the source listing\; verify details before 
  attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1025,7 +974,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth-Tuck Real Estate Conference
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82837@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1054,7 +1003,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  and Venture Capital\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this w
  as included: food keyword near service context\n\nFood availability is inf
  erred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Georgiopoulos Classroom\, Raether Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1065,7 +1014,7 @@ BEGIN:VEVENT
 SUMMARY:School Grounds - Free grab-and-go coffee & pastries every Friday
 DTSTART;TZID=America/New_York:20261023T083000
 DTEND;TZID=America/New_York:20261023T093000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:school-house-airtable-recmStUPV02vH8veI-2026-10-23T08-30-00-04-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -1077,7 +1026,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -1089,7 +1038,7 @@ SUMMARY:Breaking the Mold: From Campus to Career - Young Alumni Perspectiv
  es
 DTSTART;TZID=America/New_York:20261023T093000
 DTEND;TZID=America/New_York:20261023T103000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1631073@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1122,7 +1071,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  rvice wording\; food keyword near service context in summary\n\nFood avail
  ability is inferred from the source listing\; verify details before attend
  ing.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (register to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1133,7 +1082,7 @@ BEGIN:VEVENT
 SUMMARY:Breaking the Mold: Job Searching with Young Alumni
 DTSTART;TZID=America/New_York:20261023T093000
 DTEND;TZID=America/New_York:20261023T103000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82542@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1163,7 +1112,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  th\n\nWhy this was included: Free Food category\; explicit food-service wo
  rding\; food keyword near service context\n\nFood availability is inferred
   from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:South Fairbanks Hall\, Room 105
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1174,7 +1123,7 @@ BEGIN:VEVENT
 SUMMARY:Tea & Journaling to Reduce Stress
 DTSTART;TZID=America/New_York:20261023T120000
 DTEND;TZID=America/New_York:20261023T130000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:guarini-52480@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1194,7 +1143,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  : Guarini\n\nWhy this was included: food or meal keyword in title\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Anonymous Hall\, Guarini Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1206,7 +1155,7 @@ BEGIN:VEVENT
 SUMMARY:Breaking the Mold: Career Panel for Educational Leadership
 DTSTART;TZID=America/New_York:20261023T124500
 DTEND;TZID=America/New_York:20261023T140000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82551@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1238,7 +1187,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  od keyword near service context\; food keyword near service context in sum
  mary\n\nFood availability is inferred from the source listing\; verify det
  ails before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (register to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1250,7 +1199,7 @@ SUMMARY:Breaking the Mold: Career Panel for Energy Transitions & Energy Ju
  stice
 DTSTART;TZID=America/New_York:20261023T124500
 DTEND;TZID=America/New_York:20261023T140000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82552@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1282,7 +1231,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ce wording\; food keyword near service context\; food keyword near service
   context in summary\n\nFood availability is inferred from the source listi
  ng\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (register to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1293,7 +1242,7 @@ BEGIN:VEVENT
 SUMMARY:Breaking the Mold: Career Panel for Social Entrepreneurship
 DTSTART;TZID=America/New_York:20261023T124500
 DTEND;TZID=America/New_York:20261023T140000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82553@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1329,7 +1278,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  rvice context\; food keyword near service context in summary\n\nFood avail
  ability is inferred from the source listing\; verify details before attend
  ing.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (register to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1340,7 +1289,7 @@ BEGIN:VEVENT
 SUMMARY:CHINESE AFTERNOON TEA & CONVERSATION
 DTSTART;TZID=America/New_York:20261023T153000
 DTEND;TZID=America/New_York:20261023T173000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82915@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1353,7 +1302,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  tudents-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food 
  or meal keyword in title\n\nFood availability is inferred from the source 
  listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Chinese Language House\, 36 North Main Street\, Hanover\, NH
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1364,7 +1313,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261023T153000
 DTEND;TZID=America/New_York:20261023T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632032@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1380,7 +1329,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -1392,7 +1341,7 @@ BEGIN:VEVENT
 SUMMARY:Vine
 DTSTART;TZID=America/New_York:20261023T173000
 DTEND;TZID=America/New_York:20261023T190000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632066@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1405,7 +1354,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  d category\; explicit food-service wording\; food keyword near service con
  text\n\nFood availability is inferred from the source listing\; verify det
  ails before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Christian Union Vox\, 43.70123161059303\,-72.2887961618686
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1416,7 +1365,7 @@ BEGIN:VEVENT
 SUMMARY:LGBTQIA+ Drop-In
 DTSTART;TZID=America/New_York:20261023T183000
 DTEND;TZID=America/New_York:20261023T200000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632410@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1429,7 +1378,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   food-service wording\; food keyword near service context in summary\n\nFo
  od availability is inferred from the source listing\; verify details befor
  e attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1440,7 +1389,7 @@ BEGIN:VEVENT
 SUMMARY:Where: One Wheelock- Ground Floor of Collis
 DTSTART;TZID=America/New_York:20261023T193000
 DTEND;TZID=America/New_York:20261023T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:south-house-2026-10-23-1930-where-one-wheelock-ground-floor-of-collis@
  free-food-dartmouth
 SEQUENCE:0
@@ -1453,7 +1402,7 @@ DESCRIPTION:Original event page(s):\nhttps://mailchi.mp/dartmouth/south-ho
  th House\n\nSource: South House\n\nWhy this was included: food keyword nea
  r service context\n\nFood availability is inferred from the source listing
  \; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://mailchi.mp/dartmouth/south-house-weekly-26f-week-5
@@ -1463,7 +1412,7 @@ BEGIN:VEVENT
 SUMMARY:Fall Induction Ceremony
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T133000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1631687@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1486,7 +1435,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  Why this was included: explicit food-service wording\; food keyword near s
  ervice context\n\nFood availability is inferred from the source listing\; 
  verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1497,7 +1446,7 @@ BEGIN:VEVENT
 SUMMARY:Research Journeys Alumni Panel
 DTSTART;TZID=America/New_York:20261024T173000
 DTEND;TZID=America/New_York:20261024T191500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633051@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1514,7 +1463,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  earch\, and Fellowships at Dartmouth\n\nSource: Dartmouth Groups\n\nWhy th
  is was included: Free Food category\n\nFood availability is inferred from 
  the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1525,7 +1474,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Started: Write Now! 26F
 DTSTART;TZID=America/New_York:20261025T140000
 DTEND;TZID=America/New_York:20261025T153000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82560@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1543,7 +1492,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  uate\n\nSource: Dartmouth\, Dartmouth Groups\n\nWhy this was included: Fre
  e Food category\n\nFood availability is inferred from the source listing\;
   verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1554,7 +1503,7 @@ BEGIN:VEVENT
 SUMMARY:Disciplinary Discussions: Teaching in the Sciences
 DTSTART;TZID=America/New_York:20261026T124500
 DTEND;TZID=America/New_York:20261026T134500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-83020@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1571,7 +1520,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nSource: Dartmouth\n\nWhy this was included: explicit food-service wording
  \; food keyword near service context\n\nFood availability is inferred from
   the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1582,7 +1531,7 @@ BEGIN:VEVENT
 SUMMARY:Recharge & Reset 26F - DIY at the Hood
 DTSTART;TZID=America/New_York:20261026T153000
 DTEND;TZID=America/New_York:20261026T163000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632044@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1596,7 +1545,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ory\; explicit food-service wording\; food keyword near service context in
   summary\n\nFood availability is inferred from the source listing\; verify
   details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -1608,7 +1557,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261027T103000
 DTEND;TZID=America/New_York:20261027T120000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632015@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1624,7 +1573,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -1636,7 +1585,7 @@ BEGIN:VEVENT
 SUMMARY:On-Campus Info Session: Master of Energy Transition
 DTSTART;TZID=America/New_York:20261027T121500
 DTEND;TZID=America/New_York:20261027T131500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82938@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1670,7 +1619,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  ncluded: explicit food-service wording\; food keyword near service context
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Irving Institute: The Call to Lead Lab (IR-155)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1681,7 +1630,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Udall Scholarship & Udall Internship Info Session
 DTSTART;TZID=America/New_York:20261027T123000
 DTEND;TZID=America/New_York:20261027T133000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82768@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1715,7 +1664,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  s included: explicit food-service wording\; food keyword near service cont
  ext in summary\n\nFood availability is inferred from the source listing\; 
  verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1726,7 +1675,7 @@ BEGIN:VEVENT
 SUMMARY:Re-Orientation for the Class of 2030 and Transfer Students
 DTSTART;TZID=America/New_York:20261027T160000
 DTEND;TZID=America/New_York:20261027T180000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633050@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1740,7 +1689,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s was included: food keyword near service context in summary\n\nFood avail
  ability is inferred from the source listing\; verify details before attend
  ing.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1751,7 +1700,7 @@ BEGIN:VEVENT
 SUMMARY:MAPS - Volunteering Opportunities on Campus
 DTSTART;TZID=America/New_York:20261027T180000
 DTEND;TZID=America/New_York:20261027T200000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633014@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1763,7 +1712,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  cluded: explicit food-service wording\; food keyword near service context\
  n\nFood availability is inferred from the source listing\; verify details 
  before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1774,7 +1723,7 @@ BEGIN:VEVENT
 SUMMARY:SWE Weekly Meeting
 DTSTART;TZID=America/New_York:20261027T183000
 DTEND;TZID=America/New_York:20261027T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632682@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1785,7 +1734,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  explicit food-service wording\; food keyword near service context\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1796,7 +1745,7 @@ BEGIN:VEVENT
 SUMMARY:Tea & Trees
 DTSTART;TZID=America/New_York:20261028T090000
 DTEND;TZID=America/New_York:20261028T100000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82508@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1815,7 +1764,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   at Dartmouth\n\nAudience: Public\n\nSource: Dartmouth\, Dartmouth Groups\
  n\nWhy this was included: food or meal keyword in title\n\nFood availabili
  ty is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1826,7 +1775,7 @@ BEGIN:VEVENT
 SUMMARY:Halloween Tea 3:00-4:30 & Pup Therapy (3:30-4:30P)
 DTSTART;TZID=America/New_York:20261028T150000
 DTEND;TZID=America/New_York:20261028T160000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:school-house-airtable-recFYgRzPUPpfA5cV-2026-10-28T15-00-00-04-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -1838,7 +1787,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -1849,7 +1798,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261028T153000
 DTEND;TZID=America/New_York:20261028T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632033@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1865,7 +1814,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -1877,7 +1826,7 @@ BEGIN:VEVENT
 SUMMARY:Guided Relaxation with iRest yoga Nidra\, and Journaling
 DTSTART;TZID=America/New_York:20261028T153000
 DTEND;TZID=America/New_York:20261028T161500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82548@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1908,7 +1857,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Center\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: 
  Free Food category\n\nFood availability is inferred from the source listin
  g\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Rollins Chapel
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1919,7 +1868,7 @@ BEGIN:VEVENT
 SUMMARY:American Men: A Conversation on Identity and Modern Masculinity
 DTSTART;TZID=America/New_York:20261028T180000
 DTEND;TZID=America/New_York:20261028T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633090@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1933,7 +1882,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ategory\; explicit food-service wording\; food keyword near service contex
  t in summary\n\nFood availability is inferred from the source listing\; ve
  rify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1944,7 +1893,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261029T103000
 DTEND;TZID=America/New_York:20261029T120000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632016@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1960,7 +1909,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -1972,7 +1921,7 @@ BEGIN:VEVENT
 SUMMARY:Pumpkins and Polaroids
 DTSTART;TZID=America/New_York:20261029T163000
 DTEND;TZID=America/New_York:20261029T183000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633243@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -1987,7 +1936,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  \nWhy this was included: Free Food category\; food keyword near service co
  ntext in summary\n\nFood availability is inferred from the source listing\
  ; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1998,7 +1947,7 @@ BEGIN:VEVENT
 SUMMARY:HOOD AFTER 5
 DTSTART;TZID=America/New_York:20261029T170000
 DTEND;TZID=America/New_York:20261029T190000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82246@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2013,7 +1962,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \nSource: Dartmouth\n\nWhy this was included: Free Food category\n\nFood a
  vailability is inferred from the source listing\; verify details before at
  tending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Hood Museum of Art
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2024,7 +1973,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth Writers Society
 DTSTART;TZID=America/New_York:20261029T173000
 DTEND;TZID=America/New_York:20261029T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:gsc-dartmouth-writers-society-3-sfbfj-bw8nd-nday5-4zwjj@free-food-dart
  mouth
 SEQUENCE:0
@@ -2040,7 +1989,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  uth GSC\n\nWhy this was included: explicit food-service wording\; food key
  word near service context\n\nFood availability is inferred from the source
   listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-sfbf
@@ -2051,7 +2000,7 @@ BEGIN:VEVENT
 SUMMARY:Black & Being Mindfulness Series: Session #4
 DTSTART;TZID=America/New_York:20261029T180000
 DTEND;TZID=America/New_York:20261029T191500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1631670@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2063,7 +2012,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  artmouth Groups\n\nWhy this was included: Free Food category\n\nFood avail
  ability is inferred from the source listing\; verify details before attend
  ing.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2074,7 +2023,7 @@ BEGIN:VEVENT
 SUMMARY:Arabic Club
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82956@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2085,7 +2034,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  f\, Students-Graduate\, Students-Undergraduate\n\nSource: Dartmouth\n\nWhy
   this was included: Free Food category\n\nFood availability is inferred fr
  om the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Reed 311
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2096,7 +2045,7 @@ BEGIN:VEVENT
 SUMMARY:Slate 26F Open Mic
 DTSTART;TZID=America/New_York:20261029T190000
 DTEND;TZID=America/New_York:20261029T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633011@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2108,7 +2057,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   Dartmouth Groups\n\nWhy this was included: food keyword near service cont
  ext in summary\n\nFood availability is inferred from the source listing\; 
  verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2119,7 +2068,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Meeting
 DTSTART;TZID=America/New_York:20261029T193000
 DTEND;TZID=America/New_York:20261029T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632330@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2131,7 +2080,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   explicit food-service wording\; food keyword near service context\n\nFood
   availability is inferred from the source listing\; verify details before 
  attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2142,7 +2091,7 @@ BEGIN:VEVENT
 SUMMARY:School Grounds - Free grab-and-go coffee & pastries every Friday
 DTSTART;TZID=America/New_York:20261030T083000
 DTEND;TZID=America/New_York:20261030T093000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:school-house-airtable-recwoJ7tQqj9haUeV-2026-10-30T08-30-00-04-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -2154,7 +2103,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -2165,7 +2114,7 @@ BEGIN:VEVENT
 SUMMARY:CHINESE AFTERNOON TEA & CONVERSATION
 DTSTART;TZID=America/New_York:20261030T153000
 DTEND;TZID=America/New_York:20261030T173000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82916@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2178,7 +2127,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  tudents-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food 
  or meal keyword in title\n\nFood availability is inferred from the source 
  listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Chinese Language House\, 36 North Main Street\, Hanover\, NH
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2189,7 +2138,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261030T153000
 DTEND;TZID=America/New_York:20261030T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632034@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2205,7 +2154,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -2217,7 +2166,7 @@ BEGIN:VEVENT
 SUMMARY:Vine
 DTSTART;TZID=America/New_York:20261030T173000
 DTEND;TZID=America/New_York:20261030T190000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632067@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2230,7 +2179,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  d category\; explicit food-service wording\; food keyword near service con
  text\n\nFood availability is inferred from the source listing\; verify det
  ails before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Christian Union Vox\, 43.70123161059303\,-72.2887961618686
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2241,7 +2190,7 @@ BEGIN:VEVENT
 SUMMARY:Recharge & Reset 26F - Breathe Through Finals
 DTSTART;TZID=America/New_York:20261102T153000
 DTEND;TZID=America/New_York:20261102T163000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632045@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2255,7 +2204,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  icit food-service wording\; food keyword near service context in summary\n
  \nFood availability is inferred from the source listing\; verify details b
  efore attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -2267,7 +2216,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261103T103000
 DTEND;TZID=America/New_York:20261103T120000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632017@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2283,7 +2232,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -2295,7 +2244,7 @@ BEGIN:VEVENT
 SUMMARY:LGBTQIA+ Drop-In
 DTSTART;TZID=America/New_York:20261103T140000
 DTEND;TZID=America/New_York:20261103T153000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632411@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2308,7 +2257,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   food-service wording\; food keyword near service context in summary\n\nFo
  od availability is inferred from the source listing\; verify details befor
  e attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2319,7 +2268,7 @@ BEGIN:VEVENT
 SUMMARY:Interfaith Dinner: Día de Muertos
 DTSTART;TZID=America/New_York:20261103T180000
 DTEND;TZID=America/New_York:20261103T191500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632003@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2337,7 +2286,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  e: Dartmouth Groups\n\nWhy this was included: Free Food category\; food or
   meal keyword in title\n\nFood availability is inferred from the source li
  sting\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2348,7 +2297,7 @@ BEGIN:VEVENT
 SUMMARY:Late Night at Rauner: The Story of Ada Blackjack
 DTSTART;TZID=America/New_York:20261103T183000
 DTEND;TZID=America/New_York:20261103T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82830@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2362,7 +2311,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Why this was included: explicit food-service wording\; food keyword near s
  ervice context\n\nFood availability is inferred from the source listing\; 
  verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Rauner Special Collections Library
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2373,7 +2322,7 @@ BEGIN:VEVENT
 SUMMARY:SWE Weekly Meeting
 DTSTART;TZID=America/New_York:20261103T183000
 DTEND;TZID=America/New_York:20261103T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632683@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2384,7 +2333,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  explicit food-service wording\; food keyword near service context\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2395,7 +2344,7 @@ BEGIN:VEVENT
 SUMMARY:Tea & Trees
 DTSTART;TZID=America/New_York:20261104T090000
 DTEND;TZID=America/New_York:20261104T100000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82509@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2414,7 +2363,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   at Dartmouth\n\nAudience: Public\n\nSource: Dartmouth\, Dartmouth Groups\
  n\nWhy this was included: food or meal keyword in title\n\nFood availabili
  ty is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2425,7 +2374,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Tea 3:00-4:30 & Pup Therapy (3:30-4:30P)
 DTSTART;TZID=America/New_York:20261104T150000
 DTEND;TZID=America/New_York:20261104T160000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:school-house-airtable-recTTko25chTfvF2y-2026-11-04T15-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -2437,7 +2386,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -2448,7 +2397,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261104T153000
 DTEND;TZID=America/New_York:20261104T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632035@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2464,7 +2413,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -2476,7 +2425,7 @@ BEGIN:VEVENT
 SUMMARY:Guided Relaxation with iRest yoga Nidra\, and Journaling
 DTSTART;TZID=America/New_York:20261104T153000
 DTEND;TZID=America/New_York:20261104T161500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82549@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2507,7 +2456,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  Center\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: 
  Free Food category\n\nFood availability is inferred from the source listin
  g\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Rollins Chapel
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2518,7 +2467,7 @@ BEGIN:VEVENT
 SUMMARY:QHC/TWOV 2026 - Honoring Transgender Day of Remembrance
 DTSTART;TZID=America/New_York:20261104T183000
 DTEND;TZID=America/New_York:20261104T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632412@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2537,7 +2486,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ed: explicit food-service wording\; food keyword near service context\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2548,7 +2497,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261105T103000
 DTEND;TZID=America/New_York:20261105T120000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632018@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2564,7 +2513,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -2576,7 +2525,7 @@ BEGIN:VEVENT
 SUMMARY:University Seminar: Debt and Credit
 DTSTART;TZID=America/New_York:20261105T121500
 DTEND;TZID=America/New_York:20261105T134500
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82864@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2602,7 +2551,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  stdoc\, Staff\n\nSource: Dartmouth\n\nWhy this was included: explicit food
  -service wording\; food keyword near service context\n\nFood availability 
  is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Haldeman 246
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2613,7 +2562,7 @@ BEGIN:VEVENT
 SUMMARY:Food\, Home\, and Words: A zoom conversation with Kim Thúy
 DTSTART;TZID=America/New_York:20261105T143000
 DTEND;TZID=America/New_York:20261105T153000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-83010@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2633,7 +2582,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  eslie Center for the Humanities\n\nAudience: Public\n\nSource: Dartmouth\n
  \nWhy this was included: food or meal keyword in title\n\nFood availabilit
  y is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Dartmouth Hall 105
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2644,7 +2593,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth Writers Society
 DTSTART;TZID=America/New_York:20261105T173000
 DTEND;TZID=America/New_York:20261105T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:gsc-dartmouth-writers-society-3-zd35e@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2659,7 +2608,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  s was included: explicit food-service wording\; food keyword near service 
  context\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-zd35
@@ -2670,7 +2619,7 @@ BEGIN:VEVENT
 SUMMARY:Arabic Club
 DTSTART;TZID=America/New_York:20261105T183000
 DTEND;TZID=America/New_York:20261105T193000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82957@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2681,7 +2630,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  f\, Students-Graduate\, Students-Undergraduate\n\nSource: Dartmouth\n\nWhy
   this was included: Free Food category\n\nFood availability is inferred fr
  om the source listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Reed 311
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2692,7 +2641,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Meeting
 DTSTART;TZID=America/New_York:20261105T193000
 DTEND;TZID=America/New_York:20261105T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632331@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2704,7 +2653,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   explicit food-service wording\; food keyword near service context\n\nFood
   availability is inferred from the source listing\; verify details before 
  attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2715,7 +2664,7 @@ BEGIN:VEVENT
 SUMMARY:Veteran Community Get-Together and Coffee at Lou’s
 DTSTART;TZID=America/New_York:20261106T070000
 DTEND;TZID=America/New_York:20261106T090000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-83059@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2726,7 +2675,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  uth\n\nWhy this was included: food or meal keyword in title\n\nFood availa
  bility is inferred from the source listing\; verify details before attendi
  ng.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Lou's Restaurant &amp\; Bakery
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2737,7 +2686,7 @@ BEGIN:VEVENT
 SUMMARY:School Grounds - Free grab-and-go coffee & pastries every Friday
 DTSTART;TZID=America/New_York:20261106T083000
 DTEND;TZID=America/New_York:20261106T093000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:school-house-airtable-recTXgofCNe6s3ZFK-2026-11-06T08-30-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -2749,7 +2698,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -2760,7 +2709,7 @@ BEGIN:VEVENT
 SUMMARY:For the Sons of Old Dartmouth
 DTSTART;TZID=America/New_York:20261106T123000
 DTEND;TZID=America/New_York:20261106T140000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1633123@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2774,7 +2723,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  d: Free Food category\; explicit food-service wording\; food keyword near 
  service context in summary\n\nFood availability is inferred from the sourc
  e listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2785,7 +2734,7 @@ BEGIN:VEVENT
 SUMMARY:CHINESE AFTERNOON TEA & CONVERSATION
 DTSTART;TZID=America/New_York:20261106T153000
 DTEND;TZID=America/New_York:20261106T173000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-82917@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2798,7 +2747,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  tudents-Undergraduate\n\nSource: Dartmouth\n\nWhy this was included: food 
  or meal keyword in title\n\nFood availability is inferred from the source 
  listing\; verify details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Chinese Language House\, 36 North Main Street\, Hanover\, NH
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2809,7 +2758,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261106T153000
 DTEND;TZID=America/New_York:20261106T170000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632036@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2825,7 +2774,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s Center\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\n\nFood availability is inferred from the source listing\; verify 
  details before attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Berry 178\, Berry Library Suite 178-79\n25 N Main St\n\, Hanover\
  , NH 03755\, United States
 STATUS:CONFIRMED
@@ -2837,7 +2786,7 @@ BEGIN:VEVENT
 SUMMARY:Spilled Ink 26F Poetry Slam
 DTSTART;TZID=America/New_York:20261106T190000
 DTEND;TZID=America/New_York:20261106T203000
-DTSTAMP:20261017T132637Z
+DTSTAMP:20261018T134357Z
 UID:dartmouth-groups-1632259@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -2850,11 +2799,34 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  cit food-service wording\; food keyword near service context in summary\n\
  nFood availability is inferred from the source listing\; verify details be
  fore attending.
-LAST-MODIFIED:20261017T132637Z
+LAST-MODIFIED:20261018T134357Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1632259
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:School House Team Dinner
+DTSTART;TZID=America/New_York:20261107T193000
+DTEND;TZID=America/New_York:20261107T203000
+DTSTAMP:20261018T134357Z
+UID:school-house-airtable-reclXeRMAXGFCSva8-2026-11-07T19-30-00-05-00@free
+ -food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
+ 6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ/viwtqiEAmafxgvDfF/reclXeRMAXGFCSva8?
+ date=2026-11-08\nhttps://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/
+ tblWCjX1JWEWWcuuQ\n\nSponsor / organizer: School House\n\nSource: School H
+ ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
+ ood availability is inferred from the source listing\; verify details befo
+ re attending.
+LAST-MODIFIED:20261018T134357Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
+ cuuQ/viwtqiEAmafxgvDfF/reclXeRMAXGFCSva8?date=2026-11-08
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
