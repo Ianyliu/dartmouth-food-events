@@ -36,7 +36,11 @@ The page generator preserves the embed on every scheduled update.
 5. The six House Communities — Allen, East Wheelock, North Park, School, South, and West —
    are scanned from their official public Dartmouth Groups iCalendar feeds. Public house-specific
    sites are also used where useful: North Park and School House event lists provide supplemental
-   coverage, and South House weekly newsletters are parsed for current dated events. Stale
+   coverage, and South House weekly newsletters are parsed for current dated events. East Wheelock
+   and West House additionally contribute their public Google Calendars (East Wheelock's standalone
+   site no longer resolves, so its calendar ID is pinned; West's calendar is currently dormant but
+   is kept as a monitor). German Studies news announcements mentioning Allen House or West House
+   are parsed for dated, prospective events. Stale
    house-site entries are ignored before detailed time parsing so old malformed listings cannot
    make a current scan incomplete.
    School House also contributes fresh Airtable events through its public iCal export. The export
