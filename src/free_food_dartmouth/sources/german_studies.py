@@ -17,6 +17,20 @@ therefore applies strict guards and never invents a date:
   events, and a morning event is expected to say "morning" or "am". This
   heuristic is documented here because it is the one inference this
   source makes; items with no time at all are skipped, not dated.
+- an am/pm marker on one endpoint of a range applies to both ("9-10 AM"
+  is 9:00-10:00 AM); a marker on each endpoint applies to its own
+  ("11 AM-1 PM" is 11:00-13:00).
+- a digit range inside a date range ("October 8-10") is not a time: a
+  date range without an explicit clock time is skipped, never dated to
+  an invented evening time. A date range with a real clock time
+  elsewhere in the sentence is dated to the range's first day.
+- every month/day reference is considered, not just the first: a
+  publication date printed before the event date does not end the
+  search when it carries no time. References with no usable time are
+  passed over; if the surviving timed references point at several
+  prospective dates, the announcement is ambiguous and is skipped
+  rather than guessed (a retrospective timed mention does not create
+  ambiguity on its own).
 
 An item that fails any guard is skipped, not failed: a news item without
 a usable event date is not a source error. A listing page that yields no
@@ -74,6 +88,10 @@ DATE_PATTERN = re.compile(
     r"\b(" + _MONTH_ALTERNATION + r")\.?\s+(\d{1,2})(?:st|nd|rd|th)?\b",
     re.IGNORECASE,
 )
+DATE_RANGE_PATTERN = re.compile(
+    r"\b(" + _MONTH_ALTERNATION + r")\.?\s+(\d{1,2})(?:st|nd|rd|th)?\s*(?:-|–|—|to)\s*(\d{1,2})\b",  # noqa: RUF001
+    re.IGNORECASE,
+)
 PUB_DATE_PATTERN = re.compile(
     r"\b(" + _MONTH_ALTERNATION + r")\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})\b",
     re.IGNORECASE,
@@ -129,7 +147,9 @@ def _parse_time_token(token: str, *, default_pm: bool) -> int | None:
     elif marker == "pm":
         hour_24 = 12 if hour == 12 else hour + 12
     elif hour == 12:
-        hour_24 = 12
+        # A bare 12 follows the default: noon under a PM default, midnight
+        # under a morning default (so "12-1 in the morning" is 0:00-1:00).
+        hour_24 = 12 if default_pm else 0
     elif default_pm:
         hour_24 = hour + 12
     else:
@@ -137,16 +157,30 @@ def _parse_time_token(token: str, *, default_pm: bool) -> int | None:
     return hour_24 * 60 + minute
 
 
+def _token_marker(token: str) -> str | None:
+    """Return "am"/"pm" for a token that carries one, else None."""
+    match = re.search(r"([aApP])\.?[mM]\.?\s*$", token.strip())
+    return match.group(1).lower() + "m" if match else None
+
+
 def _resolve_times(start_token: str, end_token: str | None, context: str) -> tuple[int, int] | None:
     """Resolve a time range to minute offsets (end may exceed 1440)."""
     context_match = CONTEXT_PATTERN.search(context)
-    default_pm = context_match is None or context_match.group(1).lower() != "morning"
-    start = _parse_time_token(start_token, default_pm=default_pm)
+    context_pm = context_match is None or context_match.group(1).lower() != "morning"
+    start_marker = _token_marker(start_token)
+    end_marker = _token_marker(end_token) if end_token is not None else None
+    # A marker on one endpoint applies to both ("9-10 AM" is 9:00-10:00,
+    # not 9:00 PM-10:00 AM); a marker on each endpoint applies to its own
+    # ("11 AM-1 PM" is 11:00-13:00). Only a markerless pair falls back to
+    # the context default.
+    start_default_pm = context_pm if end_marker is None else end_marker == "pm"
+    end_default_pm = context_pm if start_marker is None else start_marker == "pm"
+    start = _parse_time_token(start_token, default_pm=start_default_pm)
     if start is None:
         return None
     if end_token is None:
         return start, start + 60
-    end = _parse_time_token(end_token, default_pm=default_pm)
+    end = _parse_time_token(end_token, default_pm=end_default_pm)
     if end is None:
         return None
     if end <= start:
@@ -170,47 +204,81 @@ def _sentence_around(text: str, start: int, end: int) -> str:
     return text[sentence_start:sentence_end]
 
 
+def _find_time(sentence: str) -> tuple[str, str | None] | None:
+    """Find a clock time in a sentence, or None.
+
+    A digit range that sits inside a date range ("October 8-10") is not
+    a time: without this exclusion the "8-10" would be read as an
+    8:00-10:00 PM event. A date range with a real clock time elsewhere
+    in the sentence ("October 8-10, 4:30-6:30 PM") still yields that
+    time, dated to the range's first day.
+    """
+    date_spans = [match.span() for match in DATE_RANGE_PATTERN.finditer(sentence)]
+    for match in TIME_RANGE_PATTERN.finditer(sentence):
+        # The range's first number sits inside the date range (the time
+        # token's trailing whitespace can extend past the date span, so
+        # containment of the whole match is the wrong test).
+        if any(start <= match.start() < end for start, end in date_spans):
+            continue
+        return match.group(1), match.group(2)
+    single = TIME_SINGLE_PATTERN.search(sentence)
+    if single is not None:
+        return single.group(1), None
+    return None
+
+
 def _extract_event(
     title: str, body: str, pub_date: date | None
 ) -> tuple[date, int, int, str] | None:
-    """Return (event date, start minutes, end minutes, location) or None."""
+    """Return (event date, start minutes, end minutes, location) or None.
+
+    Every month/day reference in the title and body is considered, not
+    just the first: a publication date printed before the event date
+    ("Posted October 20, 2026. Join us October 30, 9-10 AM") must not
+    end the search when it carries no time of its own. References with
+    no usable time are passed over. If the surviving timed references
+    point at exactly one date, that is the event; if they point at
+    several prospective dates, the announcement is ambiguous and is
+    skipped rather than guessed. A retrospective mention (a timed date
+    before the publication date) does not create ambiguity on its own.
+    """
     combined = f"{title}\n{body}"
-    if not HOST_PATTERN.search(combined):
+    if not HOST_PATTERN.search(combined) or pub_date is None:
         return None
-    date_match = DATE_PATTERN.search(combined)
-    if date_match is None or pub_date is None:
-        return None
-    month = MONTHS[date_match.group(1).lower().rstrip(".")]
-    day = int(date_match.group(2))
-    try:
-        event_date = date(pub_date.year, month, day)
-    except ValueError:
-        return None
-    if (pub_date - event_date).days > 180:
+    timed: dict[date, tuple[int, int, str]] = {}
+    for date_match in DATE_PATTERN.finditer(combined):
+        month = MONTHS[date_match.group(1).lower().rstrip(".")]
+        day = int(date_match.group(2))
         try:
-            event_date = date(pub_date.year + 1, month, day)
+            event_date = date(pub_date.year, month, day)
         except ValueError:
-            return None
-    sentence = _sentence_around(combined, date_match.start(), date_match.end())
-    time_match = TIME_RANGE_PATTERN.search(sentence)
-    start_token: str | None
-    end_token: str | None
-    time_sentence = sentence
-    if time_match is not None:
-        start_token, end_token = time_match.group(1), time_match.group(2)
-    else:
-        single = TIME_SINGLE_PATTERN.search(sentence)
-        if single is None:
-            return None
-        start_token, end_token = single.group(1), None
-    times = _resolve_times(start_token, end_token, sentence)
-    if times is None:
+            continue
+        if (pub_date - event_date).days > 180:
+            try:
+                event_date = date(pub_date.year + 1, month, day)
+            except ValueError:
+                continue
+        sentence = _sentence_around(combined, date_match.start(), date_match.end())
+        found = _find_time(sentence)
+        if found is None:
+            continue
+        times = _resolve_times(found[0], found[1], sentence)
+        if times is None:
+            continue
+        timed.setdefault(event_date, (times[0], times[1], sentence))
+    if not timed:
         return None
-    start_minutes, end_minutes = times
+    if len(timed) == 1:
+        event_date, (start_minutes, end_minutes, sentence) = next(iter(timed.items()))
+    else:
+        prospective = {day: value for day, value in timed.items() if day >= pub_date}
+        if len(prospective) != 1:
+            return None
+        event_date, (start_minutes, end_minutes, sentence) = next(iter(prospective.items()))
     if RECAP_PATTERN.search(body) and event_date < pub_date:
         return None
     location = ""
-    location_matches = LOCATION_PATTERN.findall(time_sentence)
+    location_matches = LOCATION_PATTERN.findall(sentence)
     if location_matches:
         location = location_matches[-1].strip().rstrip(".,;")
     else:

@@ -75,6 +75,74 @@ def test_german_studies_extracts_bare_times_and_morning_context() -> None:
     ) == (date(2026, 10, 20), 10 * 60, 11 * 60, "Brace Commons")
 
 
+def test_german_studies_date_ranges_markers_and_multiple_dates() -> None:
+    # A date range without a clock time is skipped, never dated to an
+    # invented evening time; with a real clock time it takes the range's
+    # first day.
+    assert (
+        _extract_event(
+            "Fall Gathering",
+            "Join us October 8-10 at Allen House for a fall gathering.",
+            date(2026, 10, 1),
+        )
+        is None
+    )
+    assert _extract_event(
+        "Fall Gathering",
+        "Join us October 8-10, 4:30-6:30 PM at Allen House.",
+        date(2026, 10, 1),
+    ) == (date(2026, 10, 8), 16 * 60 + 30, 18 * 60 + 30, "Allen House")
+
+    # A marker on one endpoint applies to both; a marker on each applies
+    # to its own.
+    assert _extract_event(
+        "Morning Coffee",
+        "Join us October 30, 9-10 AM at Allen House for coffee.",
+        date(2026, 10, 20),
+    ) == (date(2026, 10, 30), 9 * 60, 10 * 60, "Allen House")
+    assert _extract_event(
+        "Lunch Talk",
+        "Join us November 5, 11 AM-1 PM at Allen House.",
+        date(2026, 10, 20),
+    ) == (date(2026, 11, 5), 11 * 60, 13 * 60, "Allen House")
+    assert _extract_event(
+        "Evening Social",
+        "Allen House and West House invite you to join us on Thursday, "
+        "October 8th from 4:30-6:30 PM at The Cube.",
+        date(2026, 10, 1),
+    ) == (date(2026, 10, 8), 16 * 60 + 30, 18 * 60 + 30, "The Cube")
+    assert _extract_event(
+        "Midnight Snack",
+        "Allen House invites you to join us October 20th, 12-1 in the morning at Brace Commons.",
+        date(2026, 10, 15),
+    ) == (date(2026, 10, 20), 0, 60, "Brace Commons")
+
+    # A publication date printed before the event date does not end the
+    # search when it carries no time of its own.
+    assert _extract_event(
+        "Morning Coffee",
+        "Posted October 20, 2026. Join us October 30, 9-10 AM at Allen House for coffee.",
+        date(2026, 10, 20),
+    ) == (date(2026, 10, 30), 9 * 60, 10 * 60, "Allen House")
+
+    # Several prospective timed dates are ambiguous: skip, don't guess.
+    assert (
+        _extract_event(
+            "Two Events?",
+            "Join us October 30, 9-10 AM at Allen House. Also November 5, 2-3 PM at Allen House.",
+            date(2026, 10, 20),
+        )
+        is None
+    )
+    # A retrospective timed mention does not create that ambiguity.
+    assert _extract_event(
+        "Morning Coffee",
+        "Last year October 8, 4:30-6:30 PM was wonderful. "
+        "Join us October 30, 9-10 AM at Allen House.",
+        date(2026, 10, 20),
+    ) == (date(2026, 10, 30), 9 * 60, 10 * 60, "Allen House")
+
+
 def test_german_studies_skips_undated_unhosted_and_recap_items() -> None:
     assert (
         _extract_event(
