@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:community-dinner-20230502@google.com
+DTSTART;TZID=America/New_York:20230502T180000
+DTEND;TZID=America/New_York:20230502T193000
+SUMMARY:West House Community Dinner
+LOCATION:Fahey Lounge
+DESCRIPTION:Community dinner with faculty and students.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:professors-tea-20230414@google.com
+DTSTART;TZID=America/New_York:20230414T160000
+DTEND;TZID=America/New_York:20230414T170000
+SUMMARY:West House Friday Tea
+LOCATION:House Professor's Residence
+DESCRIPTION:Tea and conversation.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
