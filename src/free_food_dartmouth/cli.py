@@ -16,6 +16,7 @@ from free_food_dartmouth.sources.dartmouth import DartmouthSource
 from free_food_dartmouth.sources.dartmouth_groups import DartmouthGroupsSource
 from free_food_dartmouth.sources.east_wheelock import EastWheelockSource
 from free_food_dartmouth.sources.geisel import GeiselDiceSource, GeiselSource
+from free_food_dartmouth.sources.german_studies import GermanStudiesSource
 from free_food_dartmouth.sources.gsc import GscSource
 from free_food_dartmouth.sources.guarini import GuariniSource
 from free_food_dartmouth.sources.house_events import north_park_source, school_house_source
@@ -83,6 +84,7 @@ def sync(args: argparse.Namespace) -> int:
         _safe_scan(DartmouthHouseCalendarsSource(), "Dartmouth House Calendars", start, end),
         _safe_scan(EastWheelockSource(), "East Wheelock House", start, end),
         _safe_scan(WestHouseSource(), "West House", start, end),
+        _safe_scan(GermanStudiesSource(), "German Studies", start, end),
         _safe_scan(GuariniSource(), "Guarini", start, end),
         _safe_scan(north_park_source(), "North Park House", start, end),
         _safe_scan(school_house_source(), "School House", start, end),
