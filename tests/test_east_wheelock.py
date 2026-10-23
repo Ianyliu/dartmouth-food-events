@@ -151,6 +151,49 @@ def test_east_wheelock_orphan_override_is_its_own_event() -> None:
 
 
 @responses.activate
+def test_east_wheelock_multiple_exdate_rdate_lines_honored_across_dst() -> None:
+    """Separate EXDATE/RDATE properties must all apply (icalendar 7
+    returns a list of vDDDLists for them), across the Nov 1 DST change.
+    The Nov 2 exclusion is TZID-based and the Nov 9 exclusion is UTC;
+    both must drop their occurrences, and both RDATE additions must
+    appear, so excluded occurrences can never reach publication."""
+    responses.get(
+        ICS_URL,
+        body=(
+            "BEGIN:VCALENDAR\r\nVERSION:2.0\r\n"
+            "PRODID:-//Google Inc//Google Calendar 70.9054//EN\r\n"
+            "BEGIN:VEVENT\r\nUID:series@google.com\r\n"
+            "DTSTART;TZID=America/New_York:20261026T170000\r\n"
+            "DTEND;TZID=America/New_York:20261026T180000\r\n"
+            "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=MO\r\n"
+            "EXDATE;TZID=America/New_York:20261102T170000\r\n"
+            "EXDATE:20261109T220000Z\r\n"
+            "RDATE;TZID=America/New_York:20261104T170000\r\n"
+            "RDATE:20261111T220000Z\r\n"
+            "SUMMARY:Weekly Tea\r\nLOCATION:Brace Commons\r\n"
+            "STATUS:CONFIRMED\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        ),
+        content_type="text/calendar",
+    )
+
+    scan = EastWheelockSource(HttpClient(attempts=1)).scan(date(2026, 10, 26), date(2026, 11, 17))
+
+    assert scan.complete
+    assert [event.start.isoformat() for event in scan.events] == [
+        "2026-10-26T17:00:00-04:00",
+        "2026-11-04T17:00:00-05:00",
+        "2026-11-11T17:00:00-05:00",
+        "2026-11-16T17:00:00-05:00",
+    ]
+    assert {event.source_keys[0] for event in scan.events} == {
+        "east-wheelock:series@google.com:2026-10-26T17:00:00-04:00",
+        "east-wheelock:series@google.com:2026-11-04T17:00:00-05:00",
+        "east-wheelock:series@google.com:2026-11-11T17:00:00-05:00",
+        "east-wheelock:series@google.com:2026-11-16T17:00:00-05:00",
+    }
+
+
+@responses.activate
 def test_east_wheelock_empty_window_is_complete_not_a_failure() -> None:
     scan = _scan_fixture(date(2026, 9, 1), date(2026, 9, 30))
 

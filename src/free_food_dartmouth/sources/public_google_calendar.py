@@ -93,31 +93,44 @@ def _single_datetime(raw: object) -> date | datetime | None:
 
 
 def _datetime_values(raw: object) -> list[date | datetime]:
+    """Flatten every shape icalendar uses for EXDATE/RDATE values.
+
+    ``component.get("exdate")`` returns a single ``vDDDLists`` for one
+    EXDATE property but a *list* of ``vDDDLists`` when the component
+    carries several EXDATE (or RDATE) properties, as Google emits when
+    exclusions are added one at a time. Each ``vDDDLists`` exposes its
+    values as ``.dts``, and each value is a ``vDDDTypes`` wrapper whose
+    real value is ``.dt``. Recurse through all three shapes: a flat
+    loop over a list of ``vDDDLists`` would see objects with no ``.dt``
+    and silently drop every exclusion and addition in it. Note the
+    order: ``.dt`` is consulted before ``.dts``, because in icalendar
+    7 a ``vDDDTypes`` wrapper's ``.dts`` is a list containing the
+    wrapper itself, which would recurse forever.
+    """
     if raw is None:
         return []
     if isinstance(raw, (date, datetime)):
         return [raw]
     if isinstance(raw, (list, tuple)):
-        items: list[object] = list(raw)
-    else:
-        unwrapped = getattr(raw, "dt", None)
-        if unwrapped is None:
-            # icalendar's vDDDLists exposes its values as .dts.
-            unwrapped = getattr(raw, "dts", None)
-        if isinstance(unwrapped, (list, tuple)):
-            items = list(unwrapped)
-        elif isinstance(unwrapped, (date, datetime)):
-            items = [unwrapped]
-        else:
-            items = [raw]
-    values: list[date | datetime] = []
-    for item in items:
-        candidate = getattr(item, "dt", item)
-        if isinstance(candidate, (list, tuple)):
-            values.extend(value for value in candidate if isinstance(value, (date, datetime)))
-        elif isinstance(candidate, (date, datetime)):
-            values.append(candidate)
-    return values
+        values: list[date | datetime] = []
+        for item in raw:
+            values.extend(_datetime_values(item))
+        return values
+    dt = getattr(raw, "dt", None)
+    if isinstance(dt, (date, datetime)):
+        return [dt]
+    if isinstance(dt, (list, tuple)):
+        values = []
+        for item in dt:
+            values.extend(_datetime_values(item))
+        return values
+    dts = getattr(raw, "dts", None)
+    if isinstance(dts, (list, tuple)):
+        values = []
+        for item in dts:
+            values.extend(_datetime_values(item))
+        return values
+    return []
 
 
 def _parse_component(component: object) -> _RawEvent:
