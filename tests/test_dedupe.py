@@ -71,6 +71,36 @@ def test_merge_prefers_later_end_and_real_location() -> None:
     assert merged[0].location == "Fayerweather Great Hall"
 
 
+def test_merge_rejects_google_private_location_placeholder() -> None:
+    # Public Google Calendars use a different placeholder wording,
+    # "Private Location (sign in to display)"; it must also lose to a
+    # real location, not win by being the longer string.
+    start = datetime(2026, 10, 28, 17, 30, tzinfo=EASTERN)
+    groups = EventRecord(
+        "Doing Well by Doing Good: A Dinner and Discussion",
+        start,
+        start + timedelta(hours=1),
+        "Groups description",
+        location="Private Location (sign in to display)",
+        source_keys=("house-groups:67710:doing-well",),
+        sources=("Dartmouth House Calendars",),
+        uid_key="house-groups:67710:doing-well",
+    )
+    newsletter = EventRecord(
+        "Doing Well by Doing Good: A Dinner and Discussion",
+        start,
+        start + timedelta(hours=2),
+        "Newsletter description",
+        location="Fayerweather Great Hall",
+        source_keys=("south-house:2026-10-28:1730:doing-well",),
+        sources=("South House",),
+        uid_key="south-house:2026-10-28:1730:doing-well",
+    )
+    merged = deduplicate([groups, newsletter])
+    assert len(merged) == 1
+    assert merged[0].location == "Fayerweather Great Hall"
+
+
 def test_same_title_at_different_times_does_not_merge() -> None:
     start = datetime(2026, 7, 1, 12, tzinfo=EASTERN)
     first = EventRecord("Lunch", start, start + timedelta(hours=1), "")
