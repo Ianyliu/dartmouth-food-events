@@ -56,10 +56,12 @@ def _best_title(left: str, right: str) -> str:
 
 
 def _real_location(value: str) -> str:
-    # Dartmouth Groups ICS feeds put an auth-gated placeholder in the
-    # location field; it is not a location and must never win a merge
-    # over a real location (or appear in the published feed as one).
-    if value.strip().casefold() == "sign in to download the location":
+    # Dartmouth Groups ICS feeds and public Google Calendars put an
+    # auth-gated placeholder in the location field ("Sign in to
+    # download the location", "Private Location (sign in to display)");
+    # it is not a location and must never win a merge over a real
+    # location (or appear in the published feed as one).
+    if "sign in to" in value.strip().casefold():
         return ""
     return value
 
