@@ -55,10 +55,22 @@ def _best_title(left: str, right: str) -> str:
     return max((left, right), key=lambda value: (len(_normal_title(value).split()), len(value)))
 
 
+def _real_location(value: str) -> str:
+    # Dartmouth Groups ICS feeds put an auth-gated placeholder in the
+    # location field; it is not a location and must never win a merge
+    # over a real location (or appear in the published feed as one).
+    if value.strip().casefold() == "sign in to download the location":
+        return ""
+    return value
+
+
 def merge_events(left: EventRecord, right: EventRecord) -> EventRecord:
     description = max((left.description, right.description), key=len)
     summary = max((left.summary, right.summary), key=len)
-    location = max((left.location, right.location), key=len)
+    real_locations = [
+        loc for loc in (_real_location(left.location), _real_location(right.location)) if loc
+    ]
+    location = max(real_locations, key=len) if real_locations else ""
     sponsor = " / ".join(_unique([left.sponsor, right.sponsor]))
     audience = " / ".join(_unique([left.audience, right.audience]))
     uid_key = left.uid_key or right.uid_key or min((*left.source_keys, *right.source_keys))
@@ -66,6 +78,13 @@ def merge_events(left: EventRecord, right: EventRecord) -> EventRecord:
     end: date | datetime = left.end
     if left.all_day and not right.all_day:
         start, end = right.start, right.end
+    elif (
+        isinstance(left.end, datetime) and isinstance(right.end, datetime) and right.end > left.end
+    ):
+        # Prefer the later end when two sources agree on an event:
+        # Dartmouth Groups ends are often truncated to one hour, while
+        # the newsletter/house source carries the full end time.
+        end = right.end
     return replace(
         left,
         title=_best_title(left.title, right.title),

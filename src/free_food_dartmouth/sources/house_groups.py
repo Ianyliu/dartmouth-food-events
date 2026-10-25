@@ -82,6 +82,10 @@ class DartmouthHouseCalendarsSource:
 
         description = str(get("description", "")).strip()
         location = str(get("location", "")).strip()
+        # The public ICS feed gates locations behind sign-in; publish
+        # an empty location rather than the placeholder as a location.
+        if location.casefold() == "sign in to download the location":
+            location = ""
         event_url = str(get("url", "")).strip()
         urls = [house.ics_url]
         if event_url.startswith(("http://", "https://")):
