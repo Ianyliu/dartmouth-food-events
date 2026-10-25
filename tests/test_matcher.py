@@ -70,6 +70,42 @@ def test_common_event_service_phrases_match() -> None:
     assert match_event(event("Festival", "Complete with local food trucks and Kona Ice."))
 
 
+def test_allen_house_snack_and_food_break_match() -> None:
+    # Regression test for Allen House Groups events that the published
+    # feed missed entirely: "serving up a new snack" and "for food".
+    assert match_event(
+        event(
+            "Bites in Bisco",
+            "We'll be in Bisco lounge every week serving up a new snack-- just for you.",
+        )
+    )
+    assert match_event(
+        event(
+            "Sundays in Streeter",
+            "meet you down in Streeter basement for food and a break from studying :)",
+        )
+    )
+
+
+def test_dinner_and_discussion_matches() -> None:
+    # South House dinner-and-discussion events (Risam, Chuck Sams)
+    # only match once their own descriptions are parsed; the old
+    # shifted descriptions matched by borrowing the next event's text.
+    assert match_event(
+        event(
+            "SxSH: Data, Power, and Inequality: A Conversation with Prof. Roopika Risam",
+            "Join South and East Wheelock Houses for a dinner and discussion "
+            "with Prof. Roopika Risam.",
+        )
+    )
+    assert match_event(
+        event(
+            "Being a Public Advocate for the Earth: An Evening with Chuck Sams",
+            "Join South and School Houses for a dinner and discussion with Chuck Sams.",
+        )
+    )
+
+
 def test_school_house_waffles_and_pastries_are_food_matches() -> None:
     assert match_event(event("Waffle Wellness Study Break"))
     assert match_event(event("School Grounds - Free coffee & pastries"))

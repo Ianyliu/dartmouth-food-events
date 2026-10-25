@@ -13,17 +13,21 @@ FOOD_TERMS = re.compile(
 )
 EXPLICIT_FOOD = re.compile(
     r"\b(?:free|complimentary)\s+(?:food|meal|lunch|dinner|breakfast|snacks?|refreshments?)\b|"
+    # "meet you down in Streeter basement for food" — food is the draw,
+    # not a research topic; likewise "serving up a new snack".
+    r"\bfor\s+(?:food|snacks?|refreshments?)\b|"
+    r"\bserving\s+(?:up\s+)?(?:a\s+new\s+)?(?:food|snacks?|refreshments?)\b|"
     r"\b(?:food|meal|lunch|dinner|breakfast|snacks?|refreshments?)\s+"
     r"(?:will\s+be\s+|is\s+|are\s+)?(?:provided|served|available|included|offered)\b|"
     r"\bcatered\s+(?:food|meal|lunch|dinner|breakfast)\b|"
     r"\b(?:light\s+lunch|lunch\s+will\s+be\s+provided|pizza\s+(?:will\s+be\s+)?provided|"
     r"reception\s+(?:immediately\s+)?following|join\s+us\s+for\s+(?:lunch|dinner|breakfast|"
-    r"brunch|pizza|refreshments)|(?:lunch|dinner|breakfast|brunch)\s+"
-    r"(?:screening|seminar|talk|workshop|meeting|lecture|session|event))\b",
+    r"brunch|pizza|refreshments)|(?:lunch|dinner|breakfast|brunch)\s+(?:and\s+)?"
+    r"(?:screening|seminar|talk|workshop|meeting|lecture|session|event|discussion|conversation))\b",
     re.IGNORECASE,
 )
 SERVICE_CONTEXT = re.compile(
-    r"\b(provided|served|available|complimentary|free|first[- ]come|while supplies last|"
+    r"\b(provided|served|serving|available|complimentary|free|first[- ]come|while supplies last|"
     r"included|offered|catered|join us for|enjoy|reception|social|mixer|there will be|"
     r"we(?:'|\u2019)ll have|for (?:attendees|participants|guests)|host(?:ed|ing)?|"
     r"followed by|complete with)\b",
