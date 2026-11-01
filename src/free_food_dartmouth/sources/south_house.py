@@ -14,6 +14,16 @@ from free_food_dartmouth.utils import EASTERN, unique
 ARCHIVE_URL = "https://sites.dartmouth.edu/south-house/south-house-weekly/"
 SOURCE_NAME = "South House"
 
+# Mailchimp issue URLs follow a sequential pattern; the archive page
+# is not always updated when a new issue goes out (as of Nov 2026 it
+# still listed Week 6 as LATEST while Week 7 existed), so the scan
+# probes a few weeks ahead of the latest archive issue.
+MAILCHIMP_WEEK_URL = re.compile(
+    r"^(https://mailchi\.mp/dartmouth/south-house-weekly-[a-z0-9]+-week-)(\d+)$",
+    re.IGNORECASE,
+)
+PROBE_AHEAD_WEEKS = 4
+
 ISSUE_DATE = re.compile(
     r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
     r"Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
@@ -48,6 +58,7 @@ class SouthHouseSource:
         response = self.client.get(ARCHIVE_URL)
         soup = BeautifulSoup(response.text, "html.parser")
         issues = self._relevant_issues(soup, start, end)
+        issues = self._probe_ahead_issues(soup, issues, start, end)
 
         events: list[EventRecord] = []
         failures: list[str] = []
@@ -88,6 +99,64 @@ class SouthHouseSource:
             if href.startswith(("http://", "https://")):
                 issues.append((issue_date, href))
         return list(dict.fromkeys(issues))
+
+    def _probe_ahead_issues(
+        self, soup: BeautifulSoup, issues: list[tuple[date, str]], start: date, end: date
+    ) -> list[tuple[date, str]]:
+        """Discover newsletter issues the archive page has not listed yet.
+
+        The probe base is the latest sequential Mailchimp issue in the
+        archive page, even if that issue itself is older than the
+        scan's 7-day relevance window — that staleness is exactly the
+        failure mode (Nov 2026: archive still listed Week 6, Oct. 19,
+        while Week 7 existed, and the scan otherwise found zero South
+        events). For each term, probe the next few week numbers in
+        order. A candidate counts only if it fetches as HTML/text and
+        looks like a South House newsletter (contains "South House"
+        and a "When:" line); the first failure stops probing that
+        term, since issues are sequential. A probed issue's date is
+        the latest archive issue's date plus 7 days per week step,
+        matching the weekly cadence. All fetch failures are treated
+        as "no further issue", never as a scan failure, so a stale
+        archive can never break the scan — it can only miss issues
+        beyond the probe cap.
+        """
+        earliest = start - timedelta(days=7)
+        latest_by_prefix: dict[str, tuple[int, date, str]] = {}
+        for anchor in soup.select("a[href]"):
+            text = anchor.get_text(" ", strip=True)
+            match = ISSUE_DATE.search(text)
+            if match is None:
+                continue
+            href = urljoin(ARCHIVE_URL, str(anchor.get("href", "")))
+            week_match = MAILCHIMP_WEEK_URL.match(href)
+            if week_match is None:
+                continue
+            issue_date = date_parser.parse(match.group(0), fuzzy=True).date()
+            prefix, week = week_match.group(1), int(week_match.group(2))
+            key = prefix.lower()
+            if key not in latest_by_prefix or week > latest_by_prefix[key][0]:
+                latest_by_prefix[key] = (week, issue_date, prefix)
+        probed: list[tuple[date, str]] = []
+        for _key, (max_week, latest_date, prefix) in latest_by_prefix.items():
+            for step in range(1, PROBE_AHEAD_WEEKS + 1):
+                issue_date = latest_date + timedelta(days=7 * step)
+                if issue_date >= end:
+                    break
+                if issue_date < earliest:
+                    continue
+                url = f"{prefix}{max_week + step}"
+                try:
+                    response = self.client.get(url)
+                except Exception:
+                    break
+                content_type = response.headers.get("Content-Type", "").casefold()
+                if "html" not in content_type and "text" not in content_type:
+                    break
+                if "South House" not in response.text or "When:" not in response.text:
+                    break
+                probed.append((issue_date, url))
+        return issues + probed
 
     @classmethod
     def _events(

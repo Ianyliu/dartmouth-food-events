@@ -16,6 +16,10 @@ EXPLICIT_FOOD = re.compile(
     # "meet you down in Streeter basement for food" — food is the draw,
     # not a research topic; likewise "serving up a new snack".
     r"\bfor\s+(?:food|snacks?|refreshments?)\b|"
+    # "join ... for some pastries, coffee, and tea" — food is the
+    # draw, not a research topic; the "some" keeps this narrower
+    # than a bare "for coffee".
+    r"\bfor\s+some\s+(?:food|snacks?|refreshments?|pastries|coffee|tea)\b|"
     r"\bserving\s+(?:up\s+)?(?:a\s+new\s+)?(?:food|snacks?|refreshments?)\b|"
     r"\b(?:food|meal|lunch|dinner|breakfast|snacks?|refreshments?)\s+"
     r"(?:will\s+be\s+|is\s+|are\s+)?(?:provided|served|available|included|offered)\b|"
