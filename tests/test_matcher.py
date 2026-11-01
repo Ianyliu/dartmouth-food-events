@@ -106,6 +106,19 @@ def test_dinner_and_discussion_matches() -> None:
     )
 
 
+def test_for_some_pastries_coffee_tea_matches() -> None:
+    # South House International Student Appreciation (Week 7):
+    # "for some pastries, coffee, and tea" has no service-context
+    # word like "served" nearby, so it needs the explicit pattern.
+    assert match_event(
+        event(
+            "International Student Appreciation",
+            "Please join the House Communities for some pastries, coffee, "
+            "and tea in recognition of international education week.",
+        )
+    )
+
+
 def test_school_house_waffles_and_pastries_are_food_matches() -> None:
     assert match_event(event("Waffle Wellness Study Break"))
     assert match_event(event("School Grounds - Free coffee & pastries"))

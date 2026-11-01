@@ -83,6 +83,59 @@ def test_south_house_mailchimp_where_when_blocks() -> None:
 
 
 @responses.activate
+def test_south_house_probes_ahead_of_stale_archive() -> None:
+    # Regression test for Nov 2026: the archive page still listed
+    # Week 6 (Oct. 19) as LATEST while Week 7 existed at the
+    # sequential Mailchimp URL, so the scan found zero South events
+    # and previously managed South events aged out of the feed.
+    # Probing a few weeks ahead of the latest archive issue must
+    # discover Week 7 and stop at the Week 8 404.
+    archive = (
+        "<!doctype html><html><body><h2>Fall 2026</h2>"
+        '<p><a href="https://mailchi.mp/dartmouth/south-house-weekly-26f-week-6">'
+        "26F - Week 6 (Oct. 19, 2026)</a></p></body></html>"
+    )
+    responses.get(ARCHIVE_URL, body=archive, content_type="text/html")
+    responses.get(
+        "https://mailchi.mp/dartmouth/south-house-weekly-26f-week-6",
+        body=fixture_text("south_house_mailchimp.html"),
+        content_type="text/html",
+    )
+    responses.get(
+        "https://mailchi.mp/dartmouth/south-house-weekly-26f-week-7",
+        body=fixture_text("south_house_mailchimp_week7.html"),
+        content_type="text/html",
+    )
+    responses.get(
+        "https://mailchi.mp/dartmouth/south-house-weekly-26f-week-8",
+        status=404,
+        content_type="text/html",
+    )
+
+    scan = SouthHouseSource(HttpClient(attempts=1)).scan(
+        date(2026, 11, 1),
+        date(2026, 11, 22),
+    )
+
+    assert scan.complete
+    by_title = {event.title: event for event in scan.events}
+    assert "Being a Public Advocate for the Earth: An Evening with Chuck Sams" in by_title
+    assert by_title[
+        "Being a Public Advocate for the Earth: An Evening with Chuck Sams"
+    ].start == datetime(2026, 11, 2, 17, 30, tzinfo=EASTERN)
+    assert "Fuel Up for Finals" in by_title
+    assert by_title["Fuel Up for Finals"].start == datetime(2026, 11, 3, 18, 30, tzinfo=EASTERN)
+    assert by_title["Fuel Up for Finals"].location == "Fayerweather Great Hall"
+    assert "Loy Krathong" in by_title
+    assert by_title["Loy Krathong"].start == datetime(2026, 11, 6, 18, 0, tzinfo=EASTERN)
+    assert "International Student Appreciation" in by_title
+    assert by_title["International Student Appreciation"].start == datetime(
+        2026, 11, 17, 9, 30, tzinfo=EASTERN
+    )
+    assert by_title["International Student Appreciation"].location == "The Cube"
+
+
+@responses.activate
 def test_south_house_ignores_old_newsletter_editions() -> None:
     responses.get(
         ARCHIVE_URL,
