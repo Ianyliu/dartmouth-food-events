@@ -135,6 +135,35 @@ def test_south_house_probes_ahead_of_stale_archive() -> None:
     assert by_title["International Student Appreciation"].location == "The Cube"
 
 
+def test_south_house_skips_mixed_case_upcoming_events_header() -> None:
+    # Regression test for Week 8 (Nov 2026): the newsletter renders
+    # its "Upcoming Events" section header in title case, so the
+    # all-caps section-header check missed it and the parser published
+    # a bogus "Upcoming Events" event instead of the Finals Stress
+    # Relief: Yoga & Brunch event that follows it. The newsletter
+    # gives no "Where:" line for that event, so the venue (Mighty
+    # Yoga Studio) comes through in the description, and the 9:30 AM
+    # start with no end time takes the parser's one-hour default.
+    events = SouthHouseSource._events(
+        fixture_text("south_house_mailchimp_week8.html"),
+        date(2026, 11, 2),
+        "https://mailchi.mp/dartmouth/south-house-weekly-26f-week-8",
+        date(2026, 11, 8),
+        date(2026, 11, 29),
+    )
+    by_title = {event.title: event for event in events}
+    assert set(by_title) == {
+        "Finals Stress Relief: Yoga & Brunch",
+        "International Student Appreciation",
+    }
+    yoga = by_title["Finals Stress Relief: Yoga & Brunch"]
+    assert yoga.start == datetime(2026, 11, 19, 9, 30, tzinfo=EASTERN)
+    assert yoga.end == datetime(2026, 11, 19, 10, 30, tzinfo=EASTERN)
+    assert yoga.location == ""
+    assert "Mighty Yoga Studio" in yoga.description
+    assert "food or meal keyword in title" in match_event(yoga)
+
+
 @responses.activate
 def test_south_house_ignores_old_newsletter_editions() -> None:
     responses.get(

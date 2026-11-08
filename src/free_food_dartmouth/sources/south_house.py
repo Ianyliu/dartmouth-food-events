@@ -24,6 +24,21 @@ MAILCHIMP_WEEK_URL = re.compile(
 )
 PROBE_AHEAD_WEEKS = 4
 
+# Section headers the newsletter renders in mixed case, so the
+# all-caps check in _is_section_header does not catch them (Nov 2026:
+# Week 8 renders "Upcoming Events" in title case and the parser took
+# it as the title of the Finals Stress Relief event that follows it).
+# Compared case-insensitively with trailing ellipsis/exclamation
+# stripped, so "THIS WEEK IN SOUTH HOUSE…" matches too.
+SECTION_HEADERS = frozenset(
+    {
+        "upcoming events",
+        "this week in south house",
+        "weekly events",
+        "keep up to date",
+    }
+)
+
 ISSUE_DATE = re.compile(
     r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
     r"Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
@@ -243,6 +258,8 @@ class SouthHouseSource:
     @staticmethod
     def _is_section_header(line: str) -> bool:
         stripped = line.strip()
+        if stripped.casefold().rstrip("….!").strip() in SECTION_HEADERS:
+            return True
         return (
             bool(stripped)
             and stripped.upper() == stripped

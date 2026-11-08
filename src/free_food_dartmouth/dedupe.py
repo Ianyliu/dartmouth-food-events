@@ -18,6 +18,14 @@ def _normal_title(value: str) -> str:
     return NON_WORD.sub(" ", value).strip()
 
 
+def _match_text(event: EventRecord) -> str:
+    # Title plus summary/description: two sources describing the same
+    # event often use different titles but share descriptive wording.
+    return _normal_title(
+        " ".join(part for part in (event.title, event.summary, event.description) if part)
+    )
+
+
 def _same_start(left: DateValue, right: DateValue) -> bool:
     if isinstance(left, datetime) and isinstance(right, datetime):
         return abs((left - right).total_seconds()) <= 300
@@ -44,7 +52,16 @@ def same_event(left: EventRecord, right: EventRecord) -> bool:
         return False
     if _external_urls(left) & _external_urls(right):
         return True
-    return fuzz.token_set_ratio(_normal_title(left.title), _normal_title(right.title)) >= 82
+    if fuzz.token_set_ratio(_normal_title(left.title), _normal_title(right.title)) >= 82:
+        return True
+    # Same start plus shared descriptive wording: School House
+    # Airtable lists "All House Brunch for International Education
+    # Week" while South House's newsletter describes the same 9:30am
+    # event as "International Student Appreciation ... in recognition
+    # of international education week". Title-only similarity (63)
+    # misses it; title-plus-description similarity (92) catches it,
+    # while unrelated same-start pairs in the live feed stay below 45.
+    return fuzz.token_set_ratio(_match_text(left), _match_text(right)) >= 82
 
 
 def _unique(values: tuple[str, ...] | list[str]) -> tuple[str, ...]:
