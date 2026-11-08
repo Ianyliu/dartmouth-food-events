@@ -101,6 +101,77 @@ def test_merge_rejects_google_private_location_placeholder() -> None:
     assert merged[0].location == "Fayerweather Great Hall"
 
 
+def test_cross_source_same_event_with_different_titles_merges() -> None:
+    # Nov 2026: School House Airtable lists "All House Brunch for
+    # International Education Week" while South House's newsletter
+    # describes the same 9:30am event as "International Student
+    # Appreciation ... in recognition of international education
+    # week". Title-only similarity (63) misses the duplicate; the
+    # shared descriptive wording must catch it. The merge keeps the
+    # later end (11:00, not the Airtable export's one-hour default)
+    # and the real location (The Cube).
+    start = datetime(2026, 11, 17, 9, 30, tzinfo=EASTERN)
+    airtable = EventRecord(
+        "All House Brunch for International Education Week",
+        start,
+        start + timedelta(hours=1),
+        "",
+        location="",
+        source_keys=("school-house-airtable:recI1pn0eUpVimLhp:2026-11-17T09:30:00-05:00",),
+        sources=("School House Airtable",),
+        uid_key="school-house-airtable:recI1pn0eUpVimLhp:2026-11-17T09:30:00-05:00",
+    )
+    south = EventRecord(
+        "International Student Appreciation",
+        start,
+        start + timedelta(hours=1, minutes=30),
+        "Please join the House Communities for some pastries, coffee, and tea "
+        "in recognition of international education week and celebration of our "
+        "international community. All are welcome. Drop in any time!",
+        location="The Cube",
+        source_keys=("south-house:2026-11-17:0930:international-student-appreciation",),
+        sources=("South House",),
+        uid_key="south-house:2026-11-17:0930:international-student-appreciation",
+    )
+
+    merged = deduplicate([airtable, south])
+
+    assert len(merged) == 1
+    assert merged[0].end == start + timedelta(hours=1, minutes=30)
+    assert merged[0].location == "The Cube"
+    assert set(merged[0].source_keys) == {
+        "school-house-airtable:recI1pn0eUpVimLhp:2026-11-17T09:30:00-05:00",
+        "south-house:2026-11-17:0930:international-student-appreciation",
+    }
+
+
+def test_same_start_different_lunches_do_not_merge() -> None:
+    # Guard for the descriptive-wording merge above: two genuinely
+    # different noon events on the same day must stay separate even
+    # though both are lunches (Nov 2026 live feed: First Generation
+    # Lunch and School House Community Lunch, both Nov 9, 12:00pm).
+    start = datetime(2026, 11, 9, 12, tzinfo=EASTERN)
+    first_gen = EventRecord(
+        "First Generation Lunch",
+        start,
+        start + timedelta(hours=1),
+        "Lunch for first-generation students.",
+        source_keys=("guarini:first-gen-lunch",),
+        sources=("Guarini",),
+        uid_key="guarini:first-gen-lunch",
+    )
+    school_lunch = EventRecord(
+        "School House Community Lunch",
+        start,
+        start + timedelta(hours=1),
+        "Weekly community lunch.",
+        source_keys=("house-groups:67709:school-lunch",),
+        sources=("Dartmouth House Calendars",),
+        uid_key="house-groups:67709:school-lunch",
+    )
+    assert len(deduplicate([first_gen, school_lunch])) == 2
+
+
 def test_same_title_at_different_times_does_not_merge() -> None:
     start = datetime(2026, 7, 1, 12, tzinfo=EASTERN)
     first = EventRecord("Lunch", start, start + timedelta(hours=1), "")
