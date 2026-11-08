@@ -53,7 +53,11 @@ def main() -> int:
                     [x[:80] for x in page.locator('[role="menuitem"]').all_text_contents()][:20],
                 )
                 return 2
-            with page.expect_download(timeout=30000) as download_info:
+            # Airtable generates the export server-side before the
+            # download starts; for this 1200+ event calendar that can
+            # take well over 30s (three consecutive 30s timeouts on
+            # Nov 8, 2026, plus Oct 25 failures), so allow 120s.
+            with page.expect_download(timeout=120000) as download_info:
                 options.click()
             download = download_info.value
             output.parent.mkdir(parents=True, exist_ok=True)
