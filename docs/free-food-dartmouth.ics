@@ -40,333 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:VERN Coffee Hour
-DTSTART;TZID=America/New_York:20261112T073000
-DTEND;TZID=America/New_York:20261112T090000
-DTSTAMP:20261112T184510Z
-UID:dartmouth-83072@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=83072\nhttps://sites.dartmouth.edu/veteransern/\n\nDescription:\n
- Veterans Employee Resource Network (VERN) at Dartmouth\nBringing People To
- gether Through Culture and Community\n\nSponsor / organizer: Veterans Empl
- oyee Resource Network\n\nAudience: Alumni\, Faculty\, Staff\n\nSource: Dar
- tmouth\n\nWhy this was included: food or meal keyword in title\n\nFood ava
- ilability is inferred from the source listing\; verify details before atte
- nding.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:53 Commons\, room 204
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=83072
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Get It Done! 26F
-DTSTART;TZID=America/New_York:20261112T103000
-DTEND;TZID=America/New_York:20261112T120000
-DTSTAMP:20261112T184510Z
-UID:dartmouth-groups-1632020@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1632020\n\nDescription:\nGet It Done! with hanging and potte
- d plants\n\nSponsor / organizer: Student Wellness Center at Dartmouth\n\nS
- ource: Dartmouth Groups\n\nWhy this was included: Free Food category\n\nFo
- od availability is inferred from the source listing\; verify details befor
- e attending.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:Berry 178
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1632020
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Biomedical Data Science Seminar with José R. Zubizarreta\, PhD - 
- "The Experiment Inside the Model: Exact Weighting Representations for Spat
- ial\, Panel\, and Meta-Analytic Studies"
-DTSTART;TZID=America/New_York:20261112T120000
-DTEND;TZID=America/New_York:20261112T130000
-DTSTAMP:20261112T184510Z
-UID:dartmouth-83213@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=83213\nhttps://geiselmed.dartmouth.edu/calendar/event_view.php?ei
- d=6297&instance=2026-11-12\n\nDescription:\nThe Department of Biomedical D
- ata Science invites you to attend a seminar in person on Thursday\, Novemb
- er 12 from 12:00-1:00pm at DHMC\, Auditorium H with José R. Zubizarreta\,
-  PhD\,  Professor of Biostatistics\, Harvard T.H. Chan School of Public He
- alth\, and the Daniel C. Tosteson Professor of Health Care Policy at Harva
- rd Medical School.\nTalk title: “The Experiment Inside the Model: Exact 
- Weighting Representations for Spatial\, Panel\, and Meta-Analytic Studies
- ”\nLight refreshments will be provided on a first-come\, first-served ba
- sis.\nThe presentation will take place both in person at DHMC\, Auditorium
-  H (and via Zoom) and we encourage as many of you to attend in person as p
- ossible. Please write to biomedical.data.science@dartmouth.edu to request 
- the Zoom login details.\nPlease see description below for more details.\nP
- lease invite your fellow faculty colleagues\, research associates\, gradua
- te trainees\, and post-docs!\nPresentation Summary\nIn observational studi
- es\, a fitted model may yield an estimate of a treatment effect without ma
- king explicit the comparison on which that estimate rests. Which observati
- ons are compared\, and how much does each contribute? Which features of a 
- randomized experiment\, if any\, does the comparison reproduce? These ques
- tions arise in spatial regressions with Gaussian process errors\, two-way 
- fixed effects analyses of staggered policy adoption\, and mixed effects me
- ta-analyses of trials. In this lecture\, we derive exact\, closed-form wei
- ghting representations of these estimators. In each case\, the weights sol
- ve a common optimization problem that minimizes their dispersion subject t
- o balance requirements. These finite-sample identities make explicit the c
- omparisons implicit in the models\, providing a basis for examining their 
- causal interpretation and reconsidering their model specification. (i) For
-  spatial data\, specifying the error structure of a linear model is equiva
- lent to including a set of hidden covariates under a particular form of re
- gularization. (ii) For panel data\, the weights reveal how two-way fixed e
- ffects and related estimators borrow information across units and time per
- iods\, clarifying the assumptions about the dynamics of treatment effects 
- needed to justify that borrowing. (iii) For meta-analytic data\, the weigh
- ts identify studies and observations that are poorly aligned with the cova
- riate distribution of the target population\, helping to assess when their
-  exclusion is prudent. These representations give rise to diagnostics that
-  open the analysis to scrutiny\, and they bring methods that appear unrela
- ted onto common ground.\nBiography\nJosé R. Zubizarreta\, PhD\, is the Da
- niel C. Tosteson Professor of Health Care Policy at Harvard Medical School
- \, Professor of Biostatistics at the Harvard T.H. Chan School of Public He
- alth\, and a Faculty Affiliate in the Department of Statistics at Harvard 
- University. His research focuses on developing statistical methods for cau
- sal inference to advance health care and public policy. Dr. Zubizarreta ea
- rned his PhD in Statistics from the Wharton School of the University of Pe
- nnsylvania\, an MA in Economics from Universidad de Chile\, and an undergr
- aduate degree in Engineering from Pontificia Universidad Católica de Chil
- e. A former Fulbright Scholar\, Dr. Zubizarreta has received research supp
- ort from the Alfred P. Sloan Foundation\, the Warren Alpert Foundation\, a
- nd other major research organizations. He serves as an Associate Editor fo
- r several leading journals\, including the Annals of Applied Statistics\, 
- the Harvard Data Science Review\, and the Journal of the American Statisti
- cal Association. Dr. Zubizarreta is an elected Fellow of the American Stat
- istical Association (ASA). His honors include the Kenneth Rothman\, Willia
- m Cochran\, and Tom Ten Have Memorial Awards\, as well as the ASA’s Mid-
- Career Excellence Award in Health Policy Statistics. Dr. Zubizarreta has a
- lso received the Myrto Lefkopoulou Distinguished Lectureship at Harvard an
- d has been selected to deliver the Wayne A. Fuller Distinguished Lecture a
- t Iowa State University.\n\nSponsor / organizer: Geisel School of Medicine
-  / Biomedical Data Science (  )\n\nAudience: Public\n\nSource: Dartmouth\,
-  Geisel\n\nWhy this was included: explicit food-service wording\; food key
- word near service context\n\nFood availability is inferred from the source
-  listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:DHMC\, Auditorium H (and via Zoom)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=83213
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Teaching Writing with Integrity with Dr. Lily Abadal
-DTSTART;TZID=America/New_York:20261112T121500
-DTEND;TZID=America/New_York:20261112T131500
-DTSTAMP:20261112T184510Z
-UID:dartmouth-83080@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=83080\nhttps://airtable.com/appKrGzSjUnG5V1d3/shr4whdP9BZCDgPb2?p
- refill_I%20am%20registering%20for%3A=Teaching%20Writing%20With%20Integrity
- %20with%20Dr.%20Lily%20Abadal&prefill_Ask%20dietary%20question%3F=yes&hide
- _Ask%20dietary%20question%3F=true\n\nDescription:\nIf you have ever assign
- ed any form of prose in your classes\, you know that AI has completely upe
- nded the norms of assessment. Most instructors have responded with one of 
- three approaches. Some have opted to employ AI detection software to sniff
-  out phony student work. Others have replaced take-home essays with blue b
- ook exams where students demonstrate their knowledge in short form in less
-  than two hours. Finally\, others have ditched the essay entirely and have
-  instead opted for oral exams and video reflection assignments.\nThis talk
-  suggests there is another\, better way to keep the formative benefits of 
- the essay without the worry that students will over-rely on AI: a scaffold
- ed\, in-class\, term-long paper. We will cover how to scaffold in-class ar
- gumentative writing with a view toward cultivating the patience\, humility
- \, and honesty that genuine inquiry requires.\nLunch will be provided.\nPl
- ease register\n!\nDr. Lily Abadal is an Assistant Professor of Instruction
-  in the Judy Genshaft Honors College at the University of South Florida. S
- he specializes in normative ethics\, applied ethics\, moral psychology\, a
- nd philosophy of education. Her research and work sit at the intersection 
- of AI ethics and character formation and she explore all things through a 
- Neo-Aristotelian lens. Dr. Abadal applies her research and experience on h
- uman formation as a consultant at Partners in Mission\, helping schools di
- scern how to prudently integrate AI technology (in both operations and in 
- the classroom) without diminishing the goods that make life worth living.\
- nThis event is co-sponsored by the Dartmouth Center for the Advancement of
-  Learning\, the Ethics Institute\, the Leslie Center for the Humanities\, 
- the Department of Government\, and Learning Design & Innovation.\n\nSpons
- or / organizer: Dartmouth Center for the Advancement of Learning (DCAL)\, 
- Ethics Institute\, Learning Design and Innovation\, Leslie Center for the 
- Humanities\n\nAudience: Faculty\, Postdoc\, Staff\, Students-Graduate\n\nS
- ource: Dartmouth\n\nWhy this was included: explicit food-service wording\;
-  food keyword near service context\n\nFood availability is inferred from t
- he source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:DCAL (Baker 102)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=83080
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tess Martin: Experimental Animations
-DTSTART;TZID=America/New_York:20261112T123000
-DTEND;TZID=America/New_York:20261112T133000
-DTSTAMP:20261112T184510Z
-UID:dartmouth-83098@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=83098\n\nDescription:\nTess Martin: Experimental Animations\nTess
-  Martin is an award-winning filmmaker/visual artist based in Rotterdam\, T
- he Netherlands. Her work is informed by hand-made animation techniques and
-  their potential to explore our vulnerability in relation to nature\, the 
- onslaught of time and the precariousness of memory. She brings her perspec
- tive as someone  who was raised between cultures to explore themes of bel
- onging\, identity\, and connection. Many of her projects exist simultaneou
- sly as films and installations\, often incorporating sculptural elements a
- nd individually experienced soundtracks to create intimate durational enco
- unters. She often works with tactile materials such as paper cutouts\, pai
- nt\, ink\, sand\, and found objects\, pushing the boundaries between anima
- tion and contemporary art.\n\nSponsor / organizer: Film & Media Studies De
- partment\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included
- : Free Food category\; explicit food-service wording\; food keyword near s
- ervice context in summary\n\nFood availability is inferred from the source
-  listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:Visual Arts Center Room 108
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=83098
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Psychological and Brain Sciences Colloquium
-DTSTART;TZID=America/New_York:20261112T130000
-DTEND;TZID=America/New_York:20261112T140000
-DTSTAMP:20261112T184510Z
-UID:dartmouth-82161@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
- nt?event=82161\nhttps://memorylab.stanford.edu/people/anthony-d-wagner-phd
- \n\nDescription:\nPlease join us for a colloquium in Moore Filene Auditori
- um on\nThursday\, November 12\, 2026\n\, beginning at\n1:10 p.m.\nThe tal
- k will be presented by\nAnthony D. Wagner\n\, Lucie Stern Professor in the
-  Department of Psychology and Deputy Director of the Wu Tsai Neurosciences
-  Institute at Stanford University.\nTitle:\nRemembering Events Past: Multi
- -System Interactions for Building and Retrieving Memories\nAbstract:\nEpis
- odic memory bridges the past and present\, guides perception\, thinking\, 
- and action in the moment\, and supports simulation of possible futures. Su
- ccessful building of event memories and their subsequent reactivation depe
- nd on interactions among multiple neurocognitive systems. In this talk\, I
-  will discuss medial temporal lobe\, visual cortical\, and top-down modula
- tory mechanisms of memory. First\, I will set the stage by providing evide
- nce for computational differentiation within the medial temporal lobe (MTL
- )\, wherein MTL cortical and hippocampal learning mechanisms support the e
- ncoding of event features and the conjunctions of features\, respectively\
- , and thus support distinct forms of subsequent memory. I will then turn t
- o factors that influence how precisely visual cortex represents the featur
- es of events. I will draw on work in older adults\, whose feature represen
- tations are often less precise\, showing that the precision of event featu
- re representation depends on multiple mechanisms\, including top-down atte
- ntion and local processes. Finally\, I will discuss how preparatory attent
- ion modulates the representation of mnemonic goals\, and in turn impacts t
- he probability of memory retrieval. Collectively\, these findings illustra
- te the complex neurocognitive symphony that underlies learning from events
-  and empowers future remembering and memory-guided behavior.\nCoffee\, tea
- \, and cider donuts will be available shortly before and after the talk.\n
- \nSponsor / organizer: Psychological and Brain Sciences Department\n\nAudi
- ence: Alumni\, Faculty\, Postdoc\, Staff\, Students-Graduate\, Students-Un
- dergraduate\n\nSource: Dartmouth\n\nWhy this was included: food keyword ne
- ar service context\n\nFood availability is inferred from the source listin
- g\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:Filene Auditorium\, Moore Building
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://home.dartmouth.edu/events/event?event=82161
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Community Dinner
-DTSTART;TZID=America/New_York:20261112T173000
-DTEND;TZID=America/New_York:20261112T190000
-DTSTAMP:20261112T184510Z
-UID:gsc-community-dinner@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
- /community-dinner\n\nDescription:\nJoin the Student Life Committee for a c
- ommunity dinner focused on gratitude as we near the end of the term. Thai 
- food will be served!\n\nSource: Dartmouth GSC\n\nWhy this was included: ex
- plicit food-service wording\; food or meal keyword in title\n\nFood availa
- bility is inferred from the source listing\; verify details before attendi
- ng.
-LAST-MODIFIED:20261112T184510Z
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://gsc.dartmouth.edu/events-list/community-dinner
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dartmouth Writers Society
-DTSTART;TZID=America/New_York:20261112T173000
-DTEND;TZID=America/New_York:20261112T193000
-DTSTAMP:20261112T184510Z
-UID:gsc-dartmouth-writers-society-3-zd35e-92ngb@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
- /dartmouth-writers-society-3-zd35e-92ngb\n\nDescription:\nAll are invited 
- to bring creative works-in-progress to workshop with the group and receive
-  thoughtful feedback. All genres and forms are welcome—poetry\, fiction\
- , creative nonfiction\, screenwriting\, playwriting\, essay-writing\, etc.
-  Even research papers and theses! You do\nnot\nhave to be workshopping a p
- iece to attend! Snacks will be provided.\nWrite to us at\nDartmouth.Writer
- s.Society@Dartmouth.edu\nwith any questions.\n\nSource: Dartmouth GSC\n\nW
- hy this was included: explicit food-service wording\; food keyword near se
- rvice context\n\nFood availability is inferred from the source listing\; v
- erify details before attending.
-LAST-MODIFIED:20261112T184510Z
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-zd35
- e-92ngb
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pizza & Policy: Wrongful Death and Grieving in the Black Community
-DTSTART;TZID=America/New_York:20261112T183000
-DTEND;TZID=America/New_York:20261112T203000
-DTSTAMP:20261112T184510Z
-UID:dartmouth-groups-1633277@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1633277\n\nDescription:\nBanner for Pizza and Policy: Wrongf
- ul Death and Grieving in the Black Community\nFlyer for Pizza and Policy: 
- Wrongful Death and Grieving in the Black Community\n\nSponsor / organizer:
-  NAACP\n\nSource: Dartmouth Groups\n\nWhy this was included: food or meal 
- keyword in title\n\nFood availability is inferred from the source listing\
- ; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633277
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:La Mirada Boricua | Symposium | Day 2
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-83172@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -387,7 +64,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  e Center for the Humanities\n\nAudience: Public\n\nSource: Dartmouth\n\nWh
  y this was included: Free Food category\n\nFood availability is inferred f
  rom the source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Haldeman Hall 41 (Kreindler Conference Hall)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -399,7 +76,7 @@ SUMMARY:Final School Grounds - Free grab-and-go coffee & pastries every Fr
  iday
 DTSTART;TZID=America/New_York:20261113T083000
 DTEND;TZID=America/New_York:20261113T093000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:school-house-airtable-recp0CiXElehYUU5Y-2026-11-13T08-30-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -411,7 +88,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -422,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261113T153000
 DTEND;TZID=America/New_York:20261113T170000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1632038@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -432,7 +109,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ource: Dartmouth Groups\n\nWhy this was included: Free Food category\n\nFo
  od availability is inferred from the source listing\; verify details befor
  e attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Berry 178
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -443,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:Vine
 DTSTART;TZID=America/New_York:20261113T173000
 DTEND;TZID=America/New_York:20261113T190000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1632068@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -452,7 +129,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   Vine\n\nSponsor / organizer: Christian Union Vox\n\nSource: Dartmouth Gro
  ups\n\nWhy this was included: Free Food category\n\nFood availability is i
  nferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Christian Union Vox
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -463,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:DDD: Desi Dinner and Dialogue
 DTSTART;TZID=America/New_York:20261113T180000
 DTEND;TZID=America/New_York:20261113T200000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1633690@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -473,7 +150,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ociation\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food c
  ategory\; food or meal keyword in title\n\nFood availability is inferred f
  rom the source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Collis Common Ground
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -484,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:DCO 26F Fall Concert
 DTSTART;TZID=America/New_York:20261114T150000
 DTEND;TZID=America/New_York:20261114T160000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1631414@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -494,7 +171,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  hestra\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food cat
  egory\n\nFood availability is inferred from the source listing\; verify de
  tails before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -502,10 +179,34 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1631414
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Diwali Mela
+DTSTART;TZID=America/New_York:20261115T180000
+DTEND;TZID=America/New_York:20261115T200000
+DTSTAMP:20261113T182654Z
+UID:gsc-diwali-mela-1@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
+ /diwali-mela-1\n\nDescription:\nAn evening of lights\, food\, and celebrat
+ ion!\nDartmouth Desis invites you to our annual Diwali Mela! Diwali is the
+  Festival of Lights\, celebrating light over darkness and bringing people 
+ together. Whether you’ve celebrated all your life or are curious to expe
+ rience it for the first time\, everyone is welcome!\nEnjoy delicious food\
+ , mithai (South Asian sweets)\, drinks\, music\, and live henna/mehndi sta
+ lls!\n\nSource: Dartmouth GSC\n\nWhy this was included: food keyword near 
+ service context\n\nFood availability is inferred from the source listing\;
+  verify details before attending.
+LAST-MODIFIED:20261113T182654Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://gsc.dartmouth.edu/events-list/diwali-mela-1
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Coffee with Mentor or PI Honoring Int'l Education Week!
 DTSTART;TZID=America/New_York:20261116T090000
 DTEND;TZID=America/New_York:20261116T110000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:guarini-53517@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -529,7 +230,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  \n\nAudience: Guarini graduate students and postdocs\n\nSource: Guarini\n\
  nWhy this was included: food or meal keyword in title\n\nFood availability
   is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Anonymous Hall
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -541,7 +242,7 @@ BEGIN:VEVENT
 SUMMARY:Lunch & Learn: Guarini Institute Study Away Mentors
 DTSTART;TZID=America/New_York:20261116T120000
 DTEND;TZID=America/New_York:20261116T130000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-83210@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -556,7 +257,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  nce: Public\n\nSource: Dartmouth\n\nWhy this was included: food or meal ke
  yword in title\n\nFood availability is inferred from the source listing\; 
  verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:53 Commons Lobby Table
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -567,7 +268,7 @@ BEGIN:VEVENT
 SUMMARY:Recharge & Reset 26F - Baker Tower Tour
 DTSTART;TZID=America/New_York:20261116T153000
 DTEND;TZID=America/New_York:20261116T163000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1632047@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -577,7 +278,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
   Dartmouth\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food
   category\n\nFood availability is inferred from the source listing\; verif
  y details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Berry 178
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -588,7 +289,7 @@ BEGIN:VEVENT
 SUMMARY:All House Brunch for International Education Week
 DTSTART;TZID=America/New_York:20261117T093000
 DTEND;TZID=America/New_York:20261117T103000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:school-house-airtable-recI1pn0eUpVimLhp-2026-11-17T09-30-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -600,7 +301,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -611,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:Get It Done! 26F
 DTSTART;TZID=America/New_York:20261117T103000
 DTEND;TZID=America/New_York:20261117T120000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1632021@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -621,7 +322,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  ource: Dartmouth Groups\n\nWhy this was included: Free Food category\n\nFo
  od availability is inferred from the source listing\; verify details befor
  e attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Berry 178
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -629,10 +330,32 @@ URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1632021
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Finals Goodie Bags
+DTSTART;TZID=America/New_York:20261117T120000
+DTEND;TZID=America/New_York:20261117T140000
+DTSTAMP:20261113T182654Z
+UID:dartmouth-groups-1633848@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
+ /rsvp_boot?id=1633848\n\nDescription:\norange flyer with info about finals
+  goodie bags\, same as description. Has tree and goodie bag slash snack sl
+ ash energy drink on it\n\nSponsor / organizer: Class of 2027\n\nSource: Da
+ rtmouth Groups\n\nWhy this was included: Free Food category\n\nFood availa
+ bility is inferred from the source listing\; verify details before attendi
+ ng.
+LAST-MODIFIED:20261113T182654Z
+LOCATION:Collis Common Ground
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633848
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Guarini Craft Cafe: Beading
 DTSTART;TZID=America/New_York:20261117T120000
 DTEND;TZID=America/New_York:20261117T130000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:guarini-54002@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -647,7 +370,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  nSource: Guarini\n\nWhy this was included: explicit food-service wording\;
   food keyword near service context\n\nFood availability is inferred from t
  he source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Guarini Commons - Anonymous Hall B001
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -659,17 +382,17 @@ BEGIN:VEVENT
 SUMMARY:26F Finals Goodie Bags
 DTSTART;TZID=America/New_York:20261117T170000
 DTEND;TZID=America/New_York:20261117T190000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1633691@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
 DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1633691\n\nDescription:\nBanner for 26F Finals Goodie Bags\n
- Flyer for 26F Finals Goodie Bags\n\nSponsor / organizer: Class of 2029\n\n
- Source: Dartmouth Groups\n\nWhy this was included: Free Food category\n\nF
- ood availability is inferred from the source listing\; verify details befo
- re attending.
-LAST-MODIFIED:20261112T184510Z
+ /rsvp_boot?id=1633691\n\nDescription:\n’29 CC Finals Goodie Bags Image\n
+ ’29 CC Finals Goodie Bags Poster\n\nSponsor / organizer: Class of 2029\n
+ \nSource: Dartmouth Groups\n\nWhy this was included: Free Food category\n\
+ nFood availability is inferred from the source listing\; verify details be
+ fore attending.
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Collis Plaza (behind Collis)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -680,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:SWE Weekly Meeting
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T193000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-groups-1632685@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -690,7 +413,7 @@ DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
  s\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food category
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Private Location (sign in to display)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -701,7 +424,7 @@ BEGIN:VEVENT
 SUMMARY:Resident Ensemble: Handel Society Community Sing
 DTSTART;TZID=America/New_York:20261117T193000
 DTEND;TZID=America/New_York:20261117T213000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-81823@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -719,7 +442,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  : Public\n\nSource: Dartmouth\n\nWhy this was included: food keyword near 
  service context\n\nFood availability is inferred from the source listing\;
   verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Top of the Hop\, Hopkins Center for the Arts
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -730,7 +453,7 @@ BEGIN:VEVENT
 SUMMARY:End of term Tea And Study Break 3:00-5:00 & Pup Therapy
 DTSTART;TZID=America/New_York:20261118T150000
 DTEND;TZID=America/New_York:20261118T160000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:school-house-airtable-recIb0k7jCST3qrhI-2026-11-18T15-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -742,7 +465,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -753,7 +476,7 @@ BEGIN:VEVENT
 SUMMARY:Ice Cream Sundaes Social
 DTSTART;TZID=America/New_York:20261118T193000
 DTEND;TZID=America/New_York:20261118T210000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:east-wheelock-4oeat78286fsmbl3am8ps3u9bv-google.com@free-food-dartmout
  h
 SEQUENCE:0
@@ -762,7 +485,7 @@ DESCRIPTION:Sponsor / organizer: East Wheelock House\n\nSource: East Wheel
  ock House\n\nWhy this was included: food or meal keyword in title\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Brace Commons\, Dartmouth College\, Hanover\, NH 03755\, USA
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -772,7 +495,7 @@ BEGIN:VEVENT
 SUMMARY:Psychological and Brain Sciences Colloquium
 DTSTART;TZID=America/New_York:20261119T130000
 DTEND;TZID=America/New_York:20261119T140000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:dartmouth-82789@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -787,7 +510,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  rtment\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: 
  food keyword near service context\n\nFood availability is inferred from th
  e source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Filene Auditorium\, Moore Building
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -798,7 +521,7 @@ BEGIN:VEVENT
 SUMMARY:After the Bell: A K-12 & Dartmouth Connection Social
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T180000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:guarini-53148@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -834,7 +557,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  ted\, and reach out with any questions!\n\nSource: Guarini\n\nWhy this was
   included: food keyword near service context\n\nFood availability is infer
  red from the source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 LOCATION:Atrium of the Engineering & Computer Science Center (ECSC)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -846,7 +569,7 @@ BEGIN:VEVENT
 SUMMARY:Hixon House Dinner — service event
 DTSTART;TZID=America/New_York:20261119T163000
 DTEND;TZID=America/New_York:20261119T183000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:gsc-hixon-house-dinner-service-event@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -858,7 +581,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  o cooking experience needed!\n\nSource: Dartmouth GSC\n\nWhy this was incl
  uded: food or meal keyword in title\n\nFood availability is inferred from 
  the source listing\; verify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/hixon-house-dinner-service-event
@@ -868,7 +591,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth Writers Society
 DTSTART;TZID=America/New_York:20261119T173000
 DTEND;TZID=America/New_York:20261119T193000
-DTSTAMP:20261112T184510Z
+DTSTAMP:20261113T182654Z
 UID:gsc-dartmouth-writers-society-3-zd35e-h4kfa@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -883,7 +606,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  hy this was included: explicit food-service wording\; food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20261112T184510Z
+LAST-MODIFIED:20261113T182654Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-zd35
