@@ -165,7 +165,58 @@ def test_south_house_skips_mixed_case_upcoming_events_header() -> None:
 
 
 @responses.activate
+def test_south_house_keeps_aged_issue_with_upcoming_events() -> None:
+    # Regression test for Nov 2026: Week 8 (Nov 2) announced the Nov 17
+    # International Student Appreciation and Nov 19 Yoga & Brunch, but
+    # the old 7-day issue lookback dropped the issue from the Nov 10
+    # sync onward, deleting both still-upcoming events from the feed
+    # (and un-merging the Nov 17 duplicate). An issue announcing
+    # events inside the scan window must stay in scope even once it
+    # is more than a week old.
+    archive = (
+        "<!doctype html><html><body><h2>Fall 2026</h2>"
+        '<p><a href="https://mailchi.mp/dartmouth/south-house-weekly-26f-week-8">'
+        "26F - Week 8 (Nov. 2, 2026)</a></p></body></html>"
+    )
+    responses.get(ARCHIVE_URL, body=archive, content_type="text/html")
+    responses.get(
+        "https://mailchi.mp/dartmouth/south-house-weekly-26f-week-8",
+        body=fixture_text("south_house_mailchimp_week8.html"),
+        content_type="text/html",
+    )
+    responses.get(
+        "https://mailchi.mp/dartmouth/south-house-weekly-26f-week-9",
+        status=404,
+        content_type="text/html",
+    )
+
+    scan = SouthHouseSource(HttpClient(attempts=1)).scan(
+        date(2026, 11, 15),
+        date(2026, 12, 6),
+    )
+
+    assert scan.complete
+    by_title = {event.title: event for event in scan.events}
+    assert set(by_title) == {
+        "Finals Stress Relief: Yoga & Brunch",
+        "International Student Appreciation",
+    }
+    yoga = by_title["Finals Stress Relief: Yoga & Brunch"]
+    assert yoga.start == datetime(2026, 11, 19, 9, 30, tzinfo=EASTERN)
+    assert yoga.end == datetime(2026, 11, 19, 10, 30, tzinfo=EASTERN)
+    assert "Mighty Yoga Studio" in yoga.description
+    brunch = by_title["International Student Appreciation"]
+    assert brunch.start == datetime(2026, 11, 17, 9, 30, tzinfo=EASTERN)
+    assert brunch.end == datetime(2026, 11, 17, 11, 0, tzinfo=EASTERN)
+    assert brunch.location == "The Cube"
+
+
+@responses.activate
 def test_south_house_ignores_old_newsletter_editions() -> None:
+    # The 28-day issue lookback still fetches Week 3 (Sep. 28) here,
+    # but its Oct 1-2 events fall outside the Oct 12-Nov 2 window,
+    # so nothing is emitted; Week 1 (Aug. 14) stays outside the
+    # lookback and is never fetched (its URL is unmocked).
     responses.get(
         ARCHIVE_URL,
         body=fixture_text("south_house_archive.html"),

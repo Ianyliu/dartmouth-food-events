@@ -24,6 +24,16 @@ MAILCHIMP_WEEK_URL = re.compile(
 )
 PROBE_AHEAD_WEEKS = 4
 
+# How far back an archive-listed issue may be and still be scanned.
+# Newsletters announce events up to ~3 weeks ahead ("Upcoming Events"
+# sections), so an issue must stay in scope long after its own date:
+# Week 8 (Nov 2, 2026) announced Nov 17 and Nov 19 events, but the
+# old 7-day lookback dropped it from the Nov 10 sync onward, deleting
+# both still-upcoming events from the feed. Event dates are still
+# filtered to the scan window in _events, so a wider lookback only
+# costs parsing a few extra old issues.
+ISSUE_LOOKBACK_DAYS = 28
+
 # Section headers the newsletter renders in mixed case, so the
 # all-caps check in _is_section_header does not catch them (Nov 2026:
 # Week 8 renders "Upcoming Events" in title case and the parser took
@@ -100,7 +110,7 @@ class SouthHouseSource:
 
     @staticmethod
     def _relevant_issues(soup: BeautifulSoup, start: date, end: date) -> list[tuple[date, str]]:
-        earliest = start - timedelta(days=7)
+        earliest = start - timedelta(days=ISSUE_LOOKBACK_DAYS)
         issues: list[tuple[date, str]] = []
         for anchor in soup.select("a[href]"):
             text = anchor.get_text(" ", strip=True)
@@ -122,7 +132,7 @@ class SouthHouseSource:
 
         The probe base is the latest sequential Mailchimp issue in the
         archive page, even if that issue itself is older than the
-        scan's 7-day relevance window — that staleness is exactly the
+        scan's relevance window — that staleness is exactly the
         failure mode (Nov 2026: archive still listed Week 6, Oct. 19,
         while Week 7 existed, and the scan otherwise found zero South
         events). For each term, probe the next few week numbers in
@@ -136,7 +146,7 @@ class SouthHouseSource:
         archive can never break the scan — it can only miss issues
         beyond the probe cap.
         """
-        earliest = start - timedelta(days=7)
+        earliest = start - timedelta(days=ISSUE_LOOKBACK_DAYS)
         latest_by_prefix: dict[str, tuple[int, date, str]] = {}
         for anchor in soup.select("a[href]"):
             text = anchor.get_text(" ", strip=True)
