@@ -40,154 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:All House Brunch for International Education Week
-DTSTART;TZID=America/New_York:20261117T093000
-DTEND;TZID=America/New_York:20261117T110000
-DTSTAMP:20261117T194106Z
-UID:school-house-airtable-recI1pn0eUpVimLhp-2026-11-17T09-30-00-05-00@free
- -food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
- 6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ/viwtqiEAmafxgvDfF/recI1pn0eUpVimLhp?
- date=2026-11-17\nhttps://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/
- tblWCjX1JWEWWcuuQ\nhttps://mailchi.mp/dartmouth/south-house-weekly-26f-wee
- k-10\nhttps://sites.dartmouth.edu/south-house/south-house-weekly/\nhttps:/
- /mailchi.mp/dartmouth/south-house-weekly-26f-week-18245136\nhttps://mailch
- i.mp/dartmouth/south-house-weekly-26f-week-8\nhttps://mailchi.mp/dartmouth
- /south-house-weekly-26f-week-7\n\nDescription:\nPlease join the House Comm
- unities for some pastries\, coffee\, and tea in recognition of internation
- al education week and celebration of our international community. All are 
- welcome. Drop in any time!\n\nSponsor / organizer: School House / South Ho
- use / South House / South House / South House\n\nSource: School House Airt
- able\, South House\n\nWhy this was included: food or meal keyword in title
- \; explicit food-service wording\n\nFood availability is inferred from the
-  source listing\; verify details before attending.
-LAST-MODIFIED:20261117T194106Z
-LOCATION:The Cube
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
- cuuQ/viwtqiEAmafxgvDfF/recI1pn0eUpVimLhp?date=2026-11-17
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Get It Done! 26F
-DTSTART;TZID=America/New_York:20261117T103000
-DTEND;TZID=America/New_York:20261117T120000
-DTSTAMP:20261117T194106Z
-UID:dartmouth-groups-1632021@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1632021\n\nDescription:\nGet It Done! with hanging and potte
- d plants\n\nSponsor / organizer: Student Wellness Center at Dartmouth\n\nS
- ource: Dartmouth Groups\n\nWhy this was included: Free Food category\n\nFo
- od availability is inferred from the source listing\; verify details befor
- e attending.
-LAST-MODIFIED:20261117T194106Z
-LOCATION:Berry 178
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1632021
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Possibly canceled] Finals Goodie Bags
-DTSTART;TZID=America/New_York:20261117T120000
-DTEND;TZID=America/New_York:20261117T140000
-DTSTAMP:20261117T194106Z
-UID:dartmouth-groups-1633848@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1633848\n\nDescription:\norange flyer with info about finals
-  goodie bags\, same as description. Has tree and goodie bag slash snack sl
- ash energy drink on it\n\nSponsor / organizer: Class of 2027\n\nSource: Da
- rtmouth Groups\n\nWhy this was included: Free Food category\n\nFood availa
- bility is inferred from the source listing\; verify details before attendi
- ng.
-LAST-MODIFIED:20261117T194106Z
-LOCATION:Collis Common Ground
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633848
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Guarini Craft Cafe: Beading
-DTSTART;TZID=America/New_York:20261117T120000
-DTEND;TZID=America/New_York:20261117T130000
-DTSTAMP:20261117T194106Z
-UID:guarini-54002@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
- nts/2026/11/17/guarini-craft-cafe-beading/\nhttps://apply.gs.dartmouth.edu
- /register/?id=a3724b7b-0780-4815-8c0a-0f47059b25b1\nhttps://guarinigrad.da
- rtmouth.edu\n\nDescription:\nGuarini grad students and postdocs are welcom
- e to come make a bracelet\, necklace\, or something unique with beads and 
- casually talk with Associate Dean of Graduate Student Affairs\, Kerry Land
- ers over lunch (lunch provided). Beads and string will be provided.\n\nSpo
- nsor / organizer: GuariniGRAD\n\nAudience: Graduate students\, postdocs\n\
- nSource: Guarini\n\nWhy this was included: explicit food-service wording\;
-  food keyword near service context\n\nFood availability is inferred from t
- he source listing\; verify details before attending.
-LAST-MODIFIED:20261117T194106Z
-LOCATION:Guarini Commons - Anonymous Hall B001
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://guarinigrad.dartmouth.edu/events/2026/11/17/guarini-craft-cafe
- -beading/
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:26F Finals Goodie Bags
-DTSTART;TZID=America/New_York:20261117T170000
-DTEND;TZID=America/New_York:20261117T190000
-DTSTAMP:20261117T194106Z
-UID:dartmouth-groups-1633691@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1633691\n\nDescription:\n’29 CC Finals Goodie Bags Image\n
- ’29 CC Finals Goodie Bags Poster\n\nSponsor / organizer: Class of 2029\n
- \nSource: Dartmouth Groups\n\nWhy this was included: Free Food category\n\
- nFood availability is inferred from the source listing\; verify details be
- fore attending.
-LAST-MODIFIED:20261117T194106Z
-LOCATION:Collis Plaza (behind Collis)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1633691
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SWE Weekly Meeting
-DTSTART;TZID=America/New_York:20261117T183000
-DTEND;TZID=America/New_York:20261117T193000
-DTSTAMP:20261117T194106Z
-UID:dartmouth-groups-1632685@free-food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://dartmouthgroups.dartmouth.edu
- /rsvp_boot?id=1632685\n\nDescription:\nBanner for SWE Weekly Meeting\nFlye
- r for SWE Weekly Meeting\n\nSponsor / organizer: Society of Women Engineer
- s\n\nSource: Dartmouth Groups\n\nWhy this was included: Free Food category
- \n\nFood availability is inferred from the source listing\; verify details
-  before attending.
-LAST-MODIFIED:20261117T194106Z
-LOCATION:Private Location (sign in to display)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://dartmouthgroups.dartmouth.edu/rsvp_boot?id=1632685
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:End of term Tea And Study Break 3:00-5:00 & Pup Therapy
 DTSTART;TZID=America/New_York:20261118T150000
 DTEND;TZID=America/New_York:20261118T160000
-DTSTAMP:20261117T194106Z
+DTSTAMP:20261118T191659Z
 UID:school-house-airtable-recIb0k7jCST3qrhI-2026-11-18T15-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -199,7 +55,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261117T194106Z
+LAST-MODIFIED:20261118T191659Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -210,7 +66,7 @@ BEGIN:VEVENT
 SUMMARY:Ice Cream Sundaes Social
 DTSTART;TZID=America/New_York:20261118T193000
 DTEND;TZID=America/New_York:20261118T210000
-DTSTAMP:20261117T194106Z
+DTSTAMP:20261118T191659Z
 UID:east-wheelock-4oeat78286fsmbl3am8ps3u9bv-google.com@free-food-dartmout
  h
 SEQUENCE:0
@@ -219,7 +75,7 @@ DESCRIPTION:Sponsor / organizer: East Wheelock House\n\nSource: East Wheel
  ock House\n\nWhy this was included: food or meal keyword in title\n\nFood 
  availability is inferred from the source listing\; verify details before a
  ttending.
-LAST-MODIFIED:20261117T194106Z
+LAST-MODIFIED:20261118T191659Z
 LOCATION:Brace Commons\, Dartmouth College\, Hanover\, NH 03755\, USA
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -229,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY:Finals Stress Relief: Yoga & Brunch
 DTSTART;TZID=America/New_York:20261119T093000
 DTEND;TZID=America/New_York:20261119T103000
-DTSTAMP:20261117T194106Z
+DTSTAMP:20261118T191659Z
 UID:south-house-2026-11-19-0930-finals-stress-relief-yoga-brunch@free-food
  -dartmouth
 SEQUENCE:0
@@ -246,7 +102,7 @@ DESCRIPTION:Original event page(s):\nhttps://mailchi.mp/dartmouth/south-ho
   South House\n\nSource: South House\n\nWhy this was included: food or meal
   keyword in title\; food keyword near service context\n\nFood availability
   is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261117T194106Z
+LAST-MODIFIED:20261118T191659Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://mailchi.mp/dartmouth/south-house-weekly-26f-week-8
@@ -256,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:After the Bell: A K-12 & Dartmouth Connection Social
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T180000
-DTSTAMP:20261117T194106Z
+DTSTAMP:20261118T191659Z
 UID:guarini-53148@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -292,7 +148,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  ted\, and reach out with any questions!\n\nSource: Guarini\n\nWhy this was
   included: food keyword near service context\n\nFood availability is infer
  red from the source listing\; verify details before attending.
-LAST-MODIFIED:20261117T194106Z
+LAST-MODIFIED:20261118T191659Z
 LOCATION:Atrium of the Engineering & Computer Science Center (ECSC)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -304,7 +160,7 @@ BEGIN:VEVENT
 SUMMARY:Hixon House Dinner — service event
 DTSTART;TZID=America/New_York:20261119T163000
 DTEND;TZID=America/New_York:20261119T183000
-DTSTAMP:20261117T194106Z
+DTSTAMP:20261118T191659Z
 UID:gsc-hixon-house-dinner-service-event@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -316,7 +172,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  o cooking experience needed!\n\nSource: Dartmouth GSC\n\nWhy this was incl
  uded: food or meal keyword in title\n\nFood availability is inferred from 
  the source listing\; verify details before attending.
-LAST-MODIFIED:20261117T194106Z
+LAST-MODIFIED:20261118T191659Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/hixon-house-dinner-service-event
@@ -326,7 +182,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth Writers Society
 DTSTART;TZID=America/New_York:20261119T173000
 DTEND;TZID=America/New_York:20261119T193000
-DTSTAMP:20261117T194106Z
+DTSTAMP:20261118T191659Z
 UID:gsc-dartmouth-writers-society-3-zd35e-h4kfa@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -341,7 +197,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  hy this was included: explicit food-service wording\; food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20261117T194106Z
+LAST-MODIFIED:20261118T191659Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-zd35
