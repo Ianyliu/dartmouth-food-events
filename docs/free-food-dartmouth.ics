@@ -40,52 +40,10 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:End of term Tea And Study Break 3:00-5:00 & Pup Therapy
-DTSTART;TZID=America/New_York:20261118T150000
-DTEND;TZID=America/New_York:20261118T160000
-DTSTAMP:20261118T191659Z
-UID:school-house-airtable-recIb0k7jCST3qrhI-2026-11-18T15-00-00-05-00@free
- -food-dartmouth
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
- 6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ/viwtqiEAmafxgvDfF/recIb0k7jCST3qrhI?
- date=2026-11-18\nhttps://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/
- tblWCjX1JWEWWcuuQ\n\nSponsor / organizer: School House\n\nSource: School H
- ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
- ood availability is inferred from the source listing\; verify details befo
- re attending.
-LAST-MODIFIED:20261118T191659Z
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
- cuuQ/viwtqiEAmafxgvDfF/recIb0k7jCST3qrhI?date=2026-11-18
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ice Cream Sundaes Social
-DTSTART;TZID=America/New_York:20261118T193000
-DTEND;TZID=America/New_York:20261118T210000
-DTSTAMP:20261118T191659Z
-UID:east-wheelock-4oeat78286fsmbl3am8ps3u9bv-google.com@free-food-dartmout
- h
-SEQUENCE:0
-CLASS:PUBLIC
-DESCRIPTION:Sponsor / organizer: East Wheelock House\n\nSource: East Wheel
- ock House\n\nWhy this was included: food or meal keyword in title\n\nFood 
- availability is inferred from the source listing\; verify details before a
- ttending.
-LAST-MODIFIED:20261118T191659Z
-LOCATION:Brace Commons\, Dartmouth College\, Hanover\, NH 03755\, USA
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Finals Stress Relief: Yoga & Brunch
 DTSTART;TZID=America/New_York:20261119T093000
 DTEND;TZID=America/New_York:20261119T103000
-DTSTAMP:20261118T191659Z
+DTSTAMP:20261119T192530Z
 UID:south-house-2026-11-19-0930-finals-stress-relief-yoga-brunch@free-food
  -dartmouth
 SEQUENCE:0
@@ -102,7 +60,7 @@ DESCRIPTION:Original event page(s):\nhttps://mailchi.mp/dartmouth/south-ho
   South House\n\nSource: South House\n\nWhy this was included: food or meal
   keyword in title\; food keyword near service context\n\nFood availability
   is inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261118T191659Z
+LAST-MODIFIED:20261119T192530Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://mailchi.mp/dartmouth/south-house-weekly-26f-week-8
@@ -112,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:After the Bell: A K-12 & Dartmouth Connection Social
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T180000
-DTSTAMP:20261118T191659Z
+DTSTAMP:20261119T192530Z
 UID:guarini-53148@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -148,7 +106,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  ted\, and reach out with any questions!\n\nSource: Guarini\n\nWhy this was
   included: food keyword near service context\n\nFood availability is infer
  red from the source listing\; verify details before attending.
-LAST-MODIFIED:20261118T191659Z
+LAST-MODIFIED:20261119T192530Z
 LOCATION:Atrium of the Engineering & Computer Science Center (ECSC)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -160,7 +118,7 @@ BEGIN:VEVENT
 SUMMARY:Hixon House Dinner — service event
 DTSTART;TZID=America/New_York:20261119T163000
 DTEND;TZID=America/New_York:20261119T183000
-DTSTAMP:20261118T191659Z
+DTSTAMP:20261119T192530Z
 UID:gsc-hixon-house-dinner-service-event@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -172,7 +130,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  o cooking experience needed!\n\nSource: Dartmouth GSC\n\nWhy this was incl
  uded: food or meal keyword in title\n\nFood availability is inferred from 
  the source listing\; verify details before attending.
-LAST-MODIFIED:20261118T191659Z
+LAST-MODIFIED:20261119T192530Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/hixon-house-dinner-service-event
@@ -182,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:Dartmouth Writers Society
 DTSTART;TZID=America/New_York:20261119T173000
 DTEND;TZID=America/New_York:20261119T193000
-DTSTAMP:20261118T191659Z
+DTSTAMP:20261119T192530Z
 UID:gsc-dartmouth-writers-society-3-zd35e-h4kfa@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -197,7 +155,7 @@ DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
  hy this was included: explicit food-service wording\; food keyword near se
  rvice context\n\nFood availability is inferred from the source listing\; v
  erify details before attending.
-LAST-MODIFIED:20261118T191659Z
+LAST-MODIFIED:20261119T192530Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://gsc.dartmouth.edu/events-list/dartmouth-writers-society-3-zd35
