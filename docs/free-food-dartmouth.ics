@@ -39,4 +39,170 @@ TZOFFSETFROM:-0400
 TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:CELEBRATE THE SEASON
+DTSTART;TZID=America/New_York:20261204T160000
+DTEND;TZID=America/New_York:20261204T180000
+DTSTAMP:20261121T175520Z
+UID:dartmouth-82419@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=82419\n\nDescription:\nDrop in to Russo Atrium to participate in 
+ art-making and enjoy cookies and cider as part of Hanover’s annual Celeb
+ rate the Season event! rePlay Arts will join us at the event with a reuse 
+ craft and holiday sale!\nNo registration necessary.\nPhotographs may be ta
+ ken at this event for promotional or educational use. By attending\, you c
+ onsent to be photographed and/or video recorded. Please contact us if you 
+ have any questions or concerns.\n\nSponsor / organizer: Hood Museum of Art
+ \n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: Free F
+ ood category\; food keyword near service context\n\nFood availability is i
+ nferred from the source listing\; verify details before attending.
+LAST-MODIFIED:20261121T175520Z
+LOCATION:Hood Museum of Art
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=82419
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All-House HopStop Collab-Cookie Contest Details
+DTSTART;TZID=America/New_York:20261205T000000
+DTEND;TZID=America/New_York:20261205T010000
+DTSTAMP:20261121T175520Z
+UID:school-house-airtable-recpVrJpRjugGErE5-2026-12-05T00-00-00-05-00@free
+ -food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
+ 6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWWcuuQ/viwtqiEAmafxgvDfF/recpVrJpRjugGErE5?
+ date=2026-12-05\nhttps://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/
+ tblWCjX1JWEWWcuuQ\n\nSponsor / organizer: School House\n\nSource: School H
+ ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
+ ood availability is inferred from the source listing\; verify details befo
+ re attending.
+LAST-MODIFIED:20261121T175520Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
+ cuuQ/viwtqiEAmafxgvDfF/recpVrJpRjugGErE5?date=2026-12-05
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HopStop Family Event: Cookie Contest (with holiday tunes)
+DTSTART;TZID=America/New_York:20261205T110000
+DTEND;TZID=America/New_York:20261205T120000
+DTSTAMP:20261121T175520Z
+UID:dartmouth-81824@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=81824\nhttps://docs.google.com/forms/d/e/1FAIpQLSfgAzgvWFspFwqoK8
+ nHoqwk7xYUY3N04F5bSOpKm6Q9b68znQ/viewform?usp=dialog\nhttps://hop.dartmout
+ h.edu/events/cookie-contest\n\nDescription:\n'Tis the season to celebrate 
+ with holiday tunes and cookies!\nEach cookie submission receives two free 
+ tickets to any Hop film event. Taste some cookies and enjoy some holiday t
+ unes by jazz singer Grace Wallace and her band. Vote for your favorites in
+  a variety of categories\, including best decorated\, best tasting and bes
+ t overall cookie! The cookie makers with the most votes in each category w
+ ill win a special surprise Hop-themed gift.\nSign up here to bring cookies
+ .\nAll are welcome for this free family event.\nRegistration is encouraged
+  but not required.\nGet more info here.\n\nSponsor / organizer: Hopkins Ce
+ nter for the Arts\n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was
+  included: Free Food category\; food or meal keyword in title\n\nFood avai
+ lability is inferred from the source listing\; verify details before atten
+ ding.
+LAST-MODIFIED:20261121T175520Z
+LOCATION:Hop Courtyard Cafe
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=81824
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Motivational Interviewing 2-Day workshop
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DTSTAMP:20261121T175520Z
+UID:dartmouth-83177@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=83177\nhttps://forms.gle/MUtMqUie1dGKRXzH8\nhttps://dialogues.dar
+ tmouth.edu/\nhttp://dartgo.org/swc\nhttps://mentalhealth.dartmouth.edu/str
+ ategic-plan/commitment-care\n\nDescription:\nWinterim 2026 Motivational In
+ terviewing Training—Register by December 1 here:\nhttps://forms.gle/MUtM
+ qUie1dGKRXzH8\nDartmouth Dialogues\n: Motivational Interviewing Two-Day Wo
+ rkshop\nTuesday\, December 8 and Friday\, December 11*\n9 a.m.–4:30 p.m.
+  (morning refreshments available at 8:30 a.m.)\nLocation: Berry 180A\; the
+  LINK classroom. First Floor Berry Library.\nThe\nStudent Wellness Center\
+ n\, with support from Dartmouth Dialogues\, offers this intensive\, intera
+ ctive (and fun!) two-day workshop aimed at building basic proficiency in M
+ otivational Interviewing (MI). MI is a collaborative communication style f
+ or supporting individuals through growth and change.\nMI trainings are nam
+ ed in Dartmouth's\nCommitment to Care strategic plan\nas “effective skil
+ l-building trainings that support high-quality mentoring\, advising\, and 
+ teaching.”\nThis evidence-based approach has broad application for worki
+ ng with students (and others) and can be an instrumental tool for advisors
+ \, coaches\, facilitators\, and educators.\nThe training is free and open 
+ to the entire Dartmouth community. Morning refreshments\, snacks\, and lun
+ ch will be provided.\nFacilitated by Caitlin Barthelmes\, member of the MI
+  Network of Trainers and LB White of the Student Wellness Center.\n*Please
+  attend both days. We offer this training twice a year. If you can't commi
+ t to the full training this time\, please plan to attend the event when it
+  is offered next summer.\n\nSponsor / organizer: Student Wellness Center\n
+ \nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: explicit
+  food-service wording\; food keyword near service context\n\nFood availabi
+ lity is inferred from the source listing\; verify details before attending
+ .
+LAST-MODIFIED:20261121T175520Z
+LOCATION:Berry Library\, LINK classroom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=83177
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Motivational Interviewing 2-Day workshop
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+DTSTAMP:20261121T175520Z
+UID:dartmouth-83178@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=83178\nhttps://forms.gle/MUtMqUie1dGKRXzH8\nhttps://dialogues.dar
+ tmouth.edu/\nhttp://dartgo.org/swc\nhttps://mentalhealth.dartmouth.edu/str
+ ategic-plan/commitment-care\n\nDescription:\nWinterim 2026 Motivational In
+ terviewing Training—Register by December 1 here:\nhttps://forms.gle/MUtM
+ qUie1dGKRXzH8\nDartmouth Dialogues\n: Motivational Interviewing Two-Day Wo
+ rkshop\nTuesday\, December 8 and Friday\, December 11*\n9 a.m.–4:30 p.m.
+  (morning refreshments available at 8:30 a.m.)\nLocation: Berry 180A\; the
+  LINK classroom. First Floor Berry Library.\nThe\nStudent Wellness Center\
+ n\, with support from Dartmouth Dialogues\, offers this intensive\, intera
+ ctive (and fun!) two-day workshop aimed at building basic proficiency in M
+ otivational Interviewing (MI). MI is a collaborative communication style f
+ or supporting individuals through growth and change.\nMI trainings are nam
+ ed in Dartmouth's\nCommitment to Care strategic plan\nas “effective skil
+ l-building trainings that support high-quality mentoring\, advising\, and 
+ teaching.”\nThis evidence-based approach has broad application for worki
+ ng with students (and others) and can be an instrumental tool for advisors
+ \, coaches\, facilitators\, and educators.\nThe training is free and open 
+ to the entire Dartmouth community. Morning refreshments\, snacks\, and lun
+ ch will be provided.\nFacilitated by Caitlin Barthelmes\, member of the MI
+  Network of Trainers and LB White of the Student Wellness Center.\n*Please
+  attend both days. We offer this training twice a year. If you can't commi
+ t to the full training this time\, please plan to attend the event when it
+  is offered next summer.\n\nSponsor / organizer: Student Wellness Center\n
+ \nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: explicit
+  food-service wording\; food keyword near service context\n\nFood availabi
+ lity is inferred from the source listing\; verify details before attending
+ .
+LAST-MODIFIED:20261121T175520Z
+LOCATION:Berry Library\, LINK classroom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=83178
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
 END:VCALENDAR
