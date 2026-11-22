@@ -40,10 +40,100 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+SUMMARY:Grading Co-Work Café 2
+DTSTART;TZID=America/New_York:20261130T130000
+DTEND;TZID=America/New_York:20261130T160000
+DTSTAMP:20261122T231914Z
+UID:dartmouth-83139@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=83139\nhttps://airtable.com/appKrGzSjUnG5V1d3/shrRodwyFZ7HKDwFf?d
+ etail=eyJwYWdlSWQiOiJwYWdKUzc1cEVsUERhTk9rbSIsInJvd0lkIjoicmVjbWZGZDhQSkVN
+ bGVuT3EiLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6In
+ BhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsMWlrdmhmMW5CNTdCWmUiLCJxdWVyeUNvbnRh
+ aW5lcklkIjoicGVseVdSY0tCN1ZReVo1elQifX0\n\nDescription:\nGet your grading 
+ done in the company of others doing the same\, and with the necessary supp
+ orts of snacks and caffeine on hand. Come and go as you wish during this i
+ nformal grading co-work café.\nLet us know you're planning on it by regis
+ tering here\,\nand we'll remind you!\n\nSponsor / organizer: Dartmouth Cen
+ ter for the Advancement of Learning (DCAL)\, Learning Design and Innovatio
+ n\n\nAudience: Faculty\, Postdoc\, Public\, Students-Graduate\n\nSource: D
+ artmouth\n\nWhy this was included: food keyword near service context in su
+ mmary\n\nFood availability is inferred from the source listing\; verify de
+ tails before attending.
+LAST-MODIFIED:20261122T231914Z
+LOCATION:DCAL (Baker 102)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=83139
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Course Design Co-Work Café 1
+DTSTART;TZID=America/New_York:20261202T120000
+DTEND;TZID=America/New_York:20261202T160000
+DTSTAMP:20261122T231914Z
+UID:dartmouth-83140@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=83140\nhttps://airtable.com/appKrGzSjUnG5V1d3/shrRodwyFZ7HKDwFf?d
+ etail=eyJwYWdlSWQiOiJwYWdKUzc1cEVsUERhTk9rbSIsInJvd0lkIjoicmVjUU9vc3FKNlho
+ alFsN2MiLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6In
+ BhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsMWlrdmhmMW5CNTdCWmUiLCJxdWVyeUNvbnRh
+ aW5lcklkIjoicGVseVdSY0tCN1ZReVo1elQifX0\n\nDescription:\nFind camaraderie 
+ and accountability among colleagues preparing winter courses and syllabi b
+ y joining us in DCAL (with the good snacks\, natural light\, and espresso 
+ machine) for an afternoon course design co-work café! Teaching and learni
+ ng staff will be on hand for questions and support as needed. Drop in for 
+ a sprint or spend the afternoon getting your course prepped for winter bef
+ ore a well-earned holiday break.\nLet us know you're planning on it by reg
+ istering here\n\, and we'll remind you!\n\nSponsor / organizer: Dartmouth 
+ Center for the Advancement of Learning (DCAL)\, Learning Design and Innova
+ tion\n\nAudience: Faculty\, Postdoc\, Staff\, Students-Graduate\n\nSource:
+  Dartmouth\n\nWhy this was included: food keyword near service context\n\n
+ Food availability is inferred from the source listing\; verify details bef
+ ore attending.
+LAST-MODIFIED:20261122T231914Z
+LOCATION:DCAL (Baker 102)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=83140
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Snow Globe Making
+DTSTART;TZID=America/New_York:20261203T140000
+DTEND;TZID=America/New_York:20261203T150000
+DTSTAMP:20261122T231914Z
+UID:guarini-55524@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
+ nts/2026/12/03/snow-globe-making/\nhttps://apply.gs.dartmouth.edu/register
+ /?id=21ed7d34-b3c6-4172-9ac9-ec0b22d952a2\nhttps://guarinigrad.dartmouth.e
+ du\n\nDescription:\nJoin your Guarini peers for a cozy winter craft in the
+  Guarini Commons (Anonymous Hall B001)! We will provide all the supplies t
+ o make a snow globe along with some hot chocolate and other refreshments.\
+ n*Guarini graduate students include all PhD\, MA\, MALS\, MET\, and MFA st
+ udents\; and MS students in Engineering\, Computer Science\, and Earth and
+  Planetary Sciences.\n\nSponsor / organizer: GuariniGRAD\n\nAudience: Guar
+ ini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was incl
+ uded: food keyword near service context in summary\n\nFood availability is
+  inferred from the source listing\; verify details before attending.
+LAST-MODIFIED:20261122T231914Z
+LOCATION:Anonymous Hall\, Guarini Commons
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://guarinigrad.dartmouth.edu/events/2026/12/03/snow-globe-making/
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CELEBRATE THE SEASON
 DTSTART;TZID=America/New_York:20261204T160000
 DTEND;TZID=America/New_York:20261204T180000
-DTSTAMP:20261122T181837Z
+DTSTAMP:20261122T231914Z
 UID:dartmouth-82419@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -58,7 +148,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: Free F
  ood category\; food keyword near service context\n\nFood availability is i
  nferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261122T181837Z
+LAST-MODIFIED:20261122T231914Z
 LOCATION:Hood Museum of Art
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -69,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:All-House HopStop Collab-Cookie Contest Details
 DTSTART;TZID=America/New_York:20261205T000000
 DTEND;TZID=America/New_York:20261205T010000
-DTSTAMP:20261122T181837Z
+DTSTAMP:20261122T231914Z
 UID:school-house-airtable-recpVrJpRjugGErE5-2026-12-05T00-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -81,7 +171,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261122T181837Z
+LAST-MODIFIED:20261122T231914Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -92,7 +182,7 @@ BEGIN:VEVENT
 SUMMARY:HopStop Family Event: Cookie Contest (with holiday tunes)
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T120000
-DTSTAMP:20261122T181837Z
+DTSTAMP:20261122T231914Z
 UID:dartmouth-81824@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -112,7 +202,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   included: Free Food category\; food or meal keyword in title\n\nFood avai
  lability is inferred from the source listing\; verify details before atten
  ding.
-LAST-MODIFIED:20261122T181837Z
+LAST-MODIFIED:20261122T231914Z
 LOCATION:Hop Courtyard Cafe
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -123,7 +213,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261122T181837Z
+DTSTAMP:20261122T231914Z
 UID:dartmouth-83177@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -155,7 +245,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261122T181837Z
+LAST-MODIFIED:20261122T231914Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -163,10 +253,43 @@ URL:https://home.dartmouth.edu/events/event?event=83177
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Course Design Co-Work Café 2
+DTSTART;TZID=America/New_York:20261208T100000
+DTEND;TZID=America/New_York:20261208T120000
+DTSTAMP:20261122T231914Z
+UID:dartmouth-83141@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
+ nt?event=83141\nhttps://airtable.com/appKrGzSjUnG5V1d3/shrRodwyFZ7HKDwFf?d
+ etail=eyJwYWdlSWQiOiJwYWdKUzc1cEVsUERhTk9rbSIsInJvd0lkIjoicmVjNmJzVlRTcFlY
+ bndlWHEiLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6In
+ BhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsMWlrdmhmMW5CNTdCWmUiLCJxdWVyeUNvbnRh
+ aW5lcklkIjoicGVseVdSY0tCN1ZReVo1elQifX0\n\nDescription:\nFind camaraderie 
+ and accountability among colleagues preparing winter courses and syllabi b
+ y joining us in DCAL (with the good snacks\, natural light\, and espresso 
+ machine) for a morning course design co-work café! Teaching and learning 
+ staff will be on hand for questions and support as needed. Drop in for a s
+ print or spend the morning getting your course prepped for winter before a
+  well-earned holiday break.\nLet us know you're planning on it by register
+ ing here\n\, and we'll remind you!\n\nSponsor / organizer: Dartmouth Cente
+ r for the Advancement of Learning (DCAL)\, Learning Design and Innovation\
+ n\nAudience: Faculty\, Postdoc\, Public\, Staff\, Students-Graduate\n\nSou
+ rce: Dartmouth\n\nWhy this was included: food keyword near service context
+ \n\nFood availability is inferred from the source listing\; verify details
+  before attending.
+LAST-MODIFIED:20261122T231914Z
+LOCATION:DCAL (Baker 102)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://home.dartmouth.edu/events/event?event=83141
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261122T181837Z
+DTSTAMP:20261122T231914Z
 UID:dartmouth-83178@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -198,7 +321,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261122T181837Z
+LAST-MODIFIED:20261122T231914Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
