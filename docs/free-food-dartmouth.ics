@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:CELEBRATE THE SEASON
 DTSTART;TZID=America/New_York:20261204T160000
 DTEND;TZID=America/New_York:20261204T180000
-DTSTAMP:20261121T175520Z
+DTSTAMP:20261122T181837Z
 UID:dartmouth-82419@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -58,7 +58,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: Free F
  ood category\; food keyword near service context\n\nFood availability is i
  nferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261121T175520Z
+LAST-MODIFIED:20261122T181837Z
 LOCATION:Hood Museum of Art
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:All-House HopStop Collab-Cookie Contest Details
 DTSTART;TZID=America/New_York:20261205T000000
 DTEND;TZID=America/New_York:20261205T010000
-DTSTAMP:20261121T175520Z
+DTSTAMP:20261122T181837Z
 UID:school-house-airtable-recpVrJpRjugGErE5-2026-12-05T00-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -81,7 +81,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261121T175520Z
+LAST-MODIFIED:20261122T181837Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:HopStop Family Event: Cookie Contest (with holiday tunes)
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T120000
-DTSTAMP:20261121T175520Z
+DTSTAMP:20261122T181837Z
 UID:dartmouth-81824@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -112,7 +112,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   included: Free Food category\; food or meal keyword in title\n\nFood avai
  lability is inferred from the source listing\; verify details before atten
  ding.
-LAST-MODIFIED:20261121T175520Z
+LAST-MODIFIED:20261122T181837Z
 LOCATION:Hop Courtyard Cafe
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -123,7 +123,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261121T175520Z
+DTSTAMP:20261122T181837Z
 UID:dartmouth-83177@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -155,7 +155,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261121T175520Z
+LAST-MODIFIED:20261122T181837Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -166,7 +166,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261121T175520Z
+DTSTAMP:20261122T181837Z
 UID:dartmouth-83178@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -198,7 +198,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261121T175520Z
+LAST-MODIFIED:20261122T181837Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
