@@ -31,8 +31,9 @@ EXPLICIT_FOOD = re.compile(
     re.IGNORECASE,
 )
 SERVICE_CONTEXT = re.compile(
-    r"\b(provided|served|serving|available|complimentary|free|first[- ]come|while supplies last|"
-    r"included|offered|catered|join us for|enjoy|reception|social|mixer|there will be|"
+    r"\b(provid(?:e|ed|ing)|served|serving|available|complimentary|free|"
+    r"first[- ]come|while supplies last|included|offered|on hand|catered|"
+    r"join(?:ing)? us(?: for)?|enjoy|reception|social|mixer|there will be|"
     r"we(?:'|\u2019)ll have|for (?:attendees|participants|guests)|host(?:ed|ing)?|"
     r"followed by|complete with)\b",
     re.IGNORECASE,

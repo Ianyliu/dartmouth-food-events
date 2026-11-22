@@ -122,3 +122,41 @@ def test_for_some_pastries_coffee_tea_matches() -> None:
 def test_school_house_waffles_and_pastries_are_food_matches() -> None:
     assert match_event(event("Waffle Wellness Study Break"))
     assert match_event(event("School Grounds - Free coffee & pastries"))
+
+
+def test_provide_and_joining_us_and_on_hand_are_service_context() -> None:
+    # Regression tests for the Nov 22, 2026 audit: four events the
+    # published feed missed because their food-service wording did not
+    # match any SERVICE_CONTEXT term.
+    # Guarini "Snow Globe Making" (Dec 3): "we will provide ...
+    # hot chocolate and other refreshments" — "provide" (present
+    # tense) was not covered, only "provided".
+    assert match_event(
+        event(
+            "Snow Globe Making",
+            "Join your Guarini peers for a cozy winter craft! We will provide "
+            "all the supplies to make a snow globe along with some hot "
+            "chocolate and other refreshments.",
+        )
+    )
+    # DCAL "Grading Co-Work Café 2" (Nov 30): "snacks and caffeine
+    # on hand" — "on hand" was not a service-context term.
+    assert match_event(
+        event(
+            "Grading Co-Work Café 2",
+            "Get your grading done in the company of others doing the same, "
+            "and with the necessary supports of snacks and caffeine on hand.",
+        )
+    )
+    # DCAL "Course Design Co-Work Café 1/2" (Dec 2, Dec 8): "joining
+    # us in DCAL (with the good snacks ...)" — only "join us for"
+    # was covered, not "joining us".
+    assert match_event(
+        event(
+            "Course Design Co-Work Café 1",
+            "Find camaraderie and accountability among colleagues preparing "
+            "winter courses and syllabi by joining us in DCAL (with the "
+            "good snacks, natural light, and espresso machine) for an "
+            "afternoon course design co-work café!",
+        )
+    )
