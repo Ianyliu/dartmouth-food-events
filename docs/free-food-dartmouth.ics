@@ -40,10 +40,31 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+SUMMARY:Cookie Decorating with GWiSE
+DTSTART;TZID=America/New_York:20261123T173000
+DTEND;TZID=America/New_York:20261123T190000
+DTSTAMP:20261123T222947Z
+UID:gsc-cookie-decorating-with-gwise@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
+ /cookie-decorating-with-gwise\n\nDescription:\nJoin GWiSE for a cozy GWiSE
+  cookie-decorating and hot chocolate event! Take a break\, express your cr
+ eativity by decorating cookies\, and enjoy refreshments and food with us.\
+ n\nSource: Dartmouth GSC\n\nWhy this was included: food or meal keyword in
+  title\n\nFood availability is inferred from the source listing\; verify d
+ etails before attending.
+LAST-MODIFIED:20261123T222947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://gsc.dartmouth.edu/events-list/cookie-decorating-with-gwise
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Grading Co-Work Café 2
 DTSTART;TZID=America/New_York:20261130T130000
 DTEND;TZID=America/New_York:20261130T160000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-83139@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -62,7 +83,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  artmouth\n\nWhy this was included: food keyword near service context in su
  mmary\n\nFood availability is inferred from the source listing\; verify de
  tails before attending.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -70,10 +91,37 @@ URL:https://home.dartmouth.edu/events/event?event=83139
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Donuts with the Dean
+DTSTART;TZID=America/New_York:20261201T140000
+DTEND;TZID=America/New_York:20261201T150000
+DTSTAMP:20261123T222947Z
+UID:guarini-55636@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
+ nts/2026/12/01/donuts-with-the-dean-3/\nhttps://apply.gs.dartmouth.edu/reg
+ ister/?id=8ca12056-b789-4939-9fa6-bea9027a37d7\nhttps://guarinigrad.dartmo
+ uth.edu\n\nDescription:\nEnjoy some donuts and coffee with the dean of Gua
+ rini\, Carrie Colla.\n*Guarini graduate students include all PhD\, MA\, MA
+ LS\, MET\, and MFA students\; and MS students in Engineering\, Computer Sc
+ ience\, and Earth and Planetary Sciences.\n\nSponsor / organizer: GuariniG
+ RAD\n\nAudience: Guarini graduate students and postdocs\, Guarini communit
+ y members\n\nSource: Guarini\n\nWhy this was included: food or meal keywor
+ d in title\n\nFood availability is inferred from the source listing\; veri
+ fy details before attending.
+LAST-MODIFIED:20261123T222947Z
+LOCATION:Anonymous Hall\, Guarini Commons
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://guarinigrad.dartmouth.edu/events/2026/12/01/donuts-with-the-de
+ an-3/
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Course Design Co-Work Café 1
 DTSTART;TZID=America/New_York:20261202T120000
 DTEND;TZID=America/New_York:20261202T160000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-83140@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -95,7 +143,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   Dartmouth\n\nWhy this was included: food keyword near service context\n\n
  Food availability is inferred from the source listing\; verify details bef
  ore attending.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -106,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:Snow Globe Making
 DTSTART;TZID=America/New_York:20261203T140000
 DTEND;TZID=America/New_York:20261203T150000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:guarini-55524@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -122,7 +170,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  ini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was incl
  uded: food keyword near service context in summary\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:Anonymous Hall\, Guarini Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -133,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:CELEBRATE THE SEASON
 DTSTART;TZID=America/New_York:20261204T160000
 DTEND;TZID=America/New_York:20261204T180000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-82419@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -148,7 +196,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: Free F
  ood category\; food keyword near service context\n\nFood availability is i
  nferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:Hood Museum of Art
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -159,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:All-House HopStop Collab-Cookie Contest Details
 DTSTART;TZID=America/New_York:20261205T000000
 DTEND;TZID=America/New_York:20261205T010000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:school-house-airtable-recpVrJpRjugGErE5-2026-12-05T00-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -171,7 +219,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -182,7 +230,7 @@ BEGIN:VEVENT
 SUMMARY:HopStop Family Event: Cookie Contest (with holiday tunes)
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T120000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-81824@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -202,7 +250,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   included: Free Food category\; food or meal keyword in title\n\nFood avai
  lability is inferred from the source listing\; verify details before atten
  ding.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:Hop Courtyard Cafe
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -213,7 +261,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-83177@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -245,7 +293,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -256,7 +304,7 @@ BEGIN:VEVENT
 SUMMARY:Course Design Co-Work Café 2
 DTSTART;TZID=America/New_York:20261208T100000
 DTEND;TZID=America/New_York:20261208T120000
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-83141@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -278,7 +326,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  rce: Dartmouth\n\nWhy this was included: food keyword near service context
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -289,7 +337,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261122T231914Z
+DTSTAMP:20261123T222947Z
 UID:dartmouth-83178@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -321,7 +369,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261122T231914Z
+LAST-MODIFIED:20261123T222947Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
