@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Grading Co-Work Café 2
 DTSTART;TZID=America/New_York:20261130T130000
 DTEND;TZID=America/New_York:20261130T160000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-83139@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -62,7 +62,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  artmouth\n\nWhy this was included: food keyword near service context in su
  mmary\n\nFood availability is inferred from the source listing\; verify de
  tails before attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:Donuts with the Dean
 DTSTART;TZID=America/New_York:20261201T140000
 DTEND;TZID=America/New_York:20261201T150000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:guarini-55636@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -88,7 +88,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  y members\n\nSource: Guarini\n\nWhy this was included: food or meal keywor
  d in title\n\nFood availability is inferred from the source listing\; veri
  fy details before attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:Anonymous Hall\, Guarini Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -100,7 +100,7 @@ BEGIN:VEVENT
 SUMMARY:Course Design Co-Work Café 1
 DTSTART;TZID=America/New_York:20261202T120000
 DTEND;TZID=America/New_York:20261202T160000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-83140@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -122,7 +122,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   Dartmouth\n\nWhy this was included: food keyword near service context\n\n
  Food availability is inferred from the source listing\; verify details bef
  ore attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -133,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:Snow Globe Making
 DTSTART;TZID=America/New_York:20261203T140000
 DTEND;TZID=America/New_York:20261203T150000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:guarini-55524@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -149,7 +149,7 @@ DESCRIPTION:Original event page(s):\nhttps://guarinigrad.dartmouth.edu/eve
  ini graduate students and postdocs\n\nSource: Guarini\n\nWhy this was incl
  uded: food keyword near service context in summary\n\nFood availability is
   inferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:Anonymous Hall\, Guarini Commons
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -160,7 +160,7 @@ BEGIN:VEVENT
 SUMMARY:CELEBRATE THE SEASON
 DTSTART;TZID=America/New_York:20261204T160000
 DTEND;TZID=America/New_York:20261204T180000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-82419@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -175,7 +175,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \n\nAudience: Public\n\nSource: Dartmouth\n\nWhy this was included: Free F
  ood category\; food keyword near service context\n\nFood availability is i
  nferred from the source listing\; verify details before attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:Hood Museum of Art
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -186,7 +186,7 @@ BEGIN:VEVENT
 SUMMARY:All-House HopStop Collab-Cookie Contest Details
 DTSTART;TZID=America/New_York:20261205T000000
 DTEND;TZID=America/New_York:20261205T010000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:school-house-airtable-recpVrJpRjugGErE5-2026-12-05T00-00-00-05-00@free
  -food-dartmouth
 SEQUENCE:0
@@ -198,7 +198,7 @@ DESCRIPTION:Original event page(s):\nhttps://airtable.com/appIAfygGZFs7eJr
  ouse Airtable\n\nWhy this was included: food or meal keyword in title\n\nF
  ood availability is inferred from the source listing\; verify details befo
  re attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://airtable.com/appIAfygGZFs7eJr6/shrSKjBHwNBId5Mjx/tblWCjX1JWEWW
@@ -209,7 +209,7 @@ BEGIN:VEVENT
 SUMMARY:HopStop Family Event: Cookie Contest (with holiday tunes)
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T120000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-81824@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -229,7 +229,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   included: Free Food category\; food or meal keyword in title\n\nFood avai
  lability is inferred from the source listing\; verify details before atten
  ding.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:Hop Courtyard Cafe
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -240,7 +240,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-83177@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -272,7 +272,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -283,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:Course Design Co-Work Café 2
 DTSTART;TZID=America/New_York:20261208T100000
 DTEND;TZID=America/New_York:20261208T120000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-83141@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -305,7 +305,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  rce: Dartmouth\n\nWhy this was included: food keyword near service context
  \n\nFood availability is inferred from the source listing\; verify details
   before attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -316,7 +316,7 @@ BEGIN:VEVENT
 SUMMARY:Motivational Interviewing 2-Day workshop
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-83178@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -348,7 +348,7 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
   food-service wording\; food keyword near service context\n\nFood availabi
  lity is inferred from the source listing\; verify details before attending
  .
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:Berry Library\, LINK classroom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -359,7 +359,7 @@ BEGIN:VEVENT
 SUMMARY:Course Design Co-Work Café 3
 DTSTART;TZID=America/New_York:20261214T130000
 DTEND;TZID=America/New_York:20261214T150000
-DTSTAMP:20261124T210134Z
+DTSTAMP:20261125T202432Z
 UID:dartmouth-83142@free-food-dartmouth
 SEQUENCE:0
 CLASS:PUBLIC
@@ -381,11 +381,38 @@ DESCRIPTION:Original event page(s):\nhttps://home.dartmouth.edu/events/eve
  \nSource: Dartmouth\n\nWhy this was included: food keyword near service co
  ntext\n\nFood availability is inferred from the source listing\; verify de
  tails before attending.
-LAST-MODIFIED:20261124T210134Z
+LAST-MODIFIED:20261125T202432Z
 LOCATION:DCAL (Baker 102)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://home.dartmouth.edu/events/event?event=83142
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DartmouthNEXT x GSC: Pottery & Pizza Night!
+DTSTART;TZID=America/New_York:20261214T173000
+DTEND;TZID=America/New_York:20261214T193000
+DTSTAMP:20261125T202432Z
+UID:gsc-dartmouthnext-x-gsc-pottery-pizza-night@free-food-dartmouth
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Original event page(s):\nhttps://gsc.dartmouth.edu/events-list
+ /dartmouthnext-x-gsc-pottery-pizza-night\n\nDescription:\nISEO is collabor
+ ating with DartmouthNEXT and GSC to offer a night of Tip Top Pottery Paint
+ ing and Pizza this Winterim! Dartmouth NEXT is a STEM initiative that supp
+ orts students at Dartmouth and beyond. If you are at all interested in lea
+ rning more about the STEM path at Dartmouth\, or if you are just excited f
+ or some pottery painting and pizza\, we encourage you to join us!\nTip Top
+  Pottery is a paint-your-own pottery workshop in downtown White River Junc
+ tion. The event will be held on campus. RSVP is REQUIRED.\n\nSource: Dartm
+ outh GSC\n\nWhy this was included: food or meal keyword in title\n\nFood a
+ vailability is inferred from the source listing\; verify details before at
+ tending.
+LAST-MODIFIED:20261125T202432Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://gsc.dartmouth.edu/events-list/dartmouthnext-x-gsc-pottery-pizz
+ a-night
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR
